@@ -692,43 +692,64 @@ ob_start();
     <div class="container position-relative py-5">
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <div class="cta-section bg-success text-white p-5 rounded-4 text-center shadow-lg" data-aos="fade-up">
-                    <h2 class="display-4 fw-bold mb-3">Ready to Transform Your <span class="text-white">Sales Process</span>?</h2>
-                    <p class="lead mb-4">Join thousands of businesses across Africa, USA, and Asia that have unlocked their sales potential with AppNomu SalesQ.</p>
-                    
-                    <!-- Key Benefits -->
-                    <div class="row g-3 mb-4 text-start">
-                        <div class="col-md-4">
-                            <div class="d-flex align-items-center">
-                                <i class="bi bi-check-circle-fill fs-4 me-2"></i>
-                                <span>Free 14-day trial</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="d-flex align-items-center">
-                                <i class="bi bi-check-circle-fill fs-4 me-2"></i>
-                                <span>No credit card required</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="d-flex align-items-center">
-                                <i class="bi bi-check-circle-fill fs-4 me-2"></i>
-                                <span>24/7 support included</span>
-                            </div>
-                        </div>
+                <!-- Clean CTA Section with Light Background -->
+                <div class="py-5 bg-success bg-opacity-10 rounded-4 text-center position-relative overflow-hidden" data-aos="fade-up">
+                    <!-- Subtle Background Pattern -->
+                    <div class="position-absolute top-0 start-0 w-100 h-100 opacity-5">
+                        <svg width="100%" height="100%" viewBox="0 0 100 100">
+                            <pattern id="cta-pattern" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+                                <circle cx="15" cy="15" r="0.5" fill="#198754" opacity="0.3"/>
+                            </pattern>
+                            <rect width="100%" height="100%" fill="url(#cta-pattern)"/>
+                        </svg>
                     </div>
                     
-                    <!-- CTA Buttons -->
-                    <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
-                        <a href="<?= url('/demo') ?>" class="btn btn-light btn-lg px-5 py-3 shadow">
-                            <i class="bi bi-play-circle me-2"></i>Request Free Demo
-                        </a>
-                        <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=cta&utm_campaign=salesq" class="btn btn-outline-light btn-lg px-5 py-3" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-rocket me-2"></i>Start Free Trial
-                        </a>
-                        <a href="https://api.whatsapp.com/send/?phone=256709712129&text&type=phone_number&app_absent=0" class="btn btn-outline-light btn-lg px-5 py-3" target="_blank" rel="noopener noreferrer">
-                            <i class="bi bi-whatsapp me-2"></i>Chat with Us
-                        </a>
+                    <div class="position-relative px-4">
+                        <!-- Icon -->
+                        <div class="mb-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-success bg-opacity-15 rounded-circle mb-3" style="width: 100px; height: 100px;">
+                                <i class="bi bi-rocket-takeoff text-success" style="font-size: 2.5rem;"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Heading -->
+                        <h2 class="mb-4 fw-bold text-dark">Ready to Transform Your <span class="text-success">Sales Process</span>?</h2>
+                        <p class="lead mb-4 text-muted">Join thousands of businesses across Africa, USA, and Asia that have unlocked their sales potential with AppNomu SalesQ.</p>
+                        
+                        <!-- CTA Buttons -->
+                        <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+                            <a href="<?= url('/demo') ?>" class="btn btn-success btn-lg rounded-pill px-5 py-3 shadow">
+                                <i class="bi bi-play-circle me-2"></i>Request Free Demo
+                            </a>
+                            <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=cta&utm_campaign=salesq" class="btn btn-outline-success btn-lg rounded-pill px-5 py-3" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-rocket me-2"></i>Start Free Trial
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=256709712129&text&type=phone_number&app_absent=0" class="btn btn-outline-success btn-lg rounded-pill px-5 py-3" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-whatsapp me-2"></i>Chat with Us
+                            </a>
+                        </div>
+                        
+                        <!-- Trust Indicators -->
+                        <div class="row g-3 justify-content-center mt-4">
+                            <div class="col-auto">
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <small>Free 14-day trial</small>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <small>No credit card required</small>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <small>24/7 support included</small>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
