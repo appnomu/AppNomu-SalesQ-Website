@@ -690,58 +690,45 @@ ob_start();
     <?php endif; ?>
     
     <div class="container position-relative py-5">
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-                <h2 class="display-4 fw-bold text-dark mb-4"><?= __('about.cta.title', [], 'Ready to Transform Your <span class="text-success">Sales Process</span>?') ?></h2>
-                <p class="lead text-dark opacity-75 mb-4"><?= __('about.cta.subtitle', [], 'Join thousands of businesses across Africa, USA, and Asia that have unlocked their sales potential with SalesQ.') ?></p>
-                <div class="mt-5">
-                    <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=cta&utm_campaign=salesq" class="btn btn-success btn-lg px-5 py-3 me-sm-3 mb-3 mb-sm-0 pulse-animation">
-                        <?= __('cta.start_free_trial', [], 'Start Free Trial') ?>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=256709712129&text&type=phone_number&app_absent=0" class="btn btn-outline-success btn-lg px-5 py-3" target="_blank" rel="noopener noreferrer">
-                        <i class="bi bi-whatsapp me-2"></i><?= __('cta.start_chat', [], 'Start Chat Now') ?>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-5 ms-auto">
-                <div class="card shadow-sm rounded-4 border-0 overflow-hidden">
-                    <!-- Green accent header -->
-                    <div class="card-header bg-success text-white py-3">
-                        <h4 class="mb-0"><?= __('about.demo_form.title', [], 'Request a Demo') ?></h4>
-                        <p class="small mb-0"><?= __('about.demo_form.subtitle', [], 'Get a personalized walkthrough of SalesQ') ?></p>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="cta-section bg-success text-white p-5 rounded-4 text-center shadow-lg" data-aos="fade-up">
+                    <h2 class="display-4 fw-bold mb-3">Ready to Transform Your <span class="text-white">Sales Process</span>?</h2>
+                    <p class="lead mb-4">Join thousands of businesses across Africa, USA, and Asia that have unlocked their sales potential with AppNomu SalesQ.</p>
+                    
+                    <!-- Key Benefits -->
+                    <div class="row g-3 mb-4 text-start">
+                        <div class="col-md-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill fs-4 me-2"></i>
+                                <span>Free 14-day trial</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill fs-4 me-2"></i>
+                                <span>No credit card required</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill fs-4 me-2"></i>
+                                <span>24/7 support included</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body p-4 p-md-5">
-                        <form class="p-4" action="/process_demo_request.php" method="POST" id="demoForm">
-                            <div class="mb-3">
-                                <label for="name" class="form-label"><?= __('form.labels.full_name', [], 'Full Name') ?></label>
-                                <input type="text" class="form-control form-control-lg" id="name" name="name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label"><?= __('form.labels.email', [], 'Email Address') ?></label>
-                                <input type="email" class="form-control form-control-lg" id="email" name="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label"><?= __('form.labels.phone', [], 'Phone Number') ?></label>
-                                <input type="tel" class="form-control form-control-lg" id="phone" name="phone" required>
-                            </div>
-                            <div class="mb-4">
-                                <label for="message" class="form-label"><?= __('form.labels.message', [], 'What would you like to learn about?') ?></label>
-                                <textarea class="form-control form-control-lg" id="message" name="message" rows="3" required></textarea>
-                                <label for="teamSize" class="form-label"><?= __('form.labels.team_size', [], 'Team Size') ?></label>
-                                <div class="input-group">
-                                    <span class="input-group-text bg-light"><i class="bi bi-people"></i></span>
-                                    <select class="form-select" id="teamSize" name="teamSize" required>
-                                        <option value="" selected disabled><?= __('form.select_placeholder.team_size', [], 'Select team size') ?></option>
-                                        <option value="1-10"><?= __('form.options.team_size.1_10', [], '1-10 employees') ?></option>
-                                        <option value="11-50"><?= __('form.options.team_size.11_50', [], '11-50 employees') ?></option>
-                                        <option value="51-200"><?= __('form.options.team_size.51_200', [], '51-200 employees') ?></option>
-                                        <option value="201-500"><?= __('form.options.team_size.201_500', [], '201-500 employees') ?></option>
-                                        <option value="500+"><?= __('form.options.team_size.500_plus', [], '500+ employees') ?></option>
-                                    </select>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-success btn-lg w-100 pulse-animation">Request Demo</button>
-                        </form>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+                        <a href="<?= url('/demo') ?>" class="btn btn-light btn-lg px-5 py-3 shadow">
+                            <i class="bi bi-play-circle me-2"></i>Request Free Demo
+                        </a>
+                        <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=cta&utm_campaign=salesq" class="btn btn-outline-light btn-lg px-5 py-3" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-rocket me-2"></i>Start Free Trial
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=256709712129&text&type=phone_number&app_absent=0" class="btn btn-outline-light btn-lg px-5 py-3" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-whatsapp me-2"></i>Chat with Us
+                        </a>
                     </div>
                 </div>
             </div>
