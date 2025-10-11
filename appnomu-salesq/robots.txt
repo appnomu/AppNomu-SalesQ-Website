@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Don't index processing files
+Disallow: /process_*.php
+Disallow: /process-*.php
+Disallow: /includes/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/fonts/
+Disallow: /404.php
+Disallow: /sections.php
+Disallow: /router.php
+Disallow: /config.php
+
+# Sitemap location
+Sitemap: https://appnomu.com/sitemap.xml
