@@ -1,0 +1,160 @@
+/* Accessibility Enhancements for AppNomu SalesQ Website */
+
+/* Skip to Content Link */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #198754;
+    color: white;
+    padding: 8px 15px;
+    z-index: 10000;
+    transition: top 0.3s ease;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 0 0 5px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skip-to-content:focus {
+    top: 0;
+    outline: 2px solid #fff;
+}
+
+/* Enhanced Focus Styles */
+:focus {
+    outline: 2px solid #198754;
+    outline-offset: 2px;
+}
+
+button:focus, 
+a:focus, 
+input:focus, 
+textarea:focus, 
+select:focus, 
+[tabindex]:focus,
+.btn:focus {
+    outline: 3px solid #198754;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.25) !important;
+}
+
+.form-control:focus, 
+.form-check-input:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.25) !important;
+}
+
+/* Higher contrast for text */
+.text-muted {
+    color: #575757 !important; /* Darker than default Bootstrap muted text */
+}
+
+/* Make sure all interactive elements have sufficient size for touch */
+.btn, button, [role="button"], 
+input[type="submit"], 
+input[type="button"] {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Ensures links are distinguishable beyond just color */
+a:not(.btn):not(.nav-link) {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+a:not(.btn):not(.nav-link):hover {
+    text-decoration: none;
+}
+
+/* Improve table accessibility */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/* Improve form field accessibility */
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* ARIA-based visibility classes - modified to not hide icons */
+.sr-announcement[aria-hidden="true"] {
+    display: none !important;
+}
+
+/* Allow icons to be visible even with aria-hidden */
+i[aria-hidden="true"], .bi[aria-hidden="true"], .fa[aria-hidden="true"] {
+    display: inline-block !important;
+}
+
+/* Visually hidden elements - maintain accessibility for screen readers */
+.sr-only,
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Reduce motion for people who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .pulse-animation,
+    [class*="animate__"],
+    [data-aos] {
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
+
+/* Higher contrast mode */
+.high-contrast {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.high-contrast * {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.high-contrast a, 
+.high-contrast button {
+    color: #ffff00 !important;
+    border: 1px solid #ffff00 !important;
+}
+
+.high-contrast img, 
+.high-contrast video {
+    filter: grayscale(100%) contrast(120%) !important;
+}
+
+/* Enhanced screen reader notifications */
+.sr-announcement {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+    opacity: 0;
+}

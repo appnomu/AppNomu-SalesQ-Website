@@ -1,0 +1,149 @@
+# Enable the rewrite engine
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Handle requests to /landing without the trailing slash
+RewriteCond %{REQUEST_URI} ^/landing$
+RewriteRule ^(.*)$ /landing/ [R=301,L]
+
+# Handle process-partner under /landing/
+RewriteRule ^landing/process-partner/?$ process-partner.php [L]
+
+# Handle process_demo_request under /landing/
+RewriteRule ^landing/process_demo_request\.php/?$ process_demo_request.php [L]
+
+# Special rules for integration pages
+RewriteRule ^integration/flutterwave/?$ integration/flutterwave.php [L,NC]
+RewriteRule ^integration/paypal/?$ integration/paypal.php [L,NC]
+RewriteRule ^integration/stripe/?$ integration/stripe.php [L,NC]
+RewriteRule ^integration/smtp/?$ integration/smtp.php [L,NC]
+
+# If the request is for a valid file or directory, serve it directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Remove .php extension for other PHP files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# Front controller - handle all other requests through index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# PHP error handling
+php_flag display_errors on
+php_value error_reporting E_ALL
+
+# PHP settings
+<IfModule mod_php.c>
+    php_flag display_errors off
+    php_value max_execution_time 300
+    php_value max_input_time 300
+    php_value max_input_vars 1000
+    php_value memory_limit 256M
+    php_value post_max_size 64M
+    php_value upload_max_filesize 64M
+    php_flag zlib.output_compression on
+</IfModule>
+
+# Set default character set
+AddDefaultCharset UTF-8
+
+# Enable gzip compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# Set cache control for static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType text/x-javascript "access plus 1 month"
+    ExpiresByType application/x-shockwave-flash "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresDefault "access plus 2 days"
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    # Security Headers
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "DENY"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    
+    # Content Security Policy is now handled in PHP
+    
+    # Permissions Policy
+    Header always set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    
+    # CORS Configuration - Strict origin checking
+    <IfModule mod_headers.c>
+        # List of allowed domains - only allow specific subdomains
+        SetEnvIfNoCase Origin "^https://(www\.)?appnomu\.com$" CORS_ALLOW_ORIGIN=$0
+        SetEnvIfNoCase Origin "^https://salesq\.appnomu\.com$" CORS_ALLOW_ORIGIN=$0
+        
+        # Set CORS headers only for allowed origins
+        Header always set Access-Control-Allow-Origin "%{CORS_ALLOW_ORIGIN}e" env=CORS_ALLOW_ORIGIN
+        
+        # Only set allow-credentials header when origin is allowed
+        Header always set Access-Control-Allow-Credentials "true" env=CORS_ALLOW_ORIGIN
+        
+        # Explicitly list allowed methods and headers
+        <If "%{REQUEST_METHOD} == 'OPTIONS'">
+            Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+            Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+            Header always set Access-Control-Max-Age "600"
+            
+            # Handle preflight request
+            RewriteEngine On
+            RewriteRule ^ - [L]
+        </If>
+        
+        # For actual requests (non-preflight)
+        <Else>
+            # Only allow specific headers in actual requests
+            Header always set Access-Control-Expose-Headers "Content-Length, Content-Range"
+        </Else>
+    </IfModule>
+</IfModule>
+
+# Hide server information
+ServerSignature Off
+ServerTokens Prod
+
+# Disable directory listing
+Options -Indexes
+
+# Disable PHP version disclosure
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+    Header always unset X-Powered-By
+</IfModule>

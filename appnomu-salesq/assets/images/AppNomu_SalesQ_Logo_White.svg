@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Large O that contains AQ and text -->
+    <circle cx="150" cy="40" r="65" fill="white"/>
+    <circle cx="150" cy="40" r="50" fill="#1a1a1a"/>
+    
+    <!-- AQ Text - Centered within the O -->
+    <g transform="translate(125, 20)" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="36">
+        <text x="0" y="30">A</text>
+        <text x="35" y="30">Q</text>
+    </g>
+    
+    <!-- Powered by AppNomu Text - Inside the O -->
+    <text x="150" y="68" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white" font-weight="normal" letter-spacing="0.5">
+        <tspan x="150" dy="0">Powered by</tspan>
+        <tspan x="150" dy="10" font-weight="bold">AppNomu</tspan>
+    </text>
+</svg>
