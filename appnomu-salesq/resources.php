@@ -148,9 +148,9 @@ $blog_posts = [
         'description' => 'Discover how AppNomu SalesQ revolutionizes business operations across Education, Agriculture, Retail, Healthcare, and NGO sectors with comprehensive communication and management solutions.',
         'url' => 'b/appnomu-salesq-industry-use-cases-africa-usa',
         'category' => 'Industry Solutions',
-        'date' => 'September 16, 2025',
-        'read_time' => '12 min read',
-        'image' => 'https://appnomu.com/landing/assets/images/AppNomu_SMS_Use_case.png',
+        'date' => 'October 12, 2024',
+        'read_time' => '30 min read',
+        'image' => 'https://appnomu.com/landing/assets/images/Feature-Image-1.png',
         'fallback_image' => 'https://placehold.co/400x200/e9ecef/198754?text=Industry+Use+Cases&font=Lexend'
     ],
     [
@@ -178,9 +178,9 @@ $blog_posts = [
         'description' => 'Master SMS marketing in Uganda with our comprehensive guide. Learn targeting strategies, compliance requirements, and optimization techniques for maximum ROI.',
         'url' => 'b/how-to-build-an-effective-sms-campaign-in-uganda',
         'category' => 'SMS Marketing',
-        'date' => 'September 5, 2025',
-        'read_time' => '7 min read',
-        'image' => 'https://appnomu.com/landing/assets/images/SMS-APIs-Revolutionizing-Communication-1024x538.webp',
+        'date' => 'October 12, 2024',
+        'read_time' => '8 min read',
+        'image' => 'https://appnomu.com/landing/assets/images/sms_marketing_campaigns.webp',
         'fallback_image' => 'https://placehold.co/400x200/e9ecef/198754?text=SMS+Campaign+Uganda&font=Lexend'
     ],
     [

@@ -49,7 +49,7 @@ ob_start();
                 <h1 class="display-4 fw-bold mb-3 text-dark">How to Build an <span class="text-success">Effective SMS Campaign</span> in Uganda</h1>
                 <p class="lead mb-4 text-secondary">A step-by-step guide to creating high-converting SMS marketing campaigns for the Ugandan market.</p>
                 <div class="d-flex align-items-center justify-content-center text-secondary small">
-                    <span><i class="bi bi-calendar3 me-1 text-success"></i> July 17, 2025</span>
+                    <span><i class="bi bi-calendar3 me-1 text-success"></i> October 12, 2024</span>
                     <span class="mx-3">|</span>
                     <span><i class="bi bi-clock me-1 text-success"></i> 8 min read</span>
                 </div>
@@ -65,7 +65,7 @@ ob_start();
             <div class="col-lg-8 mx-auto">
                 <!-- Featured Image -->
                 <div class="blog-featured-image rounded-3 overflow-hidden shadow-sm mb-4" data-aos="fade-up">
-                    <img src="https://appnomu.com/landing/assets/images/SMS-APIs-Revolutionizing-Communication-1024x538.webp" alt="SMS Campaign Planning in Uganda" class="img-fluid" onerror="this.src='https://placehold.co/1200x600/e9ecef/198754?text=SMS+Campaign+Planning&font=Lexend'">
+                    <img src="https://appnomu.com/landing/assets/images/sms_marketing_campaigns.webp" alt="SMS Campaign Planning in Uganda" class="img-fluid" onerror="this.src='https://placehold.co/1200x600/e9ecef/198754?text=SMS+Campaign+Planning&font=Lexend'">
                     <p class="small text-center text-secondary mt-2">Strategic SMS campaign planning is essential for successful mobile marketing in Uganda</p>
                 </div>
                 
@@ -363,7 +363,7 @@ ob_start();
                 <!-- Author Section -->
                 <div class="author-section d-flex align-items-center p-4 border-top border-bottom my-5" data-aos="fade-up">
                     <div class="author-image me-3">
-                        <img src="https://services.appnomu.com/assets/images/Bahati%20Asher%20Faith.jpeg" alt="Bahati Asher Faith" class="rounded-circle" style="width: 60px; height: 60px;" onerror="this.src='https://placehold.co/60x60/198754/fff?text=B&font=Lexend'">
+                        <img src="https://appnomu.com/landing/assets/images/Bahati%20Asher.jpg" alt="Bahati Asher Faith" class="rounded-circle" style="width: 60px; height: 60px;" onerror="this.src='https://placehold.co/60x60/198754/fff?text=B&font=Lexend'">
                     </div>
                     <div class="author-bio">
                         <h5 class="mb-1">Bahati Asher Faith</h5>
@@ -397,7 +397,7 @@ ob_start();
                 <div class="related-posts mb-5" data-aos="fade-up">
                     <h3 class="text-center mb-4">Related Articles</h3>
                     <div class="row g-4">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="card h-100 border-0 shadow-sm">
                                 <div class="card-body">
                                     <h5 class="card-title">Why SMS Marketing Is Not Dead in Uganda</h5>
@@ -406,7 +406,7 @@ ob_start();
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="card h-100 border-0 shadow-sm">
                                 <div class="card-body">
                                     <h5 class="card-title">5 Effective SMS Templates for Ugandan Retail Businesses</h5>
@@ -415,8 +415,21 @@ ob_start();
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">SMS vs WhatsApp Marketing: What Works Best in Uganda</h5>
+                                    <p class="card-text text-secondary">Compare SMS and WhatsApp marketing to determine the best strategy for your Ugandan business.</p>
+                                    <a href="./sms-vs-whatsapp-marketing-what-works-best-in-uganda" class="stretched-link text-success">Read More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
 
                 <!-- AOS Initialization Script -->
                 <script>
