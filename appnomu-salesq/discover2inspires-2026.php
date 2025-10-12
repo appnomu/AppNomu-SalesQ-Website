@@ -15,13 +15,13 @@ if (file_exists(__DIR__ . '/includes/country_content.php')) {
 $current_page = 'discover2inspires';
 
 // Set page metadata
-$page_title = 'Discover2Inspire 2026 - First Ever Tech Event in Bugiri | Free Entry | AppNomu SalesQ';
-$page_description = 'Join Discover2Inspire 2026 at Harmony Hotel Bugiri on June 27th! Free tech event featuring AI, SMS Marketing, CRM, and business automation. Learn from industry experts, network with entrepreneurs, enjoy free snacks & entertainment. Register now!';
-$page_keywords = 'Discover2Inspire 2026, tech event Bugiri Uganda, AI conference Uganda, SMS marketing event, business technology Bugiri, AppNomu SalesQ event, free tech conference Uganda, Harmony Hotel Bugiri, technology seminar Uganda, business automation event, CRM training Uganda, digital marketing Bugiri, entrepreneurship event Uganda, tech networking Bugiri, AI business solutions Uganda, June 2026 tech event';
+$page_title = 'Discover2Inspire 2026 - Empowering Business Through Technology | Free Event in Bugiri';
+$page_description = 'Join Discover2Inspire 2026: Empowering Business Through Technology. Free tech event at Harmony Hotel Bugiri on June 27th. Discover AI, inspire growth, and transform your business with expert speakers, networking, and practical insights. Register now!';
+$page_keywords = 'Discover2Inspire 2026, empowering business through technology, tech event Bugiri Uganda, AI conference Uganda, SMS marketing event, business technology Bugiri, AppNomu SalesQ event, free tech conference Uganda, Harmony Hotel Bugiri, technology seminar Uganda, business automation event, CRM training Uganda, digital marketing Bugiri, entrepreneurship event Uganda, tech networking Bugiri, AI business solutions Uganda, June 2026 tech event, business transformation Uganda';
 
 // Open Graph and Twitter Card metadata
-$page_og_title = 'Discover2Inspire 2026 - Bugiri\'s First Tech Event | Free Entry';
-$page_og_description = 'Transform your business with AI & technology! Join us June 27th at Harmony Hotel Bugiri. Free entry, expert speakers, networking, snacks & entertainment.';
+$page_og_title = 'Discover2Inspire 2026 - Empowering Business Through Technology';
+$page_og_description = 'Discover AI. Inspire Growth. Transform Bugiri. Join us June 27th at Harmony Hotel for a free tech event featuring expert speakers, networking, and practical business solutions.';
 $page_og_image = 'https://appnomu.com/landing/assets/images/AppNomu%20SalesQ%20logo.png';
 $page_canonical = 'https://appnomu.com/landing/discover2inspire-2026';
 
@@ -30,7 +30,7 @@ require_once __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Page Title -->
-<title>Discover2Inspire 2026 - First Ever Tech Event in Bugiri | Free Entry | AppNomu SalesQ</title>
+<title>Discover2Inspire 2026 - Empowering Business Through Technology | Free Event in Bugiri</title>
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="https://appnomu.com/landing/assets/images/AppNomu%20SalesQ%20logo.png">
@@ -49,8 +49,8 @@ require_once __DIR__ . '/includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Discover2Inspire 2026",
-  "description": "First ever tech event in Bugiri featuring AI, SMS Marketing, CRM, and business automation. Free entry with snacks, drinks and entertainment.",
+  "name": "Discover2Inspire 2026 - Empowering Business Through Technology",
+  "description": "Discover AI. Inspire Growth. Transform Bugiri. First ever tech event in Bugiri featuring AI, SMS Marketing, CRM, and business automation. Free entry with snacks, drinks and entertainment.",
   "startDate": "2026-06-27T17:00:00+03:00",
   "endDate": "2026-06-27T21:30:00+03:00",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -393,9 +393,13 @@ require_once __DIR__ . '/includes/header.php';
                 <h1 class="event-title">
                     <span class="highlight">Discover2Inspire</span> 2026
                 </h1>
-                <p class="fs-4 mb-4 text-muted" style="line-height: 1.6;">
-                    Transform Your Business with <strong>AI, SMS Marketing & Technology</strong><br>
-                    <span class="text-success fw-bold">Learn. Network. Grow.</span>
+                <div class="mb-3">
+                    <h2 class="h3 fw-bold text-success mb-2">Empowering Business Through Technology</h2>
+                    <p class="fs-5 text-muted fst-italic">Discover AI. Inspire Growth. Transform Bugiri.</p>
+                </div>
+                <p class="fs-5 mb-4 text-muted" style="line-height: 1.6;">
+                    Join us for an inspiring journey into the future of business with <strong>AI, SMS Marketing & Technology</strong><br>
+                    <span class="text-success fw-bold">Learn. Connect. Transform.</span>
                 </p>
                 
                 <div class="d-flex flex-wrap gap-3 align-items-center mb-4">
@@ -755,7 +759,7 @@ require_once __DIR__ . '/includes/header.php';
                     </span>
                 </div>
                 <h2 class="display-4 fw-bold mb-4" style="color: #212529;">Ready to Transform Your Business?</h2>
-                <p class="lead mb-4 text-muted">Join us at Discover2Inspire 2026 and discover how technology and AI can revolutionize your business operations.</p>
+                <p class="lead mb-4 text-muted">Join us at Discover2Inspire 2026: <strong>Empowering Business Through Technology</strong>. Discover how AI and technology can revolutionize your business operations and drive sustainable growth.</p>
                 <p class="h5 mb-4 text-success fw-bold">🎯 Reserve your spot today - It's completely FREE!</p>
                 
                 <a href="https://www.appnomu.com/register.php?utm_source=discover2inspires&utm_medium=event_page&utm_campaign=discover2inspires_2026" class="btn btn-success btn-lg px-5 py-3 rounded-pill shadow-lg mb-4" target="_blank" style="font-weight: 600;">
