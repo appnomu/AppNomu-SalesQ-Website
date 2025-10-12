@@ -925,7 +925,7 @@ ob_start();
                 <!-- Author Section -->
                 <div class="author-section d-flex align-items-center p-4 border-top border-bottom my-5" data-aos="fade-up">
                     <div class="author-image me-3">
-                        <img src="https://services.appnomu.com/assets/images/Bahati%20Asher%20Faith.jpeg" alt="Bahati Asher Faith" class="rounded-circle" style="width: 60px; height: 60px;" onerror="this.src='https://placehold.co/60x60/198754/fff?text=B&font=Lexend'">
+                        <img src="https://appnomu.com/landing/assets/images/Bahati%20Asher.jpg" alt="Bahati Asher Faith" class="rounded-circle" style="width: 60px; height: 60px;" onerror="this.src='https://placehold.co/60x60/198754/fff?text=B&font=Lexend'">
                     </div>
                     <div class="author-bio">
                         <h5 class="mb-1">Bahati Asher Faith</h5>

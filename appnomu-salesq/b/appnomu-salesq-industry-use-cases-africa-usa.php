@@ -140,9 +140,9 @@ ob_start();
                 <h1 class="display-5 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">AppNomu SalesQ Industry Use Cases: <span class="text-success">Transforming Business Communication</span> Across Africa & USA</h1>
                 <p class="lead text-secondary mb-4" data-aos="fade-up" data-aos-delay="150">Discover how AppNomu SalesQ revolutionizes business operations across Education, Agriculture, Retail, Healthcare, and NGO sectors with comprehensive communication and management solutions.</p>
                 <div class="d-flex justify-content-center align-items-center text-secondary small" data-aos="fade-up" data-aos-delay="200">
-                    <span><i class="bi bi-calendar-event me-1"></i> September 16, 2025</span>
+                    <span><i class="bi bi-calendar-event me-1"></i> October 12, 2024</span>
                     <span class="mx-3">|</span>
-                    <span><i class="bi bi-clock me-1"></i> 25 min read</span>
+                    <span><i class="bi bi-clock me-1"></i> 30 min read</span>
                     <span class="mx-3">|</span>
                     <span><i class="bi bi-globe me-1"></i> Africa & USA Focus</span>
                 </div>
@@ -158,7 +158,7 @@ ob_start();
             <div class="col-lg-8 mx-auto">
                 <!-- Featured Image -->
                 <div class="blog-featured-image rounded-3 overflow-hidden shadow-sm mb-4" data-aos="fade-up">
-                    <img src="https://appnomu.com/landing/assets/images/AppNomu_SMS_Use_case.png" alt="AppNomu SalesQ Industry Use Cases" class="img-fluid" onerror="this.src='https://placehold.co/1200x600/198754/ffffff?text=AppNomu+SalesQ+Industry+Solutions&font=Lexend'">
+                    <img src="https://appnomu.com/landing/assets/images/Feature-Image-1.png" alt="AppNomu SalesQ Industry Use Cases" class="img-fluid" onerror="this.src='https://placehold.co/1200x600/198754/ffffff?text=AppNomu+SalesQ+Industry+Solutions&font=Lexend'">
                     <p class="small text-center text-secondary mt-2">AppNomu SalesQ: Empowering businesses across industries with comprehensive communication and management solutions</p>
                 </div>
                 
@@ -254,6 +254,12 @@ ob_start();
                     <div class="blog-link">
                         <p class="mb-2"><strong>📱 SMS Strategy Foundation:</strong></p>
                         <p class="mb-0">Master the basics with our comprehensive guide: <a href="how-to-build-an-effective-sms-campaign-in-uganda" class="text-success fw-medium">How to Build an Effective SMS Campaign in Uganda</a></p>
+                    </div>
+
+                    <!-- Link to multi-channel marketing blog -->
+                    <div class="blog-link">
+                        <p class="mb-2"><strong>📧 Multi-Channel Marketing Excellence:</strong></p>
+                        <p class="mb-0">Maximize your ROI across all channels: <a href="best-email-sms-whatsapp-marketing-practices-roi-uganda" class="text-success fw-medium">Best Email, SMS and WhatsApp Marketing Practices for Maximum ROI in Uganda</a></p>
                     </div>
                 </div>
 
@@ -621,6 +627,59 @@ ob_start();
                         </div>
                     </div>
 
+                    <!-- Retail Case Study -->
+                    <div class="feature-highlight">
+                        <h5 class="text-success mb-3">🏪 Case Study: Quality Supermarket Chain - Kenya & Uganda</h5>
+                        <p class="text-secondary"><strong>Challenge:</strong> A regional supermarket chain with 45 locations across Kenya and Uganda struggled with inconsistent customer engagement, inventory mismanagement, and low loyalty program participation (only 15% of customers enrolled).</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-8">
+                                <h6 class="text-success mt-3">AppNomu SalesQ Implementation:</h6>
+                                <ul class="text-secondary">
+                                    <li><strong>Personalized SMS Campaigns:</strong> Weekly promotions based on customer purchase history</li>
+                                    <li><strong>WhatsApp Loyalty Program:</strong> Points updates, exclusive offers, and birthday rewards</li>
+                                    <li><strong>Stock Management Integration:</strong> Real-time inventory tracking with automated reorder alerts</li>
+                                    <li><strong>Flash Sale Notifications:</strong> Time-sensitive deals for perishable items nearing expiry</li>
+                                    <li><strong>Customer Feedback System:</strong> Post-purchase surveys via SMS and WhatsApp</li>
+                                </ul>
+                                
+                                <h6 class="text-success mt-4">Results After 10 Months:</h6>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-number">72%</span>
+                                        <div class="small text-secondary">Loyalty Program Enrollment</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">45%</span>
+                                        <div class="small text-secondary">Increase in Repeat Purchases</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">85%</span>
+                                        <div class="small text-secondary">Reduction in Stock Wastage</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">$2.5M</span>
+                                        <div class="small text-secondary">Additional Annual Revenue</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-light p-3 rounded">
+                                    <p class="mb-3 fst-italic">"AppNomu SalesQ revolutionized our customer engagement. Our loyalty program went from 15% to 72% enrollment, and we've seen a dramatic increase in customer lifetime value. The inventory management features alone saved us hundreds of thousands in waste reduction."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="me-3">
+                                            <img src="https://placehold.co/50x50/198754/fff?text=MK&font=Lexend" alt="Mary Kamau" class="rounded-circle" style="width: 40px; height: 40px;">
+                                        </div>
+                                        <div>
+                                            <strong>Mary Kamau</strong><br>
+                                            <small class="text-muted">Operations Director, Quality Supermarket Chain</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Link to existing festival stocking blog -->
                     <div class="blog-link">
                         <p class="mb-2"><strong>🎄 Festival Season Strategy:</strong></p>
@@ -679,6 +738,60 @@ ob_start();
                             </div>
                         </div>
                     </div>
+
+                    <!-- Healthcare Case Study -->
+                    <div class="feature-highlight">
+                        <h5 class="text-success mb-3">🏥 Case Study: HealthCare Plus Network - Tanzania & USA</h5>
+                        <p class="text-secondary"><strong>Challenge:</strong> A healthcare network with 15 clinics in Tanzania and 8 in the USA faced critical issues with appointment no-shows (35% rate), poor medication adherence among chronic disease patients, and inefficient emergency communication systems.</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-8">
+                                <h6 class="text-success mt-3">AppNomu SalesQ Solution:</h6>
+                                <ul class="text-secondary">
+                                    <li><strong>Automated Appointment Reminders:</strong> SMS and WhatsApp notifications 48 hours and 2 hours before appointments</li>
+                                    <li><strong>Medication Adherence Program:</strong> Personalized medication reminders with dosage instructions</li>
+                                    <li><strong>Lab Results Delivery:</strong> Secure SMS notifications when test results are ready</li>
+                                    <li><strong>Health Education Campaigns:</strong> Targeted wellness tips for diabetes, hypertension, and other chronic conditions</li>
+                                    <li><strong>Emergency Alert System:</strong> Mass notification system for health emergencies and outbreak alerts</li>
+                                    <li><strong>Patient Satisfaction Surveys:</strong> Post-visit feedback collection via SMS</li>
+                                </ul>
+                                
+                                <h6 class="text-success mt-4">Impact After 14 Months:</h6>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-number">78%</span>
+                                        <div class="small text-secondary">Reduction in No-Shows</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">92%</span>
+                                        <div class="small text-secondary">Medication Adherence Rate</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">40%</span>
+                                        <div class="small text-secondary">Improved Patient Outcomes</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">$850K</span>
+                                        <div class="small text-secondary">Annual Cost Savings</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-light p-3 rounded">
+                                    <p class="mb-3 fst-italic">"AppNomu SalesQ transformed our patient engagement strategy. The dramatic reduction in no-shows improved our operational efficiency, and the medication adherence program has significantly improved health outcomes for our chronic disease patients. It's been a game-changer for both our Tanzania and USA operations."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="me-3">
+                                            <img src="https://placehold.co/50x50/198754/fff?text=DM&font=Lexend" alt="Dr. Michael Thompson" class="rounded-circle" style="width: 40px; height: 40px;">
+                                        </div>
+                                        <div>
+                                            <strong>Dr. Michael Thompson</strong><br>
+                                            <small class="text-muted">Chief Medical Officer, HealthCare Plus Network</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- NGO Industry Deep Dive -->
@@ -732,6 +845,60 @@ ob_start();
                             </div>
                         </div>
                     </div>
+
+                    <!-- NGO Case Study -->
+                    <div class="feature-highlight">
+                        <h5 class="text-success mb-3">🤝 Case Study: Hope for Africa Foundation - Multi-Country Operations</h5>
+                        <p class="text-secondary"><strong>Challenge:</strong> An international NGO operating across 8 African countries with programs in education, health, and economic empowerment struggled to coordinate with 50,000+ beneficiaries, 500+ volunteers, and 2,000+ donors. Communication was fragmented, program impact was difficult to measure, and donor retention was declining (40% annual drop-off).</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-8">
+                                <h6 class="text-success mt-3">AppNomu SalesQ Transformation:</h6>
+                                <ul class="text-secondary">
+                                    <li><strong>Beneficiary Communication:</strong> Multi-language SMS for program enrollment, training schedules, and resource distribution</li>
+                                    <li><strong>Volunteer Coordination:</strong> WhatsApp groups and SMS alerts for volunteer assignments and training</li>
+                                    <li><strong>Donor Engagement:</strong> Monthly impact reports, success stories, and personalized thank-you messages</li>
+                                    <li><strong>Emergency Response:</strong> Rapid mass communication for disaster relief and urgent needs</li>
+                                    <li><strong>Impact Tracking:</strong> Automated surveys and feedback collection from beneficiaries</li>
+                                    <li><strong>Fundraising Campaigns:</strong> Targeted SMS and email campaigns for specific projects</li>
+                                </ul>
+                                
+                                <h6 class="text-success mt-4">Achievements After 16 Months:</h6>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <span class="stat-number">95%</span>
+                                        <div class="small text-secondary">Beneficiary Reach Rate</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">85%</span>
+                                        <div class="small text-secondary">Donor Retention Rate</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">250%</span>
+                                        <div class="small text-secondary">Increase in Volunteer Engagement</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">$3.2M</span>
+                                        <div class="small text-secondary">Additional Funds Raised</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-light p-3 rounded">
+                                    <p class="mb-3 fst-italic">"AppNomu SalesQ unified our communication across 8 countries. We can now reach beneficiaries in remote areas instantly, coordinate volunteers efficiently, and keep donors engaged with real-time impact stories. Our donor retention improved from 60% to 85%, and we've raised an additional $3.2M through targeted campaigns. This platform has amplified our impact exponentially."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="me-3">
+                                            <img src="https://placehold.co/50x50/198754/fff?text=AN&font=Lexend" alt="Amina Ndlovu" class="rounded-circle" style="width: 40px; height: 40px;">
+                                        </div>
+                                        <div>
+                                            <strong>Amina Ndlovu</strong><br>
+                                            <small class="text-muted">Executive Director, Hope for Africa Foundation</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Call to Action -->
@@ -748,7 +915,7 @@ ob_start();
                 <!-- Author Section -->
                 <div class="author-section d-flex align-items-center p-4 border-top border-bottom my-5" data-aos="fade-up">
                     <div class="author-image me-3">
-                        <img src="https://services.appnomu.com/assets/images/Bahati%20Asher%20Faith.jpeg" alt="Bahati Asher Faith" class="rounded-circle" style="width: 60px; height: 60px;" onerror="this.src='https://placehold.co/60x60/198754/fff?text=B&font=Lexend'">
+                        <img src="https://appnomu.com/landing/assets/images/Bahati%20Asher.jpg" alt="Bahati Asher Faith" class="rounded-circle" style="width: 60px; height: 60px;" onerror="this.src='https://placehold.co/60x60/198754/fff?text=B&font=Lexend'">
                     </div>
                     <div class="author-bio">
                         <h5 class="mb-1">Bahati Asher Faith</h5>
@@ -779,7 +946,7 @@ ob_start();
                 <div class="related-posts mb-5" data-aos="fade-up">
                     <h3 class="text-center mb-4">Related Business Resources</h3>
                     <div class="row g-4">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="card h-100 border-0 shadow-sm">
                                 <div class="card-body">
                                     <h5 class="card-title">Best Email, SMS and WhatsApp Marketing Practices for Maximum ROI in Uganda</h5>
@@ -788,12 +955,21 @@ ob_start();
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="card h-100 border-0 shadow-sm">
                                 <div class="card-body">
                                     <h5 class="card-title">How to Build an Effective SMS Campaign in Uganda</h5>
                                     <p class="card-text text-secondary">Learn to create SMS campaigns that drive business growth and customer engagement.</p>
                                     <a href="./how-to-build-an-effective-sms-campaign-in-uganda" class="stretched-link text-success">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Why Timely Stocking is Essential for Your Business During Festival Season</h5>
+                                    <p class="card-text text-secondary">Maximize festival season profits with strategic inventory management and customer communication.</p>
+                                    <a href="./why-timely-stocking-essential-business-festival-season-uganda" class="stretched-link text-success">Read More</a>
                                 </div>
                             </div>
                         </div>
