@@ -57,6 +57,35 @@ $csrf_token = $_SESSION['csrf_token'];
         animation: pulse-light 2s infinite;
     }
     
+    /* Exit Intent Modal Fixes */
+    #exitIntentModal .btn-close {
+        opacity: 1 !important;
+        background: transparent !important;
+        width: 1.5em;
+        height: 1.5em;
+        padding: 0.5em;
+        cursor: pointer;
+        pointer-events: auto !important;
+        z-index: 1051 !important;
+    }
+    
+    #exitIntentModal .btn-close:hover {
+        opacity: 0.8 !important;
+        transform: scale(1.1);
+    }
+    
+    #exitIntentModal .modal-header {
+        padding: 1rem 1.5rem;
+    }
+    
+    #exitIntentModal .modal-dialog {
+        pointer-events: auto;
+    }
+    
+    .modal-backdrop {
+        pointer-events: auto !important;
+    }
+    
     /* Modern Form Styling */
     .form-control-modern,
     .form-control-modern:focus {
@@ -284,7 +313,7 @@ $csrf_token = $_SESSION['csrf_token'];
                 </div>
                 
                 <div class="d-flex flex-wrap gap-2 mb-3">
-                    <a href="#demo-request" class="btn btn-success rounded-pill px-4 shadow-sm hover-shadow transition-300 py-2 pulse-animation">
+                    <a href="https://calendly.com/appnomu_salesq/30min?month=2025-10" target="_blank" rel="noopener noreferrer" class="btn btn-success rounded-pill px-4 shadow-sm hover-shadow transition-300 py-2 pulse-animation">
                         <i class="bi bi-calendar-check me-2"></i> Schedule Demo Now
                     </a>
                     <a href="#why-demo" class="btn btn-outline-success rounded-pill px-4 shadow-sm hover-shadow transition-300 py-2">
@@ -317,7 +346,7 @@ $csrf_token = $_SESSION['csrf_token'];
             <div class="col-lg-6 d-none d-lg-block" data-aos="fade-left" data-aos-delay="200">
                 <div class="position-relative">
                     <div class="position-absolute top-0 start-0 w-100 h-100 bg-success opacity-10 rounded-4"></div>
-                    <img src="https://appnomu.com/landing/assets/images/DEMO_123.jpg" alt="AppNomu SalesQ Demo Preview" class="img-fluid rounded-4 shadow-lg" style="transform: translateY(-10px); border: 5px solid rgba(255,255,255,0.7);">
+                    <img src="https://appnomu.com/landing/assets/images/green-cta-img-optim.png" alt="AppNomu SalesQ Demo Preview" class="img-fluid rounded-4 shadow-lg" style="transform: translateY(-10px); border: 5px solid rgba(255,255,255,0.7);">
                 </div>
             </div>
         </div>
@@ -1019,14 +1048,14 @@ $csrf_token = $_SESSION['csrf_token'];
 
 
 <!-- Exit Intent Popup -->
-<div id="exitIntentModal" class="modal fade" tabindex="-1" aria-labelledby="exitIntentModalLabel" aria-hidden="true">
+<div id="exitIntentModal" class="modal fade" tabindex="-1" aria-labelledby="exitIntentModalLabel" aria-hidden="true" data-bs-backdrop="true" data-bs-keyboard="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg rounded-4">
-            <div class="modal-header border-0 bg-gradient" style="background: linear-gradient(135deg, #198754 0%, #20c997 100%);">
+            <div class="modal-header border-0 bg-gradient position-relative" style="background: linear-gradient(135deg, #198754 0%, #20c997 100%);">
                 <h5 class="modal-title text-white fw-bold" id="exitIntentModalLabel">
                     <i class="bi bi-clock-history me-2"></i>Wait! Don't Miss Out
                 </h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="position: relative; z-index: 1050;"></button>
             </div>
             <div class="modal-body p-4 text-center">
                 <div class="mb-4">
@@ -1160,14 +1189,32 @@ document.addEventListener('DOMContentLoaded', function() {
     // Exit Intent Detection
     let exitIntentShown = false;
     let mouseLeaveTimer;
+    let exitModalInstance = null;
     
     function showExitIntent() {
         if (!exitIntentShown && !localStorage.getItem('exitIntentShown')) {
             exitIntentShown = true;
             localStorage.setItem('exitIntentShown', 'true');
-            const exitModal = new bootstrap.Modal(document.getElementById('exitIntentModal'));
-            exitModal.show();
+            const exitModalElement = document.getElementById('exitIntentModal');
+            exitModalInstance = new bootstrap.Modal(exitModalElement, {
+                backdrop: true,
+                keyboard: true,
+                focus: true
+            });
+            exitModalInstance.show();
         }
+    }
+    
+    // Ensure modal can be closed by clicking backdrop
+    const exitModalElement = document.getElementById('exitIntentModal');
+    if (exitModalElement) {
+        exitModalElement.addEventListener('click', function(e) {
+            if (e.target === exitModalElement) {
+                if (exitModalInstance) {
+                    exitModalInstance.hide();
+                }
+            }
+        });
     }
     
     // Track mouse movement

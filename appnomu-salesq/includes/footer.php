@@ -52,7 +52,6 @@ if (!function_exists('url') || !function_exists('asset')) {
                         <li class="mb-2"><a href="<?= url('/demo') ?>" class="text-decoration-none text-muted">Demo</a></li>
                         <li class="mb-2"><a href="<?= url('/features/voice') ?>" class="text-decoration-none text-muted"><i class="bi bi-telephone-fill me-1 text-success"></i>Voice Calls</a></li>
                         <li class="mb-2"><a href="https://appnomu.com/landing/integrations/" class="text-decoration-none text-muted">All Integrations</a></li>
-                        <li class="mb-2"><a href="https://doc.appnomu.com/en" target="_blank" class="text-decoration-none text-muted">Help Center</a></li>
                         <li class="mb-2"><a href="<?= url('/discount-application') ?>" class="text-decoration-none text-success fw-medium">Get Discount</a></li>
                     </ul>
                 </div>
@@ -76,7 +75,6 @@ if (!function_exists('url') || !function_exists('asset')) {
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="https://appnomu.com/landing/resources" class="text-decoration-none text-muted">Our Resources</a></li>
                         <li class="mb-2"><a href="https://services.appnomu.com/?utm_source=salesq&utm_medium=footer&utm_campaign=services" target="_blank" class="text-decoration-none text-muted">Services</a></li>
-                        <li class="mb-2"><a href="https://my.appnomu.com/cart.php?a=add&domain=register" target="_blank" class="text-decoration-none text-muted">Domain Registration</a></li>
                         <li class="mb-2"><a href="<?= url('/because-of-you') ?>" class="text-decoration-none text-muted">Because of You</a></li>
                         <li class="mb-2"><a href="<?= url('/affiliate') ?>" class="text-decoration-none text-muted">Affiliate Program</a></li>
                         <li class="mb-2"><a href="<?= url('/rss') ?>" class="text-decoration-none text-muted" title="Subscribe to our RSS feed"><i class="bi bi-rss me-1"></i>RSS Feed</a></li>
