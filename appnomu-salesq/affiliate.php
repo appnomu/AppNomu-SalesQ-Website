@@ -28,7 +28,7 @@ ob_start();
             </div>
             <div class="col-lg-6">
                 <div class="text-center">
-                    <img src="https://appnomu.com/landing/assets/images/Affiliate.png" alt="Affiliate Program" class="img-fluid rounded-4 shadow" style="max-height: 400px;">
+                    <img src="https://appnomu.com/landing/assets/images/affiliate-1.webp" alt="Affiliate Program" class="img-fluid rounded-4 shadow" style="max-height: 400px;">
                 </div>
             </div>
         </div>

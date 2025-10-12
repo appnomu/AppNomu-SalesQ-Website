@@ -412,7 +412,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
                 
                 <div class="d-flex flex-wrap gap-4 text-muted small">
-                    <div><i class="bi bi-people-fill text-success me-2"></i><strong>4 Expert Speakers</strong></div>
+                    <div><i class="bi bi-people-fill text-success me-2"></i><strong>8 Expert Speakers</strong></div>
                     <div><i class="bi bi-cup-hot-fill text-success me-2"></i><strong>Free Snacks & Drinks</strong></div>
                     <div><i class="bi bi-music-note-beamed text-success me-2"></i><strong>Live Entertainment</strong></div>
                 </div>
@@ -669,12 +669,12 @@ require_once __DIR__ . '/includes/header.php';
             <div class="col-lg-3 col-md-6" data-aos="fade-up">
                 <div class="speaker-card text-center">
                     <div class="mb-3">
-                        <img src="https://appnomu.com/landing/assets/images/ANGELLA.png" alt="Nakamya Angera" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid #198754;">
+                        <img src="https://appnomu.com/landing/assets/images/Mubezi.jpeg" alt="Mubezi Moses" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid #198754;">
                     </div>
-                    <h3 class="h5 fw-bold">Nakamya Angera</h3>
-                    <p class="text-success fw-bold mb-1">Marketing Specialist</p>
-                    <p class="text-muted small">Luk Solar</p>
-                    <p class="text-muted small mt-3">Expert in sustainable marketing strategies and customer acquisition.</p>
+                    <h3 class="h5 fw-bold">Mubezi Moses</h3>
+                    <p class="text-success fw-bold mb-1">Software Developer & Political Leader</p>
+                    <p class="text-muted small">Tech & Politics</p>
+                    <p class="text-muted small mt-3">Bridging technology and leadership for community development.</p>
                 </div>
             </div>
             
@@ -699,6 +699,54 @@ require_once __DIR__ . '/includes/header.php';
                     <p class="text-success fw-bold mb-1">Performing Artist</p>
                     <p class="text-muted small">Uganda</p>
                     <p class="text-muted small mt-3">Award-winning artist bringing entertainment and inspiration.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                <div class="speaker-card text-center">
+                    <div class="mb-3">
+                        <img src="https://appnomu.com/landing/assets/images/JEAN.jpeg" alt="Jean Amukwatse" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid #198754;">
+                    </div>
+                    <h3 class="h5 fw-bold">Jean Amukwatse</h3>
+                    <p class="text-success fw-bold mb-1">Software Engineer</p>
+                    <p class="text-muted small">Living Goods</p>
+                    <p class="text-muted small mt-3">Building scalable software solutions for social impact and healthcare.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                <div class="speaker-card text-center">
+                    <div class="mb-3">
+                        <img src="https://appnomu.com/landing/assets/images/Immaculate.jpeg" alt="Immaculate Nayiga" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid #198754;">
+                    </div>
+                    <h3 class="h5 fw-bold">Immaculate Nayiga</h3>
+                    <p class="text-success fw-bold mb-1">Software Developer</p>
+                    <p class="text-muted small">Agrosahas International PVT Ltd</p>
+                    <p class="text-muted small mt-3">Developing innovative agricultural technology solutions.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                <div class="speaker-card text-center">
+                    <div class="mb-3">
+                        <img src="https://appnomu.com/landing/assets/images/Augusta.jpeg" alt="Augustus Katende" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid #198754;">
+                    </div>
+                    <h3 class="h5 fw-bold">Augustus Katende</h3>
+                    <p class="text-success fw-bold mb-1">Founder</p>
+                    <p class="text-muted small">RelWorx</p>
+                    <p class="text-muted small mt-3">Entrepreneur driving digital transformation and business innovation.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                <div class="speaker-card text-center">
+                    <div class="mb-3">
+                        <img src="https://appnomu.com/landing/assets/images/Daphine.jpeg" alt="Daphine Nkunda" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover; border: 4px solid #198754;">
+                    </div>
+                    <h3 class="h5 fw-bold">Daphine Nkunda</h3>
+                    <p class="text-success fw-bold mb-1">Communications & Engagement</p>
+                    <p class="text-muted small">Sunbird AI</p>
+                    <p class="text-muted small mt-3">Leading AI communication strategies and community engagement initiatives.</p>
                 </div>
             </div>
         </div>
