@@ -62,6 +62,7 @@ if (!function_exists('url') || !function_exists('asset')) {
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="<?= url('/about') ?>" class="text-decoration-none text-muted">About Us</a></li>
                         <li class="mb-2"><a href="<?= url('/founder-letter') ?>" class="text-decoration-none text-muted">Founder's Letter</a></li>
+                        <li class="mb-2"><a href="<?= url('/discover2inspires-2026') ?>" class="text-decoration-none text-success fw-medium"><i class="bi bi-calendar-event me-1"></i>Discover2Inspire 2026</a></li>
                         <li class="mb-2"><a href="<?= url('/careers') ?>" class="text-decoration-none text-muted">Careers</a></li>
                         <li class="mb-2"><a href="<?= url('/partners') ?>" class="text-decoration-none text-muted">Partners</a></li>
                         <li class="mb-2"><a href="<?= url('/trust-centre') ?>" class="text-decoration-none text-muted">Trust Centre</a></li>
