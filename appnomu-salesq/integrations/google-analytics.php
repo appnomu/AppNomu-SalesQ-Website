@@ -52,8 +52,8 @@ ob_start();
                 </div>
             </div>
             <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0">
-                <div class="position-relative" data-aos="fade-left">
-                    <img src="https://appnomu.com/landing/assets/images/SalesQ_GA.png" alt="Google Analytics Integration" class="img-fluid rounded-4 shadow-lg" style="width: 100%; height: auto;">
+                <div class="position-relative d-flex align-items-center" data-aos="fade-left" style="height: 100%;">
+                    <img src="https://appnomu.com/landing/assets/images/hands-when-you-need.webp" alt="Google Analytics Integration" class="img-fluid rounded-4 shadow-lg" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
                 </div>
             </div>
         </div>

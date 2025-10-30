@@ -21,6 +21,11 @@ RewriteRule ^integration/paypal/?$ integration/paypal.php [L,NC]
 RewriteRule ^integration/stripe/?$ integration/stripe.php [L,NC]
 RewriteRule ^integration/smtp/?$ integration/smtp.php [L,NC]
 
+# Event page - Discover2Inspires 2026
+RewriteRule ^discover2inspires-2026/?$ discover2inspires-2026.php [L,NC]
+RewriteRule ^discover2inspires/?$ discover2inspires-2026.php [L,NC]
+RewriteRule ^event/?$ discover2inspires-2026.php [L,NC]
+
 # If the request is for a valid file or directory, serve it directly
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d

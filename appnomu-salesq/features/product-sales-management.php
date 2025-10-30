@@ -180,24 +180,23 @@ EOD;
             </div>
             <div class="col-lg-6 text-center">
                 <div class="position-relative">
-                    <div class="overflow-hidden rounded-4 shadow-lg" style="border: 1px solid rgba(0,0,0,0.1);">
-                        <img src="https://appnomu.com/landing/assets/images/salesQ_dashboard.png" 
-                             alt="AppNomu SalesQ Dashboard" 
-                             class="img-fluid" 
-                             style="display: block; width: 100%; height: auto;"
-                             onerror="this.onerror=null; this.src='https://via.placeholder.com/800x600/198754/ffffff?text=SalesQ+Dashboard'">
-                        <div class="position-absolute bottom-0 start-0 end-0 p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
-                            <div class="text-white text-start">
-                                <div class="d-flex align-items-center">
-                                    <div class="bg-success rounded-circle p-2 me-2">
-                                        <i class="fas fa-chart-line text-white"></i>
-                                    </div>
-                                    <div>
-                                        <div class="small">Live Dashboard</div>
-                                        <div class="fw-bold">Real-time Sales & Inventory</div>
-                                    </div>
+                    <img src="https://appnomu.com/landing/assets/images/HERO_section.png" 
+                         alt="AppNomu SalesQ - Complete Business Management" 
+                         class="img-fluid rounded-4 shadow-lg" 
+                         style="width: 100%; height: auto; border: 1px solid rgba(0,0,0,0.1);"
+                         onerror="this.onerror=null; this.src='https://via.placeholder.com/800x600/198754/ffffff?text=SalesQ+Dashboard'">
+                    <div class="position-absolute bottom-0 start-0 end-0 p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+                        <div class="text-white text-start">
+                            <div class="d-flex align-items-center">
+                                <div class="bg-success rounded-circle p-2 me-2">
+                                    <i class="fas fa-chart-line text-white"></i>
+                                </div>
+                                <div>
+                                    <div class="small">All-in-One Solution</div>
+                                    <div class="fw-bold">Streamline Your Business Operations</div>
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -217,14 +216,14 @@ EOD;
         </div>
         
         <!-- Inventory Management Section -->
-        <div class="row mb-5 align-items-center" data-aos="fade-up">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="position-relative rounded-4 overflow-hidden shadow-lg" style="border: 1px solid rgba(0,0,0,0.1);">
-                    <img src="https://appnomu.com/landing/assets/images/inventory.png" 
-                         alt="AppNomu SalesQ Inventory Management" 
-                         class="img-fluid" 
-                         style="display: block; width: 100%; height: auto;"
-                         onerror="this.onerror=null; this.src='https://via.placeholder.com/800x500/198754/ffffff?text=Inventory+Management'">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <img src="https://appnomu.com/landing/assets/images/Product.png" 
+                         alt="AppNomu SalesQ - Easy Inventory Management" 
+                         class="img-fluid rounded-4 shadow-lg"
+                         data-aos="fade-right"
+                         style="width: 100%; height: auto; border: 1px solid rgba(0,0,0,0.1);">
                     <div class="position-absolute top-0 end-0 m-3">
                         <span class="badge bg-success"><i class="fas fa-check-circle me-1"></i> Live Demo</span>
                     </div>
