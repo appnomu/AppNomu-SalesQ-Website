@@ -1,0 +1,115 @@
+# Sensitive Configuration Files
+config.php
+config.local.php
+.env
+.env.local
+.env.production
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+error_log
+php_errors.log
+
+# Cache and temporary files
+cache/
+tmp/
+temp/
+*.cache
+*.tmp
+
+# Uploads and user-generated content (if sensitive)
+uploads/private/
+user_data/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Composer (PHP dependency manager)
+vendor/
+composer.phar
+composer.lock
+
+# Node modules (if using any JavaScript build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build files
+dist/
+build/
+
+# Backup files
+*.bak
+*.backup
+*_backup
+backup/
+
+# API Keys and Secrets
+secrets.json
+credentials.json
+*.pem
+*.key
+*.cert
+
+# Session files
+sessions/
+*.sess
+
+# Email configuration
+mail_config.php
+
+# Payment gateway credentials
+payment_config.php
+
+# Third-party API configurations
+api_keys.php
+api_config.php
+
+# Local development files
+local_config.php
+dev_config.php
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# PHPStorm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Documentation that might contain sensitive info
+PRIVATE_NOTES.md
+CREDENTIALS.md
+SECRETS.md
