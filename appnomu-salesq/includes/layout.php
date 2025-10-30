@@ -711,11 +711,17 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
             }
             
             // Check if user has already made a choice
-            if (!getCookie('cookie_consent')) {
+            const consentCookie = getCookie('cookie_consent');
+            console.log('Cookie consent check:', consentCookie);
+            console.log('All cookies:', document.cookie);
+            
+            if (!consentCookie) {
                 // Show cookie notice on all pages after page load
                 setTimeout(() => {
                     cookieNotice.classList.add('show');
                 }, 1000);
+            } else {
+                console.log('Cookie consent already given:', consentCookie);
             }
             
             // Toggle settings panel
@@ -761,7 +767,24 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
                 const d = new Date();
                 d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
                 const expires = 'expires=' + d.toUTCString();
-                document.cookie = name + '=' + value + ';' + expires + ';path=/';
+                
+                // Build cookie string - don't set domain for localhost
+                let cookieString = name + '=' + value + ';' + expires + ';path=/;SameSite=Lax';
+                
+                // Only set domain for production (not localhost or IP addresses)
+                const hostname = window.location.hostname;
+                if (hostname !== 'localhost' && hostname !== '127.0.0.1' && !hostname.match(/^\d+\.\d+\.\d+\.\d+$/)) {
+                    // For production domains, set domain to allow subdomain sharing
+                    const domainParts = hostname.split('.');
+                    if (domainParts.length > 2) {
+                        // For subdomains like www.example.com, set to .example.com
+                        const rootDomain = '.' + domainParts.slice(-2).join('.');
+                        cookieString += ';domain=' + rootDomain;
+                    }
+                }
+                
+                document.cookie = cookieString;
+                console.log('Cookie set:', name, '=', value, 'Cookie string:', cookieString);
             }
             
             // Helper function to get cookie

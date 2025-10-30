@@ -52,35 +52,8 @@ ob_start();
                 </div>
             </div>
             <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0">
-                <div class="position-relative" data-aos="fade-left">
-                    <div class="bg-white rounded-4 shadow-lg p-4">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded-circle p-2 me-3">
-                                <i class="bi bi-person-plus text-white"></i>
-                            </div>
-                            <div>
-                                <h6 class="mb-0">New Lead Added</h6>
-                                <small class="text-muted">From AppNomu SalesQ → HubSpot</small>
-                            </div>
-                        </div>
-                        <div class="progress mb-3" style="height: 8px;">
-                            <div class="progress-bar bg-success" style="width: 85%"></div>
-                        </div>
-                        <div class="row g-2">
-                            <div class="col-6">
-                                <div class="bg-light rounded p-2 text-center">
-                                    <small class="text-muted d-block">Leads Synced</small>
-                                    <strong class="text-success">1,247</strong>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="bg-light rounded p-2 text-center">
-                                    <small class="text-muted d-block">Deals Created</small>
-                                    <strong class="text-primary">89</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="position-relative d-flex align-items-center" data-aos="fade-left" style="height: 100%;">
+                    <img src="https://appnomu.com/landing/assets/images/client-training-img3.webp" alt="HubSpot CRM Integration" class="img-fluid rounded-4 shadow-lg" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
                 </div>
             </div>
         </div>

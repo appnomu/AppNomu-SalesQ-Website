@@ -137,54 +137,18 @@ $page_keywords = "CRM Uganda, Customer Relationship Management Africa, Sales CRM
             </div>
             <div class="col-lg-6 text-center">
                 <div class="position-relative">
-                    <div class="p-4 rounded-3 shadow-lg" style="border-top: 4px solid #198754; background-color: rgba(255, 255, 255, 0.9);">
-                        <div class="mb-4 d-flex align-items-center">
-                            <div class="bg-success text-white rounded-circle p-2 me-3" style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;">
-                                <i class="fas fa-user-circle fa-2x"></i>
-                            </div>
-                            <div>
-                                <h5 class="mb-1 fw-bold text-success">Customer Profile</h5>
-                                <div class="small text-muted">Last updated: Today</div>
-                            </div>
-                            <div class="ms-auto">
-                                <span class="badge" style="background-color: #198754;">Active</span>
-                            </div>
-                        </div>
-                        
-                        <div class="row mb-3">
-                            <div class="col-sm-6 mb-3">
-                                <div class="p-3 rounded-3 text-center" style="background-color: rgba(25, 135, 84, 0.1);">
-                                    <div class="small text-success fw-bold mb-1">Total Purchases</div>
-                                    <div class="h4 mb-0 text-success">24</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 mb-3">
-                                <div class="p-3 rounded-3 text-center" style="background-color: rgba(25, 135, 84, 0.1);">
-                                    <div class="small text-success fw-bold mb-1">Lifetime Value</div>
-                                    <div class="h4 mb-0 text-success">UGX 4.2M</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="p-3 rounded-3" style="background-color: rgba(25, 135, 84, 0.05);">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="bg-primary rounded-circle p-2 me-3" style="width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;">
-                                    <i class="fas fa-phone-alt text-white"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-muted">Contact</div>
-                                    <div class="fw-bold">+256 700 123456</div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="bg-primary rounded-circle p-2 me-3" style="width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;">
-                                    <i class="fas fa-map-marker-alt text-white"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-muted">Location</div>
-                                    <div class="fw-bold">Kampala, Uganda</div>
-                                </div>
-                            </div>
+                    <img 
+                        src="https://appnomu.com/landing/assets/images/workflow-automation-img1.webp" 
+                        alt="Workflow Automation with AppNomu SalesQ CRM" 
+                        class="img-fluid rounded-4 shadow-lg"
+                        data-aos="fade-left"
+                        data-aos-delay="200"
+                        style="max-width: 100%; height: auto;"
+                    >
+                    <!-- Floating Badge -->
+                    <div class="position-absolute" style="top: 20px; right: 20px;">
+                        <div class="bg-success text-white fw-bold px-3 py-2 rounded-pill shadow-sm d-flex align-items-center">
+                            <i class="fas fa-bolt me-1"></i> All-in-One Solution
                         </div>
                     </div>
                 </div>

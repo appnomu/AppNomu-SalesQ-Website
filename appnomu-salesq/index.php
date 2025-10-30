@@ -25,11 +25,11 @@ require_once __DIR__ . '/includes/country_content.php';
 $current_page = 'home';
 
 // Set page metadata
-$page_title = 'Best CRM Software for Small Business 2024 | AppNomu SalesQ - Affordable SMS Marketing & Inventory Management';
-$page_description = 'Affordable CRM software for small businesses in Africa. Get SMS marketing, voice broadcasting, inventory management, and sales automation in one platform. Free 14-day trial, no credit card required. Trusted by 25,000+ businesses worldwide.';
+$page_title = 'Best CRM Software for Small Business 2025 | AppNomu SalesQ - AI-Powered CRM with SMS Marketing & Inventory Management';
+$page_description = 'Top-rated CRM software for small businesses in Africa 2025. AI-powered platform with SMS marketing, voice campaigns, inventory management, and sales automation. Free 14-day trial, no credit card required. Trusted by 25,000+ businesses. Start growing your sales by 40% today.';
 
 // Set page-specific keywords for SEO
-$page_keywords = 'affordable CRM software, small business CRM, best CRM for startups, SMS marketing software, inventory management system, business automation tools, CRM software Africa, cheap CRM solution, sales automation software, customer management system, bulk SMS marketing, CRM with SMS integration, small business software, point of sale system, mobile CRM app, cloud-based CRM, CRM for retail business, inventory tracking software, automated SMS campaigns, lead management software, customer database software, sales pipeline management, CRM integration tools, business process automation, multi-channel marketing platform';
+$page_keywords = 'best CRM software 2025, affordable CRM software, small business CRM 2025, AI-powered CRM, CRM with SMS marketing, best CRM for startups, SMS marketing software Africa, inventory management system, business automation tools, CRM software Africa, cheap CRM solution, sales automation software, customer management system, bulk SMS marketing Africa, CRM with SMS integration, small business software 2025, point of sale system, mobile CRM app, cloud-based CRM, CRM for retail business, inventory tracking software, automated SMS campaigns, lead management software, customer database software, sales pipeline management, CRM integration tools, business process automation, multi-channel marketing platform, voice campaign software, digital receipts software, profit and loss reports, expense management software, CRM for African businesses, Uganda CRM software, Kenya CRM software, Nigeria CRM software, Tanzania CRM software, affordable business software Africa';
 
 // Start output buffering
 ob_start();
@@ -109,7 +109,7 @@ $currentCountry = get_user_country();
                             <!-- Subtle background pattern -->
                             <div class="position-absolute top-0 start-0 w-100 h-100" style="background: radial-gradient(circle at 20% 20%, rgba(25, 135, 84, 0.03) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(25, 135, 84, 0.02) 0%, transparent 50%); pointer-events: none;"></div>
                             
-                            <img src="https://appnomu.com/landing/assets/images/Header_AppNomu.jpg" alt="AppNomu SalesQ - Complete Business Management Platform" class="img-fluid rounded-3 position-relative" loading="lazy" style="box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.3s ease; width: 100%; height: auto;" onmouseover="this.style.transform='scale(1.01)'" onmouseout="this.style.transform='scale(1)'">
+                            <img src="https://appnomu.com/landing/assets/images/lead-insights-img1.webp" alt="AppNomu SalesQ - Complete Business Management Platform" class="img-fluid rounded-3 position-relative" loading="lazy" style="box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.3s ease; width: 100%; height: auto;" onmouseover="this.style.transform='scale(1.01)'" onmouseout="this.style.transform='scale(1)'">
                             
                             <!-- Enhanced Status Badges - Mobile Responsive -->
                             <div class="position-absolute d-flex flex-column flex-sm-row gap-1 gap-sm-2" style="top: 10px; right: 10px;">
@@ -878,8 +878,8 @@ $currentCountry = get_user_country();
             <div class="row g-4" role="list">
                 <!-- Happy Clients -->
                 <div class="col-6 col-md-3 mb-4" role="listitem">
-                    <div class="stat-card" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-top: 4px solid #198754; transition: all 0.3s ease;" role="group" aria-labelledby="stat-clients">
-                        <div class="stat-icon rounded-circle mx-auto mb-3" style="background: linear-gradient(135deg, #198754, #20c997); width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;" aria-hidden="true">
+                    <div class="stat-card-3d" role="group" aria-labelledby="stat-clients">
+                        <div class="stat-icon-3d rounded-circle mx-auto mb-3" aria-hidden="true">
                             <i class="bi bi-people-fill"></i>
                         </div>
                         <div class="stat-number" style="font-size: 2rem; font-weight: 700; color: #198754; margin-bottom: 0.5rem;" aria-label="25000 plus happy clients">25000+</div>
@@ -889,8 +889,8 @@ $currentCountry = get_user_country();
                 
                 <!-- Years in Business -->
                 <div class="col-6 col-md-3 mb-4" role="listitem">
-                    <div class="stat-card" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-top: 4px solid #198754; transition: all 0.3s ease;" role="group" aria-labelledby="stat-years">
-                        <div class="stat-icon rounded-circle mx-auto mb-3" style="background: linear-gradient(135deg, #198754, #20c997); width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;" aria-hidden="true">
+                    <div class="stat-card-3d" role="group" aria-labelledby="stat-years">
+                        <div class="stat-icon-3d rounded-circle mx-auto mb-3" aria-hidden="true">
                             <i class="bi bi-award-fill"></i>
                         </div>
                         <div class="stat-number" style="font-size: 2rem; font-weight: 700; color: #198754; margin-bottom: 0.5rem;" aria-label="5 plus years in business">5+</div>
@@ -900,8 +900,8 @@ $currentCountry = get_user_country();
                 
                 <!-- Customer Satisfaction -->
                 <div class="col-6 col-md-3 mb-4" role="listitem">
-                    <div class="stat-card" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-top: 4px solid #198754; transition: all 0.3s ease;" role="group" aria-labelledby="stat-satisfaction">
-                        <div class="stat-icon rounded-circle mx-auto mb-3" style="background: linear-gradient(135deg, #198754, #20c997); width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;" aria-hidden="true">
+                    <div class="stat-card-3d" role="group" aria-labelledby="stat-satisfaction">
+                        <div class="stat-icon-3d rounded-circle mx-auto mb-3" aria-hidden="true">
                             <i class="bi bi-emoji-smile-fill"></i>
                         </div>
                         <div class="stat-number" style="font-size: 2rem; font-weight: 700; color: #198754; margin-bottom: 0.5rem;" aria-label="98 percent customer satisfaction">98%</div>
@@ -911,8 +911,8 @@ $currentCountry = get_user_country();
                 
                 <!-- Messages Sent -->
                 <div class="col-6 col-md-3 mb-4" role="listitem">
-                    <div class="stat-card" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-top: 4px solid #198754; transition: all 0.3s ease;" role="group" aria-labelledby="stat-messages">
-                        <div class="stat-icon rounded-circle mx-auto mb-3" style="background: linear-gradient(135deg, #198754, #20c997); width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;" aria-hidden="true">
+                    <div class="stat-card-3d" role="group" aria-labelledby="stat-messages">
+                        <div class="stat-icon-3d rounded-circle mx-auto mb-3" aria-hidden="true">
                             <i class="bi bi-chat-square-text-fill"></i>
                         </div>
                         <div class="stat-number" style="font-size: 2rem; font-weight: 700; color: #198754; margin-bottom: 0.5rem;" aria-label="15 million plus messages sent">15M+</div>
@@ -922,71 +922,681 @@ $currentCountry = get_user_country();
             </div>
         </div>
     </section>
+    
+    <style>
+    /* 3D Stats Cards */
+    .stat-card-3d {
+        border-radius: 15px;
+        padding: 2rem 1rem;
+        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        box-shadow: 
+            0 10px 30px rgba(0, 0, 0, 0.1),
+            0 1px 8px rgba(0, 0, 0, 0.06),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        transform-style: preserve-3d;
+        position: relative;
+        text-align: center;
+    }
+    
+    .stat-card-3d::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(25, 135, 84, 0.05) 0%, rgba(25, 135, 84, 0.02) 100%);
+        border-radius: 15px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .stat-card-3d:hover {
+        transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-10px) scale(1.05);
+        box-shadow: 
+            0 20px 40px rgba(25, 135, 84, 0.2),
+            0 10px 20px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    .stat-card-3d:hover::before {
+        opacity: 1;
+    }
+    
+    .stat-icon-3d {
+        background: linear-gradient(135deg, #198754, #20c997);
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+        box-shadow: 
+            0 8px 16px rgba(25, 135, 84, 0.3),
+            inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        transition: all 0.3s ease;
+        transform: translateZ(30px);
+    }
+    
+    .stat-card-3d:hover .stat-icon-3d {
+        transform: translateZ(50px) scale(1.15) rotate(10deg);
+        box-shadow: 
+            0 15px 30px rgba(25, 135, 84, 0.4),
+            inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    }
+    
+    .stat-card-3d .stat-number {
+        transform: translateZ(20px);
+        transition: all 0.3s ease;
+    }
+    
+    .stat-card-3d:hover .stat-number {
+        transform: translateZ(30px) scale(1.1);
+    }
+    
+    .stat-card-3d .stat-label {
+        transform: translateZ(10px);
+        transition: all 0.3s ease;
+    }
+    
+    .stat-card-3d:hover .stat-label {
+        transform: translateZ(20px);
+        color: #198754 !important;
+    }
+    
+    /* Shine effect for stats cards */
+    .stat-card-3d::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(
+            45deg,
+            transparent 30%,
+            rgba(255, 255, 255, 0.4) 50%,
+            transparent 70%
+        );
+        transform: translateX(-100%) translateY(-100%) rotate(45deg);
+        transition: transform 0.6s ease;
+        pointer-events: none;
+    }
+    
+    .stat-card-3d:hover::after {
+        transform: translateX(100%) translateY(100%) rotate(45deg);
+    }
+    
+    /* Mobile adjustments */
+    @media (max-width: 768px) {
+        .stat-card-3d:hover {
+            transform: perspective(1000px) rotateX(3deg) rotateY(-3deg) translateY(-8px) scale(1.03);
+        }
+    }
+    
+    /* 3D Feature Cards */
+    .feature-card-3d {
+        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        box-shadow: 
+            0 10px 30px rgba(0, 0, 0, 0.1),
+            0 1px 8px rgba(0, 0, 0, 0.06),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    
+    .feature-card-3d::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(25, 135, 84, 0.05) 0%, rgba(25, 135, 84, 0.02) 100%);
+        border-radius: 12px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .feature-card-3d:hover {
+        transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-12px) scale(1.03);
+        box-shadow: 
+            0 20px 40px rgba(25, 135, 84, 0.2),
+            0 10px 20px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    .feature-card-3d:hover::before {
+        opacity: 1;
+    }
+    
+    .feature-icon-3d {
+        background: linear-gradient(135deg, rgba(25, 135, 84, 0.1) 0%, rgba(25, 135, 84, 0.05) 100%);
+        box-shadow: 
+            0 6px 12px rgba(25, 135, 84, 0.15),
+            inset 0 1px 0 rgba(255, 255, 255, 0.5);
+        transition: all 0.3s ease;
+        transform: translateZ(20px);
+    }
+    
+    .feature-card-3d:hover .feature-icon-3d {
+        transform: translateZ(35px) scale(1.15) rotate(8deg);
+        box-shadow: 
+            0 10px 20px rgba(25, 135, 84, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    }
+    
+    .feature-card-3d h3 {
+        transform: translateZ(10px);
+        transition: all 0.3s ease;
+    }
+    
+    .feature-card-3d:hover h3 {
+        transform: translateZ(20px);
+        color: #198754;
+    }
+    
+    .feature-card-3d p {
+        transform: translateZ(5px);
+        transition: all 0.3s ease;
+    }
+    
+    .feature-card-3d:hover p {
+        transform: translateZ(15px);
+    }
+    
+    .feature-card-3d a {
+        transform: translateZ(8px);
+        transition: all 0.3s ease;
+    }
+    
+    .feature-card-3d:hover a {
+        transform: translateZ(18px);
+    }
+    
+    /* 3D Metric Cards */
+    .metric-card-3d {
+        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        box-shadow: 
+            0 10px 30px rgba(0, 0, 0, 0.1),
+            0 1px 8px rgba(0, 0, 0, 0.06),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        transform-style: preserve-3d;
+        position: relative;
+        text-align: center;
+    }
+    
+    .metric-card-3d::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(25, 135, 84, 0.05) 0%, rgba(25, 135, 84, 0.02) 100%);
+        border-radius: 1rem;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .metric-card-3d:hover {
+        transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-10px) scale(1.05);
+        box-shadow: 
+            0 20px 40px rgba(25, 135, 84, 0.2),
+            0 10px 20px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    .metric-card-3d:hover::before {
+        opacity: 1;
+    }
+    
+    .metric-card-3d .metric-icon {
+        transform: translateZ(25px);
+        transition: all 0.3s ease;
+    }
+    
+    .metric-card-3d:hover .metric-icon {
+        transform: translateZ(40px) scale(1.2);
+    }
+    
+    .metric-card-3d h3 {
+        transform: translateZ(20px);
+        transition: all 0.3s ease;
+    }
+    
+    .metric-card-3d:hover h3 {
+        transform: translateZ(35px) scale(1.1);
+    }
+    
+    .metric-card-3d p {
+        transform: translateZ(10px);
+        transition: all 0.3s ease;
+    }
+    
+    .metric-card-3d:hover p {
+        transform: translateZ(20px);
+    }
+    
+    .metric-card-3d small {
+        transform: translateZ(5px);
+        transition: all 0.3s ease;
+    }
+    
+    .metric-card-3d:hover small {
+        transform: translateZ(15px);
+    }
+    
+    /* Shine effect for feature and metric cards */
+    .feature-card-3d::after,
+    .metric-card-3d::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(
+            45deg,
+            transparent 30%,
+            rgba(255, 255, 255, 0.3) 50%,
+            transparent 70%
+        );
+        transform: translateX(-100%) translateY(-100%) rotate(45deg);
+        transition: transform 0.6s ease;
+        pointer-events: none;
+    }
+    
+    .feature-card-3d:hover::after,
+    .metric-card-3d:hover::after {
+        transform: translateX(100%) translateY(100%) rotate(45deg);
+    }
+    
+    /* Mobile adjustments for feature and metric cards */
+    @media (max-width: 768px) {
+        .feature-card-3d:hover,
+        .metric-card-3d:hover {
+            transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) translateY(-8px) scale(1.02);
+        }
+    }
+    </style>
 
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0;">
+    <!-- What AppNomu SalesQ Does Section -->
+    <section id="what-salesq-does" class="section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0;">
         <div class="container">
             <div class="section-header text-center mb-5">
-                <h2 class="section-title">Small Business <span class="text-success">CRM Success Stories</span></h2>
-                <p class="section-subtitle lead text-muted mb-4">Real testimonials from businesses using our affordable CRM software</p>
+                <h2 class="section-title">What <span class="text-success">AppNomu SalesQ</span> Does For Your Business</h2>
+                <p class="section-subtitle lead text-muted mb-4">All-in-one platform to run your entire business operations</p>
                 <div class="section-divider mx-auto" style="width: 60px; height: 3px; background-color: #198754; border-radius: 2px;"></div>
             </div>
-            <div class="row g-4">
-                <!-- Step 1 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="step-card text-center p-4 h-100 bg-white shadow-sm rounded-4" style="transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="100">
-                        <div class="step-number rounded-circle bg-success-soft text-success fw-bold mb-3" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 1.5rem;">1</div>
-                        <div class="step-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
-                            <i class="bi bi-person-plus text-success fs-4"></i>
+            
+            <!-- Features Carousel -->
+            <div id="featuresCarousel" class="carousel slide" data-bs-ride="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <!-- Slide 1: Sales & Receipts -->
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-receipt text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Record Sales</h3>
+                                    <p class="text-muted mb-0">Track every sale, manage inventory in real-time, and monitor your business performance with detailed sales records.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-file-earmark-check text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Issue Digital Receipts</h3>
+                                    <p class="text-muted mb-0">Send professional receipts instantly via SMS and Email to customers after every purchase. No more manual paperwork.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-people text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Record Customers</h3>
+                                    <p class="text-muted mb-0">Build a complete customer database with purchase history, contact details, and buying patterns for better relationships.</p>
+                                </div>
+                            </div>
                         </div>
-                        <h3>Create an Account</h3>
-                        <p>Sign up for a free account and get instant access to our platform. No credit card required to start.</p>
+                    </div>
+                    
+                    <!-- Slide 2: Marketing & Communication -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-chat-dots text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Send Bulk SMS Across Africa</h3>
+                                    <p class="text-muted mb-0">Reach thousands of customers instantly with bulk SMS campaigns. Just $0.02 per message across all African networks.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-telephone text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Send Voice Campaigns</h3>
+                                    <p class="text-muted mb-0">Broadcast voice messages to your customers for promotions, announcements, and important updates at scale.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-envelope text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Send Marketing Emails</h3>
+                                    <p class="text-muted mb-0">Create and send professional email campaigns to engage customers and drive sales with our built-in email marketing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3: Reports & Airtime -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-phone text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Send Mobile Top-ups Across Africa</h3>
+                                    <p class="text-muted mb-0">Reward customers and employees with instant mobile airtime top-ups across all African mobile networks.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-graph-up text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Generate Business Reports</h3>
+                                    <p class="text-muted mb-0">Get detailed sales reports, customer analytics, inventory summaries, and performance insights automatically.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="feature-capability-card text-center p-4 h-100 rounded-4">
+                                    <div class="capability-icon mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                        <i class="bi bi-calculator text-success fs-4"></i>
+                                    </div>
+                                    <h3 class="h5 mb-3 fw-bold text-success">Understand Profit & Loss</h3>
+                                    <p class="text-muted mb-0">Track expenses, calculate profits, and understand your financial health with comprehensive P&L reports.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <!-- Step 2 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="step-card text-center p-4 h-100 bg-white shadow-sm rounded-4" style="transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="200">
-                        <div class="step-number rounded-circle bg-success-soft text-success fw-bold mb-3" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 1.5rem;">2</div>
-                        <div class="step-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
-                            <i class="bi bi-building text-success fs-4"></i>
-                        </div>
-                        <h3>Enter Business Details</h3>
-                        <p>Set up your business profile by adding your company information, logo, and preferred settings.</p>
+                <!-- Carousel Indicators (Dots) - Moved to top -->
+                <div class="carousel-indicators-custom position-relative mt-4 mb-3 d-flex justify-content-center align-items-center gap-3">
+                    <!-- Previous Button -->
+                    <button class="carousel-nav-btn carousel-prev" type="button" data-bs-target="#featuresCarousel" data-bs-slide="prev">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    
+                    <!-- Dots -->
+                    <div class="carousel-dots d-flex gap-2">
+                        <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="0" class="carousel-dot active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="1" class="carousel-dot" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#featuresCarousel" data-bs-slide-to="2" class="carousel-dot" aria-label="Slide 3"></button>
                     </div>
-                </div>
-                
-                <!-- Step 3 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="step-card text-center p-4 h-100 bg-white shadow-sm rounded-4" style="transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="300">
-                        <div class="step-number rounded-circle bg-success-soft text-success fw-bold mb-3" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 1.5rem;">3</div>
-                        <div class="step-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
-                            <i class="bi bi-cart-check text-success fs-4"></i>
-                        </div>
-                        <h3>Start Using the Tool</h3>
-                        <p>Begin recording sales, managing customers, and issuing receipts right away with our intuitive interface.</p>
-                    </div>
-                </div>
-                
-                <!-- Step 4 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="step-card text-center p-4 h-100 bg-white shadow-sm rounded-4" style="transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="400">
-                        <div class="step-number rounded-circle bg-success-soft text-success fw-bold mb-3" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 1.5rem;">4</div>
-                        <div class="step-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
-                            <i class="bi bi-lightning-charge text-success fs-4"></i>
-                        </div>
-                        <h3>Unlock Premium Features</h3>
-                        <p>Recharge your wallet to access premium features like SMS notifications, email marketing, and airtime top-ups.</p>
-                        <a href="https://appnomu.com/landing/pricing" class="btn btn-sm btn-outline-success mt-2" target="_blank">View Pricing</a>
-                    </div>
+                    
+                    <!-- Next Button -->
+                    <button class="carousel-nav-btn carousel-next" type="button" data-bs-target="#featuresCarousel" data-bs-slide="next">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
                 </div>
             </div>
             
             <div class="text-center mt-5">
-                <a href="https://appnomu.com/register.php?utm_source=landing_page&utm_medium=cta&utm_campaign=salesq" class="btn btn-success btn-lg rounded-pill pulse-animation"><i class="bi bi-lightning-charge me-2"></i>Get Started Now</a>
+                <a href="https://appnomu.com/register.php?utm_source=landing_page&utm_medium=capabilities&utm_campaign=salesq" class="btn btn-success btn-lg rounded-pill pulse-animation"><i class="bi bi-lightning-charge me-2"></i>Start Using AppNomu SalesQ Free</a>
             </div>
         </div>
     </section>
+    
+    <style>
+    .feature-capability-card {
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        min-height: 280px;
+        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        border: none !important;
+        box-shadow: 
+            0 10px 30px rgba(0, 0, 0, 0.1),
+            0 1px 8px rgba(0, 0, 0, 0.06),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    
+    .feature-capability-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(25, 135, 84, 0.05) 0%, rgba(25, 135, 84, 0.02) 100%);
+        border-radius: 1rem;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .feature-capability-card:hover {
+        transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-15px) scale(1.02);
+        box-shadow: 
+            0 25px 50px rgba(25, 135, 84, 0.25),
+            0 10px 20px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    .feature-capability-card:hover::before {
+        opacity: 1;
+    }
+    
+    .capability-icon {
+        background: linear-gradient(135deg, rgba(25, 135, 84, 0.1) 0%, rgba(25, 135, 84, 0.05) 100%) !important;
+        box-shadow: 
+            0 8px 16px rgba(25, 135, 84, 0.15),
+            inset 0 1px 0 rgba(255, 255, 255, 0.5);
+        transition: all 0.3s ease;
+        transform: translateZ(20px);
+    }
+    
+    .feature-capability-card:hover .capability-icon {
+        transform: translateZ(40px) scale(1.1) rotate(5deg);
+        box-shadow: 
+            0 12px 24px rgba(25, 135, 84, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.7);
+    }
+    
+    .feature-capability-card h3 {
+        transform: translateZ(10px);
+        transition: all 0.3s ease;
+    }
+    
+    .feature-capability-card:hover h3 {
+        transform: translateZ(20px);
+        color: #198754;
+    }
+    
+    .feature-capability-card p {
+        transform: translateZ(5px);
+        transition: all 0.3s ease;
+    }
+    
+    .feature-capability-card:hover p {
+        transform: translateZ(15px);
+    }
+    
+    /* Add subtle shine effect */
+    .feature-capability-card::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(
+            45deg,
+            transparent 30%,
+            rgba(255, 255, 255, 0.3) 50%,
+            transparent 70%
+        );
+        transform: translateX(-100%) translateY(-100%) rotate(45deg);
+        transition: transform 0.6s ease;
+        pointer-events: none;
+    }
+    
+    .feature-capability-card:hover::after {
+        transform: translateX(100%) translateY(100%) rotate(45deg);
+    }
+    
+    .carousel-item {
+        transition: transform 0.6s ease-in-out;
+    }
+    
+    /* Swipe support for mobile */
+    #featuresCarousel {
+        touch-action: pan-y;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+    }
+    
+    /* Modern Carousel Navigation */
+    .carousel-nav-btn {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 2px solid #198754;
+        background: white;
+        color: #198754;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(25, 135, 84, 0.15);
+        font-size: 1.2rem;
+    }
+    
+    .carousel-nav-btn:hover {
+        background: linear-gradient(135deg, #198754, #20c997);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 6px 20px rgba(25, 135, 84, 0.3);
+        border-color: transparent;
+    }
+    
+    .carousel-nav-btn:active {
+        transform: scale(0.95);
+    }
+    
+    /* Carousel Dots */
+    .carousel-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 2px solid #198754;
+        background: transparent;
+        padding: 0;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .carousel-dot:hover {
+        transform: scale(1.2);
+        background: rgba(25, 135, 84, 0.3);
+    }
+    
+    .carousel-dot.active {
+        background: linear-gradient(135deg, #198754, #20c997);
+        border-color: #198754;
+        width: 32px;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(25, 135, 84, 0.4);
+    }
+    
+    .carousel-dot.active::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 6px;
+        height: 6px;
+        background: white;
+        border-radius: 50%;
+    }
+    
+    .carousel-indicators-custom {
+        z-index: 10;
+    }
+    
+    /* Responsive 3D adjustments */
+    @media (max-width: 768px) {
+        .feature-capability-card:hover {
+            transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) translateY(-10px) scale(1.01);
+        }
+    }
+    </style>
+    
+    <script>
+    // Enable touch swipe for carousel on mobile
+    document.addEventListener('DOMContentLoaded', function() {
+        const carousel = document.getElementById('featuresCarousel');
+        if (carousel) {
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            carousel.addEventListener('touchstart', function(e) {
+                touchStartX = e.changedTouches[0].screenX;
+            }, false);
+            
+            carousel.addEventListener('touchend', function(e) {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            }, false);
+            
+            function handleSwipe() {
+                const swipeThreshold = 50;
+                const diff = touchStartX - touchEndX;
+                
+                if (Math.abs(diff) > swipeThreshold) {
+                    const bsCarousel = bootstrap.Carousel.getInstance(carousel) || new bootstrap.Carousel(carousel);
+                    if (diff > 0) {
+                        // Swipe left - next
+                        bsCarousel.next();
+                    } else {
+                        // Swipe right - prev
+                        bsCarousel.prev();
+                    }
+                }
+            }
+        }
+    });
+    </script>
 
     <!-- Risk Reversal Section with SEO Keywords -->
     <section class="risk-reversal py-4" style="background: rgba(25, 135, 84, 0.05); border-top: 1px solid rgba(25, 135, 84, 0.1); border-bottom: 1px solid rgba(25, 135, 84, 0.1);">
@@ -1031,101 +1641,92 @@ $currentCountry = get_user_country();
     </script>
     <script src="<?= asset('js/country-hero-switcher.js') ?>"></script>
 
-    <!-- Features Section -->
+    <!-- Core Features Section -->
     <section id="features" class="section py-5" style="padding: 80px 0; background: #ffffff;">
         <div class="container">
             <div class="section-header text-center mb-5">
-                <h2 class="section-title">Complete <span class="text-success">CRM Software Features</span> for Small Business</h2>
-                <p class="section-subtitle lead text-muted mb-4">Complete business automation platform with CRM, inventory management, voice & email marketing, payment processing, and sales automation</p>
+                <h2 class="section-title">5 Core <span class="text-success">Features</span> That Drive Results</h2>
+                <p class="section-subtitle lead text-muted mb-4">Everything you need to grow your business in one platform</p>
                 <div class="section-divider mx-auto" style="width: 60px; height: 3px; background-color: #198754; border-radius: 2px;"></div>
             </div>
             <div class="row g-4">
-                <!-- Row 1 -->
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
-                            <i class="bi bi-box-seam text-success fs-4"></i>
-                        </div>
-                        <h3>Inventory Management System</h3>
-                        <p class="text-muted">Advanced inventory tracking software to manage stock levels, suppliers, and automated reorder points for small businesses.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
+                <!-- Feature 1: CRM -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card-3d p-4 h-100 rounded-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                        <div class="feature-icon-3d mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
                             <i class="bi bi-people text-success fs-4"></i>
                         </div>
-                        <h3>Customer Database Software</h3>
-                        <p class="text-muted">Complete customer management system with detailed profiles, purchase history, and automated communication logs.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
-                            <i class="bi bi-graph-up text-success fs-4"></i>
-                        </div>
-                        <h3>Sales Analytics & Reporting</h3>
-                        <p class="text-muted">Advanced business intelligence tools with sales performance tracking, revenue analytics, and automated reporting.</p>
+                        <h3 class="h5 fw-bold">Customer Relationship Management</h3>
+                        <p class="text-muted mb-3">Track every customer interaction, purchase history, and automate follow-ups to never lose a sale.</p>
+                        <a href="<?= url('/features/crm') ?>" class="text-success text-decoration-none fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
                 
-                <!-- Row 2 -->
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
-                            <i class="bi bi-graph-up-arrow text-success fs-4"></i>
+                <!-- Feature 2: Inventory -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card-3d p-4 h-100 rounded-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                        <div class="feature-icon-3d mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
+                            <i class="bi bi-box-seam text-success fs-4"></i>
                         </div>
-                        <h3>SMS Marketing Software</h3>
-                        <p class="text-muted">Bulk SMS campaigns, automated messaging, and multi-channel marketing platform for customer engagement.</p>
+                        <h3 class="h5 fw-bold">Inventory Management</h3>
+                        <p class="text-muted mb-3">Real-time stock tracking with low-stock alerts so you never run out of your best-selling products.</p>
+                        <a href="<?= url('/features/product-sales-management') ?>" class="text-success text-decoration-none fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
+                
+                <!-- Feature 3: SMS Marketing -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card-3d p-4 h-100 rounded-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                        <div class="feature-icon-3d mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
+                            <i class="bi bi-chat-dots text-success fs-4"></i>
+                        </div>
+                        <h3 class="h5 fw-bold">SMS & Voice Marketing</h3>
+                        <p class="text-muted mb-3">Send bulk SMS and voice messages to thousands of customers instantly to boost sales and engagement.</p>
+                        <a href="<?= url('/features/sms') ?>" class="text-success text-decoration-none fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Feature 4: AI Automation -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card-3d p-4 h-100 rounded-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                        <div class="feature-icon-3d mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
                             <i class="bi bi-robot text-success fs-4"></i>
                         </div>
-                        <h3>Sales Automation Software</h3>
-                        <p class="text-muted">AI-powered sales pipeline management with automated lead scoring, follow-ups, and opportunity tracking.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
-                            <i class="bi bi-phone text-success fs-4"></i>
-                        </div>
-                        <h3>Mobile CRM App</h3>
-                        <p class="text-muted">Cloud-based CRM accessible on any device - manage leads, track sales, and run your business from anywhere.</p>
+                        <h3 class="h5 fw-bold">AI-Powered Automation</h3>
+                        <p class="text-muted mb-3">Let AI handle repetitive tasks, predict sales trends, and provide intelligent business insights.</p>
+                        <a href="<?= url('/features/salesq-ai') ?>" class="text-success text-decoration-none fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
                 
-                <!-- Row 3 -->
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
-                            <i class="bi bi-telephone-fill text-success fs-4"></i>
+                <!-- Feature 5: Analytics -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card-3d p-4 h-100 rounded-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                        <div class="feature-icon-3d mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
+                            <i class="bi bi-graph-up text-success fs-4"></i>
                         </div>
-                        <h3>Voice Broadcasting Platform</h3>
-                        <p class="text-muted">Professional automated voice calls and bulk voice campaigns with MP3 uploads, text-to-speech, and real-time analytics.</p>
+                        <h3 class="h5 fw-bold">Sales Analytics & Reports</h3>
+                        <p class="text-muted mb-3">Get real-time insights on sales performance, revenue trends, and customer behavior to make data-driven decisions.</p>
+                        <a href="<?= url('/features/crm') ?>" class="text-success text-decoration-none fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
+                
+                <!-- Feature 6: Payment Processing -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card-3d p-4 h-100 rounded-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                        <div class="feature-icon-3d mb-3 p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
                             <i class="bi bi-credit-card text-success fs-4"></i>
                         </div>
-                        <h3>Client Charging System</h3>
-                        <p class="text-muted">Secure payment processing to charge clients directly through Flutterwave, PayPal, and Stripe with automated invoicing and receipts.</p>
+                        <h3 class="h5 fw-bold">Payment Processing</h3>
+                        <p class="text-muted mb-3">Accept payments via Flutterwave, PayPal, and Stripe with automated invoicing and digital receipts.</p>
+                        <a href="<?= url('/integrations') ?>" class="text-success text-decoration-none fw-bold">Learn More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                        <div class="icon-box mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
-                            <i class="bi bi-envelope-heart text-success fs-4"></i>
-                        </div>
-                        <h3>Email Marketing Campaigns</h3>
-                        <p class="text-muted">Professional email marketing with automated drip campaigns, customer segmentation, and detailed performance analytics.</p>
-                    </div>
-                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="https://appnomu.com/register.php?utm_source=landing_page&utm_medium=features&utm_campaign=salesq" class="btn btn-success btn-lg rounded-pill px-5 py-3 shadow-lg" target="_blank" rel="noopener noreferrer" style="font-weight: 700;">
+                    <i class="bi bi-rocket-takeoff me-2"></i>Start Using These Features Free
+                </a>
             </div>
         </div>
     </section>
@@ -1409,157 +2010,6 @@ $currentCountry = get_user_country();
     }
     </style>
 
-    <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0;">
-        <div class="container">
-            <div class="section-header text-center mb-5">
-                <h2 class="section-title">Why Choose <span class="text-success">AppNomu SalesQ</span>?</h2>
-                <p class="section-subtitle lead text-muted mb-4">Experience the difference with our comprehensive sales solution designed for African businesses</p>
-                <div class="section-divider mx-auto" style="width: 60px; height: 3px; background-color: #198754; border-radius: 2px;"></div>
-            </div>
-            <div class="row g-4">
-                <!-- Quick Setup -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="benefit-card h-100 p-4 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; background-color: white; transition: all 0.3s ease;">
-                        <div class="benefit-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                            <i class="bi bi-lightning-charge text-success fs-4"></i>
-                        </div>
-                        <h3 class="h5 mb-3 fw-bold">Quick Setup</h3>
-                        <p class="mb-0 text-muted">Get started in minutes with our intuitive platform. No technical expertise required to get your sales process up and running.</p>
-                    </div>
-                </div>
-                
-                <!-- Affordable Pricing -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="benefit-card h-100 p-4 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; background-color: white; transition: all 0.3s ease;">
-                        <div class="benefit-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                            <i class="bi bi-tag text-success fs-4"></i>
-                        </div>
-                        <h3 class="h5 mb-3 fw-bold">Affordable Pricing</h3>
-                        <p class="mb-0 text-muted">Competitive pricing plans designed for businesses of all sizes. Get premium features without breaking the bank.</p>
-                    </div>
-                </div>
-                
-                <!-- AI Powered Insights -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="benefit-card h-100 p-4 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; background-color: white; transition: all 0.3s ease;">
-                        <div class="benefit-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                            <i class="bi bi-robot text-success fs-4"></i>
-                        </div>
-                        <h3 class="h5 mb-3 fw-bold">AI Powered Insights</h3>
-                        <p class="mb-0 text-muted">Leverage artificial intelligence to gain valuable business insights and make data-driven decisions.</p>
-                    </div>
-                </div>
-                
-                <!-- Mobile Access -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-                    <div class="benefit-card h-100 p-4 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; background-color: white; transition: all 0.3s ease;">
-                        <div class="benefit-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                            <i class="bi bi-phone text-success fs-4"></i>
-                        </div>
-                        <h3 class="h5 mb-3 fw-bold">Mobile Access</h3>
-                        <p class="mb-0 text-muted">Manage your business on the go with our fully responsive mobile interface that works on any device.</p>
-                    </div>
-                </div>
-                
-                <!-- Local Support -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-                    <div class="benefit-card h-100 p-4 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; background-color: white; transition: all 0.3s ease;">
-                        <div class="benefit-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                            <i class="bi bi-headset text-success fs-4"></i>
-                        </div>
-                        <h3 class="h5 mb-3 fw-bold">Local Support</h3>
-                        <p class="mb-0 text-muted">24/7 support through live chat, email, and phone. Our local team is always ready to assist you.</p>
-                    </div>
-                </div>
-                
-                <!-- Secure and Reliable -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
-                    <div class="benefit-card h-100 p-4 shadow-sm" style="border-radius: 12px; border-left: 4px solid #198754; background-color: white; transition: all 0.3s ease;">
-                        <div class="benefit-icon mb-3 bg-success-soft p-3 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                            <i class="bi bi-shield-lock text-success fs-4"></i>
-                        </div>
-                        <h3 class="h5 mb-3 fw-bold">Secure & Reliable</h3>
-                        <p class="mb-0 text-muted">Your data is protected with enterprise-grade security and 99.9% uptime guarantee.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Industries Section -->
-    <section class="industries-section py-4 bg-white">
-        <div class="container">
-            <div class="section-header text-center mb-4">
-                <h3 class="h4 mb-4">Industries We Serve</h3>
-            </div>
-            <div class="marquee-container">
-                <div class="marquee-track">
-                    <div class="marquee-item">
-                        <i class="bi bi-shop me-2"></i>Retail
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-cup-hot me-2"></i>Food & Beverage
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-capsule me-2"></i>Pharmacy
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-bag me-2"></i>Fashion
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-tools me-2"></i>Hardware
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-book me-2"></i>Bookshops
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-laptop me-2"></i>Electronics
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-scissors me-2"></i>Beauty & Spa
-                    </div>
-                    <!-- Duplicate items for seamless loop -->
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-shop me-2"></i>Retail
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-cup-hot me-2"></i>Food & Beverage
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-capsule me-2"></i>Pharmacy
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-bag me-2"></i>Fashion
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-tools me-2"></i>Hardware
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-book me-2"></i>Bookshops
-                    </div>
-                    <div class="marquee-divider"></div>
-                    <div class="marquee-item">
-                        <i class="bi bi-laptop me-2"></i>Electronics
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Performance Metrics Section -->
     <section class="performance-metrics py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0;">
         <div class="container">
@@ -1570,7 +2020,7 @@ $currentCountry = get_user_country();
             </div>
             <div class="row text-center">
                 <div class="col-md-3 col-6 mb-4">
-                    <div class="metric-card bg-white p-4 rounded-4 h-100 shadow-sm" style="border-top: 4px solid #198754; transition: all 0.3s ease;">
+                    <div class="metric-card-3d p-4 rounded-4 h-100">
                         <div class="metric-icon mb-3">
                             <i class="bi bi-graph-up-arrow text-success fs-1"></i>
                         </div>
@@ -1580,7 +2030,7 @@ $currentCountry = get_user_country();
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-4">
-                    <div class="metric-card bg-white p-4 rounded-4 h-100 shadow-sm" style="border-top: 4px solid #198754; transition: all 0.3s ease;">
+                    <div class="metric-card-3d p-4 rounded-4 h-100">
                         <div class="metric-icon mb-3">
                             <i class="bi bi-clock-history text-success fs-1"></i>
                         </div>
@@ -1590,7 +2040,7 @@ $currentCountry = get_user_country();
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-4">
-                    <div class="metric-card bg-white p-4 rounded-4 h-100 shadow-sm" style="border-top: 4px solid #198754; transition: all 0.3s ease;">
+                    <div class="metric-card-3d p-4 rounded-4 h-100">
                         <div class="metric-icon mb-3">
                             <i class="bi bi-people-fill text-success fs-1"></i>
                         </div>
@@ -1600,7 +2050,7 @@ $currentCountry = get_user_country();
                     </div>
                 </div>
                 <div class="col-md-3 col-6 mb-4">
-                    <div class="metric-card bg-white p-4 rounded-4 h-100 shadow-sm" style="border-top: 4px solid #198754; transition: all 0.3s ease;">
+                    <div class="metric-card-3d p-4 rounded-4 h-100">
                         <div class="metric-icon mb-3">
                             <i class="bi bi-speedometer2 text-success fs-1"></i>
                         </div>
@@ -1618,73 +2068,150 @@ $currentCountry = get_user_country();
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="section py-5" style="background: #ffffff; padding: 80px 0;">
+    <!-- Pricing Preview Section -->
+    <section id="pricing-preview" class="section py-5" style="background: #ffffff; padding: 80px 0;">
         <div class="container">
             <div class="section-header text-center mb-5">
-                <h2 class="section-title">Client <span class="text-success">Testimonials</span></h2>
-                <p class="section-subtitle lead text-muted mb-4">What our customers are saying about AppNomu SalesQ and how it transformed their business</p>
+                <h2 class="section-title">Simple, <span class="text-success">Transparent Pricing</span></h2>
+                <p class="section-subtitle lead text-muted mb-4">Start free, scale as you grow. No hidden fees.</p>
                 <div class="section-divider mx-auto" style="width: 60px; height: 3px; background-color: #198754; border-radius: 2px;"></div>
             </div>
-            <div class="row g-4">
-                <!-- Testimonial 1 -->
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="testimonial-card bg-white p-4 rounded-4 shadow-sm h-100" style="border-top: 3px solid #198754;">
-                        <div class="rating mb-2">
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
+            
+            <div class="row g-4 justify-content-center">
+                <!-- Free Plan -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-card h-100 p-4 bg-white shadow-sm rounded-4" style="border: 2px solid #e9ecef; transition: all 0.3s ease;">
+                        <div class="text-center mb-4">
+                            <h3 class="h5 fw-bold text-dark">Free Forever</h3>
+                            <div class="pricing-amount my-3">
+                                <span class="display-4 fw-bold text-success">$0</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <p class="text-muted small">Perfect for testing & small businesses</p>
                         </div>
-                        <p class="fst-italic">"I like the professional modified UI of the solution which makes the navigation to software features easily. I also like the customer support who responds to technical questions anytime around the clock."</p>
-                        <div class="d-flex align-items-center mt-3">
-                            <div class="bg-success-soft rounded-circle p-2 me-3"><i class="bi bi-person-fill text-success"></i></div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>500 products</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>500 customers</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>50 sales receipts</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Basic earnings reports</li>
+                            <li class="mb-2 text-muted"><i class="bi bi-x-circle me-2"></i>SMS Marketing</li>
+                            <li class="mb-2 text-muted"><i class="bi bi-x-circle me-2"></i>AI Business Insights</li>
+                        </ul>
+                        <a href="https://appnomu.com/register.php?utm_source=landing_page&utm_medium=pricing&utm_campaign=free" class="btn btn-outline-success w-100 rounded-pill py-2" target="_blank">Start Free</a>
+                    </div>
+                </div>
+                
+                <!-- Premium Plan -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card h-100 p-4 bg-white shadow-sm rounded-4" style="border: 2px solid #e9ecef; transition: all 0.3s ease;">
+                        <div class="text-center mb-4">
+                            <h3 class="h5 fw-bold text-primary">Premium Plan</h3>
+                            <div class="pricing-amount my-3">
+                                <span class="display-4 fw-bold text-success">$15</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <p class="text-muted small">Ideal for growing businesses</p>
+                        </div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>10,000 products</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>10,000 customers</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>1,000 sales receipts</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>450 SMS included</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Sales & Expense Reports</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Priority Support</li>
+                        </ul>
+                        <a href="https://appnomu.com/register.php?utm_source=landing_page&utm_medium=pricing&utm_campaign=premium" class="btn btn-outline-primary w-100 rounded-pill py-2" target="_blank">Upgrade to Premium</a>
+                    </div>
+                </div>
+                
+                <!-- Enterprise Plan - Most Popular -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-card h-100 p-4 bg-white shadow-lg rounded-4 position-relative" style="border: 3px solid #198754; transform: scale(1.05); transition: all 0.3s ease;">
+                        <div class="position-absolute top-0 start-50 translate-middle">
+                            <span class="badge bg-warning text-dark px-3 py-2">⭐ MOST POPULAR</span>
+                        </div>
+                        <div class="text-center mb-4 mt-3">
+                            <h3 class="h5 fw-bold text-success">Complete Business Suite</h3>
+                            <div class="pricing-amount my-3">
+                                <span class="display-4 fw-bold text-success">$25</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <p class="text-muted small">Professional-grade management</p>
+                        </div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Unlimited</strong> products</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Unlimited</strong> customers</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Unlimited</strong> sales</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>1,000 SMS included</strong>/month</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>AI Business Insights</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>P&L Reports</li>
+                        </ul>
+                        <a href="https://appnomu.com/register.php?utm_source=landing_page&utm_medium=pricing&utm_campaign=enterprise" class="btn btn-success w-100 rounded-pill py-2 shadow" target="_blank">Get Enterprise</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <p class="text-muted mb-3"><i class="bi bi-shield-check text-success me-2"></i>All plans include 30-day money-back guarantee</p>
+                <div class="alert alert-success d-inline-block mb-3" role="alert">
+                    <i class="bi bi-wallet2 me-2"></i><strong>Pay-As-You-Go:</strong> Need more SMS? Just $0.02 per message with our simple wallet system
+                </div>
+                <br>
+                <a href="<?= url('/pricing') ?>" class="btn btn-link text-success fw-bold">View Detailed Pricing & Features <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="testimonials" class="section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 60px 0;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h2 class="mb-3">Trusted by <span class="text-success">25,000+ Businesses</span> Across Africa</h2>
+                    <p class="lead text-muted mb-4">Join successful businesses using SalesQ to automate sales, track inventory, and grow revenue.</p>
+                    <div class="testimonial-card bg-white p-4 rounded-4 shadow-sm" style="border-left: 4px solid #198754;">
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <span class="ms-2 fw-bold text-dark">5.0</span>
+                        </div>
+                        <p class="fst-italic mb-3">"SalesQ transformed how we track inventory and manage customer communications. The analytics features have been particularly helpful in optimizing our sales strategy and increasing conversions by 40%."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="bg-success-soft rounded-circle p-2 me-3"><i class="bi bi-person-fill text-success fs-5"></i></div>
                             <div>
-                                <h6 class="mb-0 fw-bold">Isophel N</h6>
-                                <p class="text-muted small mb-0">Nile Breweries</p>
+                                <h6 class="mb-0 fw-bold">Robert K.</h6>
+                                <p class="text-muted small mb-0">Operations Manager, Berean Hand</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Testimonial 2 -->
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="testimonial-card bg-white p-4 rounded-4 shadow-sm h-100" style="border-top: 3px solid #198754;">
-                        <div class="rating mb-2">
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                        </div>
-                        <p class="fst-italic">"SalesQ has transformed how we track inventory and manage customer communications. The analytics features have been particularly helpful in optimizing our sales strategy and increasing conversions."</p>
-                        <div class="d-flex align-items-center mt-3">
-                            <div class="bg-success-soft rounded-circle p-2 me-3"><i class="bi bi-person-fill text-success"></i></div>
-                            <div>
-                                <h6 class="mb-0 fw-bold">Robert K</h6>
-                                <p class="text-muted small mb-0">Berean Hand</p>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
+                                <h3 class="display-5 fw-bold text-success mb-2">98%</h3>
+                                <p class="text-muted mb-0">Customer Satisfaction</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="testimonial-card bg-white p-4 rounded-4 shadow-sm h-100" style="border-top: 3px solid #198754;">
-                        <div class="rating mb-2">
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-half text-warning"></i>
+                        <div class="col-6">
+                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
+                                <h3 class="display-5 fw-bold text-success mb-2">15M+</h3>
+                                <p class="text-muted mb-0">Messages Sent</p>
+                            </div>
                         </div>
-                        <p class="fst-italic">"We've been using AppNomu SalesQ for over two years now. The bulk SMS capabilities and customer segmentation tools have significantly improved our marketing effectiveness and customer engagement."</p>
-                        <div class="d-flex align-items-center mt-3">
-                            <div class="bg-success-soft rounded-circle p-2 me-3"><i class="bi bi-person-fill text-success"></i></div>
-                            <div>
-                                <h6 class="mb-0 fw-bold">Sarah M</h6>
-                                <p class="text-muted small mb-0">Pepsi Uganda</p>
+                        <div class="col-6">
+                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
+                                <h3 class="display-5 fw-bold text-success mb-2">5+</h3>
+                                <p class="text-muted mb-0">Years in Business</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
+                                <h3 class="display-5 fw-bold text-success mb-2">24/7</h3>
+                                <p class="text-muted mb-0">Support Available</p>
                             </div>
                         </div>
                     </div>
@@ -1777,6 +2304,21 @@ $currentCountry = get_user_country();
         .step-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+        }
+        
+        /* Pricing Card Styles */
+        .pricing-card {
+            transition: all 0.3s ease;
+        }
+        
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(25, 135, 84, 0.15) !important;
+        }
+        
+        .problem-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(220, 53, 69, 0.15) !important;
         }
         
         /* Floating animation for CTA section */

@@ -82,6 +82,10 @@ $schema_data = [
         color: #212529;
     }
     
+    .hero-section .d-flex.align-items-center span {
+        color: #212529 !important;
+    }
+    
     .hero-section small,
     .hero-section .text-muted {
         color: #6c757d !important;
@@ -166,8 +170,29 @@ $schema_data = [
                     <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 rounded-pill mb-3">
                         <i class="bi bi-lightning-fill me-1"></i> Instant Delivery
                     </span>
-                    <h1 class="display-4 fw-bold mb-3">Best Airtime Selling Tool in Uganda</h1>
-                    <p class="lead mb-4">Transform your business with Uganda's most reliable airtime selling tool. Send airtime to all African countries instantly with our mobile top-up API. Recharge and earn commissions across all major networks.</p>
+                    <h1 class="display-5 fw-bold mb-3">
+                        Best Airtime Selling Tool in <span class="text-success">Uganda</span>
+                    </h1>
+                    <p class="lead mb-4">
+                        Send airtime to all African countries instantly through our user-friendly portal or powerful API. 
+                        Whether you need to send single top-ups or process bulk airtime, we've got you covered with 
+                        Uganda's most reliable airtime distribution platform.
+                    </p>
+                    
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>Single Airtime Top-ups</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>Bulk Airtime Distribution</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-success me-2"></i>
+                            <span>Powerful API Integration</span>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Key Benefits Grid -->
@@ -259,7 +284,7 @@ $schema_data = [
             <div class="col-lg-6 text-center">
                 <div class="position-relative">
                     <img 
-                        src="https://appnomu.com/landing/assets/images/Airtime_distribution.png" 
+                        src="https://appnomu.com/landing/assets/images/Airtime-header.webp" 
                         alt="AppNomu SalesQ Airtime Distribution" 
                         class="img-fluid rounded-4 shadow-lg"
                         data-aos="fade-left"
@@ -297,7 +322,7 @@ $schema_data = [
         <!-- Core Airtime Features Section -->
         <div class="row mb-5 align-items-center" data-aos="fade-up">
             <div class="col-lg-6 mb-4 mb-lg-0">
-                <img src="https://appnomu.com/landing/features/AIRTIME/AIRTIME%20Distribution.png" alt="Airtime Distribution" class="img-fluid rounded shadow-lg" style="max-height: 400px;">
+                <img src="https://appnomu.com/landing/assets/images/Airtime.jpg" alt="Airtime Distribution" class="img-fluid rounded shadow-lg" style="max-height: 400px;">
             </div>
             <div class="col-lg-6">
                 <h3 class="mb-4">Core Airtime Features</h3>
@@ -348,7 +373,7 @@ $schema_data = [
             <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
                 <div class="position-relative">
                     <img 
-                        src="https://appnomu.com/landing/assets/images/Analytics_airtime_salesq.png" 
+                        src="https://appnomu.com/landing/assets/images/bills.webp" 
                         alt="AppNomu SalesQ Airtime Analytics" 
                         class="img-fluid rounded-4 shadow-lg"
                         data-aos="fade-left"

@@ -283,7 +283,6 @@ Need help with the website?
 ---
 
 **Last Updated:** January 2025  
-**Version:** 2.0  
-**Maintained by:** AppNomu Engineering Team
+**Version:** 2.0
 
 For more information, visit [appnomu.com/landing](https://appnomu.com/landing)
