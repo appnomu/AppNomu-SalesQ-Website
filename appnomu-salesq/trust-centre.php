@@ -263,7 +263,7 @@ ob_start();
         <div class="row align-items-center">
             <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
                 <div class="position-relative">
-                    <img src="https://services.appnomu.com/assets/images/Bahati%20Asher%20Faith.jpeg" alt="Bahati Asher Faith - CEO" class="img-fluid rounded-3 shadow" onerror="this.src='https://placehold.co/500x600/e9ecef/198754?text=Bahati+Asher+Faith&font=Lexend'" style="width: 100%; max-width: 400px; border: 3px solid rgba(25,135,84,0.2);">
+                    <img src="https://appnomu.com/landing/assets/images/Bahati%20Asher.jpg" alt="Bahati Asher Faith - CEO" class="img-fluid rounded-3 shadow" onerror="this.src='https://placehold.co/500x600/e9ecef/198754?text=Bahati+Asher+Faith&font=Lexend'" style="width: 100%; max-width: 400px; border: 3px solid rgba(25,135,84,0.2);">
                     <div class="position-absolute" style="bottom: -15px; right: -15px; width: 70%; height: 70%; background: linear-gradient(135deg, rgba(25,135,84,0.1) 0%, rgba(25,135,84,0.05) 100%); border-radius: 12px; z-index: -1;"></div>
                 </div>
             </div>
@@ -318,9 +318,9 @@ ob_start();
                         <div class="guide-icon bg-success-soft p-3 rounded-3 d-inline-flex align-items-center justify-content-center mb-3">
                             <i class="bi bi-book text-success fs-3"></i>
                         </div>
-                        <h4>Help Documentation</h4>
-                        <p>Access our comprehensive guides and documentation to get the most from AppNomu SalesQ.</p>
-                        <a href="https://doc.appnomu.com/en/" target="_blank" class="btn btn-success rounded-pill mt-3">View Guides</a>
+                        <h4>Blog and Articles</h4>
+                        <p>Explore our latest insights, tips, and resources to help your business grow with AppNomu SalesQ.</p>
+                        <a href="https://appnomu.com/landing/resources" class="btn btn-success rounded-pill mt-3">View Blog</a>
                     </div>
                 </div>
             </div>

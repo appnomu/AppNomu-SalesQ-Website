@@ -459,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="founder-image-container mb-4" data-aos="zoom-in" data-aos-delay="300">
                         <div class="position-relative d-inline-block">
                             <div class="founder-image-bg position-absolute w-100 h-100 rounded-circle" style="background: linear-gradient(135deg, rgba(25,135,84,0.1) 0%, rgba(25,135,84,0.05) 100%); transform: scale(1.1);"></div>
-                            <img src="https://services.appnomu.com/assets/images/Bahati%20Asher%20Faith.jpeg" alt="Bahati Asher Faith, Founder & CEO" class="rounded-circle shadow-lg position-relative" style="width: 140px; height: 140px; object-fit: cover; border: 5px solid white; box-shadow: 0 10px 30px rgba(25,135,84,0.2) !important;" onerror="this.src='https://placehold.co/140x140/198754/fff?text=B&font=Lexend'">
+                            <img src="https://appnomu.com/landing/assets/images/Bahati%20Asher.jpg" alt="Bahati Asher Faith, Founder & CEO" class="rounded-circle shadow-lg position-relative" style="width: 140px; height: 140px; object-fit: cover; border: 5px solid white; box-shadow: 0 10px 30px rgba(25,135,84,0.2) !important;" onerror="this.src='https://placehold.co/140x140/198754/fff?text=B&font=Lexend'">
                             <div class="position-absolute bottom-0 end-0 bg-success rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; border: 3px solid white;">
                                 <i class="bi bi-check-lg text-white fs-5"></i>
                             </div>
@@ -483,11 +483,6 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-10">
                 <!-- Letter Header -->
                 <div class="letter-header text-center mb-5">
-                    <div class="row align-items-center justify-content-center mb-4">
-                        <div class="col-auto">
-                            <img src="https://appnomu.com/assets/images/AppNomu%20SalesQ%20logo.png" alt="AppNomu SalesQ Logo" style="height: 60px;">
-                        </div>
-                    </div>
                     <p class="text-muted mb-0">Date: <?= date('F j, Y') ?></p>
                 </div>
 
