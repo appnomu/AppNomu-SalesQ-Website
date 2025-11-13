@@ -1792,6 +1792,223 @@ $currentCountry = get_user_country();
         </div>
     </section>
     
+    <!-- ServiceFlow Feature Spotlight Section -->
+    <section class="serviceflow-spotlight py-5" style="background: #ffffff; padding: 80px 0;">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="800">
+                    <div class="badge bg-warning text-dark px-3 py-2 rounded-pill mb-3 fw-bold">
+                        <i class="bi bi-star-fill me-1"></i> NEW FEATURE
+                    </div>
+                    <h2 class="display-5 fw-bold mb-4">
+                        Introducing <span class="text-success">ServiceFlow</span>
+                    </h2>
+                    <p class="lead text-muted mb-4">
+                        The complete service management solution for professional service businesses. Manage services, send invoices, and get paid—all in one place.
+                    </p>
+                    
+                    <!-- Why It Matters -->
+                    <div class="mb-4 p-4 bg-light rounded-4 border-start border-success border-4">
+                        <h4 class="text-success mb-3"><i class="bi bi-lightbulb-fill me-2"></i>Why It Matters</h4>
+                        <p class="mb-2">Service businesses lose <strong>30% of revenue</strong> to manual invoicing errors and delayed payments. ServiceFlow automates your entire service workflow—from pricing to payment collection—so you can focus on delivering great service while getting paid faster.</p>
+                    </div>
+                    
+                    <!-- Key Benefits -->
+                    <div class="benefits-list mb-4">
+                        <div class="benefit-item d-flex align-items-start mb-3">
+                            <div class="benefit-icon me-3 bg-success bg-opacity-10 rounded-circle p-2 flex-shrink-0">
+                                <i class="bi bi-lightning-charge-fill text-success fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Get Paid 3x Faster</h6>
+                                <p class="text-muted small mb-0">Send invoices via Email, WhatsApp & SMS with one click. Clients can pay instantly through integrated payment gateways.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item d-flex align-items-start mb-3">
+                            <div class="benefit-icon me-3 bg-success bg-opacity-10 rounded-circle p-2 flex-shrink-0">
+                                <i class="bi bi-graph-up-arrow text-success fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Increase Revenue by 40%</h6>
+                                <p class="text-muted small mb-0">Track service performance, identify top services, and optimize pricing with powerful analytics and reports.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item d-flex align-items-start mb-3">
+                            <div class="benefit-icon me-3 bg-success bg-opacity-10 rounded-circle p-2 flex-shrink-0">
+                                <i class="bi bi-clock-history text-success fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Save 10+ Hours Weekly</h6>
+                                <p class="text-muted small mb-0">Automate invoicing, payment tracking, and reporting. No more manual spreadsheets or chasing payments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="<?= url('/features/serviceflow') ?>" class="btn btn-success btn-lg rounded-pill px-4 shadow-lg pulse-animation">
+                            <i class="bi bi-gear-fill me-2"></i>Explore ServiceFlow
+                        </a>
+                        <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=serviceflow_spotlight&utm_campaign=salesq" class="btn btn-outline-success btn-lg rounded-pill px-4" target="_blank" rel="noopener noreferrer">
+                            Start Free Trial
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Visual -->
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800">
+                    <div class="serviceflow-visual position-relative">
+                        <!-- Main Card -->
+                        <div class="main-card bg-white rounded-4 shadow-lg p-4 position-relative" style="border: 2px solid #e9ecef;">
+                            <div class="d-flex align-items-center justify-content-between mb-4 pb-3 border-bottom">
+                                <div>
+                                    <h5 class="mb-1 fw-bold">Service Invoice</h5>
+                                    <p class="text-muted small mb-0">#INV-2024-001</p>
+                                </div>
+                                <span class="badge bg-warning text-dark px-3 py-2">Pending</span>
+                            </div>
+                            
+                            <div class="invoice-details mb-4">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="text-muted">Service:</span>
+                                    <span class="fw-bold">Website Development</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="text-muted">Client:</span>
+                                    <span class="fw-bold">ABC Company Ltd</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-3 pb-3 border-bottom">
+                                    <span class="text-muted">Due Date:</span>
+                                    <span class="fw-bold">Dec 31, 2024</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-muted">Total Amount:</span>
+                                    <span class="h4 text-success fw-bold mb-0">UGX 2,500,000</span>
+                                </div>
+                            </div>
+                            
+                            <div class="send-options">
+                                <p class="text-muted small mb-2"><i class="bi bi-send-fill me-2"></i>Send invoice via:</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-sm btn-primary rounded-pill">
+                                        <i class="bi bi-envelope-fill me-1"></i> Email
+                                    </button>
+                                    <button class="btn btn-sm btn-success rounded-pill">
+                                        <i class="bi bi-whatsapp me-1"></i> WhatsApp
+                                    </button>
+                                    <button class="btn btn-sm btn-info rounded-pill">
+                                        <i class="bi bi-chat-dots-fill me-1"></i> SMS
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Payment Badge -->
+                        <div class="position-absolute" style="top: -20px; right: -20px;" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="bg-success text-white rounded-4 shadow-lg p-3" style="min-width: 180px;">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="bi bi-credit-card-fill me-2"></i>
+                                    <span class="small fw-bold">Payment Options</span>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-white text-success" style="font-size: 0.7rem;">Flutterwave</span>
+                                    <span class="badge bg-white text-success" style="font-size: 0.7rem;">PayPal</span>
+                                    <span class="badge bg-white text-success" style="font-size: 0.7rem;">Stripe</span>
+                                    <span class="badge bg-white text-success" style="font-size: 0.7rem;">Mobile Money</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Stats Badge -->
+                        <div class="position-absolute" style="bottom: -20px; left: -20px;" data-aos="zoom-in" data-aos-delay="600">
+                            <div class="bg-white rounded-4 shadow-lg p-3 border border-success" style="min-width: 160px;">
+                                <div class="text-center">
+                                    <i class="bi bi-graph-up text-success fs-3 mb-2"></i>
+                                    <h6 class="text-success fw-bold mb-0">+40% Revenue</h6>
+                                    <p class="text-muted small mb-0">This Month</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Feature Highlights Row -->
+            <div class="row g-4 mt-5" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-3 col-6">
+                    <div class="text-center p-3 bg-light rounded-4 h-100">
+                        <i class="bi bi-gear-fill text-success fs-2 mb-2"></i>
+                        <h6 class="fw-bold mb-1">Service Management</h6>
+                        <p class="text-muted small mb-0">Unlimited services & pricing</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="text-center p-3 bg-light rounded-4 h-100">
+                        <i class="bi bi-send-fill text-success fs-2 mb-2"></i>
+                        <h6 class="fw-bold mb-1">Multi-Channel Invoicing</h6>
+                        <p class="text-muted small mb-0">Email, WhatsApp & SMS</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="text-center p-3 bg-light rounded-4 h-100">
+                        <i class="bi bi-wallet2 text-success fs-2 mb-2"></i>
+                        <h6 class="fw-bold mb-1">Payment Integration</h6>
+                        <p class="text-muted small mb-0">4+ payment gateways</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="text-center p-3 bg-light rounded-4 h-100">
+                        <i class="bi bi-bar-chart-fill text-success fs-2 mb-2"></i>
+                        <h6 class="fw-bold mb-1">Advanced Reports</h6>
+                        <p class="text-muted small mb-0">Revenue & client analytics</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Availability Notice -->
+            <div class="alert alert-info border-0 mt-5 text-center" role="alert" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-info-circle-fill me-2"></i>
+                <strong>ServiceFlow is available exclusively for Premium & Enterprise users.</strong> 
+                <a href="<?= url('/pricing') ?>" class="alert-link">View pricing plans →</a>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+    .serviceflow-spotlight .benefit-icon {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .serviceflow-visual {
+        transform-style: preserve-3d;
+        perspective: 1000px;
+    }
+    
+    .serviceflow-visual .main-card {
+        transition: all 0.3s ease;
+    }
+    
+    .serviceflow-visual:hover .main-card {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(25, 135, 84, 0.15) !important;
+    }
+    
+    @media (max-width: 991px) {
+        .serviceflow-visual .position-absolute {
+            position: relative !important;
+            top: auto !important;
+            right: auto !important;
+            bottom: auto !important;
+            left: auto !important;
+            margin-top: 1rem;
+        }
+    }
+    </style>
+    
     <style>
     .bg-gradient {
         background: linear-gradient(135deg, #198754 0%, #20c997 100%);

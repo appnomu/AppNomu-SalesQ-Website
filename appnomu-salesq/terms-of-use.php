@@ -25,7 +25,7 @@ ob_start();
         <div class="row align-items-center">
             <div class="col-lg-7" data-aos="fade-right" data-aos-duration="800">
                 <h1 class="mb-3 display-5 fw-bold">Terms of Use</h1>
-                <p class="lead">Last updated: September 12, 2025</p>
+                <p class="lead">Last updated: November 13, 2025</p>
                 <p class="mb-0">Clear, transparent terms governing your use of AppNomu SalesQ services and platform.</p>
             </div>
             <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left" data-aos-duration="800">
@@ -122,6 +122,22 @@ ob_start();
                                 <p class="mb-0 small">SMS, voice calls, and communication services</p>
                             </div>
                         </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3 text-success">
+                                        <i class="bi bi-gear-fill"></i>
+                                    </div>
+                                    <h5 class="mb-0">ServiceFlow</h5>
+                                </div>
+                                <p class="mb-0 small">Service management, invoicing, and payment processing (Premium & Enterprise)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-info border-0 mt-4" data-aos="fade-up">
+                        <i class="bi bi-info-circle me-2"></i>
+                        <strong>ServiceFlow Feature:</strong> Available exclusively for Premium and Enterprise users. Includes service management, multi-channel invoicing (Email, WhatsApp, SMS), payment gateway integration (Flutterwave, PayPal, Stripe, Mobile Money, Bank Transfers, Cash), and comprehensive reporting.
                     </div>
                 </div>
 
@@ -148,6 +164,17 @@ ob_start();
                             <li><strong>Non-refundable:</strong> Once a voice call is initiated and delivered, charges cannot be refunded regardless of call duration or completion status</li>
                             <li><strong>Immediate billing:</strong> Charges are applied immediately upon call initiation</li>
                             <li><strong>Available in Africa:</strong> Service available in all African countries except Nigeria</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-info bg-opacity-10 rounded-3">
+                        <h4 class="text-info mb-3">ServiceFlow Payment Processing</h4>
+                        <p>For ServiceFlow users (Premium & Enterprise plans):</p>
+                        <ul class="mb-0">
+                            <li><strong>Payment Gateway Fees:</strong> Third-party payment processors (Flutterwave, PayPal, Stripe) charge their own transaction fees. These fees are separate from your AppNomu SalesQ subscription and are deducted by the payment provider.</li>
+                            <li><strong>Client Payments:</strong> Payments received from your clients through ServiceFlow invoices are processed directly by your chosen payment gateway and deposited to your connected account.</li>
+                            <li><strong>Payment Responsibility:</strong> You are responsible for maintaining valid payment gateway accounts and ensuring compliance with their terms of service.</li>
+                            <li><strong>Invoice Delivery:</strong> SMS and WhatsApp invoice delivery may incur additional messaging charges based on your plan and usage.</li>
                         </ul>
                     </div>
                 </div>

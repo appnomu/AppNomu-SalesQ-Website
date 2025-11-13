@@ -358,6 +358,7 @@ function getTrans($key, $default = '') {
                         <a href="<?= url('/features/airtime') ?>" class="dropdown-item"><?= getTrans('features.airtime', 'Airtime') ?></a>
                         <a href="<?= url('/features/crm') ?>" class="dropdown-item"><?= getTrans('features.crm.title', 'CRM') ?></a>
                         <div class="dropdown-divider"></div>
+                        <a href="<?= url('/features/serviceflow') ?>" class="dropdown-item"><i class="bi bi-gear-fill me-2 text-success"></i><?= getTrans('features.serviceflow', 'ServiceFlow') ?></a>
                         <a href="<?= url('/features/product-sales-management') ?>" class="dropdown-item"><?= getTrans('features.products', 'Product & Sales') ?></a>
                         <a href="<?= url('/features/salesq-ai') ?>" class="dropdown-item"><?= getTrans('features.ai', 'SalesQ AI') ?></a>
                         <a href="<?= url('/features/low-stock-alert') ?>" class="dropdown-item"><?= getTrans('features.low_stock', 'Low Stock Alert') ?></a>

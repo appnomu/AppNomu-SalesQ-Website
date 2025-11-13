@@ -25,7 +25,7 @@ ob_start();
         <div class="row align-items-center">
             <div class="col-lg-7" data-aos="fade-right" data-aos-duration="800">
                 <h1 class="mb-3 display-5 fw-bold">Privacy Policy</h1>
-                <p class="lead">Last updated: September 12, 2025</p>
+                <p class="lead">Last updated: November 13, 2025</p>
                 <p class="mb-0">Learn how we collect, use, and protect your personal information in accordance with Ugandan data protection laws.</p>
             </div>
             <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left" data-aos-duration="800">
@@ -76,8 +76,9 @@ ob_start();
                                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Account information:</strong> Name, email, business details</li>
                                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Profile information:</strong> Profile picture, contact details</li>
                                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Business data:</strong> Sales records, inventory, customer information</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service data:</strong> Service descriptions, pricing, invoices, service completion records, client service history</li>
                                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice data:</strong> Voice call logs, delivery status, call analytics, uploaded MP3 files</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Payment information:</strong> Billing details, transaction history</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Payment information:</strong> Billing details, transaction history, payment gateway credentials</li>
                                     <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication preferences:</strong> Notification settings, contact preferences</li>
                                 </ul>
 
@@ -119,7 +120,8 @@ ob_start();
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Personalization:</strong> Customizing your experience</li>
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Transactions:</strong> Processing your payments and purchases</li>
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication:</strong> Sending administrative information</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice services:</strong> Processing and delivering voice calls, analytics</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice services:</strong> Processing and delivering voice calls, analytics</li>
+                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service management:</strong> Managing service invoices, receipts, and payment processing</li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
@@ -127,7 +129,8 @@ ob_start();
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Support:</strong> Providing customer assistance</li>
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Analytics:</strong> Analyzing and improving our services</li>
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Security:</strong> Detecting and preventing fraud</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Legal compliance:</strong> Meeting regulatory requirements</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Legal compliance:</strong> Meeting regulatory requirements</li>
+                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Invoice delivery:</strong> Sending invoices via Email, WhatsApp, and SMS</li>
                                         </ul>
                                     </div>
                                 </div>
