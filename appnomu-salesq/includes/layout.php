@@ -822,7 +822,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
                     // Intercom Live Chat for Non-Logged-In Users
                     window.intercomSettings = {
                         api_base: "https://api-iam.intercom.io",
-                        app_id: "yheuwluy"
+                        app_id: "2sfvra7"
                     };
 
                     // Load Intercom script
@@ -843,7 +843,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
                                 var s=d.createElement('script');
                                 s.type='text/javascript';
                                 s.async=true;
-                                s.src='https://widget.intercom.io/widget/yheuwluy';
+                                s.src='https://widget.intercom.io/widget/2sfvra7';
                                 s.onerror=function(){
                                     console.error('Failed to load Intercom widget');
                                 };
