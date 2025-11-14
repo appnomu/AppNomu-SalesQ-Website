@@ -36,6 +36,9 @@ $csp = [
           "https://appnomu.com " .
           "https://cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
     
+    // Allow inline event handlers (onclick, onerror, etc.)
+    "script-src-attr 'unsafe-inline' 'unsafe-hashes'",
+    
     // Other resource types
     "style-src 'self' 'unsafe-inline' https: https://fonts.googleapis.com https://cdn.jsdelivr.net",
     "img-src 'self' data: https: blob: https://*.intercom.io https://*.intercomcdn.com https://js.intercomcdn.com",
@@ -822,7 +825,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
                     // Intercom Live Chat for Non-Logged-In Users
                     window.intercomSettings = {
                         api_base: "https://api-iam.intercom.io",
-                        app_id: "2sfvra7"
+                        app_id: "j2sfvra7"
                     };
 
                     // Load Intercom script
@@ -843,7 +846,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
                                 var s=d.createElement('script');
                                 s.type='text/javascript';
                                 s.async=true;
-                                s.src='https://widget.intercom.io/widget/2sfvra7';
+                                s.src='https://widget.intercom.io/widget/j2sfvra7';
                                 s.onerror=function(){
                                     console.error('Failed to load Intercom widget');
                                 };
