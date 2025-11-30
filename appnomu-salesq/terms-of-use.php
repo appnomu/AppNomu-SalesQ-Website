@@ -195,11 +195,12 @@ ob_start();
                         </div>
                         <div class="col-md-6">
                             <ul class="list-unstyled">
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Analytics:</strong> Google Analytics</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Analytics:</strong> Google Analytics, Mixpanel</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Live Chat:</strong> Intercom</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication:</strong> Slack, Microsoft Teams</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Video & Scheduling:</strong> Zoom, Calendly</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>SMS Services:</strong> Infobip</li>
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice Services:</strong> Voice broadcasting providers</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Infrastructure:</strong> Cloudflare CDN</li>
                             </ul>
                         </div>
                     </div>

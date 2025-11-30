@@ -91,6 +91,15 @@ ob_start();
                                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Location information:</strong> Based on IP address</li>
                                     <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Cookies:</strong> Tracking technologies for improved user experience</li>
                                 </ul>
+
+                                <h6 class="text-success mt-4 mb-3">Analytics & Tracking Technologies</h6>
+                                <p>We use the following services to analyze usage and improve our platform:</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Mixpanel:</strong> Product analytics and session recording to understand user behavior</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Google Analytics:</strong> Website traffic analysis and visitor insights</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Intercom:</strong> Live chat support and customer communication</li>
+                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Cloudflare:</strong> Security, performance optimization, and CDN services</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -186,6 +195,33 @@ ob_start();
                                                     <span class="badge bg-success bg-opacity-10 text-success">HubSpot</span>
                                                     <span class="badge bg-success bg-opacity-10 text-success">Mailchimp</span>
                                                     <span class="badge bg-success bg-opacity-10 text-success">Zoom</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row g-3 mb-4">
+                                    <div class="col-md-6">
+                                        <div class="card border-0 bg-light">
+                                            <div class="card-body p-3">
+                                                <h6 class="text-success mb-2">Analytics & Live Chat</h6>
+                                                <div class="d-flex flex-wrap gap-1">
+                                                    <span class="badge bg-success bg-opacity-10 text-success">Mixpanel</span>
+                                                    <span class="badge bg-success bg-opacity-10 text-success">Google Analytics</span>
+                                                    <span class="badge bg-success bg-opacity-10 text-success">Intercom</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card border-0 bg-light">
+                                            <div class="card-body p-3">
+                                                <h6 class="text-success mb-2">Infrastructure & Security</h6>
+                                                <div class="d-flex flex-wrap gap-1">
+                                                    <span class="badge bg-success bg-opacity-10 text-success">Cloudflare</span>
+                                                    <span class="badge bg-success bg-opacity-10 text-success">Infobip SMS</span>
+                                                    <span class="badge bg-success bg-opacity-10 text-success">SMTP Email</span>
                                                 </div>
                                             </div>
                                         </div>
