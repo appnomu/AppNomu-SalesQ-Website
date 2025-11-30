@@ -348,6 +348,11 @@ function getTrans($key, $default = '') {
                 <li class="nav-item">
                     <a href="<?= url('/affiliate') ?>" class="nav-link"><?= getTrans('affiliate', 'Affiliate') ?></a>
                 </li>
+                <li class="nav-item">
+                    <a href="<?= url('/mobile-app') ?>" class="nav-link" style="color: #198754;">
+                        <i class="bi bi-phone me-1"></i><?= getTrans('mobile_app', 'Mobile App') ?>
+                    </a>
+                </li>
                 
                 <!-- Features Dropdown -->
                 <li class="nav-item dropdown">
