@@ -610,6 +610,81 @@ ob_start();
     
     /* Mobile devices (max-width: 767px) */
     @media (max-width: 767.98px) {
+        /* DISABLE ALL HOVER ANIMATIONS ON MOBILE */
+        .pricing-card,
+        .enterprise-card,
+        .addon-card,
+        .pricing-icon-enhanced,
+        .feature-list-enhanced,
+        .btn-enhanced,
+        .value-highlight {
+            transform: none !important;
+            transition: none !important;
+        }
+        
+        .pricing-card:hover,
+        .enterprise-card:hover,
+        .addon-card:hover {
+            transform: none !important;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+        }
+        
+        .pricing-icon-enhanced:hover {
+            transform: none !important;
+        }
+        
+        .feature-list-enhanced:hover {
+            transform: none !important;
+        }
+        
+        .btn-enhanced:hover {
+            transform: none !important;
+        }
+        
+        /* Disable smoke animations on mobile */
+        .smoke-container {
+            display: none !important;
+        }
+        
+        /* Disable floating animations */
+        .roi-calculator::before {
+            animation: none !important;
+        }
+        
+        /* Disable pulse animations */
+        .popular-badge {
+            animation: none !important;
+        }
+        
+        .save-badge {
+            animation: none !important;
+        }
+        
+        /* Disable gradient rotation */
+        .pricing-icon-enhanced::before {
+            animation: none !important;
+            display: none !important;
+        }
+        
+        /* Disable card top border animation */
+        .pricing-card::before,
+        .addon-card::before {
+            transform: scaleX(1) !important;
+            transition: none !important;
+        }
+        
+        /* CRITICAL: Disable 3D perspective that causes tilting */
+        .row[style*="perspective"] {
+            perspective: none !important;
+        }
+        
+        /* Disable AOS animations on mobile */
+        [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+        
         .hero-section {
             padding: 2rem 0 2.5rem 0 !important;
         }
