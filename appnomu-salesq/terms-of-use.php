@@ -49,11 +49,6 @@ ob_start();
                     <p>By accessing or using AppNomu SalesQ, you agree to be bound by these Terms of Use. We encourage you to read through each section carefully to understand how our platform works and what we expect from our valued users.</p>
                     
                     <p>Our terms are designed to be fair, transparent, and in compliance with Ugandan law while supporting businesses across East Africa and beyond.</p>
-                    
-                    <div class="alert alert-success border-0 mt-3 mb-0">
-                        <i class="bi bi-phone me-2"></i>
-                        <strong>Mobile App:</strong> These terms also apply to our AppNomu SalesQ mobile application (Version 1.0.2). See sections 9-11 below for mobile app specific terms.
-                    </div>
                 </div>
 
                 <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
@@ -343,107 +338,33 @@ ob_start();
                     </div>
                 </div>
 
-                <!-- 9. Mobile App Wallet & Payments -->
+                <!-- 9. Mobile App Specific Terms -->
                 <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
-                    <h3 class="text-success mb-4"><i class="bi bi-wallet2 me-2"></i>9. Mobile App Wallet & Payments</h3>
+                    <h3 class="text-success mb-4"><i class="bi bi-phone me-2"></i>9. Mobile App Specific Terms</h3>
                     
-                    <p>The AppNomu SalesQ mobile app (v1.0.2) includes wallet and payment features:</p>
+                    <p>The following additional terms apply to our mobile application (v1.0.2):</p>
                     
                     <div class="my-4 p-4 bg-light rounded-3 border-start border-success border-3">
-                        <h4 class="text-success mb-3">Wallet Features</h4>
+                        <h4 class="text-success mb-3">Wallet & Payments</h4>
                         <ul class="mb-0">
                             <li class="mb-2"><strong>Wallet Top-Up:</strong> Add funds via Flutterwave (card payments, mobile money)</li>
                             <li class="mb-2"><strong>Airtime Purchase:</strong> Buy airtime for MTN and Airtel networks</li>
-                            <li class="mb-2"><strong>Transaction History:</strong> All transactions are recorded in your account</li>
-                            <li class="mb-0"><strong>Withdrawals:</strong> Available to linked bank accounts (optional)</li>
+                            <li class="mb-0"><strong>Payment Processing:</strong> Card details are processed by Flutterwave and never stored on our servers</li>
                         </ul>
                     </div>
                     
-                    <div class="my-4 p-4 bg-info bg-opacity-10 rounded-3">
-                        <h4 class="text-info mb-3">Payment Processing</h4>
-                        <p class="mb-0">Payments are processed by Flutterwave. Your payment card details are processed directly by Flutterwave and are never stored on our servers. By using payment features, you also agree to Flutterwave's terms of service.</p>
-                    </div>
-                </div>
-
-                <!-- 10. Mobile App Funding Terms -->
-                <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
-                    <h3 class="text-success mb-4"><i class="bi bi-cash-stack me-2"></i>10. Mobile App Funding Terms</h3>
-                    
-                    <p>Business funding through our mobile app is subject to the following terms:</p>
-                    
-                    <div class="row g-4 mt-3">
-                        <div class="col-md-6">
-                            <div class="card border-0 bg-light h-100">
-                                <div class="card-body p-3">
-                                    <h6 class="text-success mb-3">Eligibility Requirements</h6>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Active sales history on the platform</li>
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Valid business registration</li>
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> National ID verification</li>
-                                        <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> Minimum business revenue threshold</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card border-0 bg-light h-100">
-                                <div class="card-body p-3">
-                                    <h6 class="text-success mb-3">Your Obligations</h6>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Provide accurate information</li>
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Repay according to agreed terms</li>
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Notify us of any changes</li>
-                                        <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> Use funds for stated purpose</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="my-4 p-4 bg-warning bg-opacity-10 rounded-3">
+                        <h4 class="text-warning mb-3">Business Funding</h4>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Eligibility:</strong> Based on sales history, business revenue, and verification documents</li>
+                            <li class="mb-2"><strong>Repayment:</strong> Must be repaid according to agreed terms and schedule</li>
+                            <li class="mb-0"><strong>Default:</strong> May result in account restrictions and legal action</li>
+                        </ul>
                     </div>
                     
-                    <div class="alert alert-warning border-0 mt-4">
-                        <div class="d-flex align-items-start">
-                            <i class="bi bi-exclamation-triangle me-3 fs-4"></i>
-                            <div>
-                                <h6 class="mb-1">Default Consequences</h6>
-                                <p class="mb-0">Failure to repay funding according to agreed terms may result in account restrictions, reporting to credit bureaus, and legal action to recover outstanding amounts.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 11. Mobile App Account & Data -->
-                <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
-                    <h3 class="text-success mb-4"><i class="bi bi-person-gear me-2"></i>11. Mobile App Account & Data</h3>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <h6 class="text-success mb-3">Your Data Rights</h6>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Export your sales data and reports</li>
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Control notification preferences</li>
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Request full data export</li>
-                                <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> Delete your account anytime</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <h6 class="text-success mb-3">Account Security</h6>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Keep your credentials secure</li>
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Enable PIN/biometric protection</li>
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Report unauthorized access</li>
-                                <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> Log out on shared devices</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="alert alert-danger border-0 mt-4">
-                        <div class="d-flex align-items-start">
-                            <i class="bi bi-trash me-3 fs-4"></i>
-                            <div>
-                                <h6 class="mb-1">Account Deletion</h6>
-                                <p class="mb-0">You can delete your account via <strong>Profile > Delete Account</strong> in the app, or by contacting <a href="mailto:support@appnomu.com" class="text-danger">support@appnomu.com</a>. Your data will be permanently deleted within 30 days, except where retention is required by law.</p>
-                            </div>
-                        </div>
+                    <div class="my-4 p-4 bg-danger bg-opacity-10 rounded-3">
+                        <h4 class="text-danger mb-3">Account Deletion</h4>
+                        <p class="mb-0">You can delete your account via <strong>Profile > Delete Account</strong> in the app, or by contacting support@appnomu.com. Data is permanently deleted within 30 days, except where retention is required by law.</p>
                     </div>
                 </div>
 
@@ -451,7 +372,7 @@ ob_start();
                     <div class="d-flex align-items-center">
                         <i class="bi bi-info-circle text-success me-3" style="font-size: 1.5rem;"></i>
                         <div>
-                            <p class="mb-0">These Terms of Use are effective as of <strong>November 30, 2025</strong> and apply to AppNomu SalesQ web platform and mobile app (v1.0.2). These terms may be updated from time to time.</p>
+                            <p class="mb-0">These Terms of Use are effective as of <strong>November 30, 2025</strong> and apply to our web platform and mobile app (v1.0.2). They may be updated from time to time.</p>
                         </div>
                     </div>
                 </div>

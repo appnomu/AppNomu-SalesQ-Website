@@ -49,11 +49,6 @@ ob_start();
                     <p>We believe in transparency and your right to understand how your data is handled. This policy covers all aspects of data processing within our business management platform.</p>
                     
                     <p>Your trust is essential to our business, and we work hard to earn and maintain it through responsible data practices.</p>
-                    
-                    <div class="alert alert-success border-0 mt-3 mb-0">
-                        <i class="bi bi-phone me-2"></i>
-                        <strong>Mobile App:</strong> This policy also applies to our AppNomu SalesQ mobile application (Version 1.0.2). See sections 7-9 below for mobile app specific information.
-                    </div>
                 </div>
 
                 <div class="accordion accordion-flush" id="privacyAccordion">
@@ -351,7 +346,7 @@ ob_start();
                         </div>
                     </div>
 
-                    <!-- 7. Mobile App Data Collection -->
+                    <!-- 7. Mobile App Specific Data -->
                     <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section7" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
@@ -360,179 +355,40 @@ ob_start();
                                         <i class="bi bi-phone fs-4"></i>
                                     </div>
                                     <div class="flex-grow-1">
-                                        <div class="fw-bold">7. Mobile App Data Collection</div>
-                                        <small class="text-muted">Data collected by our mobile application (v1.0.2)</small>
+                                        <div class="fw-bold">7. Mobile App Specific Data</div>
+                                        <small class="text-muted">Additional data collected by our mobile application (v1.0.2)</small>
                                     </div>
                                 </div>
                             </button>
                         </h2>
                         <div id="section7" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
                             <div class="accordion-body p-4">
-                                <h6 class="text-success mb-3">Account & Business Data</h6>
-                                <div class="row g-3 mb-4">
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Registration Data</h6>
-                                                <ul class="list-unstyled small mb-0">
-                                                    <li><i class="bi bi-dot text-success"></i> Full name, email, phone number</li>
-                                                    <li><i class="bi bi-dot text-success"></i> Password (stored hashed)</li>
-                                                    <li><i class="bi bi-dot text-success"></i> Country, currency preference</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Business Data</h6>
-                                                <ul class="list-unstyled small mb-0">
-                                                    <li><i class="bi bi-dot text-success"></i> Business name, type, address</li>
-                                                    <li><i class="bi bi-dot text-success"></i> Business registration (for funding)</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <h6 class="text-success mb-3">Financial & Transaction Data</h6>
+                                <p>In addition to the data described above, our mobile app collects:</p>
+                                
+                                <h6 class="text-success mb-3">Wallet & Financial Data</h6>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Wallet balance:</strong> For in-app transactions</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Transaction history:</strong> Record keeping</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Wallet balance:</strong> For in-app transactions and airtime purchases</li>
                                     <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Mobile money number:</strong> For payments (shared with MTN/Airtel)</li>
                                     <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Payment card details:</strong> NOT stored - processed directly by Flutterwave</li>
                                 </ul>
 
                                 <h6 class="text-success mb-3">Funding Application Data</h6>
-                                <p class="small text-muted">If you apply for business funding:</p>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Requested amount, loan purpose, repayment period</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Business revenue and sales history (shared with credit assessment partners)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> National ID and business documents (stored encrypted)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Funding requests:</strong> Amount, purpose, repayment period</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Eligibility data:</strong> Business revenue, sales history (shared with credit assessment partners)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Verification documents:</strong> National ID, business documents (stored encrypted)</li>
                                 </ul>
 
-                                <h6 class="text-success mb-3">Device & Technical Data</h6>
+                                <h6 class="text-success mb-3">Device Data</h6>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Device type, operating system, app version</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Crash reports and error logs (for debugging)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Country (from IP address) for localization</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Device info:</strong> Device type, OS version, app version</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Crash reports:</strong> For debugging (via Firebase)</li>
                                     <li class="mb-0"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>GPS Location:</strong> NOT collected</li>
                                 </ul>
 
                                 <div class="alert alert-info border-0 mt-4 mb-0">
                                     <i class="bi bi-info-circle me-2"></i>
-                                    <strong>Local Storage:</strong> The app uses secure local storage for user preferences, cached data, and offline sales. PIN and biometric settings are stored in secure storage with encryption.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 8. Mobile App Third-Party Services -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section8" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-diagram-3 fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">8. Mobile App Third-Party Services</div>
-                                        <small class="text-muted">Services we share data with in the mobile app</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section8" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <div class="table-responsive mb-4">
-                                    <table class="table table-sm table-bordered">
-                                        <thead class="table-success">
-                                            <tr><th>Service</th><th>Data Shared</th><th>Purpose</th></tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr><td><strong>Flutterwave</strong></td><td>Payment details, amount, user ID</td><td>Wallet top-up, payments</td></tr>
-                                            <tr><td><strong>MTN/Airtel</strong></td><td>Phone number, amount</td><td>Airtime purchase</td></tr>
-                                            <tr><td><strong>Intercom</strong></td><td>Name, email, user ID</td><td>Live chat support</td></tr>
-                                            <tr><td><strong>SMS Provider</strong></td><td>Phone number</td><td>OTP, alerts</td></tr>
-                                            <tr><td><strong>Firebase</strong></td><td>Crash reports, performance</td><td>App stability</td></tr>
-                                            <tr><td><strong>Credit Partners</strong></td><td>Sales history, business data</td><td>Funding eligibility</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                                <h6 class="text-success mb-3">Data Storage & Security</h6>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <ul class="list-unstyled small">
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> TLS 1.3 encryption in transit</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> AES-256 encryption at rest</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> Daily encrypted backups</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <ul class="list-unstyled small">
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Passwords hashed (never plain text)</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Secure cloud servers</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> Role-based access controls</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 9. Mobile App User Rights & Controls -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section9" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-sliders fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">9. Mobile App User Rights & Controls</div>
-                                        <small class="text-muted">Your controls and data deletion options</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section9" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <h6 class="text-success mb-3">What You Can Do</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> View all personal data in your Profile</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Edit your personal information</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Export sales data and reports</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Delete individual records</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Control notification preferences</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> Opt-out of marketing communications</li>
-                                </ul>
-
-                                <div class="alert alert-warning border-0 mt-4">
-                                    <div class="d-flex align-items-start">
-                                        <i class="bi bi-trash me-3 fs-4"></i>
-                                        <div>
-                                            <h6 class="mb-1">Account Deletion</h6>
-                                            <p class="mb-0">Delete your account via <strong>Profile > Delete Account</strong> in the app, or contact <a href="mailto:support@appnomu.com" class="text-dark">support@appnomu.com</a>. Data is permanently deleted within 30 days.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <h6 class="text-success mt-4 mb-3">Data Retention (Mobile App)</h6>
-                                <div class="table-responsive">
-                                    <table class="table table-sm table-bordered mb-0">
-                                        <tbody>
-                                            <tr><td>Account Data</td><td>Until deletion + 30 days</td></tr>
-                                            <tr><td>Sales & Transaction Data</td><td>7 years (financial regulations)</td></tr>
-                                            <tr><td>Support Communications</td><td>3 years</td></tr>
-                                            <tr><td>Analytics Data</td><td>2 years (anonymized)</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                                <div class="alert alert-danger border-0 mt-4 mb-0">
-                                    <i class="bi bi-exclamation-octagon me-2"></i>
-                                    <strong>Age Requirement:</strong> The AppNomu SalesQ mobile app is intended for users 18 years and older. We do not knowingly collect data from children under 18.
+                                    <strong>Local Storage:</strong> The app uses secure local storage for offline sales, user preferences, and PIN/biometric settings. All sensitive data is encrypted.
                                 </div>
                             </div>
                         </div>
@@ -544,7 +400,7 @@ ob_start();
                     <div class="d-flex align-items-center">
                         <i class="bi bi-info-circle text-success me-3" style="font-size: 1.5rem;"></i>
                         <div>
-                            <p class="mb-0">This Privacy Policy is effective as of <strong>November 30, 2025</strong> and applies to AppNomu SalesQ web platform and mobile app (v1.0.2). It complies with the Data Protection and Privacy Act of Uganda and other applicable data protection regulations.</p>
+                            <p class="mb-0">This Privacy Policy is effective as of <strong>November 30, 2025</strong> and applies to our web platform and mobile app (v1.0.2). It complies with the Data Protection and Privacy Act of Uganda and other applicable data protection regulations.</p>
                         </div>
                     </div>
                 </div>
