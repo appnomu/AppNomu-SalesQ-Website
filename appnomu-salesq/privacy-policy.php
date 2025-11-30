@@ -25,8 +25,8 @@ ob_start();
         <div class="row align-items-center">
             <div class="col-lg-7" data-aos="fade-right" data-aos-duration="800">
                 <h1 class="mb-3 display-5 fw-bold">Privacy Policy</h1>
-                <p class="lead">Last updated: November 13, 2025</p>
-                <p class="mb-0">Learn how we collect, use, and protect your personal information in accordance with Ugandan data protection laws.</p>
+                <p class="lead">Last updated: November 30, 2025</p>
+                <p class="mb-0">Learn how we collect, use, and protect your personal information across our web platform and mobile application in accordance with Ugandan data protection laws and GDPR.</p>
             </div>
             <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left" data-aos-duration="800">
                 <img src="https://appnomu.com/landing/assets/images/compressed-original.webp" alt="Privacy Policy" class="img-fluid rounded-4 shadow-lg" style="max-height: 300px; object-fit: contain;">
@@ -44,11 +44,18 @@ ob_start();
                 <div class="p-4 bg-light rounded-3 shadow-sm border-start border-success border-3" data-aos="fade-up">
                     <h3 class="text-success mb-3">Your Privacy Matters</h3>
                     
-                    <p class="lead">At AppNomu SalesQ, we are committed to protecting your privacy and personal data. This policy explains how we collect, use, and safeguard your information in compliance with Ugandan data protection laws.</p>
+                    <p class="lead">At AppNomu SalesQ Limited, we are committed to protecting your privacy and personal data. This policy explains how we collect, use, and safeguard your information across our web platform and mobile application (Version 1.0.2) in compliance with Ugandan data protection laws and GDPR.</p>
                     
-                    <p>We believe in transparency and your right to understand how your data is handled. This policy covers all aspects of data processing within our business management platform.</p>
+                    <p>We believe in transparency and your right to understand how your data is handled. This policy covers all aspects of data processing within our business management platform, including sales tracking, inventory management, customer relationship management, and funding services.</p>
                     
-                    <p>Your trust is essential to our business, and we work hard to earn and maintain it through responsible data practices.</p>
+                    <p>Your trust is essential to our business, and we work hard to earn and maintain it through responsible data practices. This policy applies to users in Uganda and globally.</p>
+                    
+                    <div class="mt-3 p-3 bg-white rounded border">
+                        <strong class="text-success"><i class="bi bi-building me-2"></i>Data Controller:</strong><br>
+                        AppNomu SalesQ Limited<br>
+                        Kampala, Uganda<br>
+                        Website: <a href="https://appnomu.com" class="text-success">https://appnomu.com</a>
+                    </div>
                 </div>
 
                 <div class="accordion accordion-flush" id="privacyAccordion">
@@ -70,27 +77,88 @@ ob_start();
                         </h2>
                         <div id="section1" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
                             <div class="accordion-body p-4">
-                                <h6 class="text-success mb-3">Information You Provide</h6>
-                                <p>When you use AppNomu SalesQ, we collect information that you provide directly to us:</p>
+                                <h6 class="text-success mb-3"><i class="bi bi-person me-2"></i>1.1 Account Registration Data</h6>
+                                <p>When you create an account on AppNomu SalesQ, we collect:</p>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Account information:</strong> Name, email, business details</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Profile information:</strong> Profile picture, contact details</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Business data:</strong> Sales records, inventory, customer information</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service data:</strong> Service descriptions, pricing, invoices, service completion records, client service history</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice data:</strong> Voice call logs, delivery status, call analytics, uploaded MP3 files</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Payment information:</strong> Billing details, transaction history, payment gateway credentials</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication preferences:</strong> Notification settings, contact preferences</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Full Name:</strong> For user identification (stored on server and locally)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Email Address:</strong> For login and notifications (shared with email service provider)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Phone Number:</strong> For account verification and support (shared with SMS provider)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Password:</strong> For authentication (stored hashed on server only)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Country:</strong> For localization and compliance</li>
+                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Currency Preference:</strong> For display formatting</li>
                                 </ul>
 
-                                <h6 class="text-success mt-4 mb-3">Automatically Collected Information</h6>
-                                <p>We automatically collect certain information when you use our services:</p>
+                                <h6 class="text-success mt-4 mb-3"><i class="bi bi-briefcase me-2"></i>1.2 Business Information</h6>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Device information:</strong> Browser type, operating system, IP address</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Usage data:</strong> How you interact with our application, features used, time spent</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Log data:</strong> Access times, pages viewed, system activity</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Location information:</strong> Based on IP address</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Cookies:</strong> Tracking technologies for improved user experience</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Business Name:</strong> For business identification</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Business Type:</strong> For analytics and recommendations</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Business Address:</strong> For funding verification</li>
+                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Business Registration:</strong> For funding eligibility</li>
                                 </ul>
+
+                                <h6 class="text-success mt-4 mb-3"><i class="bi bi-wallet2 me-2"></i>1.3 Financial Information</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Wallet Balance:</strong> For in-app transactions (server only)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Transaction History:</strong> For record keeping</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Payment Card Details:</strong> For wallet top-up (NOT stored - processed by Flutterwave)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Mobile Money Number:</strong> For payments (shared with payment providers)</li>
+                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Bank Account (optional):</strong> For withdrawals (stored encrypted, shared with banking partners)</li>
+                                </ul>
+
+                                <h6 class="text-success mt-4 mb-3"><i class="bi bi-cart me-2"></i>1.4 Business Data</h6>
+                                <p>We collect and store the following business operational data:</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="fw-bold text-muted mb-2">Sales Data:</p>
+                                        <ul class="list-unstyled small">
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Sale amount, date/time</li>
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Products sold, payment method</li>
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Customer (if linked), sale notes</li>
+                                        </ul>
+                                        <p class="fw-bold text-muted mb-2 mt-3">Product/Inventory Data:</p>
+                                        <ul class="list-unstyled small">
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Product name, description, price</li>
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Cost price, stock quantity</li>
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Product images, SKU/barcode, category</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="fw-bold text-muted mb-2">Customer Data:</p>
+                                        <ul class="list-unstyled small">
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Customer name, phone, email</li>
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Address, purchase history, notes</li>
+                                        </ul>
+                                        <p class="fw-bold text-muted mb-2 mt-3">Service & Expense Data:</p>
+                                        <ul class="list-unstyled small">
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Service name, price, description</li>
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Expense amount, category, date</li>
+                                            <li class="mb-1"><i class="bi bi-dot text-success"></i> Receipt images (cloud storage)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <h6 class="text-success mt-4 mb-3"><i class="bi bi-cash-stack me-2"></i>1.5 Funding Application Data</h6>
+                                <p>If you apply for funding through our platform:</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Funding Request:</strong> Requested amount, loan purpose, repayment period</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Eligibility Data:</strong> Business revenue, sales history (shared with credit assessment partners)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Verification Documents:</strong> National ID, business documents (stored encrypted, shared with verification services)</li>
+                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Repayment Data:</strong> Repayment amounts, dates, outstanding balance</li>
+                                </ul>
+
+                                <h6 class="text-success mt-4 mb-3"><i class="bi bi-phone me-2"></i>1.6 Device & Technical Data</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Device Information:</strong> Device type, operating system, app version</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Usage Data:</strong> Screen views, feature usage, session duration (anonymized)</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Crash Reports & Error Logs:</strong> For bug fixing and debugging</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Location (from IP):</strong> Country-level for localization</li>
+                                    <li class="mb-0"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>GPS Location:</strong> NOT COLLECTED</li>
+                                </ul>
+
+                                <div class="alert alert-info border-0 mt-4 mb-0">
+                                    <i class="bi bi-info-circle me-2"></i>
+                                    <strong>Mobile App Note:</strong> Our mobile app uses local storage (AsyncStorage) for user preferences and cached data, and secure storage for PIN and biometric settings. All sensitive data is encrypted at rest.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -118,21 +186,43 @@ ob_start();
                                         <ul class="list-unstyled">
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service provision:</strong> Providing and maintaining our services</li>
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Personalization:</strong> Customizing your experience</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Transactions:</strong> Processing your payments and purchases</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication:</strong> Sending administrative information</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice services:</strong> Processing and delivering voice calls, analytics</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service management:</strong> Managing service invoices, receipts, and payment processing</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Transactions:</strong> Processing payments and wallet top-ups</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Funding:</strong> Assessing funding eligibility and processing applications</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication:</strong> Sending notifications and updates</li>
+                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service management:</strong> Managing invoices, receipts, and records</li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Support:</strong> Providing customer assistance</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Analytics:</strong> Analyzing and improving our services</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Support:</strong> Providing customer assistance via Intercom, WhatsApp, email</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Analytics:</strong> Analyzing and improving app performance</li>
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Security:</strong> Detecting and preventing fraud</li>
                                             <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Legal compliance:</strong> Meeting regulatory requirements</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Invoice delivery:</strong> Sending invoices via Email, WhatsApp, and SMS</li>
+                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Credit scoring:</strong> Evaluating funding applications based on sales history</li>
                                         </ul>
                                     </div>
+                                </div>
+
+                                <h6 class="text-success mt-4 mb-3">Legal Basis for Processing (GDPR Compliance)</h6>
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-bordered mb-0">
+                                        <thead class="table-success">
+                                            <tr>
+                                                <th>Processing Activity</th>
+                                                <th>Legal Basis</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>Account creation</td><td>Contract performance</td></tr>
+                                            <tr><td>Sales tracking</td><td>Contract performance</td></tr>
+                                            <tr><td>Payment processing</td><td>Contract performance</td></tr>
+                                            <tr><td>Funding applications</td><td>Contract performance</td></tr>
+                                            <tr><td>Marketing emails</td><td>Consent</td></tr>
+                                            <tr><td>Analytics</td><td>Legitimate interest</td></tr>
+                                            <tr><td>Security monitoring</td><td>Legitimate interest</td></tr>
+                                            <tr><td>Legal compliance</td><td>Legal obligation</td></tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -160,42 +250,60 @@ ob_start();
                                     <strong>API Security:</strong> All API keys and authentication tokens are encrypted using AES-256 encryption. We cannot read your credentials in plain text.
                                 </div>
 
-                                <h6 class="text-success mb-3">Supported Integrations</h6>
-                                <div class="row g-3 mb-4">
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Payment & Mobile Money</h6>
-                                                <div class="d-flex flex-wrap gap-1">
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Flutterwave</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Stripe</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">PayPal</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Airtel Money</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">MTN MoMo</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Communication & CRM</h6>
-                                                <div class="d-flex flex-wrap gap-1">
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Slack</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Teams</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">HubSpot</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Mailchimp</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Zoom</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <h6 class="text-success mb-3">Payment Processing Partners</h6>
+                                <div class="table-responsive mb-4">
+                                    <table class="table table-sm table-bordered">
+                                        <thead class="table-light">
+                                            <tr><th>Service</th><th>Data Shared</th><th>Purpose</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td><strong>Flutterwave</strong></td><td>Payment details, amount, user ID</td><td>Wallet top-up, payments</td></tr>
+                                            <tr><td><strong>MTN Mobile Money</strong></td><td>Phone number, amount</td><td>Airtime purchase, payments</td></tr>
+                                            <tr><td><strong>Airtel Money</strong></td><td>Phone number, amount</td><td>Airtime purchase, payments</td></tr>
+                                        </tbody>
+                                    </table>
                                 </div>
 
-                                <h6 class="text-success mb-3">What We Do NOT Access</h6>
+                                <h6 class="text-success mb-3">Communication Services</h6>
+                                <div class="table-responsive mb-4">
+                                    <table class="table table-sm table-bordered">
+                                        <thead class="table-light">
+                                            <tr><th>Service</th><th>Data Shared</th><th>Purpose</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td><strong>Intercom</strong></td><td>Name, email, user ID</td><td>Live chat support</td></tr>
+                                            <tr><td><strong>WhatsApp</strong></td><td>Phone number (user-initiated)</td><td>Customer support</td></tr>
+                                            <tr><td><strong>Email Provider</strong></td><td>Email address</td><td>Notifications, updates</td></tr>
+                                            <tr><td><strong>SMS Provider</strong></td><td>Phone number</td><td>OTP, alerts</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h6 class="text-success mb-3">Analytics Services</h6>
+                                <div class="table-responsive mb-4">
+                                    <table class="table table-sm table-bordered">
+                                        <thead class="table-light">
+                                            <tr><th>Service</th><th>Data Shared</th><th>Purpose</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td><strong>Google Analytics</strong></td><td>Anonymized usage data</td><td>App analytics</td></tr>
+                                            <tr><td><strong>Firebase</strong></td><td>Crash reports, performance data</td><td>App stability</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h6 class="text-success mb-3">Credit Assessment (for Funding)</h6>
+                                <p class="small text-muted mb-3">When you apply for funding, we share relevant data with credit assessment partners:</p>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>API Keys:</strong> We cannot read your encrypted API keys or authentication tokens</li>
-                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Private Data:</strong> We do not access private data beyond what's necessary for functionality</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Sales history and business revenue</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Business verification documents</li>
+                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> Identity verification data</li>
+                                </ul>
+
+                                <h6 class="text-success mt-4 mb-3">What We Do NOT Access</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Payment Card Details:</strong> Processed directly by Flutterwave, never stored by us</li>
+                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>GPS Location:</strong> We do not collect precise location data</li>
                                     <li class="mb-0"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Unauthorized Data:</strong> We only access data you explicitly authorize</li>
                                 </ul>
                             </div>
@@ -219,33 +327,64 @@ ob_start();
                         </h2>
                         <div id="section4" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
                             <div class="accordion-body p-4">
+                                <h6 class="text-success mb-3"><i class="bi bi-shield-lock me-2"></i>Data Storage & Security</h6>
+                                
+                                <div class="row g-3 mb-4">
+                                    <div class="col-md-6">
+                                        <div class="card border-0 bg-light h-100">
+                                            <div class="card-body p-3">
+                                                <h6 class="text-success mb-2">Local Storage (On Device)</h6>
+                                                <ul class="list-unstyled small mb-0">
+                                                    <li class="mb-1"><i class="bi bi-dot text-success"></i> AsyncStorage: User preferences, cached data, offline sales</li>
+                                                    <li class="mb-1"><i class="bi bi-dot text-success"></i> Secure Storage: PIN, biometric settings</li>
+                                                    <li class="mb-0"><i class="bi bi-dot text-success"></i> Encryption: Sensitive data encrypted at rest</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card border-0 bg-light h-100">
+                                            <div class="card-body p-3">
+                                                <h6 class="text-success mb-2">Server Storage</h6>
+                                                <ul class="list-unstyled small mb-0">
+                                                    <li class="mb-1"><i class="bi bi-dot text-success"></i> Database: Secure cloud servers</li>
+                                                    <li class="mb-1"><i class="bi bi-dot text-success"></i> Encryption: TLS 1.3 in transit, AES-256 at rest</li>
+                                                    <li class="mb-0"><i class="bi bi-dot text-success"></i> Backups: Daily encrypted backups</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="row g-4">
                                     <div class="col-md-6">
                                         <h6 class="text-success mb-3">Security Measures</h6>
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Encryption:</strong> Data in transit and at rest</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Encryption:</strong> TLS 1.3 in transit, AES-256 at rest</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Password Security:</strong> Hashed passwords (never stored in plain text)</li>
                                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Access controls:</strong> Role-based permissions</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Regular assessments:</strong> Security audits and testing</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Incident response:</strong> Defined security procedures</li>
+                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Regular backups:</strong> Daily encrypted backups</li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <h6 class="text-success mb-3">Your Rights</h6>
+                                        <h6 class="text-success mb-3">Your Rights & Controls</h6>
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Access:</strong> Right to access your personal information</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Correction:</strong> Right to correct inaccurate information</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Deletion:</strong> Right to erasure of personal data</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Portability:</strong> Right to data portability</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Access:</strong> View all personal data in Profile</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Edit:</strong> Correct inaccurate information</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Export:</strong> Export sales data and reports</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Delete:</strong> Delete individual records or entire account</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Opt-out:</strong> Control marketing and notification preferences</li>
+                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Portability:</strong> Request full data export via support</li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div class="alert alert-info border-0 mt-4">
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-info-circle me-3 fs-4"></i>
+                                <div class="alert alert-warning border-0 mt-4 mb-0">
+                                    <div class="d-flex align-items-start">
+                                        <i class="bi bi-trash me-3 fs-4"></i>
                                         <div>
-                                            <h6 class="mb-1">Exercise Your Rights</h6>
-                                            <p class="mb-0">Contact our Privacy Officer at <a href="mailto:privacy@appnomu.com" class="text-success">privacy@appnomu.com</a> or call <a href="tel:+256200948420" class="text-success">+256 200 948 420</a>.</p>
+                                            <h6 class="mb-1">Account Deletion</h6>
+                                            <p class="mb-0">You can delete your account via <strong>Profile > Delete Account</strong> in the app, or by contacting <a href="mailto:support@appnomu.com" class="text-dark">support@appnomu.com</a>. Your data will be permanently deleted within 30 days of request.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -275,20 +414,34 @@ ob_start();
                                     <strong>Important:</strong> We do not sell your personal information to third parties. We only share your information as described in this policy.
                                 </div>
 
-                                <h6 class="text-success mb-3">Retention Periods</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Account information:</strong> Retained while your account is active</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Transaction data:</strong> Retained for 7 years per financial regulations</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Airtime purchases:</strong> Mobile numbers retained for 180 days, backups for 5 years</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Communication data:</strong> Retained for 2 years after last interaction</li>
-                                </ul>
+                                <h6 class="text-success mb-3">Data Retention Periods</h6>
+                                <div class="table-responsive mb-4">
+                                    <table class="table table-sm table-bordered">
+                                        <thead class="table-success">
+                                            <tr><th>Data Type</th><th>Retention Period</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>Account Data</td><td>Until account deletion + 30 days</td></tr>
+                                            <tr><td>Sales Data</td><td>7 years (financial records requirement)</td></tr>
+                                            <tr><td>Transaction History</td><td>7 years</td></tr>
+                                            <tr><td>Support Communications</td><td>3 years</td></tr>
+                                            <tr><td>Analytics Data</td><td>2 years (anonymized)</td></tr>
+                                            <tr><td>Deleted Account Data</td><td>30 days then permanently deleted</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
-                                <h6 class="text-success mt-4 mb-3">When We Share Data</h6>
+                                <h6 class="text-success mb-3">When We Share Data</h6>
                                 <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Service providers:</strong> Payment processing, cloud hosting, customer support</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Legal requirements:</strong> When required by law or valid legal requests</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Payment processors:</strong> Flutterwave for wallet top-ups and payments</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Communication services:</strong> Intercom, SMS, and email providers</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Credit assessment partners:</strong> For funding applications only</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Legal authorities:</strong> When required by law</li>
                                     <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Business transfers:</strong> In case of merger, acquisition, or asset sale</li>
                                 </ul>
+
+                                <h6 class="text-success mt-4 mb-3">International Data Transfers</h6>
+                                <p>Data may be processed in countries where our third-party services operate. All transfers comply with applicable data protection laws including GDPR requirements for international transfers.</p>
                             </div>
                         </div>
                     </div>
@@ -310,36 +463,134 @@ ob_start();
                         </h2>
                         <div id="section6" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
                             <div class="accordion-body p-4">
-                                <div class="row g-4">
-                                    <div class="col-md-6">
+                                <div class="row g-3 mb-4">
+                                    <div class="col-md-4">
                                         <div class="card border-0 bg-light h-100">
                                             <div class="card-body p-3 text-center">
-                                                <i class="bi bi-envelope fs-2 text-success mb-3"></i>
-                                                <h6 class="mb-2">Privacy Questions</h6>
-                                                <p class="mb-2"><a href="mailto:privacy@appnomu.com" class="text-success text-decoration-none">privacy@appnomu.com</a></p>
-                                                <small class="text-muted">For privacy and data protection inquiries</small>
+                                                <i class="bi bi-envelope fs-2 text-success mb-2"></i>
+                                                <h6 class="mb-2">Privacy Inquiries</h6>
+                                                <p class="mb-1"><a href="mailto:privacy@appnomu.com" class="text-success text-decoration-none">privacy@appnomu.com</a></p>
+                                                <small class="text-muted">General privacy questions</small>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="card border-0 bg-light h-100">
                                             <div class="card-body p-3 text-center">
-                                                <i class="bi bi-geo-alt fs-2 text-success mb-3"></i>
-                                                <h6 class="mb-2">Our Address</h6>
-                                                <p class="mb-2">77 Market Street<br>Bugiri Municipality, Uganda</p>
-                                                <small class="text-muted">Business hours: Mon-Fri 9AM-5PM EAT</small>
+                                                <i class="bi bi-shield-check fs-2 text-success mb-2"></i>
+                                                <h6 class="mb-2">Data Protection Officer</h6>
+                                                <p class="mb-1"><a href="mailto:dpo@appnomu.com" class="text-success text-decoration-none">dpo@appnomu.com</a></p>
+                                                <small class="text-muted">GDPR & compliance matters</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card border-0 bg-light h-100">
+                                            <div class="card-body p-3 text-center">
+                                                <i class="bi bi-telephone fs-2 text-success mb-2"></i>
+                                                <h6 class="mb-2">Phone Support</h6>
+                                                <p class="mb-1"><a href="tel:+256200948420" class="text-success text-decoration-none">+256 200 948 420</a></p>
+                                                <small class="text-muted">Mon-Fri 9AM-5PM EAT</small>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="alert alert-info border-0 mt-4">
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-info-circle me-3 fs-4"></i>
+                                <div class="card border-0 bg-light mb-4">
+                                    <div class="card-body p-3">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <h6 class="text-success mb-2"><i class="bi bi-building me-2"></i>Company Address</h6>
+                                                <p class="mb-0">AppNomu SalesQ Limited<br>Kampala, Uganda</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h6 class="text-success mb-2"><i class="bi bi-headset me-2"></i>Support</h6>
+                                                <p class="mb-0"><a href="mailto:support@appnomu.com" class="text-success">support@appnomu.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="alert alert-info border-0 mb-0">
+                                    <div class="d-flex align-items-start">
+                                        <i class="bi bi-bell me-3 fs-4"></i>
                                         <div>
                                             <h6 class="mb-1">Policy Updates</h6>
-                                            <p class="mb-0">We may update this Privacy Policy from time to time. We'll notify you of significant changes via email or through the platform.</p>
+                                            <p class="mb-0">We may update this Privacy Policy from time to time. You will be notified of material changes via:
+                                            <br>• In-app notification
+                                            <br>• Email notification
+                                            <br>• App update notes
+                                            <br>Continued use after notification constitutes acceptance.</p>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7. Children's Privacy -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section7" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+                                <div class="d-flex align-items-center w-100">
+                                    <div class="me-3 text-success">
+                                        <i class="bi bi-person-x fs-4"></i>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div class="fw-bold">7. Children's Privacy</div>
+                                        <small class="text-muted">Age requirements and restrictions</small>
+                                    </div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="section7" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
+                            <div class="accordion-body p-4">
+                                <div class="alert alert-danger border-0 mb-3">
+                                    <i class="bi bi-exclamation-octagon me-2"></i>
+                                    <strong>Age Requirement:</strong> AppNomu SalesQ is intended for users 18 years and older only.
+                                </div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> We do not knowingly collect data from children under 18</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Business registration requires adult verification</li>
+                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> If we discover data from a minor, it will be deleted immediately</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8. Cookies & Tracking -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section8" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+                                <div class="d-flex align-items-center w-100">
+                                    <div class="me-3 text-success">
+                                        <i class="bi bi-cookie fs-4"></i>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div class="fw-bold">8. Cookies & Tracking</div>
+                                        <small class="text-muted">How we use cookies and tracking technologies</small>
+                                    </div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="section8" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
+                            <div class="accordion-body p-4">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <h6 class="text-success mb-3"><i class="bi bi-phone me-2"></i>Mobile App</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> No browser cookies used</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Local storage for app functionality only</li>
+                                            <li class="mb-0"><i class="bi bi-x-circle-fill text-danger me-2"></i> No third-party advertising trackers</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6 class="text-success mb-3"><i class="bi bi-globe me-2"></i>Web Dashboard</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Session cookies for authentication</li>
+                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Analytics cookies (with consent)</li>
+                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> Preference cookies for user settings</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -352,7 +603,7 @@ ob_start();
                     <div class="d-flex align-items-center">
                         <i class="bi bi-info-circle text-success me-3" style="font-size: 1.5rem;"></i>
                         <div>
-                            <p class="mb-0">This Privacy Policy is effective as of <strong>September 12, 2025</strong> and complies with the Data Protection and Privacy Act of Uganda and other applicable data protection regulations.</p>
+                            <p class="mb-0">This Privacy Policy is effective as of <strong>November 30, 2025</strong> and applies to AppNomu SalesQ Mobile App (Version 1.0.2) and web platform. It complies with the Data Protection and Privacy Act of Uganda, GDPR, and other applicable data protection regulations.</p>
                         </div>
                     </div>
                 </div>
