@@ -13,7 +13,7 @@ $csp = [
     // Base restrictions
     "default-src 'self' https: data:",
     
-    // Script sources - allow Cloudflare Rocket Loader and Intercom
+    // Script sources - allow Cloudflare Rocket Loader, Intercom, and Mixpanel
     "script-src 'self' 'nonce-{$cspNonce}' 'strict-dynamic' 'unsafe-inline' 'unsafe-eval' " .
           "https: " .
           "https://*.intercomcdn.com " .
@@ -24,6 +24,7 @@ $csp = [
           "https://www.googletagmanager.com " .
           "https://www.google-analytics.com " .
           "https://cdn.jsdelivr.net " .
+          "https://cdn.mxpnl.com " .
           "https://appnomu.com " .
           "https://cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
     
@@ -33,6 +34,7 @@ $csp = [
           "https://*.intercom.io " .
           "https://widget.intercom.io " .
           "https://js.intercomcdn.com " .
+          "https://cdn.mxpnl.com " .
           "https://appnomu.com " .
           "https://cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
     
@@ -45,7 +47,8 @@ $csp = [
     "font-src 'self' data: https: https://fonts.gstatic.com https://cdn.jsdelivr.net",
     "connect-src 'self' https: wss: https://*.intercom.io https://*.intercomcdn.com " .
                "https://*.google-analytics.com https://*.googletagmanager.com " .
-               "https://api-iam.intercom.io https://api-ping.intercom.io https://nexus-websocket-a.intercom.io",
+               "https://api-iam.intercom.io https://api-ping.intercom.io https://nexus-websocket-a.intercom.io " .
+               "https://api-eu.mixpanel.com https://api.mixpanel.com",
     "frame-src 'self' https: *.intercom.io *.intercomcdn.com *.youtube.com *.vimeo.com js.intercomcdn.com",
     "media-src 'self' https: data: https://*.intercomcdn.com",
     "object-src 'none'",
@@ -246,6 +249,17 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
         script.async = true;
         document.body.appendChild(script);
     });
+    </script>
+    <script nonce="<?= $cspNonce ?>" type="text/javascript">
+      (function(e,c){if(!c.__SV){var l,h;window.mixpanel=c;c._i=[];c.init=function(q,r,f){function t(d,a){var g=a.split(".");2==g.length&&(d=d[g[0]],a=g[1]);d[a]=function(){d.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";b.people=b.people||[];b.toString=function(d){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);d||(a+=" (stub)");return a};b.people.toString=function(){return b.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders start_session_recording stop_session_recording people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+      for(h=0;h<l.length;h++)t(b,l[h]);var n="set set_once union unset remove delete".split(" ");b.get_group=function(){function d(p){a[p]=function(){b.push([g,[p].concat(Array.prototype.slice.call(arguments,0))])}}for(var a={},g=["get_group"].concat(Array.prototype.slice.call(arguments,0)),m=0;m<n.length;m++)d(n[m]);return a};c._i.push([q,r,f])};c.__SV=1.2;var k=e.createElement("script");k.type="text/javascript";k.async=!0;k.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===
+      e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=e.getElementsByTagName("script")[0];e.parentNode.insertBefore(k,e)}})(document,window.mixpanel||[])
+
+      mixpanel.init('89d749d90fe67370f9ea3009bb9d4a9a', {
+        autocapture: true,
+        record_sessions_percent: 100,
+      })
+
     </script>
 </head>
 <body>
@@ -696,7 +710,62 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
             resourcesToggle.setAttribute('aria-haspopup', 'true');
         });
     </script>
-    
+    <!-- Subscription Notification Banner -->
+    <div id="subscription-notice" class="subscription-notice" style="display: none;">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="me-3 text-white">
+                    <strong>🚀 Special Offer!</strong> Get started with our Enterprise plan at only <strong>USD25/month</strong> and receive <strong>UGX 1,000 in SMS credit</strong> to test our SMS Marketing platform!
+                </div>
+                <div class="d-flex align-items-center">
+                    <a href="https://www.appnomu.com/register.php?utm_source=notification_banner&utm_medium=website&utm_campaign=enterprise_offer" class="btn btn-light btn-sm me-2">Upgrade Now</a>
+                    <button type="button" class="btn-close btn-close-white" aria-label="Close" id="close-subscription-notice"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .subscription-notice {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #198754;
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 99998;
+            max-width: 90%;
+            width: 600px;
+            animation: slideUp 0.3s ease-out;
+            border: none;
+        }
+
+        @keyframes slideUp {
+            from { transform: translate(-50%, 100%); }
+            to { transform: translate(-50%, 0); }
+        }
+
+        .subscription-notice .btn-close {
+            padding: 0.5rem;
+            background-size: 0.75rem;
+        }
+
+        @media (max-width: 768px) {
+            .subscription-notice {
+                width: 95%;
+                padding: 10px 15px;
+            }
+            
+            .subscription-notice .btn {
+                padding: 0.25rem 0.5rem;
+                font-size: 0.875rem;
+            }
+        }
+    </style>
+
     <script nonce="<?= $cspNonce ?>">
         document.addEventListener('DOMContentLoaded', function() {
             const cookieNotice = document.getElementById('cookie-notice');
@@ -820,50 +889,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
                     gtag('config', 'G-81RYBYKXLC');
                 }
                 
-                // Load Intercom only if marketing cookies are enabled
-                if (prefs.marketing) {
-                    // Intercom Live Chat for Non-Logged-In Users
-                    window.intercomSettings = {
-                        api_base: "https://api-iam.intercom.io",
-                        app_id: "j2sfvra7"
-                    };
-
-                    // Load Intercom script
-                    (function(){
-                        var w=window;
-                        var ic=w.Intercom;
-                        if(typeof ic==="function"){
-                            ic('reattach_activator');
-                            ic('update', w.intercomSettings);
-                        }else{
-                            var d=document;
-                            var i=function(){i.c(arguments);};
-                            i.q=[];
-                            i.c=function(args){i.q.push(args);};
-                            w.Intercom=i;
-                            
-                            function l(){
-                                var s=d.createElement('script');
-                                s.type='text/javascript';
-                                s.async=true;
-                                s.src='https://widget.intercom.io/widget/j2sfvra7';
-                                s.onerror=function(){
-                                    console.error('Failed to load Intercom widget');
-                                };
-                                var x=d.getElementsByTagName('script')[0];
-                                x.parentNode.insertBefore(s,x);
-                            }
-                            
-                            if(document.readyState==='complete'){
-                                l();
-                            }else if(w.attachEvent){
-                                w.attachEvent('onload',l);
-                            }else{
-                                w.addEventListener('load',l,false);
-                            }
-                        }
-                    })();
-                }
+                // Intercom now loads unconditionally elsewhere
             }
             
             // Check for existing preferences and load scripts if needed
@@ -877,61 +903,6 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
             }
         });
     </script>
-    <!-- Subscription Notification Banner -->
-    <div id="subscription-notice" class="subscription-notice" style="display: none;">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="me-3 text-white">
-                    <strong>🚀 Special Offer!</strong> Get started with our Enterprise plan at only <strong>USD25/month</strong> and receive <strong>UGX 1,000 in SMS credit</strong> to test our SMS Marketing platform!
-                </div>
-                <div class="d-flex align-items-center">
-                    <a href="https://www.appnomu.com/register.php?utm_source=notification_banner&utm_medium=website&utm_campaign=enterprise_offer" class="btn btn-light btn-sm me-2">Upgrade Now</a>
-                    <button type="button" class="btn-close btn-close-white" aria-label="Close" id="close-subscription-notice"></button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <style>
-        .subscription-notice {
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #198754;
-            color: #ffffff;
-            padding: 12px 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-            z-index: 99998;
-            max-width: 90%;
-            width: 600px;
-            animation: slideUp 0.3s ease-out;
-            border: none;
-        }
-
-        @keyframes slideUp {
-            from { transform: translate(-50%, 100%); }
-            to { transform: translate(-50%, 0); }
-        }
-
-        .subscription-notice .btn-close {
-            padding: 0.5rem;
-            background-size: 0.75rem;
-        }
-
-        @media (max-width: 768px) {
-            .subscription-notice {
-                width: 95%;
-                padding: 10px 15px;
-            }
-            
-            .subscription-notice .btn {
-                padding: 0.25rem 0.5rem;
-                font-size: 0.875rem;
-            }
-        }
-    </style>
 
     <script nonce="<?= $cspNonce ?>">
         document.addEventListener('DOMContentLoaded', function() {
@@ -965,5 +936,49 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
 
     <!-- Accessibility enhancements -->
     <script src="<?= asset('js/accessibility.js') ?>?v=<?= filemtime(__DIR__ . '/../assets/js/accessibility.js') ?>" nonce="<?= $cspNonce ?>"></script>
+
+    <script nonce="<?= $cspNonce ?>">
+        // Intercom Live Chat for Non-Logged-In Users - always load
+        window.intercomSettings = {
+            api_base: "https://api-iam.intercom.io",
+            app_id: "j2sfvra7"
+        };
+
+        (function(){
+            var w = window;
+            var ic = w.Intercom;
+            if (typeof ic === "function") {
+                ic('reattach_activator');
+                ic('update', w.intercomSettings);
+            } else {
+                var d = document;
+                var i = function() { i.c(arguments); };
+                i.q = [];
+                i.c = function(args) { i.q.push(args); };
+                w.Intercom = i;
+
+                function l() {
+                    var s = d.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'https://widget.intercom.io/widget/j2sfvra7';
+                    s.onerror = function() {
+                        console.error('Failed to load Intercom widget');
+                    };
+                    var x = d.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                }
+
+                if (document.readyState === 'complete') {
+                    l();
+                } else if (w.attachEvent) {
+                    w.attachEvent('onload', l);
+                } else {
+                    w.addEventListener('load', l, false);
+                }
+            }
+        })();
+    </script>
+
 </body>
 </html>
