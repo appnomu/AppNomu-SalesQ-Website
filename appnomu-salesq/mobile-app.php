@@ -40,18 +40,126 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
         color: #212529;
     }
     
-    .feature-card {
-        border-radius: 10px;
+    /* 3D Feature Cards */
+    .feature-card-3d {
+        border-radius: 15px;
+        padding: 1.5rem;
+        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        box-shadow: 
+            0 10px 30px rgba(0, 0, 0, 0.1),
+            0 1px 8px rgba(0, 0, 0, 0.06),
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        transform-style: preserve-3d;
+        position: relative;
         overflow: hidden;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        transition: all 0.3s ease;
         height: 100%;
+        text-align: left;
     }
     
-    .feature-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(25, 135, 84, 0.15);
-        border-color: #198754;
+    .feature-card-3d::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(25, 135, 84, 0.05) 0%, transparent 50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .feature-card-3d:hover {
+        transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-10px) scale(1.02);
+        box-shadow: 
+            0 20px 40px rgba(25, 135, 84, 0.15),
+            0 5px 15px rgba(0, 0, 0, 0.08),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+    
+    .feature-card-3d:hover::before {
+        opacity: 1;
+    }
+    
+    .feature-card-3d .card-icon {
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(135deg, #198754 0%, #20c997 100%);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        box-shadow: 0 8px 20px rgba(25, 135, 84, 0.3);
+        transition: all 0.3s ease;
+        transform: translateZ(20px);
+    }
+    
+    .feature-card-3d:hover .card-icon {
+        transform: translateZ(40px) scale(1.1) rotate(5deg);
+        box-shadow: 0 12px 25px rgba(25, 135, 84, 0.4);
+    }
+    
+    .feature-card-3d .card-icon i {
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .feature-card-3d h5 {
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        color: #212529;
+        transform: translateZ(10px);
+        transition: all 0.3s ease;
+    }
+    
+    .feature-card-3d:hover h5 {
+        transform: translateZ(20px);
+        color: #198754;
+    }
+    
+    .feature-card-3d p {
+        color: #6c757d;
+        margin-bottom: 0;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        transform: translateZ(5px);
+        transition: all 0.3s ease;
+    }
+    
+    .feature-card-3d:hover p {
+        transform: translateZ(15px);
+    }
+    
+    /* Shine effect */
+    .feature-card-3d::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            45deg,
+            transparent 40%,
+            rgba(255, 255, 255, 0.3) 50%,
+            transparent 60%
+        );
+        transform: translateX(-100%) translateY(-100%) rotate(45deg);
+        transition: transform 0.6s ease;
+        pointer-events: none;
+    }
+    
+    .feature-card-3d:hover::after {
+        transform: translateX(100%) translateY(100%) rotate(45deg);
+    }
+    
+    /* Mobile adjustments for 3D cards */
+    @media (max-width: 768px) {
+        .feature-card-3d:hover {
+            transform: perspective(1000px) rotateX(3deg) rotateY(-3deg) translateY(-5px) scale(1.01);
+        }
     }
     
     .feature-icon-sm {
@@ -316,74 +424,62 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
         
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-clock text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Real-Time Access</h5>
-                        <p class="text-muted mb-0">Check your sales, inventory levels, and customer data instantly. Your business data is always at your fingertips.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
                     </div>
+                    <h5>Real-Time Access</h5>
+                    <p>Check your sales, inventory levels, and customer data instantly. Your business data is always at your fingertips.</p>
                 </div>
             </div>
             
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-wifi text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Works Offline</h5>
-                        <p class="text-muted mb-0">No internet? No problem. Record sales and manage inventory offline. Everything syncs automatically when you're back online.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-wifi"></i>
                     </div>
+                    <h5>Works Offline</h5>
+                    <p>No internet? No problem. Record sales and manage inventory offline. Everything syncs automatically when you're back online.</p>
                 </div>
             </div>
             
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-bell text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Instant Notifications</h5>
-                        <p class="text-muted mb-0">Get alerts for low stock, new sales, customer inquiries, and funding updates. Stay informed in real-time.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-bell"></i>
                     </div>
+                    <h5>Instant Notifications</h5>
+                    <p>Get alerts for low stock, new sales, customer inquiries, and funding updates. Stay informed in real-time.</p>
                 </div>
             </div>
             
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-mobile-alt text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Mobile Money Integration</h5>
-                        <p class="text-muted mb-0">Accept payments via MTN Mobile Money and Airtel Money directly from the app. Seamless transactions for you and your customers.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
                     </div>
+                    <h5>Mobile Money Integration</h5>
+                    <p>Accept payments via MTN Mobile Money and Airtel Money directly from the app. Seamless transactions for you and your customers.</p>
                 </div>
             </div>
             
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-shield-alt text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Secure & Private</h5>
-                        <p class="text-muted mb-0">Your data is protected with AES-256 encryption. Biometric login keeps your business information safe.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
                     </div>
+                    <h5>Secure & Private</h5>
+                    <p>Your data is protected with AES-256 encryption. Biometric login keeps your business information safe.</p>
                 </div>
             </div>
             
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-bolt text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Fast & Lightweight</h5>
-                        <p class="text-muted mb-0">Optimized for African networks and devices. Lightweight, fast-loading, and doesn't drain your battery or data.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
                     </div>
+                    <h5>Fast & Lightweight</h5>
+                    <p>Optimized for African networks and devices. Lightweight, fast-loading, and doesn't drain your battery or data.</p>
                 </div>
             </div>
         </div>
@@ -403,79 +499,67 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
         <div class="row g-4" data-aos="fade-up">
             <!-- Service Sales -->
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-concierge-bell text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Service Sales</h5>
-                        <p class="text-muted mb-0">Add services, track service revenue, and record service sales. Perfect for service-based businesses to manage their offerings.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-concierge-bell"></i>
                     </div>
+                    <h5>Service Sales</h5>
+                    <p>Add services, track service revenue, and record service sales. Perfect for service-based businesses to manage their offerings.</p>
                 </div>
             </div>
             
             <!-- Inventory Management -->
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-boxes text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Inventory Management</h5>
-                        <p class="text-muted mb-0">Add new products, manage existing inventory, update stock levels, and keep your product catalog organized.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-boxes"></i>
                     </div>
+                    <h5>Inventory Management</h5>
+                    <p>Add new products, manage existing inventory, update stock levels, and keep your product catalog organized.</p>
                 </div>
             </div>
             
             <!-- Stock Alerts -->
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-exclamation-triangle text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Stock Alerts</h5>
-                        <p class="text-muted mb-0">Get notified when stock runs low. Never miss a sale due to out-of-stock items with smart inventory alerts.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
                     </div>
+                    <h5>Stock Alerts</h5>
+                    <p>Get notified when stock runs low. Never miss a sale due to out-of-stock items with smart inventory alerts.</p>
                 </div>
             </div>
             
             <!-- Contact Management -->
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-address-book text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Contact Management</h5>
-                        <p class="text-muted mb-0">Store and manage customer contacts, track interactions, and build lasting business relationships.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-address-book"></i>
                     </div>
+                    <h5>Contact Management</h5>
+                    <p>Store and manage customer contacts, track interactions, and build lasting business relationships.</p>
                 </div>
             </div>
             
             <!-- Buy Airtime -->
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-phone-volume text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Buy Airtime</h5>
-                        <p class="text-muted mb-0">Purchase airtime for yourself or send to customers directly from the app. Quick and convenient top-ups.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-phone-volume"></i>
                     </div>
+                    <h5>Buy Airtime</h5>
+                    <p>Purchase airtime for yourself or send to customers directly from the app. Quick and convenient top-ups.</p>
                 </div>
             </div>
             
             <!-- Transaction Reports -->
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-file-invoice-dollar text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Transaction Reports</h5>
-                        <p class="text-muted mb-0">View detailed transaction history and reports. Track all your business transactions in one place.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
                     </div>
+                    <h5>Transaction Reports</h5>
+                    <p>View detailed transaction history and reports. Track all your business transactions in one place.</p>
                 </div>
             </div>
         </div>
@@ -495,53 +579,45 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
         <div class="row g-4">
             <!-- Apply for Funding -->
             <div class="col-lg-3 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4 text-center">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-file-signature text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Apply for Funding</h5>
-                        <p class="text-muted mb-0">Submit funding applications quickly and easily. Get the capital you need to grow your business.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-file-signature"></i>
                     </div>
+                    <h5>Apply for Funding</h5>
+                    <p>Submit funding applications quickly and easily. Get the capital you need to grow your business.</p>
                 </div>
             </div>
             
             <!-- Progress Tracking -->
             <div class="col-lg-3 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4 text-center">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-tasks text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Progress Tracking</h5>
-                        <p class="text-muted mb-0">Monitor your funding application status in real-time. Stay updated on every step of the process.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-tasks"></i>
                     </div>
+                    <h5>Progress Tracking</h5>
+                    <p>Monitor your funding application status in real-time. Stay updated on every step of the process.</p>
                 </div>
             </div>
             
             <!-- Withdrawal -->
             <div class="col-lg-3 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4 text-center">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-money-bill-wave text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Withdrawal</h5>
-                        <p class="text-muted mb-0">Withdraw approved funds directly to your Mobile Money or bank account with ease.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-money-bill-wave"></i>
                     </div>
+                    <h5>Withdrawal</h5>
+                    <p>Withdraw approved funds directly to your Mobile Money or bank account with ease.</p>
                 </div>
             </div>
             
             <!-- Repayment -->
             <div class="col-lg-3 col-md-6">
-                <div class="card h-100 border-0 shadow-sm feature-card">
-                    <div class="card-body p-4 text-center">
-                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
-                            <i class="fas fa-hand-holding-usd text-success" style="font-size: 1.75rem; margin: auto;"></i>
-                        </div>
-                        <h5 class="fw-bold mb-3">Repayment</h5>
-                        <p class="text-muted mb-0">Manage loan repayments conveniently from the app. Track your repayment schedule and history.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
                     </div>
+                    <h5>Repayment</h5>
+                    <p>Manage loan repayments conveniently from the app. Track your repayment schedule and history.</p>
                 </div>
             </div>
         </div>
