@@ -13,11 +13,11 @@ ini_set('display_errors', 1);
 $current_page = 'mobile-app';
 
 // Set page metadata
-$page_title = 'SalesQ Mobile App | Manage Your Business On-The-Go | AppNomu SalesQ';
-$page_description = 'Download the SalesQ Mobile App for iOS and Android. Manage sales, track inventory, send SMS campaigns, access business funding, and grow your business from anywhere. Available on Google Play and App Store.';
+$page_title = 'AppNomu SalesQ Mobile App | Manage Your Business On-The-Go';
+$page_description = 'Download the AppNomu SalesQ App for iOS and Android. Manage sales, track inventory, access business funding, and grow your business from anywhere. Available on Google Play and App Store.';
 
 // Set page-specific keywords for SEO
-$page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa, Sales Management App, Inventory App, Business Funding App, Mobile Money Integration, SMS Marketing App, Android Business App, iOS Business App, Small Business App Africa';
+$page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa, Sales Management App, Inventory App, Business Funding App, Mobile Money Integration, Android Business App, iOS Business App, Small Business App Africa';
 ?>
 
 <style>
@@ -363,7 +363,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <h1>SalesQ <span class="text-success">Mobile App</span></h1>
+                <h1>AppNomu SalesQ <span class="text-success">Mobile App</span></h1>
                 <p class="lead mb-4">Your complete business management solution, now in your pocket. Manage sales, inventory, customers, and more - anytime, anywhere.</p>
                 <div class="mb-4">
                     <span class="badge bg-success text-white me-2 mb-2 py-2 px-3"><i class="fas fa-check-circle me-2"></i> Free Download</span>
@@ -400,7 +400,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                 <div class="phone-mockup-simple" data-aos="fade-left" data-aos-delay="200">
                     <div class="phone-screen-simple">
                         <i class="fas fa-chart-line fa-4x mb-3"></i>
-                        <h3 class="fw-bold mb-2">SalesQ</h3>
+                        <h3 class="fw-bold mb-2">AppNomu SalesQ</h3>
                         <p class="mb-3">Your Business Dashboard</p>
                         <span class="badge bg-white bg-opacity-25 px-3 py-2 rounded-pill">
                             <i class="fas fa-bolt me-1"></i> Live Sync Enabled
@@ -686,38 +686,38 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <h2 class="mb-4">How to <span class="text-success">Get Started</span></h2>
-                <p class="lead">Getting started with the SalesQ Mobile App is quick and easy</p>
+                <p class="lead">Getting started with the AppNomu SalesQ App is quick and easy</p>
             </div>
         </div>
         
         <div class="row g-4 justify-content-center">
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm text-center feature-card">
-                    <div class="card-body p-4">
-                        <div class="step-number">1</div>
-                        <h5 class="fw-bold mb-3">Download the App</h5>
-                        <p class="text-muted mb-0">Get the SalesQ app from Google Play Store or Apple App Store. It's free to download and takes less than a minute.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-download"></i>
                     </div>
+                    <h5>1. Download the App</h5>
+                    <p>Get the AppNomu SalesQ App from Google Play Store or Apple App Store. It's free to download and takes less than a minute.</p>
                 </div>
             </div>
             
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm text-center feature-card">
-                    <div class="card-body p-4">
-                        <div class="step-number">2</div>
-                        <h5 class="fw-bold mb-3">Create Your Account</h5>
-                        <p class="text-muted mb-0">Sign up with your phone number or email. Add your business details and you're ready to go. Already have a web account? Just log in!</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-user-plus"></i>
                     </div>
+                    <h5>2. Create Your Account</h5>
+                    <p>Sign up with your phone number or email. Add your business details and you're ready to go. Already have a web account? Just log in!</p>
                 </div>
             </div>
             
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm text-center feature-card">
-                    <div class="card-body p-4">
-                        <div class="step-number">3</div>
-                        <h5 class="fw-bold mb-3">Start Managing</h5>
-                        <p class="text-muted mb-0">Add your products, record your first sale, and explore all the features. Your data syncs automatically with the web platform.</p>
+                <div class="feature-card-3d">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
                     </div>
+                    <h5>3. Start Managing</h5>
+                    <p>Add your products, record your first sale, and explore all the features. Your data syncs automatically with the web platform.</p>
                 </div>
             </div>
         </div>
@@ -744,7 +744,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                         <i class="fas fa-star text-warning"></i>
                         <i class="fas fa-star text-warning"></i>
                     </div>
-                    <p class="mb-4">"The SalesQ mobile app has transformed how I manage my hobby business. I can track sales, manage inventory, and access funding - all from my phone. The offline mode is perfect for when I'm at markets without good network coverage!"</p>
+                    <p class="mb-4">"The AppNomu SalesQ App has transformed how I manage my hobby business. I can track sales, manage inventory, and access funding - all from my phone. The offline mode is perfect for when I'm at markets without good network coverage!"</p>
                     <div class="d-flex align-items-center">
                         <div class="bg-success rounded-circle p-2 me-3" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-user text-white"></i>
@@ -766,7 +766,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                         <i class="fas fa-star text-warning"></i>
                         <i class="fas fa-star text-warning"></i>
                     </div>
-                    <p class="mb-4">"As a tech company owner, I needed a solution that could keep up with our fast-paced operations. SalesQ mobile app delivers exactly that. The real-time sync between web and mobile means I'm always up to date, whether I'm in the office or meeting clients."</p>
+                    <p class="mb-4">"As a tech company owner, I needed a solution that could keep up with our fast-paced operations. AppNomu SalesQ App delivers exactly that. The real-time sync between web and mobile means I'm always up to date, whether I'm in the office or meeting clients."</p>
                     <div class="d-flex align-items-center">
                         <div class="bg-success rounded-circle p-2 me-3" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-user text-white"></i>
@@ -788,7 +788,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                         <i class="fas fa-star text-warning"></i>
                         <i class="fas fa-star text-warning"></i>
                     </div>
-                    <p class="mb-4">"Running an agribusiness means I'm often in the field with limited connectivity. The SalesQ app's offline capability has been a game-changer. I can record transactions anywhere and everything syncs when I'm back online. Highly recommended for agricultural businesses!"</p>
+                    <p class="mb-4">"Running an agribusiness means I'm often in the field with limited connectivity. The AppNomu SalesQ App's offline capability has been a game-changer. I can record transactions anywhere and everything syncs when I'm back online. Highly recommended for agricultural businesses!"</p>
                     <div class="d-flex align-items-center">
                         <div class="bg-success rounded-circle p-2 me-3" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-user text-white"></i>
@@ -810,7 +810,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <h2 class="mb-4">Frequently Asked <span class="text-success">Questions</span></h2>
-                <p class="lead">Everything you need to know about the SalesQ Mobile App</p>
+                <p class="lead">Everything you need to know about the AppNomu SalesQ App</p>
             </div>
         </div>
         
@@ -820,7 +820,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                     <div class="accordion-item border-0 mb-3 shadow-sm rounded">
                         <h2 class="accordion-header">
                             <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                <i class="fas fa-question-circle text-success me-2"></i> Is the SalesQ Mobile App free?
+                                <i class="fas fa-question-circle text-success me-2"></i> Is the AppNomu SalesQ App free?
                             </button>
                         </h2>
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
@@ -851,7 +851,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                         </h2>
                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Absolutely! Your SalesQ account works across all platforms. Data syncs in real-time between the web dashboard and mobile app.
+                                Absolutely! Your AppNomu SalesQ account works across all platforms. Data syncs in real-time between the web dashboard and mobile app.
                             </div>
                         </div>
                     </div>
@@ -907,7 +907,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
             <div class="col-lg-7 mb-4 mb-lg-0">
                 <h2 class="fw-bold mb-3">Ready to Transform Your Business?</h2>
                 <p class="lead opacity-90 mb-0">
-                    Join thousands of African entrepreneurs who are growing their businesses with SalesQ Mobile App.
+                    Join thousands of African entrepreneurs who are growing their businesses with the AppNomu SalesQ App.
                 </p>
             </div>
             <div class="col-lg-5 text-lg-end">
