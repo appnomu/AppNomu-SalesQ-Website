@@ -95,32 +95,85 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
         align-items: center;
         background: #212529;
         color: white;
-        padding: 10px 20px;
-        border-radius: 8px;
+        padding: 12px 24px;
+        border-radius: 10px;
         text-decoration: none;
         transition: all 0.3s ease;
+        border: 2px solid #212529;
     }
     
     .app-store-btn:hover {
-        background: #198754;
+        background: #000;
+        border-color: #000;
         color: white;
-        transform: translateY(-2px);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     }
     
-    .app-store-btn i {
-        font-size: 1.5rem;
-        margin-right: 10px;
+    .app-store-btn .app-store-icon {
+        margin-right: 12px;
+        flex-shrink: 0;
+    }
+    
+    .app-store-btn .btn-text {
+        text-align: left;
     }
     
     .app-store-btn .btn-text small {
         display: block;
-        font-size: 0.7rem;
+        font-size: 0.65rem;
         opacity: 0.8;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
     }
     
     .app-store-btn .btn-text span {
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 600;
+        line-height: 1.2;
+    }
+    
+    /* CTA section app download buttons */
+    .app-download-btn {
+        display: inline-flex;
+        align-items: center;
+        background: white;
+        color: #212529;
+        padding: 12px 24px;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: 2px solid white;
+    }
+    
+    .app-download-btn:hover {
+        background: rgba(255,255,255,0.9);
+        color: #198754;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    
+    .app-download-btn .app-store-icon {
+        margin-right: 12px;
+        flex-shrink: 0;
+    }
+    
+    .app-download-btn .btn-text {
+        text-align: left;
+    }
+    
+    .app-download-btn .btn-text small {
+        display: block;
+        font-size: 0.65rem;
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .app-download-btn .btn-text span {
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1.2;
     }
     
     .phone-mockup-simple {
@@ -211,14 +264,18 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                 </div>
                 <div class="d-flex flex-wrap gap-3 mb-4">
                     <a href="#" class="app-store-btn">
-                        <i class="bi bi-google-play"></i>
+                        <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                            <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 0 1 0 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.802 8.99l-2.303 2.303-8.635-8.635z"/>
+                        </svg>
                         <div class="btn-text">
                             <small>GET IT ON</small>
                             <span>Google Play</span>
                         </div>
                     </a>
                     <a href="#" class="app-store-btn">
-                        <i class="bi bi-apple"></i>
+                        <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
                         <div class="btn-text">
                             <small>DOWNLOAD ON</small>
                             <span>App Store</span>
@@ -333,108 +390,91 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
     </div>
 </section>
 
-<!-- App Features Section -->
+<!-- Core App Features Section -->
 <section class="py-5 bg-light">
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="mb-4">App <span class="text-success">Features</span></h2>
+                <h2 class="mb-4">Core App <span class="text-success">Features</span></h2>
                 <p class="lead">Everything you need to manage your business, all in one app</p>
             </div>
         </div>
         
-        <div class="row g-4 align-items-center mb-5" data-aos="fade-up">
-            <div class="col-lg-6">
-                <h3 class="mb-4"><i class="fas fa-star text-warning me-2"></i>Core App Features</h3>
-                <div class="mb-4">
-                    <div class="d-flex">
-                        <div class="feature-icon-sm rounded p-3 me-3" style="background: linear-gradient(45deg, #198754, #20c997); box-shadow: 0 4px 6px rgba(25, 135, 84, 0.2);">
-                            <i class="fas fa-shopping-cart text-white"></i>
+        <div class="row g-4" data-aos="fade-up">
+            <!-- Service Sales -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-concierge-bell text-success" style="font-size: 1.75rem; margin: auto;"></i>
                         </div>
-                        <div>
-                            <h5><i class="fas fa-receipt text-success me-2"></i>Sales Management</h5>
-                            <p>Record sales, generate receipts, and track daily revenue. View sales history and analytics to understand your business performance.</p>
-                        </div>
+                        <h5 class="fw-bold mb-3">Service Sales</h5>
+                        <p class="text-muted mb-0">Add services, track service revenue, and record service sales. Perfect for service-based businesses to manage their offerings.</p>
                     </div>
-                </div>
-                
-                <div class="mb-4">
-                    <div class="d-flex">
-                        <div class="feature-icon-sm rounded p-3 me-3" style="background: linear-gradient(45deg, #198754, #20c997); box-shadow: 0 4px 6px rgba(25, 135, 84, 0.2);">
-                            <i class="fas fa-boxes text-white"></i>
-                        </div>
-                        <div>
-                            <h5><i class="fas fa-box text-success me-2"></i>Inventory Control</h5>
-                            <p>Add products, update stock levels, and get low-stock alerts. Scan barcodes for quick product lookup and management.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mb-4">
-                    <div class="d-flex">
-                        <div class="feature-icon-sm rounded p-3 me-3" style="background: linear-gradient(45deg, #198754, #20c997); box-shadow: 0 4px 6px rgba(25, 135, 84, 0.2);">
-                            <i class="fas fa-users text-white"></i>
-                        </div>
-                        <div>
-                            <h5><i class="fas fa-user-friends text-success me-2"></i>Customer Management</h5>
-                            <p>Store customer details, track purchase history, and build lasting relationships with personalized engagement.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mb-4">
-                    <div class="d-flex">
-                        <div class="feature-icon-sm rounded p-3 me-3" style="background: linear-gradient(45deg, #198754, #20c997); box-shadow: 0 4px 6px rgba(25, 135, 84, 0.2);">
-                            <i class="fas fa-sms text-white"></i>
-                        </div>
-                        <div>
-                            <h5><i class="fas fa-comment-dots text-success me-2"></i>SMS Campaigns</h5>
-                            <p>Send bulk SMS to customers directly from the app. Promote offers, send reminders, and keep your customers informed.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="mt-4">
-                    <a href="https://www.appnomu.com/register.php?utm_source=website&utm_medium=mobile_app&utm_campaign=features" class="btn btn-success rounded-pill px-4 shadow-lg pulse-animation">Get Started Free</a>
                 </div>
             </div>
             
-            <div class="col-lg-6">
-                <div class="bg-white rounded-3 shadow-lg p-4">
-                    <div class="d-flex align-items-center mb-3 border-bottom pb-3">
-                        <div class="bg-success rounded-circle p-3 me-3">
-                            <i class="fas fa-mobile-alt text-white fa-2x"></i>
+            <!-- Inventory Management -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-boxes text-success" style="font-size: 1.75rem; margin: auto;"></i>
                         </div>
-                        <h4 class="mb-0">App Dashboard Preview</h4>
+                        <h5 class="fw-bold mb-3">Inventory Management</h5>
+                        <p class="text-muted mb-0">Add new products, manage existing inventory, update stock levels, and keep your product catalog organized.</p>
                     </div>
-                    <div class="row text-center">
-                        <div class="col-6 mb-3">
-                            <div class="p-3 border rounded hover-lift">
-                                <i class="fas fa-chart-line text-success fa-2x mb-2"></i>
-                                <h6 class="mb-0">Sales Analytics</h6>
-                            </div>
+                </div>
+            </div>
+            
+            <!-- Stock Alerts -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-exclamation-triangle text-success" style="font-size: 1.75rem; margin: auto;"></i>
                         </div>
-                        <div class="col-6 mb-3">
-                            <div class="p-3 border rounded hover-lift">
-                                <i class="fas fa-box-open text-success fa-2x mb-2"></i>
-                                <h6 class="mb-0">Inventory</h6>
-                            </div>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <div class="p-3 border rounded hover-lift">
-                                <i class="fas fa-users text-success fa-2x mb-2"></i>
-                                <h6 class="mb-0">Customers</h6>
-                            </div>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <div class="p-3 border rounded hover-lift">
-                                <i class="fas fa-wallet text-success fa-2x mb-2"></i>
-                                <h6 class="mb-0">Wallet</h6>
-                            </div>
-                        </div>
+                        <h5 class="fw-bold mb-3">Stock Alerts</h5>
+                        <p class="text-muted mb-0">Get notified when stock runs low. Never miss a sale due to out-of-stock items with smart inventory alerts.</p>
                     </div>
-                    <div class="text-center mt-3">
-                        <span class="badge bg-success py-2 px-3"><i class="fas fa-sync me-1"></i> Real-time Sync with Web</span>
+                </div>
+            </div>
+            
+            <!-- Contact Management -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-address-book text-success" style="font-size: 1.75rem; margin: auto;"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Contact Management</h5>
+                        <p class="text-muted mb-0">Store and manage customer contacts, track interactions, and build lasting business relationships.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Buy Airtime -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-phone-volume text-success" style="font-size: 1.75rem; margin: auto;"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Buy Airtime</h5>
+                        <p class="text-muted mb-0">Purchase airtime for yourself or send to customers directly from the app. Quick and convenient top-ups.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Transaction Reports -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-file-invoice-dollar text-success" style="font-size: 1.75rem; margin: auto;"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Transaction Reports</h5>
+                        <p class="text-muted mb-0">View detailed transaction history and reports. Track all your business transactions in one place.</p>
                     </div>
                 </div>
             </div>
@@ -442,93 +482,122 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
     </div>
 </section>
 
-<!-- Business Funding & Wallet Section -->
+<!-- Business Funding Section -->
 <section class="py-5" data-aos="fade-up">
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="mb-4">Wallet & <span class="text-success">Business Funding</span></h2>
-                <p class="lead">Access capital and manage your finances directly from the app</p>
+                <h2 class="mb-4">Business <span class="text-success">Funding</span></h2>
+                <p class="lead">Access capital to grow your business directly from the app</p>
             </div>
         </div>
         
-        <div class="row g-4 align-items-center">
-            <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-                <div class="position-relative bg-white p-4 rounded shadow-lg">
-                    <div class="position-absolute" style="top: -15px; right: -15px; background-color: #198754; padding: 10px 15px; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                        <span class="fw-bold text-white small">In-App Wallet</span>
+        <div class="row g-4">
+            <!-- Apply for Funding -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4 text-center">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-file-signature text-success" style="font-size: 1.75rem; margin: auto;"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Apply for Funding</h5>
+                        <p class="text-muted mb-0">Submit funding applications quickly and easily. Get the capital you need to grow your business.</p>
                     </div>
-                    
-                    <h5 class="mb-4"><i class="fas fa-wallet text-success me-2"></i>Wallet Features</h5>
-                    <ul class="list-unstyled mb-0">
-                        <li class="d-flex align-items-center mb-3 p-2 border rounded hover-lift">
-                            <i class="fas fa-check-circle text-success me-3"></i>
-                            <span>Top up via Mobile Money (MTN, Airtel)</span>
-                        </li>
-                        <li class="d-flex align-items-center mb-3 p-2 border rounded hover-lift">
-                            <i class="fas fa-check-circle text-success me-3"></i>
-                            <span>Pay for SMS credits and subscriptions</span>
-                        </li>
-                        <li class="d-flex align-items-center mb-3 p-2 border rounded hover-lift">
-                            <i class="fas fa-check-circle text-success me-3"></i>
-                            <span>Buy airtime for yourself or customers</span>
-                        </li>
-                        <li class="d-flex align-items-center mb-3 p-2 border rounded hover-lift">
-                            <i class="fas fa-check-circle text-success me-3"></i>
-                            <span>Transfer funds to bank accounts</span>
-                        </li>
-                        <li class="d-flex align-items-center p-2 border rounded hover-lift">
-                            <i class="fas fa-check-circle text-success me-3"></i>
-                            <span>View complete transaction history</span>
-                        </li>
-                    </ul>
                 </div>
             </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="pe-lg-4">
-                    <h3 class="mb-4"><i class="fas fa-hand-holding-usd text-warning me-2"></i>Access Business Funding</h3>
-                    <p class="lead mb-4">Need capital to grow your business? Apply for business funding directly from the app.</p>
-                    
-                    <div class="row g-3 mb-4">
-                        <div class="col-sm-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body text-center p-3">
-                                    <i class="fas fa-bolt text-success fa-2x mb-2"></i>
-                                    <h6 class="fw-bold mb-1">Quick Application</h6>
-                                    <small class="text-muted">Apply in under 5 minutes</small>
+            
+            <!-- Progress Tracking -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4 text-center">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-tasks text-success" style="font-size: 1.75rem; margin: auto;"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Progress Tracking</h5>
+                        <p class="text-muted mb-0">Monitor your funding application status in real-time. Stay updated on every step of the process.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Withdrawal -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4 text-center">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-money-bill-wave text-success" style="font-size: 1.75rem; margin: auto;"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Withdrawal</h5>
+                        <p class="text-muted mb-0">Withdraw approved funds directly to your Mobile Money or bank account with ease.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Repayment -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 shadow-sm feature-card">
+                    <div class="card-body p-4 text-center">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-flex mb-3" style="width: 70px; height: 70px;">
+                            <i class="fas fa-hand-holding-usd text-success" style="font-size: 1.75rem; margin: auto;"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Repayment</h5>
+                        <p class="text-muted mb-0">Manage loan repayments conveniently from the app. Track your repayment schedule and history.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Real-Time Sync Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h2 class="mb-4"><i class="fas fa-sync-alt text-success me-2"></i>Real-Time <span class="text-success">Sync</span></h2>
+                <p class="lead mb-4">Your mobile app stays perfectly synchronized with the web application. Any changes you make on one platform are instantly reflected on the other.</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                        <span>Seamless data synchronization between mobile and web</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                        <span>Access your business data from any device</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                        <span>Offline mode with automatic sync when back online</span>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <i class="fas fa-check-circle text-success me-3 fa-lg"></i>
+                        <span>Never lose your data with cloud backup</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 text-center">
+                <div class="position-relative">
+                    <div class="bg-white rounded-4 shadow-lg p-4 d-inline-block">
+                        <div class="d-flex align-items-center justify-content-center gap-4">
+                            <div class="text-center">
+                                <div class="bg-success bg-opacity-10 rounded-circle p-3 mb-2 mx-auto" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-mobile-alt text-success fa-2x" style="line-height: 56px;"></i>
                                 </div>
+                                <small class="fw-bold">Mobile App</small>
+                            </div>
+                            <div class="text-success">
+                                <i class="fas fa-arrows-alt-h fa-2x"></i>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-success bg-opacity-10 rounded-circle p-3 mb-2 mx-auto" style="width: 80px; height: 80px;">
+                                    <i class="fas fa-desktop text-success fa-2x" style="line-height: 56px;"></i>
+                                </div>
+                                <small class="fw-bold">Web App</small>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body text-center p-3">
-                                    <i class="fas fa-chart-line text-success fa-2x mb-2"></i>
-                                    <h6 class="fw-bold mb-1">Data-Driven</h6>
-                                    <small class="text-muted">Based on your sales history</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body text-center p-3">
-                                    <i class="fas fa-mobile-alt text-success fa-2x mb-2"></i>
-                                    <h6 class="fw-bold mb-1">Mobile Money</h6>
-                                    <small class="text-muted">Receive funds via MoMo</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body text-center p-3">
-                                    <i class="fas fa-shield-alt text-success fa-2x mb-2"></i>
-                                    <h6 class="fw-bold mb-1">Transparent Terms</h6>
-                                    <small class="text-muted">No hidden fees</small>
-                                </div>
-                            </div>
+                        <div class="mt-3 pt-3 border-top">
+                            <span class="badge bg-success py-2 px-3"><i class="fas fa-bolt me-1"></i> Instant Sync</span>
                         </div>
                     </div>
-                    
-                    <a href="https://www.appnomu.com/register.php?utm_source=website&utm_medium=mobile_app&utm_campaign=funding" class="btn btn-outline-success rounded-pill px-4">Learn More About Funding</a>
                 </div>
             </div>
         </div>
@@ -536,7 +605,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
 </section>
 
 <!-- How to Get Started Section -->
-<section class="py-5 bg-light">
+<section class="py-5">
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
@@ -599,7 +668,7 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
                         <i class="fas fa-star text-warning"></i>
                         <i class="fas fa-star text-warning"></i>
                     </div>
-                    <p class="mb-4">"The SalesQ mobile app has transformed how I manage my hobby business. I can track sales, manage inventory, and even send SMS to customers - all from my phone. The offline mode is perfect for when I'm at markets without good network coverage!"</p>
+                    <p class="mb-4">"The SalesQ mobile app has transformed how I manage my hobby business. I can track sales, manage inventory, and access funding - all from my phone. The offline mode is perfect for when I'm at markets without good network coverage!"</p>
                     <div class="d-flex align-items-center">
                         <div class="bg-success rounded-circle p-2 me-3" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-user text-white"></i>
@@ -759,19 +828,31 @@ $page_keywords = 'SalesQ Mobile App, Business App Uganda, CRM Mobile App Africa,
 <section class="py-5 bg-success text-white">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-8 mb-4 mb-lg-0">
+            <div class="col-lg-7 mb-4 mb-lg-0">
                 <h2 class="fw-bold mb-3">Ready to Transform Your Business?</h2>
                 <p class="lead opacity-90 mb-0">
                     Join thousands of African entrepreneurs who are growing their businesses with SalesQ Mobile App.
                 </p>
             </div>
-            <div class="col-lg-4 text-lg-end">
+            <div class="col-lg-5 text-lg-end">
                 <div class="d-flex flex-column flex-sm-row gap-3 justify-content-lg-end">
-                    <a href="#" class="btn btn-light btn-lg rounded-pill px-4">
-                        <i class="bi bi-google-play me-2"></i> Google Play
+                    <a href="#" class="app-download-btn">
+                        <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                            <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 0 1 0 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.802 8.99l-2.303 2.303-8.635-8.635z"/>
+                        </svg>
+                        <div class="btn-text">
+                            <small>GET IT ON</small>
+                            <span>Google Play</span>
+                        </div>
                     </a>
-                    <a href="#" class="btn btn-outline-light btn-lg rounded-pill px-4">
-                        <i class="bi bi-apple me-2"></i> App Store
+                    <a href="#" class="app-download-btn">
+                        <svg class="app-store-icon" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        <div class="btn-text">
+                            <small>DOWNLOAD ON</small>
+                            <span>App Store</span>
+                        </div>
                     </a>
                 </div>
             </div>
