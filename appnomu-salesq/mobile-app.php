@@ -810,7 +810,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <h2 class="mb-4">Frequently Asked <span class="text-success">Questions</span></h2>
-                <p class="lead">Everything you need to know about the AppNomu SalesQ App</p>
+                <p class="lead">Everything you need to know about the AppNomu SalesQ Mobile App</p>
             </div>
         </div>
         
@@ -820,12 +820,12 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                     <div class="accordion-item border-0 mb-3 shadow-sm rounded">
                         <h2 class="accordion-header">
                             <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                <i class="fas fa-question-circle text-success me-2"></i> Is the AppNomu SalesQ App free?
+                                <i class="fas fa-question-circle text-success me-2"></i> Is the AppNomu SalesQ Mobile App free?
                             </button>
                         </h2>
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes! The app is free to download and use. You only pay for premium features like SMS credits, advanced reports, or business funding services.
+                                Yes! The AppNomu SalesQ Mobile App is completely free to download and use. All premium features are accessed through the Web application.
                             </div>
                         </div>
                     </div>
@@ -833,7 +833,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                     <div class="accordion-item border-0 mb-3 shadow-sm rounded">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                                <i class="fas fa-question-circle text-success me-2"></i> Does the app work offline?
+                                <i class="fas fa-question-circle text-success me-2"></i> Does the AppNomu SalesQ Mobile App work offline?
                             </button>
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
@@ -851,7 +851,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                         </h2>
                         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Absolutely! Your AppNomu SalesQ account works across all platforms. Data syncs in real-time between the web dashboard and mobile app.
+                                Absolutely! Your AppNomu SalesQ account works across all platforms. Data syncs in real-time between the web dashboard and the AppNomu SalesQ Mobile App.
                             </div>
                         </div>
                     </div>
@@ -864,7 +864,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                         </h2>
                         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Go to the Funding section in the app, fill out the application form with your business details, and submit. Our team reviews applications within 24-48 hours.
+                                Go to the Funding section in the AppNomu SalesQ Mobile App, fill out the application form with your business details, and submit. Our team reviews applications within 1 to 5 working days, and upon approval, funds are disbursed within 24 hours if it's a working day.
                             </div>
                         </div>
                     </div>
@@ -890,7 +890,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                         </h2>
                         <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                We support MTN Mobile Money, Airtel Money, Flutterwave, and bank transfers. You can top up your wallet or pay for services using any of these methods.
+                                We support Mobile Money (MTN and Airtel), Card payments, Google Pay, and Apple Pay through the Flutterwave payment gateway. We also accept Cryptocurrencies through the Cryptomus gateway.
                             </div>
                         </div>
                     </div>
