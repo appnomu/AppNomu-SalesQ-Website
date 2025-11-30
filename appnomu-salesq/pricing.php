@@ -547,6 +547,363 @@ ob_start();
                           radial-gradient(circle at 75% 75%, rgba(32, 201, 151, 0.05) 0%, transparent 50%);
         pointer-events: none;
     }
+    
+    /* ========================================
+       MOBILE RESPONSIVE STYLES
+       ======================================== */
+    
+    /* Tablet and below (max-width: 991px) */
+    @media (max-width: 991.98px) {
+        .hero-section {
+            padding: 2.5rem 0 3rem 0 !important;
+        }
+        
+        .hero-section h1 {
+            font-size: 2.5rem !important;
+        }
+        
+        .hero-section p.lead {
+            font-size: 1.1rem !important;
+        }
+        
+        .pricing-card,
+        .enterprise-card,
+        .addon-card {
+            margin-bottom: 1.5rem;
+        }
+        
+        .pricing-icon,
+        .pricing-icon-enhanced {
+            width: 80px !important;
+            height: 80px !important;
+        }
+        
+        .pricing-icon i,
+        .pricing-icon-enhanced i {
+            font-size: 1.75rem !important;
+        }
+        
+        .display-4 {
+            font-size: 2rem !important;
+        }
+        
+        .display-5 {
+            font-size: 1.75rem !important;
+        }
+        
+        .section-header h2 {
+            font-size: 1.75rem !important;
+        }
+        
+        .feature-list-enhanced {
+            padding: 1rem !important;
+        }
+        
+        .card-body {
+            padding: 1.25rem !important;
+        }
+        
+        .card-header {
+            padding-top: 2rem !important;
+        }
+    }
+    
+    /* Mobile devices (max-width: 767px) */
+    @media (max-width: 767.98px) {
+        .hero-section {
+            padding: 2rem 0 2.5rem 0 !important;
+        }
+        
+        .hero-section h1 {
+            font-size: 1.85rem !important;
+            line-height: 1.3 !important;
+        }
+        
+        .hero-section .price-highlight {
+            font-size: 1.85rem !important;
+        }
+        
+        .hero-section p.lead {
+            font-size: 1rem !important;
+            padding: 0 0.5rem;
+        }
+        
+        .badge-enhanced {
+            font-size: 0.75rem !important;
+            padding: 0.4rem 1rem !important;
+        }
+        
+        /* Pricing Toggle Mobile */
+        .pricing-toggle {
+            flex-direction: column;
+            width: 100%;
+            max-width: 280px;
+            margin: 0 auto;
+        }
+        
+        .pricing-toggle label {
+            padding: 10px 16px;
+            font-size: 0.9rem;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .save-badge {
+            display: block;
+            margin-top: 4px;
+            margin-left: 0 !important;
+        }
+        
+        /* Pricing Cards Mobile */
+        .pricing-card,
+        .enterprise-card,
+        .addon-card {
+            margin: 0 auto 1.5rem auto;
+            max-width: 100%;
+        }
+        
+        .pricing-card .card-header,
+        .enterprise-card .card-header,
+        .addon-card .card-header {
+            padding: 1.5rem 1rem 0 1rem !important;
+        }
+        
+        .pricing-card .card-body,
+        .enterprise-card .card-body,
+        .addon-card .card-body {
+            padding: 1rem !important;
+        }
+        
+        .pricing-icon,
+        .pricing-icon-enhanced {
+            width: 70px !important;
+            height: 70px !important;
+        }
+        
+        .pricing-icon i,
+        .pricing-icon-enhanced i {
+            font-size: 1.5rem !important;
+        }
+        
+        .pricing-card h3,
+        .enterprise-card h3,
+        .addon-card h3 {
+            font-size: 1.15rem !important;
+        }
+        
+        .price-tag .display-4,
+        .price-tag .display-5 {
+            font-size: 1.5rem !important;
+        }
+        
+        .price-tag p {
+            font-size: 0.85rem !important;
+        }
+        
+        .value-highlight {
+            padding: 8px 12px;
+            margin: 6px 0;
+        }
+        
+        .value-highlight small {
+            font-size: 0.75rem !important;
+        }
+        
+        /* Feature List Mobile */
+        .feature-list-enhanced {
+            padding: 0.875rem !important;
+            margin-bottom: 1rem !important;
+        }
+        
+        .feature-list-enhanced li {
+            margin-bottom: 0.5rem !important;
+        }
+        
+        .feature-list-enhanced span {
+            font-size: 0.85rem !important;
+        }
+        
+        .feature-icon-small {
+            width: 26px !important;
+            height: 26px !important;
+            min-width: 26px !important;
+            padding: 4px !important;
+            margin-right: 8px !important;
+        }
+        
+        .feature-icon-small i {
+            font-size: 0.7rem !important;
+        }
+        
+        /* Buttons Mobile */
+        .btn-lg {
+            padding: 0.65rem 1.25rem !important;
+            font-size: 0.9rem !important;
+        }
+        
+        .btn-enhanced {
+            padding: 0.75rem 1.5rem !important;
+        }
+        
+        /* Section Headers Mobile */
+        .section-header {
+            padding-bottom: 1.5rem;
+        }
+        
+        .section-header h2 {
+            font-size: 1.5rem !important;
+        }
+        
+        .section-header p {
+            font-size: 0.9rem !important;
+            padding: 0 0.5rem;
+        }
+        
+        .section-header::after {
+            width: 60px;
+            height: 3px;
+        }
+        
+        /* Popular Badge Mobile */
+        .popular-badge {
+            font-size: 0.7rem !important;
+            padding: 0.35rem 0.75rem !important;
+        }
+        
+        /* Trust Indicators Mobile */
+        .hero-section .bg-success.bg-opacity-10 {
+            width: 50px !important;
+            height: 50px !important;
+            padding: 0.5rem !important;
+        }
+        
+        .hero-section .bg-success.bg-opacity-10 i {
+            font-size: 1.25rem !important;
+        }
+        
+        .hero-section small.text-muted {
+            font-size: 0.75rem !important;
+        }
+        
+        /* How It Works Mobile */
+        .pricing-step .feature-icon {
+            width: 50px !important;
+            height: 50px !important;
+        }
+        
+        .pricing-step .feature-icon i {
+            font-size: 1.5rem !important;
+        }
+        
+        .pricing-step h5 {
+            font-size: 1rem !important;
+        }
+        
+        .pricing-step p {
+            font-size: 0.8rem !important;
+        }
+        
+        .pricing-step::after {
+            display: none;
+        }
+        
+        /* Stats Section Mobile */
+        .container.mt-6 .h2 {
+            font-size: 1.5rem !important;
+        }
+        
+        .container.mt-6 p {
+            font-size: 0.8rem !important;
+        }
+        
+        /* Spacing Adjustments */
+        .py-7 {
+            padding-top: 3rem !important;
+            padding-bottom: 3rem !important;
+        }
+        
+        .py-5 {
+            padding-top: 2rem !important;
+            padding-bottom: 2rem !important;
+        }
+        
+        .mb-5 {
+            margin-bottom: 2rem !important;
+        }
+        
+        .mb-6 {
+            margin-bottom: 2.5rem !important;
+        }
+        
+        .mt-6 {
+            margin-top: 2.5rem !important;
+        }
+        
+        /* Container padding on mobile */
+        .container-fluid {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+        
+        .container {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+        
+        /* Row gap adjustments */
+        .row.g-4 {
+            --bs-gutter-x: 1rem;
+            --bs-gutter-y: 1rem;
+        }
+    }
+    
+    /* Extra small devices (max-width: 575px) */
+    @media (max-width: 575.98px) {
+        .hero-section h1 {
+            font-size: 1.6rem !important;
+        }
+        
+        .hero-section .price-highlight {
+            font-size: 1.6rem !important;
+        }
+        
+        .pricing-toggle {
+            max-width: 100%;
+            border-radius: 12px;
+        }
+        
+        .pricing-toggle label {
+            border-radius: 8px;
+        }
+        
+        .pricing-card,
+        .enterprise-card,
+        .addon-card {
+            border-radius: 1rem !important;
+        }
+        
+        .feature-list-enhanced {
+            border-radius: 0.75rem !important;
+        }
+        
+        .btn-lg {
+            width: 100%;
+        }
+        
+        /* CTA buttons stack vertically */
+        .d-flex.flex-sm-row {
+            flex-direction: column !important;
+        }
+        
+        .d-flex.flex-sm-row .btn {
+            width: 100%;
+            margin-bottom: 0.75rem;
+        }
+        
+        .d-flex.flex-sm-row .btn:last-child {
+            margin-bottom: 0;
+        }
+    }
 </style>
 
 <!-- Hero Section: Professional Value Proposition -->
