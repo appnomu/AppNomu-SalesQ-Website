@@ -38,6 +38,78 @@ ob_start();
 ?>
 
 <style>
+    /* ============================================
+       MOBILE FIX - DISABLE ALL ANIMATIONS/TRANSFORMS
+       Must be at the top to ensure it loads first
+       ============================================ */
+    @media (max-width: 991.98px) {
+        /* Kill ALL animations globally on mobile */
+        *, *::before, *::after {
+            animation: none !important;
+            transition: none !important;
+        }
+        
+        /* Prevent any transforms that cause shaking */
+        .pricing-card,
+        .enterprise-card,
+        .addon-card,
+        .pricing-icon-enhanced,
+        .feature-list-enhanced,
+        .btn-enhanced,
+        .value-highlight,
+        .smoke,
+        .smoke-container,
+        .popular-badge,
+        .save-badge,
+        .roi-calculator,
+        .roi-calculator::before,
+        [data-aos] {
+            animation: none !important;
+            transform: none !important;
+            transition: none !important;
+            opacity: 1 !important;
+        }
+        
+        /* Hide smoke effects completely */
+        .smoke-container,
+        .smoke {
+            display: none !important;
+            visibility: hidden !important;
+        }
+        
+        /* Remove perspective that causes 3D tilting */
+        .row {
+            perspective: none !important;
+            transform-style: flat !important;
+        }
+        
+        /* Disable hover states */
+        .pricing-card:hover,
+        .enterprise-card:hover,
+        .addon-card:hover,
+        .pricing-icon-enhanced:hover,
+        .feature-list-enhanced:hover,
+        .btn-enhanced:hover,
+        .feature-icon-small:hover {
+            transform: none !important;
+        }
+        
+        /* Ensure body doesn't overflow horizontally */
+        body {
+            overflow-x: hidden !important;
+            max-width: 100vw !important;
+        }
+        
+        /* Fix any potential overflow issues */
+        .hero-section,
+        .pricing-section,
+        .payg-section,
+        section {
+            overflow-x: hidden !important;
+            max-width: 100% !important;
+        }
+    }
+    
     /* Smoke Effect Styles */
     .smoke-container {
         position: absolute;
@@ -1129,7 +1201,7 @@ ob_start();
         
         <!-- Main Plans -->
         <div class="container-fluid px-4">
-            <div class="row g-4 justify-content-center mb-6" style="perspective: 1000px; max-width: 1400px; margin: 0 auto;">
+            <div class="row g-4 justify-content-center mb-6" style="max-width: 1400px; margin: 0 auto;">
             <!-- Free Plan -->
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
                 <div class="card pricing-card h-100 border-0 rounded-4 shadow-lg position-relative">
@@ -2108,32 +2180,54 @@ ob_start();
         if (monthlyRadio) monthlyRadio.addEventListener('change', updatePricing);
         if (annualRadio) annualRadio.addEventListener('change', updatePricing);
         
-        // Enhance smoke effect with scroll interaction
-        const smokeElements = document.querySelectorAll('.smoke');
+        // Only enable scroll effects on desktop (not mobile/tablet)
+        const isMobile = window.innerWidth <= 991;
         
-        window.addEventListener('scroll', function() {
-            const scrollPosition = window.scrollY;
+        if (!isMobile) {
+            // Enhance smoke effect with scroll interaction - DESKTOP ONLY
+            const smokeElements = document.querySelectorAll('.smoke');
             
-            // Adjust smoke position based on scroll
-            smokeElements.forEach(function(smoke, index) {
-                // Create a subtle parallax effect
-                const speed = 0.05 + (index % 4) * 0.01;
-                const yOffset = scrollPosition * speed;
+            window.addEventListener('scroll', function() {
+                const scrollPosition = window.scrollY;
                 
-                // Apply transform with existing animation
-                smoke.style.transform = `scale(0.8) translateY(${-yOffset}px)`;
+                // Adjust smoke position based on scroll
+                smokeElements.forEach(function(smoke, index) {
+                    // Create a subtle parallax effect
+                    const speed = 0.05 + (index % 4) * 0.01;
+                    const yOffset = scrollPosition * speed;
+                    
+                    // Apply transform with existing animation
+                    smoke.style.transform = `scale(0.8) translateY(${-yOffset}px)`;
+                });
             });
-        });
+        }
         
-        // Fallback in case AOS fails to initialize
-        setTimeout(function() {
+        // On mobile, ensure all AOS elements are visible immediately
+        if (isMobile) {
             const aosElements = document.querySelectorAll('[data-aos]');
             aosElements.forEach(function(element) {
-                if (element.classList.contains('aos-animate') === false) {
-                    element.setAttribute('style', 'opacity: 1; transform: translateZ(0)');
-                }
+                element.removeAttribute('data-aos');
+                element.removeAttribute('data-aos-delay');
+                element.style.opacity = '1';
+                element.style.transform = 'none';
             });
-        }, 1000);
+            
+            // Also hide smoke containers
+            const smokeContainers = document.querySelectorAll('.smoke-container');
+            smokeContainers.forEach(function(container) {
+                container.style.display = 'none';
+            });
+        } else {
+            // Fallback in case AOS fails to initialize - DESKTOP ONLY
+            setTimeout(function() {
+                const aosElements = document.querySelectorAll('[data-aos]');
+                aosElements.forEach(function(element) {
+                    if (element.classList.contains('aos-animate') === false) {
+                        element.setAttribute('style', 'opacity: 1; transform: translateZ(0)');
+                    }
+                });
+            }, 1000);
+        }
     });
 </script>
 
