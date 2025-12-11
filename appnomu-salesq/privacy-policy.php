@@ -19,645 +19,347 @@ $additional_js = [
 ob_start();
 ?>
 
-<!-- Hero Section -->
-<header class="legal-header position-relative" style="background: #ffffff;">
-    <div class="container py-5">
-        <div class="row align-items-center">
-            <div class="col-lg-7" data-aos="fade-right" data-aos-duration="800">
-                <h1 class="mb-3 display-5 fw-bold">Privacy Policy</h1>
-                <p class="lead">Last updated: December 11, 2025</p>
-                <p class="mb-0">Learn how we collect, use, and protect your personal information in accordance with Ugandan data protection laws.</p>
-            </div>
-            <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left" data-aos-duration="800">
-                <img src="https://appnomu.com/landing/assets/images/compressed-original.webp" alt="Privacy Policy" class="img-fluid rounded-4 shadow-lg" style="max-height: 300px; object-fit: contain;">
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- Main Content -->
-<main class="legal-content py-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <!-- Main Content Area -->
-            <div class="col-lg-10">
-                <div class="p-4 bg-light rounded-3 shadow-sm border-start border-success border-3" data-aos="fade-up">
-                    <h3 class="text-success mb-3">Your Privacy Matters</h3>
-                    
-                    <p class="lead">At AppNomu SalesQ, we are committed to protecting your privacy and personal data. This policy explains how we collect, use, and safeguard your information in compliance with Ugandan data protection laws.</p>
-                    
-                    <p>We believe in transparency and your right to understand how your data is handled. This policy covers all aspects of data processing within our business management platform.</p>
-                    
-                    <p>Your trust is essential to our business, and we work hard to earn and maintain it through responsible data practices.</p>
-                </div>
-
-                <div class="accordion accordion-flush" id="privacyAccordion">
-                    
-                    <!-- 1. Information We Collect -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section1" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-collection fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">1. Information We Collect</div>
-                                        <small class="text-muted">Data we gather to provide our services</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section1" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <h6 class="text-success mb-3">Information You Provide</h6>
-                                <p>When you use AppNomu SalesQ, we collect information that you provide directly to us:</p>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Account information:</strong> Name, email, business details</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Profile information:</strong> Profile picture, contact details</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Business data:</strong> Sales records, inventory, customer information</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service data:</strong> Service descriptions, pricing, invoices, service completion records, client service history</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice data:</strong> Voice call logs, delivery status, call analytics, uploaded MP3 files</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Payment information:</strong> Billing details, transaction history, payment gateway credentials</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication preferences:</strong> Notification settings, contact preferences</li>
-                                </ul>
-
-                                <h6 class="text-success mt-4 mb-3">Automatically Collected Information</h6>
-                                <p>We automatically collect certain information when you use our services:</p>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Device information:</strong> Browser type, operating system, IP address</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Usage data:</strong> How you interact with our application, features used, time spent</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Log data:</strong> Access times, pages viewed, system activity</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Location information:</strong> Based on IP address</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Cookies:</strong> Tracking technologies for improved user experience</li>
-                                </ul>
-
-                                <h6 class="text-success mt-4 mb-3">Analytics & Tracking Technologies</h6>
-                                <p>We use the following services to analyze usage and improve our platform:</p>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Mixpanel:</strong> Product analytics and session recording to understand user behavior</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Google Analytics:</strong> Website traffic analysis and visitor insights</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Intercom:</strong> Live chat support and customer communication</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Cloudflare:</strong> Security, performance optimization, and CDN services</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 2. How We Use Information -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section2" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-gear fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">2. How We Use Your Information</div>
-                                        <small class="text-muted">Purposes for data processing</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section2" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <p>We use the collected information for the following purposes:</p>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service provision:</strong> Providing and maintaining our services</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Personalization:</strong> Customizing your experience</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Transactions:</strong> Processing your payments and purchases</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Communication:</strong> Sending administrative information</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Voice services:</strong> Processing and delivering voice calls, analytics</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Service management:</strong> Managing service invoices, receipts, and payment processing</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Support:</strong> Providing customer assistance</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Analytics:</strong> Analyzing and improving our services</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Security:</strong> Detecting and preventing fraud</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Legal compliance:</strong> Meeting regulatory requirements</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Invoice delivery:</strong> Sending invoices via Email, WhatsApp, and SMS</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 3. Third-Party Integrations -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section3" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-puzzle fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">3. Third-Party Integrations & API Security</div>
-                                        <small class="text-muted">Connected services and data protection</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section3" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <div class="alert alert-success border-0 mb-4">
-                                    <i class="bi bi-shield-lock me-2"></i>
-                                    <strong>API Security:</strong> All API keys and authentication tokens are encrypted using AES-256 encryption. We cannot read your credentials in plain text.
-                                </div>
-
-                                <h6 class="text-success mb-3">Supported Integrations</h6>
-                                <div class="row g-3 mb-4">
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Payment & Mobile Money</h6>
-                                                <div class="d-flex flex-wrap gap-1">
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Flutterwave</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Stripe</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">PayPal</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Airtel Money</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">MTN MoMo</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Communication & CRM</h6>
-                                                <div class="d-flex flex-wrap gap-1">
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Slack</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Teams</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">HubSpot</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Mailchimp</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Zoom</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row g-3 mb-4">
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Analytics & Live Chat</h6>
-                                                <div class="d-flex flex-wrap gap-1">
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Mixpanel</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Google Analytics</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Intercom</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2">Infrastructure & Security</h6>
-                                                <div class="d-flex flex-wrap gap-1">
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Cloudflare</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">Infobip SMS</span>
-                                                    <span class="badge bg-success bg-opacity-10 text-success">SMTP Email</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <h6 class="text-success mb-3">What We Do NOT Access</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>API Keys:</strong> We cannot read your encrypted API keys or authentication tokens</li>
-                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Private Data:</strong> We do not access private data beyond what's necessary for functionality</li>
-                                    <li class="mb-0"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Unauthorized Data:</strong> We only access data you explicitly authorize</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 4. Data Security & Your Rights -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-shield-check fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">4. Data Security & Your Rights</div>
-                                        <small class="text-muted">Protection measures and user rights</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section4" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <div class="row g-4">
-                                    <div class="col-md-6">
-                                        <h6 class="text-success mb-3">Security Measures</h6>
-                                        <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Encryption:</strong> Data in transit and at rest</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Access controls:</strong> Role-based permissions</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Regular assessments:</strong> Security audits and testing</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Incident response:</strong> Defined security procedures</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h6 class="text-success mb-3">Your Rights</h6>
-                                        <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Access:</strong> Right to access your personal information</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Correction:</strong> Right to correct inaccurate information</li>
-                                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Deletion:</strong> Right to erasure of personal data</li>
-                                            <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Portability:</strong> Right to data portability</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="alert alert-info border-0 mt-4">
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-info-circle me-3 fs-4"></i>
-                                        <div>
-                                            <h6 class="mb-1">Exercise Your Rights</h6>
-                                            <p class="mb-0">Contact our Privacy Officer at <a href="mailto:privacy@appnomu.com" class="text-success">privacy@appnomu.com</a> or call <a href="tel:+256200948420" class="text-success">+256 200 948 420</a>.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 5. Data Retention & Sharing -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-clock-history fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">5. Data Retention & Sharing</div>
-                                        <small class="text-muted">How long we keep data and when we share it</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section5" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <div class="alert alert-warning border-0 mb-4">
-                                    <i class="bi bi-exclamation-triangle me-2"></i>
-                                    <strong>Important:</strong> We do not sell your personal information to third parties. We only share your information as described in this policy.
-                                </div>
-
-                                <h6 class="text-success mb-3">Retention Periods</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Account information:</strong> Retained while your account is active</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Transaction data:</strong> Retained for 7 years per financial regulations</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Airtime purchases:</strong> Mobile numbers retained for 180 days, backups for 5 years</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Communication data:</strong> Retained for 2 years after last interaction</li>
-                                </ul>
-
-                                <h6 class="text-success mt-4 mb-3">When We Share Data</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Service providers:</strong> Payment processing, cloud hosting, customer support</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> <strong>Legal requirements:</strong> When required by law or valid legal requests</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> <strong>Business transfers:</strong> In case of merger, acquisition, or asset sale</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 6. Mobile App Specific Data -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section6" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-phone fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">6. Mobile App Permissions & Data</div>
-                                        <small class="text-muted">Permissions requested and data collected by our mobile application</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section6" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <p>Our mobile app requests the following permissions to provide full functionality:</p>
-                                
-                                <div class="alert alert-warning border-0 mb-4">
-                                    <i class="bi bi-exclamation-triangle me-2"></i>
-                                    <strong>Important:</strong> All permissions are optional except where noted. You can deny permissions, but some features may not work properly.
-                                </div>
-                                
-                                <h6 class="text-success mb-3"><i class="bi bi-geo-alt me-2"></i>Location Permission (Exact Location)</h6>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Purpose:</strong> Required for Business Funding eligibility verification</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Data Collected:</strong> Exact GPS coordinates when applying for business funding</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Geographic Restriction:</strong> Business funding is currently available <strong>only in Uganda</strong></li>
-                                    <li class="mb-0"><i class="bi bi-info-circle-fill text-info me-2"></i> <strong>When Used:</strong> Only when you apply for business funding, not continuously tracked</li>
-                                </ul>
-                                
-                                <h6 class="text-success mb-3"><i class="bi bi-camera me-2"></i>Camera Permission</h6>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Purpose:</strong> Scanning barcodes, taking product photos, document verification</li>
-                                    <li class="mb-0"><i class="bi bi-info-circle-fill text-info me-2"></i> <strong>Storage:</strong> Photos are stored locally or uploaded only when you choose to save/share</li>
-                                </ul>
-                                
-                                <h6 class="text-success mb-3"><i class="bi bi-chat-dots me-2"></i>SMS/Messages Permission</h6>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Purpose:</strong> Auto-reading OTP codes for faster verification</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Data Collected:</strong> Only OTP/verification codes from AppNomu, not personal messages</li>
-                                    <li class="mb-0"><i class="bi bi-info-circle-fill text-info me-2"></i> <strong>Privacy:</strong> We do not read, store, or access your personal SMS messages</li>
-                                </ul>
-                                
-                                <h6 class="text-success mb-3"><i class="bi bi-bell me-2"></i>Notification Permission</h6>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Purpose:</strong> Sending important alerts about sales, low stock, reminders, and updates</li>
-                                    <li class="mb-0"><i class="bi bi-info-circle-fill text-info me-2"></i> <strong>Control:</strong> You can manage notification preferences in app settings</li>
-                                </ul>
-                                
-                                <h6 class="text-success mb-3"><i class="bi bi-folder me-2"></i>Storage Permission</h6>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Purpose:</strong> Downloading and saving exported documents (reports, invoices, receipts)</li>
-                                    <li class="mb-0"><i class="bi bi-info-circle-fill text-info me-2"></i> <strong>Access:</strong> We only access files you explicitly choose to upload or download</li>
-                                </ul>
-                                
-                                <h6 class="text-success mb-3">Wallet & Financial Data</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Wallet balance:</strong> For in-app transactions and airtime purchases</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Mobile money number:</strong> For payments (shared with MTN/Airtel)</li>
-                                    <li class="mb-2"><i class="bi bi-x-circle-fill text-danger me-2"></i> <strong>Payment card details:</strong> NOT stored - processed directly by Flutterwave</li>
-                                </ul>
-
-                                <h6 class="text-success mt-4 mb-3">Funding Application Data (Uganda Only)</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Funding requests:</strong> Amount, purpose, repayment period</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Eligibility data:</strong> Business revenue, sales history (shared with credit assessment partners)</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Verification documents:</strong> National ID, business documents (stored encrypted)</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Location data:</strong> Exact GPS location to verify Uganda residency</li>
-                                </ul>
-
-                                <h6 class="text-success mt-4 mb-3">Device Data</h6>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Device info:</strong> Device type, OS version, app version</li>
-                                    <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Crash reports:</strong> For debugging (via Firebase)</li>
-                                </ul>
-
-                                <div class="alert alert-info border-0 mt-4 mb-0">
-                                    <i class="bi bi-info-circle me-2"></i>
-                                    <strong>Local Storage:</strong> The app uses secure local storage for offline sales, user preferences, and PIN/biometric settings. All sensitive data is encrypted.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- 8. Mobile App Exclusive Features Data -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section7" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-app-indicator fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">7. Mobile App Exclusive Features</div>
-                                        <small class="text-muted">Data collected for app-only features</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section7" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <p>The following features are available only in our mobile app. Here's how we handle your data for each:</p>
-                                
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2"><i class="bi bi-piggy-bank me-2"></i>Goal Saving</h6>
-                                                <p class="small mb-0">We store your savings goals, target amounts, and progress. Data is synced to your account for access across devices.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2"><i class="bi bi-graph-up-arrow me-2"></i>Investment</h6>
-                                                <p class="small mb-0">Investment preferences, amounts, and returns are stored securely. Financial data is encrypted at rest.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2"><i class="bi bi-calculator me-2"></i>Business Calculator</h6>
-                                                <p class="small mb-0">Calculation history is stored locally on your device. No sensitive financial calculations are sent to our servers.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2"><i class="bi bi-alarm me-2"></i>Business Reminders</h6>
-                                                <p class="small mb-0">Reminder titles, dates, and settings are synced to enable notifications. Reminder content is encrypted.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2"><i class="bi bi-credit-card-2-back me-2"></i>Debt Tracker</h6>
-                                                <p class="small mb-0">Debt records including names, amounts, and due dates are stored securely and synced to your account.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-3">
-                                                <h6 class="text-success mb-2"><i class="bi bi-trophy me-2"></i>Spin and Win</h6>
-                                                <p class="small mb-0">We track spin eligibility (account age, spending) and prize history. See Terms of Use for full Spin and Win terms.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="alert alert-success border-0 mt-4 mb-0">
-                                    <i class="bi bi-shield-check me-2"></i>
-                                    <strong>Data Security:</strong> All mobile app exclusive feature data is encrypted both in transit (TLS 1.3) and at rest (AES-256). Your data is never sold to third parties.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- 8. Contact & Privacy Rights -->
-                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4 overflow-hidden">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-gradient text-dark fw-bold py-4 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#section8" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
-                                <div class="d-flex align-items-center w-100">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-headset fs-4"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <div class="fw-bold">8. Contact Us & Exercise Your Privacy Rights</div>
-                                        <small class="text-muted">How to reach us and manage your data</small>
-                                    </div>
-                                </div>
-                            </button>
-                        </h2>
-                        <div id="section8" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
-                            <div class="accordion-body p-4">
-                                <p>We are committed to protecting your privacy and responding to your data-related requests. Here's how to contact us and exercise your rights:</p>
-                                
-                                <div class="row g-4 mb-4">
-                                    <div class="col-md-4">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-4 text-center">
-                                                <div class="mb-3">
-                                                    <i class="bi bi-shield-lock-fill fs-1 text-success"></i>
-                                                </div>
-                                                <h5 class="mb-2">Privacy Officer</h5>
-                                                <p class="mb-2"><a href="mailto:privacy@appnomu.com" class="text-success text-decoration-none fw-bold">privacy@appnomu.com</a></p>
-                                                <p class="small text-muted mb-0">For data access requests, deletion requests, corrections, or privacy complaints</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-4 text-center">
-                                                <div class="mb-3">
-                                                    <i class="bi bi-telephone-fill fs-1 text-success"></i>
-                                                </div>
-                                                <h5 class="mb-2">Phone Support</h5>
-                                                <p class="mb-2"><a href="tel:+256200948420" class="text-success text-decoration-none fw-bold">+256 200 948 420</a></p>
-                                                <p class="small text-muted mb-0">Monday - Friday, 9:00 AM - 5:00 PM (East Africa Time)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body p-4 text-center">
-                                                <div class="mb-3">
-                                                    <i class="bi bi-geo-alt-fill fs-1 text-success"></i>
-                                                </div>
-                                                <h5 class="mb-2">Physical Address</h5>
-                                                <p class="small mb-0">
-                                                    <strong>AppNomu Technologies</strong><br>
-                                                    77 Market Street<br>
-                                                    Bugiri Municipality<br>
-                                                    Eastern Region, Uganda
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <h6 class="text-success mb-3">How to Exercise Your Privacy Rights</h6>
-                                <p>Under Ugandan data protection law and international best practices, you have the following rights regarding your personal data:</p>
-                                
-                                <div class="row g-3 mb-4">
-                                    <div class="col-md-6">
-                                        <div class="p-3 bg-light rounded-3 h-100">
-                                            <h6 class="text-success mb-2"><i class="bi bi-eye me-2"></i>Right to Access</h6>
-                                            <p class="small mb-0">Request a copy of all personal data we hold about you. We will provide this within 30 days of your verified request.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="p-3 bg-light rounded-3 h-100">
-                                            <h6 class="text-success mb-2"><i class="bi bi-pencil me-2"></i>Right to Correction</h6>
-                                            <p class="small mb-0">Request correction of any inaccurate or incomplete personal data. You can also update most information directly in your account settings.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="p-3 bg-light rounded-3 h-100">
-                                            <h6 class="text-success mb-2"><i class="bi bi-trash me-2"></i>Right to Deletion</h6>
-                                            <p class="small mb-0">Request deletion of your personal data. Note that some data may be retained for legal or regulatory compliance (e.g., financial records for 7 years).</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="p-3 bg-light rounded-3 h-100">
-                                            <h6 class="text-success mb-2"><i class="bi bi-download me-2"></i>Right to Data Portability</h6>
-                                            <p class="small mb-0">Request your data in a machine-readable format (CSV, JSON) that you can transfer to another service provider.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="p-3 bg-light rounded-3 h-100">
-                                            <h6 class="text-success mb-2"><i class="bi bi-hand-thumbs-down me-2"></i>Right to Object</h6>
-                                            <p class="small mb-0">Object to processing of your data for marketing purposes. You can opt-out of marketing communications at any time.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="p-3 bg-light rounded-3 h-100">
-                                            <h6 class="text-success mb-2"><i class="bi bi-exclamation-triangle me-2"></i>Right to Complain</h6>
-                                            <p class="small mb-0">If you believe your privacy rights have been violated, you may file a complaint with the National Information Technology Authority - Uganda (NITA-U).</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="alert alert-info border-0 mb-4">
-                                    <div class="d-flex align-items-start">
-                                        <i class="bi bi-clock fs-4 text-info me-3 mt-1"></i>
-                                        <div>
-                                            <h6 class="text-info mb-2">Response Times</h6>
-                                            <p class="mb-0">We will acknowledge your privacy request within 48 hours and provide a full response within 30 days. For complex requests, we may extend this by an additional 30 days with prior notice to you.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="alert alert-success border-0 mb-0">
-                                    <div class="d-flex align-items-start">
-                                        <i class="bi bi-bell fs-4 text-success me-3 mt-1"></i>
-                                        <div>
-                                            <h6 class="text-success mb-2">Privacy Policy Updates</h6>
-                                            <p class="mb-0">We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or services. When we make significant changes, we will notify you via email at least 30 days before the changes take effect. Minor updates will be posted on this page with an updated "Last updated" date. We encourage you to review this policy periodically.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="alert alert-light border border-success border-opacity-25 rounded-3 mt-5 shadow-sm" data-aos="fade-up">
-                    <div class="d-flex align-items-center">
-                        <i class="bi bi-info-circle text-success me-3" style="font-size: 1.5rem;"></i>
-                        <div>
-                            <p class="mb-0">This Privacy Policy is effective as of <strong>December 11, 2025</strong> and applies to our web platform and mobile application. It complies with the Data Protection and Privacy Act of Uganda and other applicable data protection regulations.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
-
-
-<!-- Back-to-top button -->
-<a href="#" id="backToTop" class="btn btn-success shadow position-fixed bottom-0 end-0 m-4 d-flex align-items-center justify-content-center rounded-circle" style="width: 50px; height: 50px; z-index: 1030; opacity: 0; visibility: hidden; transition: all 0.3s ease;">
-    <i class="bi bi-arrow-up" style="font-size: 20px;"></i>
-</a>
-
-<!-- Custom CSS for accordion and animations -->
 <style>
-.accordion-button:not(.collapsed) {
-    background: linear-gradient(135deg, #198754 0%, #20c997 100%) !important;
-    color: white !important;
+.privacy-section {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border: 1px solid rgba(25, 135, 84, 0.1);
 }
 
-.accordion-button:focus {
-    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+.privacy-section h2 {
+    color: #198754;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(25, 135, 84, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
-.accordion-button::after {
-    filter: brightness(0) invert(1);
+.privacy-section h2 i {
+    font-size: 1.75rem;
 }
 
-.accordion-button:not(.collapsed)::after {
-    filter: brightness(0) invert(1);
+.privacy-section h3 {
+    color: #333;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.privacy-section p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.privacy-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.privacy-section ul li {
+    padding: 0.5rem 0;
+    padding-left: 1.75rem;
+    position: relative;
+    color: #555;
+    line-height: 1.7;
+}
+
+.privacy-section ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #198754;
+    font-weight: bold;
+}
+
+.info-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9f7ef 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid #198754;
+}
+
+.info-card h4 {
+    color: #198754;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.info-card p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.permission-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.permission-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.permission-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    border-color: rgba(25, 135, 84, 0.3);
+}
+
+.permission-card .icon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #198754 0%, #20c997 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.permission-card .icon i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.permission-card h4 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.75rem;
+}
+
+.permission-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.data-table th {
+    background: linear-gradient(135deg, #198754 0%, #20c997 100%);
+    color: white;
+    padding: 1rem 1.25rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.data-table td {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #e9ecef;
+    color: #555;
+}
+
+.data-table tr:last-child td {
+    border-bottom: none;
+}
+
+.data-table tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.rights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.rights-card {
+    background: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.rights-card .icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    background: rgba(25, 135, 84, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rights-card .icon i {
+    color: #198754;
+    font-size: 1.25rem;
+}
+
+.rights-card h5 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.35rem;
+}
+
+.rights-card p {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.contact-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 1.75rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-color: #198754;
+}
+
+.contact-card .icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #198754 0%, #20c997 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.contact-card .icon i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.contact-card a {
+    color: #198754;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.contact-card p {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.toc-nav {
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.5rem;
+    position: sticky;
+    top: 100px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.toc-nav h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #198754;
+}
+
+.toc-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-nav ul li {
+    margin-bottom: 0.5rem;
+}
+
+.toc-nav ul li a {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.toc-nav ul li a:hover {
+    background: rgba(25, 135, 84, 0.1);
+    color: #198754;
+}
+
+.highlight-box {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid #ffc107;
+}
+
+.highlight-box.danger {
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    border-left-color: #dc3545;
+}
+
+.highlight-box.info {
+    background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+    border-left-color: #17a2b8;
+}
+
+@media (max-width: 991px) {
+    .toc-nav {
+        display: none;
+    }
+    
+    .privacy-section {
+        padding: 1.5rem;
+    }
 }
 
 #backToTop.visible {
@@ -667,25 +369,484 @@ ob_start();
 
 #backToTop:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.2)!important;
-}
-
-@media (max-width: 767.98px) {
-    .accordion-button {
-        padding: 1rem !important;
-        font-size: 0.9rem;
-    }
-    
-    .accordion-body {
-        padding: 1rem !important;
-    }
 }
 </style>
 
-<!-- JavaScript for accordion and back-to-top functionality -->
+<!-- Hero Section -->
+<header class="position-relative" style="background: linear-gradient(135deg, #fff 0%, #e9f7ef 100%);">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-7" data-aos="fade-right" data-aos-duration="800">
+                <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 mb-3">Legal Document</span>
+                <h1 class="display-4 fw-bold mb-3" style="color: #333;">Privacy Policy</h1>
+                <p class="lead mb-2" style="color: #555;">Your privacy matters to us. This policy explains how we collect, use, and protect your information.</p>
+                <p class="text-muted"><i class="bi bi-calendar3 me-2"></i>Last updated: December 11, 2025</p>
+            </div>
+            <div class="col-lg-5 d-none d-lg-block text-end" data-aos="fade-left" data-aos-duration="800">
+                <img src="https://appnomu.com/landing/assets/images/compressed-original.webp" alt="Privacy Policy" class="img-fluid rounded-4 shadow-lg" style="max-height: 280px; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="py-5" style="background: #f8f9fa;">
+    <div class="container">
+        <div class="row">
+            <!-- Table of Contents - Sidebar -->
+            <div class="col-lg-3 d-none d-lg-block">
+                <nav class="toc-nav">
+                    <h4><i class="bi bi-list-ul me-2"></i>Contents</h4>
+                    <ul>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#data-collection">Data We Collect</a></li>
+                        <li><a href="#data-usage">How We Use Data</a></li>
+                        <li><a href="#third-party">Third-Party Services</a></li>
+                        <li><a href="#data-security">Data Security</a></li>
+                        <li><a href="#mobile-app">Mobile App Data</a></li>
+                        <li><a href="#data-retention">Data Retention</a></li>
+                        <li><a href="#your-rights">Your Rights</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Main Content Area -->
+            <div class="col-lg-9">
+                
+                <!-- Introduction -->
+                <section id="introduction" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-shield-check"></i> Introduction</h2>
+                    
+                    <p>At AppNomu SalesQ, we are deeply committed to protecting your privacy and safeguarding your personal data. This Privacy Policy explains in clear, straightforward language how we collect, use, store, and protect your information when you use our business management platform.</p>
+                    
+                    <p>We operate in full compliance with the <strong>Data Protection and Privacy Act of Uganda</strong> and adhere to international data protection best practices. Your trust is the foundation of our business, and we take our responsibility to protect your data seriously.</p>
+                    
+                    <div class="info-card">
+                        <h4><i class="bi bi-info-circle me-2"></i>Key Commitments</h4>
+                        <p>We will never sell your personal data to third parties. We only collect data necessary to provide our services. You have full control over your data and can request access, correction, or deletion at any time.</p>
+                    </div>
+                    
+                    <p>This policy applies to all AppNomu SalesQ services, including our web platform at <strong>app.appnomu.com</strong> and our mobile applications for Android and iOS. By using our services, you agree to the collection and use of information as described in this policy.</p>
+                </section>
+                
+                <!-- Data Collection -->
+                <section id="data-collection" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-collection"></i> Information We Collect</h2>
+                    
+                    <p>To provide you with a comprehensive business management solution, we collect different types of information. We always aim to collect only what is necessary to deliver our services effectively.</p>
+                    
+                    <h3>Information You Provide Directly</h3>
+                    <p>When you create an account or use our services, you voluntarily provide us with certain information:</p>
+                    
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Data Type</th>
+                                <th>Examples</th>
+                                <th>Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Account Information</strong></td>
+                                <td>Name, email, phone number, business name</td>
+                                <td>Account creation & authentication</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Business Data</strong></td>
+                                <td>Products, sales records, inventory, customers</td>
+                                <td>Core service functionality</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Payment Information</strong></td>
+                                <td>Billing address, transaction history</td>
+                                <td>Processing payments & subscriptions</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Communication Data</strong></td>
+                                <td>SMS content, voice recordings, email templates</td>
+                                <td>Marketing campaigns & customer outreach</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Service Records</strong></td>
+                                <td>Invoices, receipts, service descriptions</td>
+                                <td>ServiceFlow feature functionality</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h3>Information Collected Automatically</h3>
+                    <p>When you use our platform, we automatically collect certain technical information to improve your experience and maintain security:</p>
+                    
+                    <ul>
+                        <li><strong>Device Information:</strong> Browser type, operating system, device model, and screen resolution to optimize display</li>
+                        <li><strong>Usage Analytics:</strong> Pages visited, features used, time spent, and interaction patterns to improve our service</li>
+                        <li><strong>Log Data:</strong> IP address, access times, and system activity for security monitoring</li>
+                        <li><strong>Cookies:</strong> Small files stored on your device to remember preferences and maintain sessions</li>
+                    </ul>
+                    
+                    <div class="highlight-box info">
+                        <p><strong><i class="bi bi-lightbulb me-2"></i>Note:</strong> We use analytics tools like Mixpanel and Google Analytics to understand how users interact with our platform. This helps us identify areas for improvement and develop new features that meet your needs.</p>
+                    </div>
+                </section>
+                
+                <!-- Data Usage -->
+                <section id="data-usage" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-gear"></i> How We Use Your Information</h2>
+                    
+                    <p>We use your information for specific, legitimate purposes that directly benefit your experience with AppNomu SalesQ. We never use your data in ways that you wouldn't reasonably expect.</p>
+                    
+                    <h3>Primary Uses</h3>
+                    
+                    <div class="permission-grid">
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-box-seam"></i></div>
+                            <h4>Service Delivery</h4>
+                            <p>Providing and maintaining all platform features including sales tracking, inventory management, CRM, and reporting.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-credit-card"></i></div>
+                            <h4>Payment Processing</h4>
+                            <p>Processing your subscription payments, wallet top-ups, and facilitating payments through ServiceFlow invoices.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-chat-dots"></i></div>
+                            <h4>Communication</h4>
+                            <p>Sending important account notifications, security alerts, feature updates, and responding to your support requests.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-graph-up"></i></div>
+                            <h4>Analytics & Improvement</h4>
+                            <p>Analyzing usage patterns to improve features, fix bugs, enhance performance, and develop new capabilities.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-shield-lock"></i></div>
+                            <h4>Security & Fraud Prevention</h4>
+                            <p>Detecting and preventing fraudulent activity, unauthorized access, and protecting the integrity of our platform.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-file-text"></i></div>
+                            <h4>Legal Compliance</h4>
+                            <p>Meeting regulatory requirements, responding to legal requests, and maintaining records as required by Ugandan law.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="bi bi-envelope me-2"></i>Marketing Communications</h4>
+                        <p>We may occasionally send you information about new features, promotions, or tips for using AppNomu SalesQ. You can opt out of marketing emails at any time by clicking the unsubscribe link or adjusting your notification preferences in your account settings.</p>
+                    </div>
+                </section>
+                
+                <!-- Third-Party Services -->
+                <section id="third-party" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-puzzle"></i> Third-Party Services & Integrations</h2>
+                    
+                    <p>AppNomu SalesQ integrates with trusted third-party services to provide you with a comprehensive business management experience. We carefully vet all partners to ensure they meet our security and privacy standards.</p>
+                    
+                    <h3>Payment Processing Partners</h3>
+                    <p>We work with leading payment providers to process transactions securely. Your payment card details are processed directly by these providers and are <strong>never stored on our servers</strong>:</p>
+                    
+                    <ul>
+                        <li><strong>Flutterwave:</strong> Handles card payments, mobile money transactions, and wallet top-ups</li>
+                        <li><strong>Stripe & PayPal:</strong> Process international card payments for ServiceFlow invoices</li>
+                        <li><strong>MTN Mobile Money & Airtel Money:</strong> Process local mobile money payments in Uganda</li>
+                    </ul>
+                    
+                    <h3>Communication Services</h3>
+                    <p>To power our SMS, voice, and email features, we partner with:</p>
+                    
+                    <ul>
+                        <li><strong>Infobip:</strong> Delivers SMS messages for bulk SMS campaigns and notifications</li>
+                        <li><strong>Voice Service Providers:</strong> Enable automated voice calls across Africa</li>
+                        <li><strong>SMTP Providers:</strong> Send transactional and marketing emails</li>
+                    </ul>
+                    
+                    <h3>Analytics & Support</h3>
+                    <ul>
+                        <li><strong>Mixpanel:</strong> Product analytics to understand user behavior and improve features</li>
+                        <li><strong>Google Analytics:</strong> Website traffic analysis and visitor insights</li>
+                        <li><strong>Intercom:</strong> Live chat support and in-app customer communication</li>
+                        <li><strong>Cloudflare:</strong> Security, performance optimization, and content delivery</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <p><strong><i class="bi bi-shield-lock me-2"></i>API Security:</strong> All API keys and authentication tokens you provide for integrations (HubSpot, Mailchimp, Slack, etc.) are encrypted using <strong>AES-256 encryption</strong>. We cannot read your credentials in plain text, ensuring your connected accounts remain secure.</p>
+                    </div>
+                </section>
+                
+                <!-- Data Security -->
+                <section id="data-security" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-lock"></i> Data Security</h2>
+                    
+                    <p>Protecting your data is a top priority. We implement industry-standard security measures and continuously monitor for potential threats to keep your information safe.</p>
+                    
+                    <h3>Security Measures We Implement</h3>
+                    
+                    <div class="permission-grid">
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-file-earmark-lock"></i></div>
+                            <h4>Encryption</h4>
+                            <p>All data is encrypted in transit using TLS 1.3 and at rest using AES-256 encryption. Your sensitive information is never stored in plain text.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-person-lock"></i></div>
+                            <h4>Access Controls</h4>
+                            <p>Role-based access controls ensure that only authorized personnel can access your data, and only for legitimate business purposes.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-shield-exclamation"></i></div>
+                            <h4>Security Monitoring</h4>
+                            <p>24/7 monitoring for suspicious activity, with automated alerts and incident response procedures in place.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-arrow-repeat"></i></div>
+                            <h4>Regular Backups</h4>
+                            <p>Your data is backed up regularly to secure, geographically distributed servers to prevent data loss.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-box danger">
+                        <p><strong><i class="bi bi-exclamation-triangle me-2"></i>Your Responsibility:</strong> While we protect your data on our end, please ensure you use a strong, unique password for your account and enable two-factor authentication. Never share your login credentials with others.</p>
+                    </div>
+                </section>
+                
+                <!-- Mobile App Data -->
+                <section id="mobile-app" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-phone"></i> Mobile App Permissions & Data</h2>
+                    
+                    <p>Our mobile app (available on Android and iOS) requests certain permissions to provide full functionality. All permissions are optional unless specifically noted, and you can deny any permission—though some features may not work without them.</p>
+                    
+                    <h3>Permissions We Request</h3>
+                    
+                    <div class="permission-grid">
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                            <h4>Location (Exact GPS)</h4>
+                            <p><strong>Purpose:</strong> Required for Business Funding eligibility verification in Uganda. We collect your exact location only when applying for funding—not continuously.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-camera"></i></div>
+                            <h4>Camera</h4>
+                            <p><strong>Purpose:</strong> Scanning product barcodes, taking product photos, and verifying identity documents. Photos are stored locally unless you choose to upload them.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-chat-text"></i></div>
+                            <h4>SMS/Messages</h4>
+                            <p><strong>Purpose:</strong> Auto-reading OTP verification codes for faster login. We only read codes from AppNomu—never your personal messages.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-bell"></i></div>
+                            <h4>Notifications</h4>
+                            <p><strong>Purpose:</strong> Sending alerts about sales, low stock warnings, payment reminders, and important updates. Fully customizable in settings.</p>
+                        </div>
+                        <div class="permission-card">
+                            <div class="icon"><i class="bi bi-folder"></i></div>
+                            <h4>Storage</h4>
+                            <p><strong>Purpose:</strong> Downloading and saving exported documents like reports, invoices, and receipts in PDF or CSV format.</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Mobile App Exclusive Features</h3>
+                    <p>The following features are available only in our mobile app, with their associated data handling:</p>
+                    
+                    <ul>
+                        <li><strong>Goal Saving:</strong> Your savings goals and progress are synced to your account for access across devices</li>
+                        <li><strong>Investment:</strong> Investment preferences and returns are stored securely with encryption</li>
+                        <li><strong>Business Calculator:</strong> Calculation history is stored locally on your device only</li>
+                        <li><strong>Business Reminders:</strong> Reminder data is synced to enable cross-device notifications</li>
+                        <li><strong>Debt Tracker:</strong> Debt records are encrypted and synced to your account</li>
+                        <li><strong>Spin and Win:</strong> We track eligibility (account age, spending) and prize history</li>
+                    </ul>
+                    
+                    <div class="info-card">
+                        <h4><i class="bi bi-geo-alt-fill me-2"></i>Business Funding (Uganda Only)</h4>
+                        <p>Business funding is currently available only to users in Uganda. When you apply, we collect your exact GPS location to verify you are operating in Uganda. This location data is used solely for funding eligibility and is not continuously tracked.</p>
+                    </div>
+                </section>
+                
+                <!-- Data Retention -->
+                <section id="data-retention" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-clock-history"></i> Data Retention & Sharing</h2>
+                    
+                    <p>We retain your data only for as long as necessary to provide our services and comply with legal obligations. Here's how long we keep different types of data:</p>
+                    
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Data Category</th>
+                                <th>Retention Period</th>
+                                <th>Reason</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Account Information</strong></td>
+                                <td>While account is active + 30 days</td>
+                                <td>Service provision & account recovery</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Transaction Records</strong></td>
+                                <td>7 years</td>
+                                <td>Ugandan financial regulations</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Airtime Purchase Numbers</strong></td>
+                                <td>180 days (5 years in backups)</td>
+                                <td>Service verification & dispute resolution</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Communication Logs</strong></td>
+                                <td>2 years after last interaction</td>
+                                <td>Support history & compliance</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Analytics Data</strong></td>
+                                <td>26 months</td>
+                                <td>Service improvement & trend analysis</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h3>When We Share Your Data</h3>
+                    <p>We do not sell your personal information. We only share data in the following circumstances:</p>
+                    
+                    <ul>
+                        <li><strong>Service Providers:</strong> With trusted partners who help us operate (payment processors, hosting, analytics) under strict confidentiality agreements</li>
+                        <li><strong>Legal Requirements:</strong> When required by law, court order, or valid government request</li>
+                        <li><strong>Business Transfers:</strong> In case of merger, acquisition, or asset sale, with advance notice to you</li>
+                        <li><strong>With Your Consent:</strong> For any other purpose, only with your explicit permission</li>
+                    </ul>
+                </section>
+                
+                <!-- Your Rights -->
+                <section id="your-rights" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-person-check"></i> Your Privacy Rights</h2>
+                    
+                    <p>Under the Data Protection and Privacy Act of Uganda and international best practices, you have significant rights regarding your personal data. We make it easy for you to exercise these rights.</p>
+                    
+                    <div class="rights-grid">
+                        <div class="rights-card">
+                            <div class="icon"><i class="bi bi-eye"></i></div>
+                            <div>
+                                <h5>Right to Access</h5>
+                                <p>Request a complete copy of all personal data we hold about you. We'll provide it within 30 days.</p>
+                            </div>
+                        </div>
+                        <div class="rights-card">
+                            <div class="icon"><i class="bi bi-pencil"></i></div>
+                            <div>
+                                <h5>Right to Correction</h5>
+                                <p>Request correction of any inaccurate or incomplete data. Update most info directly in your settings.</p>
+                            </div>
+                        </div>
+                        <div class="rights-card">
+                            <div class="icon"><i class="bi bi-trash"></i></div>
+                            <div>
+                                <h5>Right to Deletion</h5>
+                                <p>Request deletion of your personal data, subject to legal retention requirements.</p>
+                            </div>
+                        </div>
+                        <div class="rights-card">
+                            <div class="icon"><i class="bi bi-download"></i></div>
+                            <div>
+                                <h5>Right to Portability</h5>
+                                <p>Export your data in machine-readable formats (CSV, JSON) for use elsewhere.</p>
+                            </div>
+                        </div>
+                        <div class="rights-card">
+                            <div class="icon"><i class="bi bi-hand-thumbs-down"></i></div>
+                            <div>
+                                <h5>Right to Object</h5>
+                                <p>Object to processing for marketing purposes. Opt out of marketing communications anytime.</p>
+                            </div>
+                        </div>
+                        <div class="rights-card">
+                            <div class="icon"><i class="bi bi-exclamation-triangle"></i></div>
+                            <div>
+                                <h5>Right to Complain</h5>
+                                <p>File a complaint with NITA-U if you believe your privacy rights have been violated.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="bi bi-clock me-2"></i>Response Timeline</h4>
+                        <p>We acknowledge all privacy requests within 48 hours and provide a full response within 30 days. For complex requests, we may extend this by an additional 30 days with prior notice.</p>
+                    </div>
+                    
+                    <h3>Account Deletion</h3>
+                    <p>You can delete your account at any time through <strong>Profile → Delete Account</strong> in the mobile app, or by emailing support@appnomu.com. Upon deletion:</p>
+                    
+                    <ul>
+                        <li>Your account and profile data will be permanently deleted within 30 days</li>
+                        <li>Some data may be retained for legal compliance (e.g., financial records for 7 years)</li>
+                        <li>Data cannot be recovered after deletion is complete</li>
+                        <li>Outstanding obligations (e.g., unpaid funding) must be settled before deletion</li>
+                    </ul>
+                </section>
+                
+                <!-- Contact -->
+                <section id="contact" class="privacy-section" data-aos="fade-up">
+                    <h2><i class="bi bi-headset"></i> Contact Us</h2>
+                    
+                    <p>If you have any questions about this Privacy Policy, want to exercise your privacy rights, or have concerns about how we handle your data, please reach out to us:</p>
+                    
+                    <div class="contact-grid">
+                        <div class="contact-card">
+                            <div class="icon"><i class="bi bi-shield-lock"></i></div>
+                            <h4>Privacy Officer</h4>
+                            <a href="mailto:privacy@appnomu.com">privacy@appnomu.com</a>
+                            <p class="mt-2">For data requests, privacy concerns, and GDPR inquiries</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="icon"><i class="bi bi-chat-dots"></i></div>
+                            <h4>General Support</h4>
+                            <a href="mailto:support@appnomu.com">support@appnomu.com</a>
+                            <p class="mt-2">For technical help and account questions</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="icon"><i class="bi bi-telephone"></i></div>
+                            <h4>Phone Support</h4>
+                            <a href="tel:+256200948420">+256 200 948 420</a>
+                            <p class="mt-2">Mon-Fri, 9AM-5PM EAT</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                            <h4>Physical Address</h4>
+                            <p class="mb-0"><strong>AppNomu Technologies</strong><br>77 Market Street<br>Bugiri, Uganda</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card" style="margin-top: 2rem;">
+                        <h4><i class="bi bi-bell me-2"></i>Policy Updates</h4>
+                        <p>We may update this Privacy Policy from time to time. When we make significant changes, we'll notify you via email at least 30 days before changes take effect. Minor updates will be posted here with an updated "Last updated" date.</p>
+                    </div>
+                </section>
+                
+                <!-- Effective Date Notice -->
+                <div class="alert alert-success border-0 rounded-4 shadow-sm mt-4" data-aos="fade-up">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-check-circle-fill text-success me-3 fs-4"></i>
+                        <div>
+                            <p class="mb-0"><strong>Effective Date:</strong> This Privacy Policy is effective as of <strong>December 11, 2025</strong> and applies to our web platform and mobile application. It complies with the Data Protection and Privacy Act of Uganda.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Back-to-top button -->
+<a href="#" id="backToTop" class="btn btn-success shadow position-fixed bottom-0 end-0 m-4 d-flex align-items-center justify-content-center rounded-circle" style="width: 50px; height: 50px; z-index: 1030; opacity: 0; visibility: hidden; transition: all 0.3s ease;">
+    <i class="bi bi-arrow-up" style="font-size: 20px;"></i>
+</a>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Back to top button functionality
+    // Back to top button
     const backToTopButton = document.getElementById('backToTop');
     
     window.addEventListener('scroll', function() {
@@ -698,19 +859,26 @@ document.addEventListener('DOMContentLoaded', function() {
     
     backToTopButton.addEventListener('click', function(e) {
         e.preventDefault();
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    // Smooth scroll for TOC links
+    document.querySelectorAll('.toc-nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const headerOffset = 90;
+                const elementPosition = target.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+            }
         });
     });
     
-    // Initialize AOS if available
+    // Initialize AOS
     if (typeof AOS !== 'undefined') {
-        AOS.init({
-            duration: 600,
-            once: true,
-            offset: 100
-        });
+        AOS.init({ duration: 600, once: true, offset: 100 });
     }
 });
 </script>
