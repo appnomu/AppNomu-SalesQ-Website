@@ -118,6 +118,7 @@ ob_start();
     padding: 1.5rem;
     border: 1px solid #e9ecef;
     transition: all 0.3s ease;
+    text-align: left;
 }
 
 .feature-card:hover {
@@ -240,7 +241,7 @@ ob_start();
     border: 1px solid #e9ecef;
     border-radius: 12px;
     padding: 1.75rem;
-    text-align: center;
+    text-align: left;
     transition: all 0.3s ease;
 }
 
@@ -258,7 +259,7 @@ ob_start();
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 1rem;
+    margin: 0 0 1rem 0;
 }
 
 .contact-card .icon i {
@@ -503,7 +504,7 @@ ob_start();
                 <section id="services" class="terms-section" data-aos="fade-up">
                     <h2><i class="bi bi-grid"></i> 2. Description of Services</h2>
                     
-                    <p>AppNomu SalesQ provides comprehensive business management software solutions through our web platform (<strong>app.appnomu.com</strong>) and mobile applications (Android & iOS). Our platform is designed to help businesses streamline operations, manage customer relationships, and grow revenue across East Africa and beyond.</p>
+                    <p>AppNomu SalesQ provides comprehensive business management software solutions through our web application (<strong>appnomu.com/client/dashboard.php</strong>) and mobile applications (Android & iOS). Our platform is designed to help businesses streamline operations, manage customer relationships, and grow revenue across East Africa and beyond.</p>
                     
                     <h3>Web Platform Features</h3>
                     
@@ -970,15 +971,13 @@ ob_start();
                             <p class="mt-2">Account help and technical issues</p>
                         </div>
                         <div class="contact-card">
-                            <div class="icon"><i class="bi bi-telephone"></i></div>
-                            <h4>Phone Support</h4>
-                            <a href="tel:+256200948420">+256 200 948 420</a>
-                            <p class="mt-2">Mon-Fri, 9AM-5PM EAT</p>
-                        </div>
-                        <div class="contact-card">
                             <div class="icon"><i class="bi bi-geo-alt"></i></div>
                             <h4>Physical Address</h4>
-                            <p class="mb-0"><strong>AppNomu Technologies</strong><br>77 Market Street<br>Bugiri, Uganda</p>
+                            <p class="mb-0">
+                                <strong>AppNomu SalesQ Building</strong><br>
+                                77 Market Street, Bugiri Municipality<br>
+                                Opposite Hindocha P/S Main Gate
+                            </p>
                         </div>
                     </div>
                     

@@ -72,25 +72,27 @@ function getTrans($key, $default = '') {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 1rem;
+            gap: 0.75rem;
         }
         
         .logo {
             display: flex;
             align-items: center;
             text-decoration: none;
+            gap: 6px;
         }
         
         .logo img {
-            height: 30px;
-            margin-right: 10px;
+            height: 36px;
+            margin-right: 0;
+            flex-shrink: 0;
         }
         
         .logo-text {
             color: #0d6efd;
             font-family: 'Figtree', sans-serif;
             font-weight: 700;
-            font-size: 1.1rem;
+            font-size: 1rem;
             white-space: nowrap;
             display: flex;
             align-items: center;
@@ -121,7 +123,7 @@ function getTrans($key, $default = '') {
         
         .nav-link {
             display: block;
-            padding: 1rem 0.75rem;
+            padding: 0.9rem 0.7rem;
             color: #333;
             text-decoration: none;
             transition: color 0.2s;
@@ -199,7 +201,7 @@ function getTrans($key, $default = '') {
         .nav-link {
             color: #333;
             text-decoration: none;
-            padding: 0.5rem 0.8rem;
+            padding: 0.45rem 0.75rem;
             display: flex;
             align-items: center;
             white-space: nowrap;
@@ -277,6 +279,29 @@ function getTrans($key, $default = '') {
             cursor: pointer;
         }
         
+        /* Reduce logo text impact on medium screens so nav has more space */
+        @media (max-width: 1200px) {
+            .logo-text {
+                font-size: 0.9rem;
+            }
+            .logo-text span:first-child,
+            .logo-text .divider {
+                display: none;
+            }
+            /* Give more space to nav items on medium desktops */
+            .nav-link {
+                font-size: 0.85rem;
+                padding: 0.4rem 0.65rem;
+            }
+            .nav-item {
+                margin: 0 4px;
+            }
+            /* Hide country selector to avoid cutting off Get Started */
+            .country-nav-item {
+                display: none;
+            }
+        }
+        
         @media (max-width: 992px) {
             .menu-toggle {
                 display: block;
@@ -321,12 +346,12 @@ function getTrans($key, $default = '') {
 <body>
     <header class="header">
         <div class="header-container">
-            <a href="<?= url('/') ?>" class="logo" style="margin-right: 2rem; text-decoration: none !important; display: flex; align-items: center;">
-                <img src="https://appnomu.com/landing/assets/images/AppNomu%20SalesQ%20logo.png" alt="AppNomu SalesQ Logo" style="height: 30px; margin-right: 8px;">
+            <a href="<?= url('/') ?>" class="logo" style="margin-right: 0.8rem; text-decoration: none !important; display: flex; align-items: center;">
+                <img src="https://appnomu.com/landing/assets/images/AppNomu%20SalesQ%20logo.png" alt="AppNomu SalesQ Logo">
                 <span class="logo-text">
                     <span>AppNomu</span>
                     <span style="margin: 0 3px;">•</span>
-                    <span>SalesQ<sup style="font-size: 0.5em; vertical-align: super;">TM</sup></span>
+                    <span>SalesQ</span>
                 </span>
             </a>
             
@@ -339,9 +364,6 @@ function getTrans($key, $default = '') {
             </button>
             
             <ul class="nav" id="mainNav">
-                <li class="nav-item">
-                    <a href="<?= url('/') ?>" class="nav-link"><?= getTrans('home', 'Home') ?></a>
-                </li>
                 <li class="nav-item">
                     <a href="<?= url('/pricing') ?>" class="nav-link"><?= getTrans('pricing', 'Pricing') ?></a>
                 </li>
@@ -396,8 +418,8 @@ function getTrans($key, $default = '') {
                     </div>
                 </li>
                 
-                <!-- Country Selector -->
-                <li class="nav-item dropdown" style="margin-right: 5px;">
+                <!-- Country Selector (hidden on narrower desktops for space) -->
+                <li class="nav-item dropdown country-nav-item" style="margin-right: 5px;">
                     <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" style="padding: 0.4rem 0.3rem; font-size: 0.8rem; display: flex; align-items: center; white-space: nowrap; max-width: 90px; overflow: hidden;">
                         <span class="country-selector" style="display: flex; align-items: center; max-width: 80px; overflow: hidden;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 3px; flex-shrink: 0;">
