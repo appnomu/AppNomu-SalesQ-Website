@@ -610,6 +610,10 @@ ob_start();
                         <h4><i class="bi bi-shield-lock me-2"></i>Secure Payment Processing</h4>
                         <p>We use industry-standard payment processors (Flutterwave, Stripe, PayPal) to handle all transactions securely. Your payment card details are processed directly by these providers and are never stored on our servers in plain text.</p>
                     </div>
+                    
+                    <div class="highlight-box danger mt-3">
+                        <p class="mb-0"><strong><i class="bi bi-currency-bitcoin me-2"></i>Cryptocurrency Payments:</strong> Payments made using cryptocurrency via our provider <strong>Cryptomus</strong> are <strong>final and non-refundable</strong>. Please double-check all details before completing a crypto transaction.</p>
+                    </div>
                 </section>
                 
                 <!-- Third-Party Integrations -->

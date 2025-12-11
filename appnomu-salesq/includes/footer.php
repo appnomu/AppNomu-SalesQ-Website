@@ -103,7 +103,7 @@ if (!function_exists('url') || !function_exists('asset')) {
         <div class="container py-4">
             <div class="row align-items-center">
                 <div class="col-md-8 text-center text-md-start">
-                    <p class="mb-1 text-muted">&copy; <?= date('Y') ?> AppNomu SalesQ. All rights reserved.</p>
+                    <p class="mb-1 text-muted">&copy; <?= date('Y') ?> AppNomu SalesQ Limited| Mobile App.</p>
                     <p class="mb-0 text-muted small">Registered in Uganda. Company No. 80020003228371</p>
                 </div>
                 <div class="col-md-4 text-center text-md-end mt-2 mt-md-0">

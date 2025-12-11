@@ -270,8 +270,8 @@ ob_start();
         <div class="row justify-content-center text-center mb-5">
             <div class="col-lg-8">
                 <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 rounded-pill mb-3 fade-in">WHY CHOOSE US</span>
-                <h2 class="display-5 fw-bold mb-3 fade-in">Powerful <span class="text-success">Features</span> That Make Us Different</h2>
-                <p class="lead text-muted mb-0 fade-in">Experience the AppNomu SalesQ advantage with these industry-leading features</p>
+                <h2 class="display-5 fw-bold mb-3 fade-in">Why Businesses <span class="text-success">Love SalesQ</span></h2>
+                <p class="lead text-muted mb-0 fade-in">One platform for web and mobile, built for real businesses in Africa with offline reliability and human support in the languages you speak.</p>
             </div>
         </div>
         
@@ -283,8 +283,8 @@ ob_start();
                         <div class="icon-box bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 60px; height: 60px;">
                             <i class="bi bi-send-check-fill text-success fs-4"></i>
                         </div>
-                        <h3 class="h5 fw-bold mb-3">Instant Real-time SMS Delivery</h3>
-                        <p class="text-muted mb-0">Send messages that arrive within seconds, not minutes or hours, ensuring your time-sensitive communications reach customers immediately.</p>
+                        <h3 class="h5 fw-bold mb-3">Web + Mobile App, One Experience</h3>
+                        <p class="text-muted mb-0">Run your business from anywhere. The SalesQ mobile app brings <strong>over 85% of the core web features</strong> to your phone, plus extra personal tools and productivity helpers for everyday use.</p>
                     </div>
                 </div>
             </div>
@@ -296,8 +296,8 @@ ob_start();
                         <div class="icon-box bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 60px; height: 60px;">
                             <i class="bi bi-phone-fill text-success fs-4"></i>
                         </div>
-                        <h3 class="h5 fw-bold mb-3">Instant Real-time Airtime Delivery</h3>
-                        <p class="text-muted mb-0">Top up customer airtime in real-time with our lightning-fast delivery system, perfect for promotions and rewards programs.</p>
+                        <h3 class="h5 fw-bold mb-3">Works Offline, Syncs When Online</h3>
+                        <p class="text-muted mb-0">Record <strong>sales, customers and products</strong> even when you dont have internet. SalesQ safely keeps everything on your device and <strong>automatically syncs</strong> when you reconnect.</p>
                     </div>
                 </div>
             </div>
@@ -309,8 +309,8 @@ ob_start();
                         <div class="icon-box bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 60px; height: 60px;">
                             <i class="bi bi-wallet2 text-success fs-4"></i>
                         </div>
-                        <h3 class="h5 fw-bold mb-3">One Wallet for All Networks</h3>
-                        <p class="text-muted mb-0">Manage all your airtime needs across multiple networks through a single, easy-to-use wallet system - simplifying your operations.</p>
+                        <h3 class="h5 fw-bold mb-3">One Wallet for Sales, SMS & Airtime</h3>
+                        <p class="text-muted mb-0">Top up once and use a single wallet for <strong>sales tools, SMS, voice and airtime</strong> across supported networks, keeping your costs and reconciliations simple.</p>
                     </div>
                 </div>
             </div>
@@ -348,8 +348,8 @@ ob_start();
                         <div class="icon-box bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 60px; height: 60px;">
                             <i class="bi bi-headset text-success fs-4"></i>
                         </div>
-                        <h3 class="h5 fw-bold mb-3">24/7 Technical Support</h3>
-                        <p class="text-muted mb-0">Access expert technical assistance around the clock to ensure your business operations run smoothly without interruption.</p>
+                        <h3 class="h5 fw-bold mb-3">Human Support in Your Language</h3>
+                        <p class="text-muted mb-0">Get real help from real people in <strong>English, Luganda and Swahili</strong> via <strong>voice calls, live chat, email and remote assist</strong> so your team is never stuck.</p>
                     </div>
                 </div>
             </div>
