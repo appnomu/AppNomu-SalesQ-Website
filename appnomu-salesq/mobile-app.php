@@ -240,6 +240,14 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
         font-weight: 600;
         line-height: 1.2;
     }
+
+    /* Mobile-friendly layout for store buttons */
+    @media (max-width: 576px) {
+        .app-store-btn {
+            width: 100%;
+            justify-content: center;
+        }
+    }
     
     /* CTA section app download buttons */
     .app-download-btn {
@@ -364,8 +372,9 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
         <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0">
                 <h1 class="display-5 fw-bold">AppNomu SalesQ <span class="text-success">Mobile App</span></h1>
-                <p class="lead mb-4">Your complete business management solution, now in your pocket. Manage sales, inventory, customers, and access business funding - anytime, anywhere.</p>
-                <p class="text-muted mb-4">Built for African entrepreneurs. Works offline. Syncs seamlessly with the web platform.</p>
+                <p class="lead mb-3">Your complete business management solution, now in your pocket. Manage sales, inventory, customers, and access business funding – anytime, anywhere.</p>
+                <p class="text-muted mb-2">Get <strong>over 85% of the powerful SalesQ web features</strong> inside one mobile app, plus extra personal tools to help you stay organised and productive every day.</p>
+                <p class="text-muted mb-4">Built for African entrepreneurs: record <strong>sales, customers and products</strong> offline and let everything sync automatically when you get internet again.</p>
                 <div class="mb-4">
                     <span class="badge bg-success text-white me-2 mb-2 py-2 px-3"><i class="fas fa-check-circle me-2"></i> Free Download</span>
                     <span class="badge bg-success text-white me-2 mb-2 py-2 px-3"><i class="fas fa-shield-alt me-2"></i> Secure & Private</span>
@@ -390,12 +399,14 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                             <small>DOWNLOAD ON</small>
                             <span>App Store</span>
                         </div>
-                    </a>
+                
+    </a>
                 </div>
                 <div class="d-flex flex-wrap align-items-center gap-3 gap-md-4 text-muted">
                     <div><i class="fas fa-download text-success me-2"></i><strong>10K+</strong> Downloads</div>
                     <div><i class="fas fa-star text-warning me-2"></i><strong>4.8</strong> Rating</div>
                     <div><i class="fas fa-code-branch text-success me-2"></i><strong>v1.0.2</strong></div>
+                    <div><i class="fas fa-comments text-success me-2"></i><strong>Support in English, Luganda &amp; Swahili</strong></div>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -411,7 +422,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <h2 class="mb-4">Why Use the <span class="text-success">Mobile App</span>?</h2>
-                <p class="lead">Manage your business from anywhere with powerful mobile features</p>
+                <p class="lead">Run your business from anywhere with mobile features that work even when the network does not.</p>
             </div>
         </div>
         
@@ -422,7 +433,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                         <i class="fas fa-clock"></i>
                     </div>
                     <h5>Real-Time Access</h5>
-                    <p>Check your sales, inventory levels, and customer data instantly. Your business data is always at your fingertips.</p>
+                    <p>See today’s sales, your top products, and key customers in seconds. Your most important business numbers are always at your fingertips.</p>
                 </div>
             </div>
             
@@ -432,7 +443,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                         <i class="fas fa-wifi"></i>
                     </div>
                     <h5>Works Offline</h5>
-                    <p>No internet? No problem. Record sales and manage inventory offline. Everything syncs automatically when you're back online.</p>
+                    <p>No internet? No problem. Record <strong>sales, customers and products</strong> while offline in the shop, field or market. Everything syncs automatically when you're back online.</p>
                 </div>
             </div>
             
@@ -485,7 +496,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <h2 class="mb-4">Core App <span class="text-success">Features</span></h2>
-                <p class="lead">Everything you need to manage your business, all in one app</p>
+                <p class="lead">Everything you need to manage your business, all in one app that stays in sync with the SalesQ web platform.</p>
             </div>
         </div>
         

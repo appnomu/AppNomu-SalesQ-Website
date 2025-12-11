@@ -371,8 +371,9 @@ function getTrans($key, $default = '') {
                     <a href="<?= url('/affiliate') ?>" class="nav-link"><?= getTrans('affiliate', 'Affiliate') ?></a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= url('/mobile-app') ?>" class="nav-link" style="color: #198754;">
+                    <a href="<?= url('/mobile-app') ?>" class="nav-link" style="color: #198754; display: inline-flex; align-items: center; gap: 0.3rem;">
                         <i class="bi bi-phone me-1"></i><?= getTrans('mobile_app', 'Mobile App') ?>
+                        <span class="badge bg-success text-white" style="font-size: 0.65rem; padding: 0.15rem 0.4rem; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.03em;">New</span>
                     </a>
                 </li>
                 

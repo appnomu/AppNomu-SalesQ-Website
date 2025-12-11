@@ -24,20 +24,20 @@ if (!function_exists('url') || !function_exists('asset')) {
                     <p class="text-muted mb-4">Empowering businesses in Uganda with powerful sales and inventory management solutions to drive growth and efficiency.</p>
                     
                     <!-- Social Media Links -->
-                    <div class="d-flex gap-3">
-                        <a href="https://facebook.com/appnomu" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;" aria-label="Facebook">
+                    <div class="mb-3 d-flex flex-wrap align-items-center gap-2">
+                        <a href="https://facebook.com/appnomu" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" aria-label="Facebook">
                             <i class="bi bi-facebook"></i>
                         </a>
-                        <a href="https://x.com/appnomuSalesQ" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;" aria-label="X (Twitter)">
+                        <a href="https://x.com/appnomuSalesQ" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" aria-label="X (Twitter)">
                             <i class="bi bi-twitter"></i>
                         </a>
-                        <a href="https://www.linkedin.com/company/our-appnomu/posts/?feedView=all" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/company/our-appnomu/posts/?feedView=all" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" aria-label="LinkedIn">
                             <i class="bi bi-linkedin"></i>
                         </a>
-                        <a href="https://instagram.com/appnomu" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;" aria-label="Instagram">
+                        <a href="https://instagram.com/appnomu" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" aria-label="Instagram">
                             <i class="bi bi-instagram"></i>
                         </a>
-                        <a href="https://www.youtube.com/@AppNomusalesQ" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;" aria-label="YouTube">
+                        <a href="https://www.youtube.com/@AppNomusalesQ" target="_blank" class="btn btn-outline-success btn-sm rounded-circle p-2" style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;" aria-label="YouTube">
                             <i class="bi bi-youtube"></i>
                         </a>
                     </div>

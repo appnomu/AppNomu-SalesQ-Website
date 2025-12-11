@@ -199,6 +199,11 @@ EOD;
                         </div>
                         </div>
                     </div>
+                    <div class="d-flex flex-wrap gap-2 mt-2">
+                        <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 small"><i class="fas fa-balance-scale me-1"></i> Compare days & weeks</span>
+                        <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 small"><i class="fas fa-percentage me-1"></i> See margins clearly</span>
+                        <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 small"><i class="fas fa-lightbulb me-1"></i> Spot best-sellers fast</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -275,7 +280,7 @@ EOD;
             <div class="col-lg-6 order-lg-2">
                 <div class="p-lg-4">
                     <h3 class="mb-4"><i class="fas fa-lightbulb text-success me-2"></i>Sales Analytics & Reporting</h3>
-                    <p class="lead mb-4">Make data-driven decisions with powerful sales analytics and customizable reports</p>
+                    <p class="lead mb-4">Quickly see what is selling, which days perform best, and where your profit really comes from.</p>
                     
                     <div class="mb-4">
                         <div class="d-flex align-items-start">
@@ -284,7 +289,11 @@ EOD;
                             </div>
                             <div>
                                 <h5>Sales Performance Tracking</h5>
-                                <p>Monitor daily, weekly, and monthly sales trends with interactive graphs and charts. Compare periods to identify growth patterns and seasonal variations in your business.</p>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-1">See daily, weekly and monthly trends in one view.</li>
+                                    <li class="mb-1">Compare periods to spot growth or slow seasons.</li>
+                                    <li class="mb-0">Identify your strongest days and campaigns.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -296,7 +305,11 @@ EOD;
                             </div>
                             <div>
                                 <h5>Professional Sales Receipts</h5>
-                                <p>Generate branded sales receipts for your customers with all transaction details. Email receipts directly or print physical copies with your business logo and contact information.</p>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-1">Create branded receipts with your logo and contacts.</li>
+                                    <li class="mb-1">Send by email or print instantly for customers.</li>
+                                    <li class="mb-0">Keep a clean history of every transaction.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -308,7 +321,11 @@ EOD;
                             </div>
                             <div>
                                 <h5>Export & Import Reports</h5>
-                                <p>Easily export sales and inventory reports to Excel or CSV formats for further analysis or accounting purposes. Import product data in bulk to save time when updating your inventory.</p>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-1">Export reports to Excel/CSV for accountants or board reports.</li>
+                                    <li class="mb-1">Share clear summaries with partners or investors.</li>
+                                    <li class="mb-0">Import product data in bulk when you are setting up or expanding.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -453,15 +470,24 @@ EOD;
         <div class="row my-5 bg-light py-5 rounded-3" data-aos="fade-up" data-aos-delay="300">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="position-relative p-3">
-                    <div class="bg-white rounded-4 shadow-lg p-4 mx-auto" style="max-width: 350px;">
-                        <div class="text-center">
-                            <img src="https://appnomu.com/landing/assets/images/QR_.png" 
-                                 alt="AppNomu SalesQ QR Code Integration" 
-                                 class="img-fluid mb-3" 
-                                 style="max-width: 200px; height: auto;"
-                                 onerror="this.onerror=null; this.src='https://via.placeholder.com/200x200/198754/ffffff?text=QR+Code+Integration'">
-                            <h5 class="text-success">Scan to View Product</h5>
-                            <p class="small text-muted">Try our QR code scanning feature</p>
+                    <!-- Phone-style mockup around the QR visual -->
+                    <div class="mx-auto" style="max-width: 260px;">
+                        <div style="background:#fff;border-radius:30px;padding:10px;box-shadow:0 18px 45px rgba(0,0,0,0.15);">
+                            <div style="background:linear-gradient(135deg,#f8f9fa,#e9ecef);border-radius:24px;padding:20px 16px;min-height:320px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;">
+                                <div class="mb-3" style="width:48px;height:6px;border-radius:999px;background:rgba(0,0,0,0.1);"></div>
+                                <img src="https://appnomu.com/landing/assets/images/QR_.png" 
+                                     alt="AppNomu SalesQ QR Code Integration" 
+                                     class="img-fluid mb-3" 
+                                     style="max-width: 160px; height: auto; border-radius: 12px; border: 1px solid rgba(0,0,0,0.06); background:#fff;"
+                                     onerror="this.onerror=null; this.src='https://via.placeholder.com/160x160/ffffff/cccccc?text=';">
+                                <h5 class="text-success mb-1">Scan to View Product</h5>
+                                <p class="small text-muted mb-3">Show product details, price and availability in one quick scan.</p>
+                                <div class="d-flex flex-wrap justify-content-center gap-2">
+                                    <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 small"><i class="fas fa-box-open me-1"></i> Add stock faster</span>
+                                    <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 small"><i class="fas fa-shopping-cart me-1"></i> Speed up checkout</span>
+                                    <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 small"><i class="fas fa-store me-1"></i> Perfect for shelves</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -469,7 +495,7 @@ EOD;
             <div class="col-lg-6">
                 <div class="p-lg-4">
                     <h3 class="mb-4"><i class="fas fa-qrcode text-success me-2"></i>QR Code Integration</h3>
-                    <p class="lead mb-4">Streamline your operations with advanced QR code functionality</p>
+                    <p class="lead mb-4">Turn every product into a smart, scannable item that speeds up work for both your staff and customers.</p>
                     
                     <div class="mb-4">
                         <div class="d-flex align-items-start">
@@ -478,7 +504,11 @@ EOD;
                             </div>
                             <div>
                                 <h5>Add Products via QR</h5>
-                                <p>Quickly scan product barcodes or QR codes to add items to your inventory without manual data entry. Perfect for bulk product additions and reducing input errors.</p>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-1">Scan barcodes or QR codes to add items to inventory without manual typing.</li>
+                                    <li class="mb-1">Ideal when receiving stock from suppliers or updating shelves.</li>
+                                    <li class="mb-0">Reduce data entry errors and save time for your team.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -490,7 +520,11 @@ EOD;
                             </div>
                             <div>
                                 <h5>Generate Product QR Codes</h5>
-                                <p>Create unique QR codes for each product in your inventory. These codes can be printed on labels, packaging, or displayed for easy scanning by customers or staff.</p>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-1">Automatically generate a unique QR code for every product.</li>
+                                    <li class="mb-1">Print on labels, price tags, or packaging for quick scanning.</li>
+                                    <li class="mb-0">Let staff or customers pull up product details in seconds.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -502,7 +536,11 @@ EOD;
                             </div>
                             <div>
                                 <h5>Offline Client Scanning</h5>
-                                <p>Enable customers to scan product QR codes in physical stores or displays to access detailed information, pricing, and even add items directly to their online shopping cart.</p>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-1">Allow customers to scan products in-store, even with weak internet.</li>
+                                    <li class="mb-1">Show key details, pricing, and availability on their phones.</li>
+                                    <li class="mb-0">Sync scanned items to their cart or account when they go online.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -512,14 +550,14 @@ EOD;
         
         <!-- Why Choose Us Section -->
         <div class="row my-5" data-aos="fade-up" data-aos-delay="400">
-            <div class="col-12 text-center mb-4">
+            <div class="col-12 mb-4 text-start">
                 <h3><i class="fas fa-medal text-success me-2"></i>Why Choose Our Product & Sales Management</h3>
-                <p class="lead">The smart choice for businesses of all sizes</p>
+                <p class="lead mb-0">The smart choice for businesses of all sizes</p>
             </div>
             
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm hover-lift">
-                    <div class="card-body text-center p-4">
+                    <div class="card-body text-start p-4">
                         <div class="rounded-circle bg-success mx-auto mb-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
                             <i class="fas fa-cloud text-white fa-2x"></i>
                         </div>
@@ -531,7 +569,7 @@ EOD;
             
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm hover-lift">
-                    <div class="card-body text-center p-4">
+                    <div class="card-body text-start p-4">
                         <div class="rounded-circle bg-success mx-auto mb-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
                             <i class="fas fa-infinity text-white fa-2x"></i>
                         </div>
@@ -543,7 +581,7 @@ EOD;
             
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm hover-lift">
-                    <div class="card-body text-center p-4">
+                    <div class="card-body text-start p-4">
                         <div class="rounded-circle bg-success mx-auto mb-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
                             <i class="fas fa-file-export text-white fa-2x"></i>
                         </div>
