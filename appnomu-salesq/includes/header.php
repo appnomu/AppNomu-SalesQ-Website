@@ -50,7 +50,7 @@ function getTrans($key, $default = '') {
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: 'Figtree', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.5;
             padding-top: 70px; /* Space for fixed header */
         }
@@ -88,7 +88,7 @@ function getTrans($key, $default = '') {
         
         .logo-text {
             color: #0d6efd;
-            font-family: 'Lexend', sans-serif;
+            font-family: 'Figtree', sans-serif;
             font-weight: 700;
             font-size: 1.1rem;
             white-space: nowrap;

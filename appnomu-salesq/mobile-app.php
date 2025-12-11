@@ -363,12 +363,14 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0">
-                <h1>AppNomu SalesQ <span class="text-success">Mobile App</span></h1>
-                <p class="lead mb-4">Your complete business management solution, now in your pocket. Manage sales, inventory, customers, and more - anytime, anywhere.</p>
+                <h1 class="display-5 fw-bold">AppNomu SalesQ <span class="text-success">Mobile App</span></h1>
+                <p class="lead mb-4">Your complete business management solution, now in your pocket. Manage sales, inventory, customers, and access business funding - anytime, anywhere.</p>
+                <p class="text-muted mb-4">Built for African entrepreneurs. Works offline. Syncs seamlessly with the web platform.</p>
                 <div class="mb-4">
                     <span class="badge bg-success text-white me-2 mb-2 py-2 px-3"><i class="fas fa-check-circle me-2"></i> Free Download</span>
                     <span class="badge bg-success text-white me-2 mb-2 py-2 px-3"><i class="fas fa-shield-alt me-2"></i> Secure & Private</span>
-                    <span class="badge bg-success text-white mb-2 py-2 px-3"><i class="fas fa-sync me-2"></i> Real-time Sync</span>
+                    <span class="badge bg-success text-white me-2 mb-2 py-2 px-3"><i class="fas fa-sync me-2"></i> Real-time Sync</span>
+                    <span class="badge bg-success text-white mb-2 py-2 px-3"><i class="fas fa-wifi-slash me-2"></i> Works Offline</span>
                 </div>
                 <div class="d-flex flex-wrap gap-3 mb-4">
                     <a href="#" class="app-store-btn">
@@ -390,23 +392,14 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                         </div>
                     </a>
                 </div>
-                <div class="d-flex align-items-center gap-4 text-muted">
+                <div class="d-flex flex-wrap align-items-center gap-3 gap-md-4 text-muted">
                     <div><i class="fas fa-download text-success me-2"></i><strong>10K+</strong> Downloads</div>
                     <div><i class="fas fa-star text-warning me-2"></i><strong>4.8</strong> Rating</div>
                     <div><i class="fas fa-code-branch text-success me-2"></i><strong>v1.0.2</strong></div>
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-                <div class="phone-mockup-simple" data-aos="fade-left" data-aos-delay="200">
-                    <div class="phone-screen-simple">
-                        <i class="fas fa-chart-line fa-4x mb-3"></i>
-                        <h3 class="fw-bold mb-2">AppNomu SalesQ</h3>
-                        <p class="mb-3">Your Business Dashboard</p>
-                        <span class="badge bg-white bg-opacity-25 px-3 py-2 rounded-pill">
-                            <i class="fas fa-bolt me-1"></i> Live Sync Enabled
-                        </span>
-                    </div>
-                </div>
+                <img src="https://appnomu.com/landing/assets/images/Advert4.png" alt="AppNomu SalesQ Mobile App" class="img-fluid rounded-4 shadow-lg" style="border: 4px solid rgba(25, 135, 84, 0.2);" data-aos="fade-left" data-aos-delay="200">
             </div>
         </div>
     </div>
@@ -651,30 +644,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
                 </ul>
             </div>
             <div class="col-lg-6 text-center">
-                <div class="position-relative">
-                    <div class="bg-white rounded-4 shadow-lg p-4 d-inline-block">
-                        <div class="d-flex align-items-center justify-content-center gap-4">
-                            <div class="text-center">
-                                <div class="bg-success bg-opacity-10 rounded-circle p-3 mb-2 mx-auto" style="width: 80px; height: 80px;">
-                                    <i class="fas fa-mobile-alt text-success fa-2x" style="line-height: 56px;"></i>
-                                </div>
-                                <small class="fw-bold">Mobile App</small>
-                            </div>
-                            <div class="text-success">
-                                <i class="fas fa-arrows-alt-h fa-2x"></i>
-                            </div>
-                            <div class="text-center">
-                                <div class="bg-success bg-opacity-10 rounded-circle p-3 mb-2 mx-auto" style="width: 80px; height: 80px;">
-                                    <i class="fas fa-desktop text-success fa-2x" style="line-height: 56px;"></i>
-                                </div>
-                                <small class="fw-bold">Web App</small>
-                            </div>
-                        </div>
-                        <div class="mt-3 pt-3 border-top">
-                            <span class="badge bg-success py-2 px-3"><i class="fas fa-bolt me-1"></i> Instant Sync</span>
-                        </div>
-                    </div>
-                </div>
+                <img src="https://appnomu.com/landing/assets/images/synced.png" alt="Real-Time Sync between Mobile and Web" class="img-fluid" data-aos="fade-right">
             </div>
         </div>
     </div>

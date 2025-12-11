@@ -92,11 +92,19 @@ require_once __DIR__ . '/includes/header.php';
 }
 </script>
 
+<!-- Figtree Font -->
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 <!-- Bootstrap & Icons for Event Page -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
 <style>
+/* Use Figtree font for this page */
+body {
+    font-family: 'Figtree', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 /* Prevent Bootstrap from affecting the header - Desktop only */
 @media (min-width: 993px) {
     .header {
@@ -113,6 +121,7 @@ require_once __DIR__ . '/includes/header.php';
         margin: 0 auto !important;
         padding: 0 20px !important;
         display: flex !important;
+        flex-wrap: nowrap !important;
         justify-content: space-between !important;
         align-items: center !important;
         gap: 1rem !important;
@@ -120,6 +129,7 @@ require_once __DIR__ . '/includes/header.php';
 
     .header .nav {
         display: flex !important;
+        flex-wrap: nowrap !important;
         list-style: none !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -128,17 +138,23 @@ require_once __DIR__ . '/includes/header.php';
 
     .header .nav-item {
         position: relative !important;
-        margin: 0 6px !important;
+        margin: 0 4px !important;
+        flex-shrink: 0 !important;
     }
 
     .header .nav-link {
         color: #333 !important;
         text-decoration: none !important;
-        padding: 0.5rem 0.8rem !important;
+        padding: 0.5rem 0.6rem !important;
         display: flex !important;
         align-items: center !important;
         white-space: nowrap !important;
-        font-size: 0.9rem !important;
+        font-size: 0.85rem !important;
+        font-family: 'Figtree', sans-serif !important;
+    }
+    
+    .header .logo-text {
+        font-family: 'Figtree', sans-serif !important;
     }
 }
 

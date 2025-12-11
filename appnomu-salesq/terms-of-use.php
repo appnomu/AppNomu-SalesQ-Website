@@ -25,7 +25,7 @@ ob_start();
         <div class="row align-items-center">
             <div class="col-lg-7" data-aos="fade-right" data-aos-duration="800">
                 <h1 class="mb-3 display-5 fw-bold">Terms of Use</h1>
-                <p class="lead">Last updated: November 30, 2025</p>
+                <p class="lead">Last updated: December 11, 2025</p>
                 <p class="mb-0">Clear, transparent terms governing your use of AppNomu SalesQ services and platform.</p>
             </div>
             <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left" data-aos-duration="800">
@@ -75,62 +75,80 @@ ob_start();
                 <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
                     <h3 class="text-success mb-4"><i class="bi bi-grid me-2"></i>2. Description of Services</h3>
                     
-                    <p>AppNomu SalesQ provides comprehensive business management software solutions designed to help businesses streamline their operations, manage customer relationships, and grow their revenue.</p>
+                    <p>AppNomu SalesQ provides comprehensive business management software solutions through our web platform and mobile application, designed to help businesses streamline operations, manage customer relationships, and grow revenue.</p>
                     
+                    <h4 class="text-success mt-4 mb-3">Web Platform Features</h4>
                     <div class="row g-4 mt-3">
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-cart-check"></i>
-                                    </div>
+                                    <div class="me-3 text-success"><i class="bi bi-cart-check"></i></div>
                                     <h5 class="mb-0">Sales & Inventory</h5>
                                 </div>
-                                <p class="mb-0 small">Comprehensive sales tracking and inventory management tools</p>
+                                <p class="mb-0 small">Product management, sales tracking, low stock alerts, and inventory management</p>
                             </div>
                         </div>
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-people"></i>
-                                    </div>
+                                    <div class="me-3 text-success"><i class="bi bi-people"></i></div>
                                     <h5 class="mb-0">CRM</h5>
                                 </div>
-                                <p class="mb-0 small">Customer relationship management for better client interactions</p>
+                                <p class="mb-0 small">Customer management, contact organization, and relationship tracking</p>
                             </div>
                         </div>
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-graph-up"></i>
-                                    </div>
-                                    <h5 class="mb-0">Analytics</h5>
+                                    <div class="me-3 text-success"><i class="bi bi-chat-dots"></i></div>
+                                    <h5 class="mb-0">Bulk SMS</h5>
                                 </div>
-                                <p class="mb-0 small">Business intelligence and reporting tools</p>
+                                <p class="mb-0 small">SMS marketing campaigns, personalized messaging, and delivery tracking</p>
                             </div>
                         </div>
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-chat-dots"></i>
-                                    </div>
-                                    <h5 class="mb-0">Communications</h5>
+                                    <div class="me-3 text-success"><i class="bi bi-telephone"></i></div>
+                                    <h5 class="mb-0">Voice Campaigns</h5>
                                 </div>
-                                <p class="mb-0 small">SMS, voice calls, and communication services</p>
+                                <p class="mb-0 small">Automated voice calls, IVR campaigns, and call analytics across Africa</p>
                             </div>
                         </div>
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="me-3 text-success">
-                                        <i class="bi bi-gear-fill"></i>
-                                    </div>
+                                    <div class="me-3 text-success"><i class="bi bi-phone"></i></div>
+                                    <h5 class="mb-0">Airtime Services</h5>
+                                </div>
+                                <p class="mb-0 small">Airtime top-up for MTN and Airtel networks</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3 text-success"><i class="bi bi-gear-fill"></i></div>
                                     <h5 class="mb-0">ServiceFlow</h5>
                                 </div>
                                 <p class="mb-0 small">Service management, invoicing, and payment processing (Premium & Enterprise)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3 text-success"><i class="bi bi-robot"></i></div>
+                                    <h5 class="mb-0">SalesQ AI</h5>
+                                </div>
+                                <p class="mb-0 small">AI-powered business insights, analytics, and recommendations</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="p-3 bg-light rounded-3 h-100 hover-shadow transition-300">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3 text-success"><i class="bi bi-receipt"></i></div>
+                                    <h5 class="mb-0">Receipt Link</h5>
+                                </div>
+                                <p class="mb-0 small">Digital receipt generation and sharing via SMS, WhatsApp, and email</p>
                             </div>
                         </div>
                     </div>
@@ -242,108 +260,117 @@ ob_start();
                 </div>
 
                 <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
-                    <h3 class="text-success mb-4"><i class="bi bi-shield-check me-2"></i>6. Acceptable Use</h3>
+                    <h3 class="text-success mb-4"><i class="bi bi-shield-check me-2"></i>6. Acceptable Use Policy</h3>
                     
-                    <p>You agree to use AppNomu SalesQ only for lawful purposes and in accordance with these terms. You may not use our services to:</p>
+                    <p>AppNomu SalesQ is designed to help legitimate businesses grow and succeed. To maintain a safe, fair, and productive environment for all users, you agree to use our platform responsibly and in accordance with the following guidelines.</p>
                     
-                    <div class="row g-4 mt-3">
-                        <div class="col-md-6">
-                            <div class="card border-0 bg-danger bg-opacity-10">
-                                <div class="card-body p-3">
-                                    <h6 class="text-danger mb-3">Prohibited Activities</h6>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i> Violate laws or regulations</li>
-                                        <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i> Infringe intellectual property</li>
-                                        <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i> Distribute malware</li>
-                                        <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i> Send spam messages or unsolicited voice calls</li>
-                                        <li class="mb-0"><i class="bi bi-x-circle text-danger me-2"></i> Harass other users</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card border-0 bg-success bg-opacity-10">
-                                <div class="card-body p-3">
-                                    <h6 class="text-success mb-3">Your Rights</h6>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Own your content and data</li>
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Cancel anytime</li>
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Data portability</li>
-                                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i> Privacy protection</li>
-                                        <li class="mb-0"><i class="bi bi-check-circle text-success me-2"></i> Customer support</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="my-4 p-4 bg-danger bg-opacity-10 rounded-3 border-start border-danger border-3">
+                        <h4 class="text-danger mb-3">Prohibited Activities</h4>
+                        <p>You may NOT use AppNomu SalesQ to:</p>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Violate laws or regulations:</strong> Engage in any activity that violates local, national, or international laws, including but not limited to fraud, money laundering, or tax evasion</li>
+                            <li class="mb-2"><strong>Send spam or unsolicited messages:</strong> Use our SMS or Voice services to send bulk unsolicited messages, promotional content without recipient consent, or any form of spam</li>
+                            <li class="mb-2"><strong>Infringe intellectual property:</strong> Upload, distribute, or use content that infringes on copyrights, trademarks, patents, or other intellectual property rights of others</li>
+                            <li class="mb-2"><strong>Distribute malware:</strong> Upload or transmit viruses, malware, ransomware, or any code designed to harm, disable, or interfere with any system or device</li>
+                            <li class="mb-2"><strong>Harass or abuse:</strong> Use the platform to harass, threaten, defame, or abuse other users, customers, or any third parties</li>
+                            <li class="mb-2"><strong>Impersonate others:</strong> Create fake accounts, impersonate individuals or businesses, or misrepresent your identity or affiliation</li>
+                            <li class="mb-2"><strong>Manipulate platform features:</strong> Attempt to exploit bugs, manipulate the Spin and Win system, create multiple accounts for fraudulent purposes, or abuse referral programs</li>
+                            <li class="mb-0"><strong>Sell prohibited goods:</strong> Use the platform to facilitate the sale of illegal products, counterfeit goods, or items prohibited by Ugandan law</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-warning bg-opacity-10 rounded-3 border-start border-warning border-3">
+                        <h4 class="text-warning mb-3">Consequences of Violations</h4>
+                        <p>Violation of this Acceptable Use Policy may result in:</p>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Warning:</strong> First-time minor violations may result in a warning and request to correct the behavior</li>
+                            <li class="mb-2"><strong>Feature Restriction:</strong> Temporary or permanent restriction of specific features (e.g., SMS sending, funding eligibility)</li>
+                            <li class="mb-2"><strong>Account Suspension:</strong> Temporary suspension of your account pending investigation</li>
+                            <li class="mb-2"><strong>Account Termination:</strong> Permanent termination of your account and forfeiture of any remaining credits or balances</li>
+                            <li class="mb-0"><strong>Legal Action:</strong> Serious violations may be reported to law enforcement and may result in civil or criminal prosecution</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-success bg-opacity-10 rounded-3 border-start border-success border-3">
+                        <h4 class="text-success mb-3">Your Rights as a User</h4>
+                        <p>While using AppNomu SalesQ, you are entitled to:</p>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Data Ownership:</strong> You own all the data you enter into the platform, including customer information, sales records, and business data. We do not claim ownership of your content</li>
+                            <li class="mb-2"><strong>Data Portability:</strong> You can export your data at any time in standard formats (CSV, PDF) for use elsewhere</li>
+                            <li class="mb-2"><strong>Cancel Anytime:</strong> You may cancel your subscription at any time without penalty. Access continues until the end of your billing period</li>
+                            <li class="mb-2"><strong>Privacy Protection:</strong> Your personal and business data is protected according to our Privacy Policy and Ugandan data protection laws</li>
+                            <li class="mb-2"><strong>Fair Treatment:</strong> Equal access to features based on your subscription tier without discrimination</li>
+                            <li class="mb-0"><strong>Customer Support:</strong> Access to our support team via email, in-app chat, and phone during business hours</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
-                    <h3 class="text-success mb-4"><i class="bi bi-exclamation-triangle me-2"></i>7. Limitation of Liability</h3>
+                    <h3 class="text-success mb-4"><i class="bi bi-exclamation-triangle me-2"></i>7. Limitation of Liability & Disclaimers</h3>
                     
-                    <div class="alert alert-warning border-0">
-                        <div class="d-flex align-items-start">
-                            <i class="bi bi-exclamation-triangle fs-4 text-warning me-3 mt-1"></i>
-                            <div>
-                                <h6 class="text-warning mb-2">Important Legal Notice</h6>
-                                <p class="mb-0 small">AppNomu SalesQ is provided "as is" without warranties. We are not liable for indirect, incidental, or consequential damages. Our liability is limited to the amount you paid for the service.</p>
-                            </div>
-                        </div>
+                    <p>Please read this section carefully as it limits our liability to you.</p>
+                    
+                    <div class="my-4 p-4 bg-warning bg-opacity-10 rounded-3 border-start border-warning border-3">
+                        <h4 class="text-warning mb-3">Service Provided "As Is"</h4>
+                        <p>AppNomu SalesQ and all related services are provided on an "as is" and "as available" basis without warranties of any kind, either express or implied, including but not limited to:</p>
+                        <ul class="mb-0">
+                            <li class="mb-2">Implied warranties of merchantability, fitness for a particular purpose, or non-infringement</li>
+                            <li class="mb-2">Warranties that the service will be uninterrupted, error-free, or completely secure</li>
+                            <li class="mb-0">Warranties regarding the accuracy, reliability, or completeness of any information provided through the service</li>
+                        </ul>
                     </div>
                     
-                    <div class="bg-light rounded-3 p-3 mt-4">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-geo-alt text-success me-3 fs-4"></i>
-                            <div>
-                                <h6 class="mb-1">Governing Law</h6>
-                                <small class="text-muted">These terms are governed by the laws of Uganda. Disputes are subject to Ugandan courts.</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
-                    <h3 class="text-success mb-4"><i class="bi bi-headset me-2"></i>8. Contact & Support</h3>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card border-0 bg-light h-100">
-                                <div class="card-body p-3 text-center">
-                                    <i class="bi bi-envelope fs-2 text-success mb-3"></i>
-                                    <h6 class="mb-2">Legal Questions</h6>
-                                    <p class="mb-2"><a href="mailto:legal@appnomu.com" class="text-success text-decoration-none">legal@appnomu.com</a></p>
-                                    <small class="text-muted">For terms and legal inquiries</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card border-0 bg-light h-100">
-                                <div class="card-body p-3 text-center">
-                                    <i class="bi bi-chat-dots fs-2 text-success mb-3"></i>
-                                    <h6 class="mb-2">General Support</h6>
-                                    <p class="mb-2"><a href="mailto:support@appnomu.com" class="text-success text-decoration-none">support@appnomu.com</a></p>
-                                    <small class="text-muted">For technical support and help</small>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="my-4 p-4 bg-danger bg-opacity-10 rounded-3 border-start border-danger border-3">
+                        <h4 class="text-danger mb-3">Limitation of Damages</h4>
+                        <p>To the maximum extent permitted by law, AppNomu and its directors, employees, partners, and affiliates shall NOT be liable for:</p>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Indirect damages:</strong> Any indirect, incidental, special, consequential, or punitive damages</li>
+                            <li class="mb-2"><strong>Lost profits:</strong> Loss of profits, revenue, data, business opportunities, or goodwill</li>
+                            <li class="mb-2"><strong>Service interruptions:</strong> Damages arising from service interruptions, downtime, or data loss</li>
+                            <li class="mb-2"><strong>Third-party actions:</strong> Actions, omissions, or conduct of third parties using our platform</li>
+                            <li class="mb-0"><strong>External factors:</strong> Events beyond our reasonable control, including but not limited to natural disasters, internet outages, or government actions</li>
+                        </ul>
                     </div>
                     
-                    <div class="alert alert-info border-0 mt-4">
-                        <div class="d-flex align-items-center">
-                            <i class="bi bi-info-circle me-3 fs-4"></i>
-                            <div>
-                                <h6 class="mb-1">Terms Updates</h6>
-                                <p class="mb-0">We may update these terms occasionally. We'll notify you of significant changes via email or through the platform.</p>
-                            </div>
-                        </div>
+                    <div class="my-4 p-4 bg-info bg-opacity-10 rounded-3 border-start border-info border-3">
+                        <h4 class="text-info mb-3">Maximum Liability Cap</h4>
+                        <p class="mb-0">In any case where we are found liable, our total liability to you for all claims arising from or related to your use of AppNomu SalesQ shall not exceed the total amount you paid to us for the service during the <strong>twelve (12) months</strong> immediately preceding the event giving rise to the claim.</p>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-light rounded-3 border-start border-success border-3">
+                        <h4 class="text-success mb-3">Indemnification</h4>
+                        <p class="mb-0">You agree to indemnify, defend, and hold harmless AppNomu, its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of or in any way connected with your access to or use of the service, your violation of these Terms, or your violation of any rights of another party.</p>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-success bg-opacity-10 rounded-3 border-start border-success border-3">
+                        <h4 class="text-success mb-3">Governing Law & Dispute Resolution</h4>
+                        <p>These Terms of Use shall be governed by and construed in accordance with the laws of the Republic of Uganda, without regard to its conflict of law provisions.</p>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Jurisdiction:</strong> Any disputes arising from these terms or your use of our services shall be subject to the exclusive jurisdiction of the courts located in Kampala, Uganda</li>
+                            <li class="mb-2"><strong>Informal Resolution:</strong> Before filing any formal legal claim, you agree to first contact us at legal@appnomu.com to attempt to resolve the dispute informally within 30 days</li>
+                            <li class="mb-0"><strong>Time Limitation:</strong> Any claim or cause of action arising from your use of AppNomu SalesQ must be filed within one (1) year after such claim or cause of action arose, or be forever barred</li>
+                        </ul>
                     </div>
                 </div>
 
-                <!-- 9. Mobile App Specific Terms -->
+                <!-- 8. Mobile App Specific Terms -->
                 <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
-                    <h3 class="text-success mb-4"><i class="bi bi-phone me-2"></i>9. Mobile App Specific Terms</h3>
+                    <h3 class="text-success mb-4"><i class="bi bi-phone me-2"></i>8. Mobile App Specific Terms</h3>
                     
-                    <p>The following additional terms apply to our mobile application (v1.0.2):</p>
+                    <p>The following additional terms apply to our mobile application (available on Android and iOS):</p>
+                    
+                    <div class="my-4 p-4 bg-light rounded-3 border-start border-success border-3">
+                        <h4 class="text-success mb-3">Mobile App Exclusive Features</h4>
+                        <p>The following features are available <strong>only in the mobile app</strong> and not on the web platform:</p>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Goal Saving:</strong> Set and track savings goals for your business</li>
+                            <li class="mb-2"><strong>Investment:</strong> Access investment opportunities and track returns</li>
+                            <li class="mb-2"><strong>Business Calculator:</strong> Calculate profits, margins, and business metrics</li>
+                            <li class="mb-2"><strong>Business Reminders:</strong> Set reminders for payments, restocking, and important dates</li>
+                            <li class="mb-2"><strong>Debt Tracker:</strong> Track money owed to you and money you owe</li>
+                            <li class="mb-0"><strong>Spin and Win:</strong> Rewards program for eligible users (see terms below)</li>
+                        </ul>
+                    </div>
                     
                     <div class="my-4 p-4 bg-light rounded-3 border-start border-success border-3">
                         <h4 class="text-success mb-3">Wallet & Payments</h4>
@@ -355,17 +382,141 @@ ob_start();
                     </div>
                     
                     <div class="my-4 p-4 bg-warning bg-opacity-10 rounded-3">
-                        <h4 class="text-warning mb-3">Business Funding</h4>
+                        <h4 class="text-warning mb-3">Business Funding (Uganda Only)</h4>
+                        <p>Business funding services are currently available <strong>only to users in Uganda</strong>.</p>
                         <ul class="mb-0">
-                            <li class="mb-2"><strong>Eligibility:</strong> Based on sales history, business revenue, and verification documents</li>
+                            <li class="mb-2"><strong>Eligibility:</strong> Based on sales history, business revenue, verification documents, and location verification</li>
+                            <li class="mb-2"><strong>Location Requirement:</strong> You must grant location permission to verify you are operating in Uganda. We collect your exact GPS location for funding eligibility assessment</li>
                             <li class="mb-2"><strong>Repayment:</strong> Must be repaid according to agreed terms and schedule</li>
-                            <li class="mb-0"><strong>Default:</strong> May result in account restrictions and legal action</li>
+                            <li class="mb-0"><strong>Default:</strong> May result in account restrictions, credit reporting, and legal action</li>
                         </ul>
                     </div>
                     
                     <div class="my-4 p-4 bg-danger bg-opacity-10 rounded-3">
                         <h4 class="text-danger mb-3">Account Deletion</h4>
-                        <p class="mb-0">You can delete your account via <strong>Profile > Delete Account</strong> in the app, or by contacting support@appnomu.com. Data is permanently deleted within 30 days, except where retention is required by law.</p>
+                        <p class="mb-0">You can delete your account via <strong>Profile > Delete Account</strong> in the app, or by contacting support@appnomu.com. Data is permanently deleted within 30 days, except where retention is required by law or you have outstanding obligations (e.g., unpaid funding).</p>
+                    </div>
+                </div>
+                
+                <!-- 9. Spin and Win Terms -->
+                <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
+                    <h3 class="text-success mb-4"><i class="bi bi-trophy me-2"></i>9. Spin and Win Terms & Conditions</h3>
+                    
+                    <p>The Spin and Win feature is a rewards program available exclusively in the AppNomu SalesQ mobile app. By participating, you agree to the following terms:</p>
+                    
+                    <div class="my-4 p-4 bg-light rounded-3 border-start border-success border-3">
+                        <h4 class="text-success mb-3">Eligibility Requirements</h4>
+                        <p>To participate in Spin and Win, you must meet <strong>all</strong> of the following criteria:</p>
+                        <ul class="mb-0">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Account Age:</strong> Your account must be at least <strong>1 week (7 days) old</strong></li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Minimum Spending:</strong> You must have spent at least <strong>UGX 10,000 or more</strong> on the platform (wallet top-ups, airtime purchases, SMS credits, etc.)</li>
+                            <li class="mb-0"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Active Account:</strong> Your account must be in good standing with no violations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-info bg-opacity-10 rounded-3">
+                        <h4 class="text-info mb-3">Spin Frequency & Limits</h4>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>One Spin Per Week:</strong> Eligible users are allowed <strong>one (1) spin per week</strong></li>
+                            <li class="mb-2"><strong>Weekly Reset:</strong> Your spin eligibility resets every 7 days from your last spin</li>
+                            <li class="mb-0"><strong>Non-Transferable:</strong> Spins cannot be transferred, sold, or accumulated</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-success bg-opacity-10 rounded-3">
+                        <h4 class="text-success mb-3">Prizes & Rewards</h4>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Prize Types:</strong> Prizes may include wallet credits, SMS credits, airtime, discounts, or other rewards</li>
+                            <li class="mb-2"><strong>Prize Delivery:</strong> Prizes are credited to your account immediately upon winning</li>
+                            <li class="mb-2"><strong>No Cash Value:</strong> Prizes cannot be exchanged for cash unless explicitly stated</li>
+                            <li class="mb-0"><strong>Expiration:</strong> Some prizes may have expiration dates as specified at the time of winning</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-warning bg-opacity-10 rounded-3">
+                        <h4 class="text-warning mb-3">Program Rules</h4>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Fair Play:</strong> Any attempt to manipulate, exploit, or abuse the Spin and Win system will result in immediate disqualification and potential account suspension</li>
+                            <li class="mb-2"><strong>Modification Rights:</strong> AppNomu reserves the right to modify, suspend, or terminate the Spin and Win program at any time without prior notice</li>
+                            <li class="mb-2"><strong>Prize Changes:</strong> Prize values and types may change at AppNomu's discretion</li>
+                            <li class="mb-0"><strong>Disputes:</strong> All decisions regarding eligibility, prizes, and disputes are final and at AppNomu's sole discretion</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- 10. Contact & Support -->
+                <div class="mb-5 p-4 bg-white rounded-3 shadow-sm" data-aos="fade-up">
+                    <h3 class="text-success mb-4"><i class="bi bi-headset me-2"></i>10. Contact & Support</h3>
+                    
+                    <p>We are committed to providing excellent support and addressing any questions or concerns you may have about these Terms of Use or our services. Here's how to reach us:</p>
+                    
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-light h-100">
+                                <div class="card-body p-4 text-center">
+                                    <div class="mb-3">
+                                        <i class="bi bi-envelope-fill fs-1 text-success"></i>
+                                    </div>
+                                    <h5 class="mb-2">Legal Inquiries</h5>
+                                    <p class="mb-2"><a href="mailto:legal@appnomu.com" class="text-success text-decoration-none fw-bold">legal@appnomu.com</a></p>
+                                    <p class="small text-muted mb-0">For questions about these terms, privacy policy, data protection, compliance, or legal matters</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-light h-100">
+                                <div class="card-body p-4 text-center">
+                                    <div class="mb-3">
+                                        <i class="bi bi-chat-dots-fill fs-1 text-success"></i>
+                                    </div>
+                                    <h5 class="mb-2">Technical Support</h5>
+                                    <p class="mb-2"><a href="mailto:support@appnomu.com" class="text-success text-decoration-none fw-bold">support@appnomu.com</a></p>
+                                    <p class="small text-muted mb-0">For help with your account, technical issues, feature questions, or general assistance</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-light h-100">
+                                <div class="card-body p-4 text-center">
+                                    <div class="mb-3">
+                                        <i class="bi bi-telephone-fill fs-1 text-success"></i>
+                                    </div>
+                                    <h5 class="mb-2">Phone Support</h5>
+                                    <p class="mb-2"><a href="tel:+256200948420" class="text-success text-decoration-none fw-bold">+256 200 948 420</a></p>
+                                    <p class="small text-muted mb-0">Available Monday - Friday, 9:00 AM - 5:00 PM (East Africa Time)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-light rounded-3 border-start border-success border-3">
+                        <h4 class="text-success mb-3">Our Physical Address</h4>
+                        <p class="mb-0">
+                            <strong>AppNomu Technologies</strong><br>
+                            77 Market Street<br>
+                            Bugiri Municipality<br>
+                            Eastern Region, Uganda
+                        </p>
+                    </div>
+                    
+                    <div class="my-4 p-4 bg-info bg-opacity-10 rounded-3 border-start border-info border-3">
+                        <h4 class="text-info mb-3">Response Times</h4>
+                        <ul class="mb-0">
+                            <li class="mb-2"><strong>Email Support:</strong> We aim to respond within 24-48 business hours</li>
+                            <li class="mb-2"><strong>Legal Inquiries:</strong> Response within 5-7 business days for complex legal matters</li>
+                            <li class="mb-2"><strong>In-App Chat:</strong> Real-time support during business hours via Intercom</li>
+                            <li class="mb-0"><strong>Phone Support:</strong> Immediate assistance during business hours for urgent matters</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="alert alert-success border-0 mt-4">
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-bell fs-4 text-success me-3 mt-1"></i>
+                            <div>
+                                <h6 class="text-success mb-2">Terms Updates & Notifications</h6>
+                                <p class="mb-0">We may update these Terms of Use from time to time to reflect changes in our services, legal requirements, or business practices. When we make significant changes, we will notify you via email at least 30 days before the changes take effect. Minor changes may be posted on this page with an updated "Last updated" date. Your continued use of our services after any changes indicates your acceptance of the updated terms.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -373,7 +524,7 @@ ob_start();
                     <div class="d-flex align-items-center">
                         <i class="bi bi-info-circle text-success me-3" style="font-size: 1.5rem;"></i>
                         <div>
-                            <p class="mb-0">These Terms of Use are effective as of <strong>November 30, 2025</strong> and apply to our web platform and mobile app (v1.0.2). They may be updated from time to time.</p>
+                            <p class="mb-0">These Terms of Use are effective as of <strong>December 11, 2025</strong> and apply to our web platform and mobile application. They may be updated from time to time with proper notice to users.</p>
                         </div>
                     </div>
                 </div>
@@ -437,7 +588,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <style>
 /* Professional Document Styles */
 .legal-content {
-    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .hover-shadow {

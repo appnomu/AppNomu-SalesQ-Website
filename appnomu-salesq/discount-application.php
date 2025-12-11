@@ -62,7 +62,7 @@ ob_start();
 <style>
     /* Custom styles for the discount application page */
     body {
-        font-family: "Lato", "Lexend", sans-serif;
+        font-family: 'Figtree', sans-serif;
         background-color: #f8f9fa;
     }
     

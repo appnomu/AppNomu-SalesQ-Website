@@ -105,7 +105,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
     <link rel="alternate" type="application/rss+xml" title="AppNomu SalesQ Blog - RSS Feed" href="<?= url('rss.php') ?>">
     <link rel="alternate" type="application/rss+xml" title="AppNomu SalesQ Blog <?= get_user_country() ?> - Country RSS Feed" href="<?= url('rss-country.php?country=' . get_user_country()) ?>">
     
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link href="<?= asset('css/style.css') ?>?v=<?= filemtime(__DIR__ . '/../assets/css/style.css') ?>" rel="stylesheet">
@@ -327,7 +327,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
             left: 20px;
             bottom: 20px;
             z-index: 2147483001; /* Above status widget but below Intercom */
-            font-family: 'Lexend', sans-serif;
+            font-family: 'Figtree', sans-serif;
         }
         
         .resources-toggle {
@@ -547,7 +547,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             z-index: 99999;
             transition: left 0.5s ease-in-out;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Figtree', sans-serif;
         }
         
         .cookie-notice.show {
@@ -619,7 +619,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
         }
     </style>
     
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Figtree font is loaded in head -->
     
     <!-- Resources Widget JavaScript -->
     <script nonce="<?= $cspNonce ?>">

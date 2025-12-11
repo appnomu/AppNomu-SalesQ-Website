@@ -14,7 +14,7 @@ if (!function_exists('url') || !function_exists('asset')) {
                 <div class="col-lg-3 col-md-6">
                     <div class="mb-4">
                         <a href="<?= url('/') ?>" class="text-decoration-none">
-                            <span style="color: #0d6efd; font-family: 'Lexend', sans-serif; font-weight: 700; font-size: 1.4rem;">
+                            <span style="color: #0d6efd; font-family: 'Figtree', sans-serif; font-weight: 700; font-size: 1.4rem;">
                                 <span>AppNomu</span>
                                 <span style="margin: 0 3px;">•</span>
                                 <span>SalesQ<sup style="font-size: 0.4rem;">TM</sup></span>
