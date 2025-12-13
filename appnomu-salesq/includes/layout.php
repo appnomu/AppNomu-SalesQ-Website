@@ -753,16 +753,37 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
             bottom: 20px;
             left: 50%;
             transform: translateX(-50%);
-            background: #198754;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             color: #ffffff;
             padding: 12px 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
             z-index: 99998;
             max-width: 90%;
             width: 600px;
             animation: slideUp 0.3s ease-out;
+            border: 1px solid rgba(25, 135, 84, 0.3);
+        }
+
+        .subscription-notice strong {
+            color: #20c997;
+        }
+
+        .subscription-notice .btn-light {
+            background: linear-gradient(135deg, #198754 0%, #20c997 100%);
             border: none;
+            color: white;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(25, 135, 84, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .subscription-notice .btn-light:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(25, 135, 84, 0.5);
+            color: white;
         }
 
         @keyframes slideUp {
