@@ -57,35 +57,6 @@ $csrf_token = $_SESSION['csrf_token'];
         animation: pulse-light 2s infinite;
     }
     
-    /* Exit Intent Modal Fixes */
-    #exitIntentModal .btn-close {
-        opacity: 1 !important;
-        background: transparent !important;
-        width: 1.5em;
-        height: 1.5em;
-        padding: 0.5em;
-        cursor: pointer;
-        pointer-events: auto !important;
-        z-index: 1051 !important;
-    }
-    
-    #exitIntentModal .btn-close:hover {
-        opacity: 0.8 !important;
-        transform: scale(1.1);
-    }
-    
-    #exitIntentModal .modal-header {
-        padding: 1rem 1.5rem;
-    }
-    
-    #exitIntentModal .modal-dialog {
-        pointer-events: auto;
-    }
-    
-    .modal-backdrop {
-        pointer-events: auto !important;
-    }
-    
     /* Modern Form Styling */
     .form-control-modern,
     .form-control-modern:focus {
@@ -270,13 +241,6 @@ $csrf_token = $_SESSION['csrf_token'];
     
     .modal-backdrop.show {
         opacity: 0.3 !important; /* Reduced opacity */
-    }
-    
-    
-    /* Exit Intent Modal - Keep original backdrop */
-    #exitIntentModal ~ .modal-backdrop {
-        background-color: rgba(0, 0, 0, 0.5) !important;
-        opacity: 0.5 !important;
     }
 </style>
 
@@ -1047,70 +1011,6 @@ $csrf_token = $_SESSION['csrf_token'];
 </section>
 
 
-<!-- Exit Intent Popup -->
-<div id="exitIntentModal" class="modal fade" tabindex="-1" aria-labelledby="exitIntentModalLabel" aria-hidden="true" data-bs-backdrop="true" data-bs-keyboard="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow-lg rounded-4">
-            <div class="modal-header border-0 bg-gradient position-relative" style="background: linear-gradient(135deg, #198754 0%, #20c997 100%);">
-                <h5 class="modal-title text-white fw-bold" id="exitIntentModalLabel">
-                    <i class="bi bi-clock-history me-2"></i>Wait! Don't Miss Out
-                </h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="position: relative; z-index: 1050;"></button>
-            </div>
-            <div class="modal-body p-4 text-center">
-                <div class="mb-4">
-                    <i class="bi bi-calendar-check text-success" style="font-size: 3rem;"></i>
-                </div>
-                <h4 class="fw-bold mb-3">Get a Quick 15-Minute Demo Instead</h4>
-                <p class="text-muted mb-4">Not ready for a full demo? See SalesQ's key features in just 15 minutes. Perfect for busy schedules!</p>
-                
-                <div class="row g-3 mb-4">
-                    <div class="col-4">
-                        <div class="text-center">
-                            <div class="bg-success bg-opacity-10 rounded-circle p-2 d-inline-flex mb-2" style="width: 50px; height: 50px;">
-                                <i class="bi bi-lightning text-success fs-5 d-flex align-items-center"></i>
-                            </div>
-                            <small class="text-muted">Quick Setup</small>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="text-center">
-                            <div class="bg-success bg-opacity-10 rounded-circle p-2 d-inline-flex mb-2" style="width: 50px; height: 50px;">
-                                <i class="bi bi-eye text-success fs-5 d-flex align-items-center"></i>
-                            </div>
-                            <small class="text-muted">Key Features</small>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="text-center">
-                            <div class="bg-success bg-opacity-10 rounded-circle p-2 d-inline-flex mb-2" style="width: 50px; height: 50px;">
-                                <i class="bi bi-question-circle text-success fs-5 d-flex align-items-center"></i>
-                            </div>
-                            <small class="text-muted">Q&A Time</small>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="d-grid gap-2">
-                    <a href="#demo-request" class="btn btn-success rounded-pill py-2" data-bs-dismiss="modal">
-                        <i class="bi bi-calendar-plus me-2"></i>Book 15-Min Quick Demo
-                    </a>
-                    <button type="button" class="btn btn-outline-secondary rounded-pill py-2" data-bs-dismiss="modal">
-                        Maybe Later
-                    </button>
-                </div>
-                
-                <div class="mt-3">
-                    <small class="text-muted">
-                        <i class="bi bi-shield-check text-success me-1"></i>
-                        No commitment required • Free consultation
-                    </small>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize AOS animations with enhanced fallback
@@ -1185,59 +1085,6 @@ document.addEventListener('DOMContentLoaded', function() {
             bsAlert.close();
         }, 8000);
     }
-    
-    // Exit Intent Detection
-    let exitIntentShown = false;
-    let mouseLeaveTimer;
-    let exitModalInstance = null;
-    
-    function showExitIntent() {
-        if (!exitIntentShown && !localStorage.getItem('exitIntentShown')) {
-            exitIntentShown = true;
-            localStorage.setItem('exitIntentShown', 'true');
-            const exitModalElement = document.getElementById('exitIntentModal');
-            exitModalInstance = new bootstrap.Modal(exitModalElement, {
-                backdrop: true,
-                keyboard: true,
-                focus: true
-            });
-            exitModalInstance.show();
-        }
-    }
-    
-    // Ensure modal can be closed by clicking backdrop
-    const exitModalElement = document.getElementById('exitIntentModal');
-    if (exitModalElement) {
-        exitModalElement.addEventListener('click', function(e) {
-            if (e.target === exitModalElement) {
-                if (exitModalInstance) {
-                    exitModalInstance.hide();
-                }
-            }
-        });
-    }
-    
-    // Track mouse movement
-    document.addEventListener('mouseleave', function(e) {
-        if (e.clientY <= 0) {
-            clearTimeout(mouseLeaveTimer);
-            mouseLeaveTimer = setTimeout(showExitIntent, 500);
-        }
-    });
-    
-    document.addEventListener('mouseenter', function() {
-        clearTimeout(mouseLeaveTimer);
-    });
-    
-    // Also trigger on scroll up (mobile behavior)
-    let lastScrollTop = 0;
-    window.addEventListener('scroll', function() {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        if (scrollTop < lastScrollTop && scrollTop < 100) {
-            showExitIntent();
-        }
-        lastScrollTop = scrollTop;
-    });
     
 });
 </script>
