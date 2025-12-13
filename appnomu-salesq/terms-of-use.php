@@ -21,12 +21,12 @@ ob_start();
 
 <style>
 .terms-section {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.03);
     border-radius: 16px;
     padding: 2.5rem;
     margin-bottom: 2rem;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-    border: 1px solid rgba(25, 135, 84, 0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .terms-section h2 {
@@ -46,7 +46,7 @@ ob_start();
 }
 
 .terms-section h3 {
-    color: #333;
+    color: #ffffff;
     font-size: 1.15rem;
     font-weight: 600;
     margin-top: 1.75rem;
@@ -54,7 +54,7 @@ ob_start();
 }
 
 .terms-section p {
-    color: #555;
+    color: rgba(255, 255, 255, 0.7);
     line-height: 1.8;
     margin-bottom: 1rem;
 }
@@ -68,7 +68,7 @@ ob_start();
     padding: 0.5rem 0;
     padding-left: 1.75rem;
     position: relative;
-    color: #555;
+    color: rgba(255, 255, 255, 0.7);
     line-height: 1.7;
 }
 
@@ -86,7 +86,7 @@ ob_start();
 }
 
 .info-card {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9f7ef 100%);
+    background: rgba(25, 135, 84, 0.1);
     border-radius: 12px;
     padding: 1.5rem;
     margin: 1.5rem 0;
@@ -113,18 +113,18 @@ ob_start();
 }
 
 .feature-card {
-    background: #f8f9fa;
+    background: rgba(255, 255, 255, 0.03);
     border-radius: 12px;
     padding: 1.5rem;
-    border: 1px solid #e9ecef;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.3s ease;
     text-align: left;
 }
 
 .feature-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-    border-color: rgba(25, 135, 84, 0.3);
+    box-shadow: 0 8px 25px rgba(25, 135, 84, 0.2);
+    border-color: rgba(25, 135, 84, 0.4);
 }
 
 .feature-card .icon {
@@ -146,13 +146,13 @@ ob_start();
 .feature-card h4 {
     font-size: 1.05rem;
     font-weight: 600;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 0.75rem;
 }
 
 .feature-card p {
     font-size: 0.9rem;
-    color: #666;
+    color: rgba(255, 255, 255, 0.6);
     margin-bottom: 0;
     line-height: 1.6;
 }

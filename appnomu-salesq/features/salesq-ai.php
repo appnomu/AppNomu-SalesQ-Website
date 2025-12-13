@@ -221,10 +221,19 @@ EOD;
         100% { opacity: 0.4; }
     }
     .hero-section {
-        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
         padding: 60px 0 40px;
         position: relative;
         overflow: hidden;
+    }
+    
+    .hero-section h1,
+    .hero-section .display-5 {
+        color: #ffffff !important;
+    }
+    
+    .hero-section p,
+    .hero-section .lead {
+        color: rgba(255, 255, 255, 0.7) !important;
     }
     
     .section-heading {

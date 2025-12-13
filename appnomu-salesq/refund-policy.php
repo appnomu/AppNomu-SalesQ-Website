@@ -26,12 +26,12 @@ ob_start();
 
 <style>
 .refund-section {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.03);
     border-radius: 16px;
     padding: 2.5rem;
     margin-bottom: 2rem;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-    border: 1px solid rgba(25, 135, 84, 0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .refund-section h2 {
@@ -51,7 +51,7 @@ ob_start();
 }
 
 .refund-section h3 {
-    color: #333;
+    color: #ffffff;
     font-size: 1.15rem;
     font-weight: 600;
     margin-top: 1.75rem;
@@ -59,7 +59,7 @@ ob_start();
 }
 
 .refund-section p {
-    color: #555;
+    color: rgba(255, 255, 255, 0.7);
     line-height: 1.8;
     margin-bottom: 1rem;
 }
@@ -73,7 +73,7 @@ ob_start();
     padding: 0.35rem 0;
     padding-left: 1.75rem;
     position: relative;
-    color: #555;
+    color: rgba(255, 255, 255, 0.7);
     line-height: 1.7;
 }
 
@@ -91,7 +91,7 @@ ob_start();
 }
 
 .refund-highlight {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9f7ef 100%);
+    background: rgba(25, 135, 84, 0.1);
     border-radius: 12px;
     padding: 1.5rem;
     margin: 1.5rem 0;
@@ -99,12 +99,12 @@ ob_start();
 }
 
 .refund-highlight.danger {
-    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    background: rgba(220, 53, 69, 0.15);
     border-left-color: #dc3545;
 }
 
 .refund-highlight.info {
-    background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+    background: rgba(23, 162, 184, 0.15);
     border-left-color: #17a2b8;
 }
 
@@ -117,8 +117,8 @@ ob_start();
 }
 
 .contact-card {
-    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
-    border: 1px solid #e9ecef;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 1.75rem;
     text-align: left;
@@ -127,7 +127,7 @@ ob_start();
 
 .contact-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(25, 135, 84, 0.2);
     border-color: #198754;
 }
 

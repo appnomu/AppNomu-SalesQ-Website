@@ -476,9 +476,9 @@ $page_keywords = "CRM Uganda, Customer Relationship Management Africa, Sales CRM
         </div>
         
         <!-- CTA Section -->
-        <div class="p-5 rounded-3 text-center mt-5" style="background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 4px 20px rgba(0,0,0,0.03);" data-aos="fade-up">
-            <h2 class="mb-3 text-dark"><i class="fas fa-handshake text-success me-2"></i>Ready to Transform Your Customer Relationships?</h2>
-            <p class="lead mb-4 text-muted">Join thousands of businesses already using our free CRM to grow their customer base and increase sales.</p>
+        <div class="p-5 rounded-3 text-center mt-5" style="background: rgba(25, 135, 84, 0.1); border: 1px solid rgba(25, 135, 84, 0.2); box-shadow: 0 4px 20px rgba(0,0,0,0.2);" data-aos="fade-up">
+            <h2 class="mb-3"><i class="fas fa-handshake text-success me-2"></i>Ready to Transform Your Customer Relationships?</h2>
+            <p class="lead mb-4">Join thousands of businesses already using our free CRM to grow their customer base and increase sales.</p>
             <div class="d-flex justify-content-center flex-wrap gap-2">
                 <a href="https://www.appnomu.com/register.php?utm_source=website&utm_medium=feature_crm&utm_campaign=free_trial" class="btn btn-success btn-lg rounded-pill px-4"><i class="fas fa-rocket me-2"></i>Start Free Trial</a>
                 <a href="https://www.appnomu.com/landing/contact" class="btn btn-outline-success btn-lg rounded-pill px-4"><i class="fas fa-headset me-2"></i>Contact Sales</a>

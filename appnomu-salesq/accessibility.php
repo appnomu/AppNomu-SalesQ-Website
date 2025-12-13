@@ -127,16 +127,17 @@ ob_start();
     }
     
     .accessibility-card {
-        background: white;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 10px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
         padding: 40px;
         margin-bottom: 30px;
         position: relative;
     }
     
     .accessibility-card h2 {
-        color: #2c3e50;
+        color: #ffffff;
         font-weight: 600;
         margin-bottom: 25px;
         padding-bottom: 15px;
@@ -157,7 +158,12 @@ ob_start();
         font-size: 1.5rem;
         margin-top: 30px;
         margin-bottom: 15px;
-        color: #2c3e50;
+        color: #ffffff;
+    }
+    
+    .accessibility-card p,
+    .accessibility-card li {
+        color: rgba(255, 255, 255, 0.7);
     }
     
     .feature-item {
@@ -174,7 +180,8 @@ ob_start();
     }
     
     .contact-section {
-        background-color: #f8f9fa;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 10px;
         padding: 30px;
         margin-top: 40px;
@@ -195,7 +202,7 @@ ob_start();
 </style>
 
 <!-- Clean Header Section (Matching About Page Pattern) -->
-<header class="page-header position-relative overflow-hidden py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<header class="page-header position-relative overflow-hidden py-5">
     <!-- Subtle pattern overlay -->
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMCwwaDEwMHYxMDBoLTEwMHoiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMCwwbDEwMCwxMDAiIHN0cm9rZT0icmdiYSgwLDAsMCwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIwLjUiLz48L3N2Zz4='); opacity: 0.4;"></div>
     

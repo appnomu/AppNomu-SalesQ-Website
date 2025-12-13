@@ -38,126 +38,161 @@ ob_start();
 $currentCountry = get_user_country();
 ?>
 
-<!-- Hero Section with Clean Modern Design -->
-<section class="hero-section position-relative" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0 60px;">
-    <!-- Subtle decorative accent -->
-    <div class="position-absolute top-0 end-0 d-none d-lg-block" style="opacity: 0.05; width: 300px; height: 300px; background: radial-gradient(circle, #198754 0%, transparent 70%); border-radius: 50%;"></div>
+<!-- Hero Section with Tech Theme - Windsurf Inspired -->
+<section class="hero-tech position-relative">
+    <!-- Animated Grid Background -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-image: linear-gradient(rgba(25, 135, 84, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(25, 135, 84, 0.03) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none;"></div>
+    
+    <!-- Gradient Orbs -->
+    <div class="gradient-orb gradient-orb-1"></div>
+    <div class="gradient-orb gradient-orb-2"></div>
+    <div class="gradient-orb gradient-orb-3"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
     
     <div class="container position-relative">
-        <div class="row align-items-center">
+        <div class="row align-items-center min-vh-75">
             <div class="col-lg-6 order-lg-1 order-2">
-                <div class="urgency-banner bg-warning text-dark px-3 py-2 rounded-pill mb-3 d-inline-block fw-bold" id="urgency-banner">
-                    <i class="bi bi-clock-fill me-2"></i><?= get_country_content('hero.urgency_banner', 'Limited Time: 50% Off First 3 Months - Ends in 5 Days!') ?>
+                <!-- Live Activity Badge -->
+                <div class="live-indicator animate-fade-up">
+                    <div class="live-dot"></div>
+                    <small style="color: rgba(255,255,255,0.8);">
+                        <span id="recent-signup-name"><?= get_country_content('hero.recent_signup', 'Sarah from Kenya') ?></span> just signed up
+                    </small>
                 </div>
                 
-                <!-- Live Signup Counter -->
-                <div class="live-activity mb-3">
-                    <div class="activity-notification bg-white border border-success rounded-pill px-3 py-2 d-inline-flex align-items-center shadow-sm animate-fade-in">
-                        <div class="activity-avatar bg-success rounded-circle me-2" style="width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">
-                            <i class="bi bi-person-fill text-white" style="font-size: 0.7rem;"></i>
-                        </div>
-                        <small class="text-dark fw-bold mb-0">
-                            <span id="recent-signup-name"><?= get_country_content('hero.recent_signup', 'Sarah from Kenya') ?></span> just signed up 
-                            <span id="signup-time">2 minutes ago</span>
-                        </small>
-                        <div class="activity-pulse ms-2">
-                            <div class="pulse-dot bg-success"></div>
-                        </div>
+                <!-- Hero Badge -->
+                <div class="hero-badge animate-fade-up delay-1">
+                    <div class="pulse-dot"></div>
+                    <span><?= get_country_content('hero.urgency_banner', '🚀 AI-Powered Business Platform') ?></span>
+                </div>
+                
+                <!-- Main Heading -->
+                <h1 class="animate-fade-up delay-2" id="hero-title">
+                    <span class="gradient-text"><?= get_country_content('hero.title', 'Grow Sales 40%') ?></span><br>
+                    with SalesQ AI Platform
+                </h1>
+                
+                <!-- Subtitle -->
+                <p class="hero-subtitle animate-fade-up delay-3" id="hero-subtitle">
+                    <?= get_country_content('hero.subtitle', 'AI-powered CRM with SMS marketing and inventory management. Join 25,000+ businesses automating sales and saving 15 hours weekly.') ?>
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="d-flex flex-wrap gap-3 mb-4 animate-fade-up delay-4">
+                    <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=hero&utm_campaign=salesq" class="btn-tech-primary" target="_blank" rel="noopener noreferrer" id="cta-button">
+                        <i class="bi bi-lightning-charge"></i>
+                        <span id="cta-text"><?= get_country_content('hero.cta_text', 'Start Free Trial') ?></span>
+                    </a>
+                    <a href="<?= url('/demo') ?>" class="btn-tech-secondary">
+                        <i class="bi bi-play-circle"></i>
+                        <span>Watch Demo</span>
+                    </a>
+                </div>
+                
+                <!-- Trust Indicators -->
+                <div class="d-flex flex-wrap gap-4 animate-fade-up delay-4" style="margin-top: 16px;">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="bi bi-check-circle-fill" style="color: var(--tech-accent-light);"></i>
+                        <small style="color: rgba(255,255,255,0.6);">No credit card required</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="bi bi-check-circle-fill" style="color: var(--tech-accent-light);"></i>
+                        <small style="color: rgba(255,255,255,0.6);">Setup in 5 minutes</small>
                     </div>
                 </div>
-                <h1 class="display-4 fw-bold mb-3 text-dark" id="hero-title"><span class="text-success"><?= get_country_content('hero.title', 'Grow Sales 40% with SalesQ-AI CRM Platform') ?></span></h1>
-                <p class="lead mb-4 text-dark" style="font-size: 1.2rem; font-weight: 300;" id="hero-subtitle"><?= get_country_content('hero.subtitle', 'AI-powered CRM with SalesQ-AI features, SMS marketing, and inventory management. Join 25,000+ businesses automating sales and saving 15 hours weekly with intelligent automation.') ?></p>
-                <div class="cta-container mb-4">
-                    <div class="position-relative d-inline-block">
-                        <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=hero&utm_campaign=salesq" class="btn btn-success btn-lg rounded-pill px-4 py-3 shadow-lg pulse-animation" target="_blank" rel="noopener noreferrer" style="min-height: 50px; font-weight: 700; font-size: 1rem; display: inline-flex; align-items: center; justify-content: center;" id="cta-button">
-                            <i class="bi bi-lightning-charge me-2"></i><span id="cta-text"><?= get_country_content('hero.cta_text', 'Start Your Free 14-Day Trial') ?></span>
-                        </a>
-                        <div class="position-absolute d-none d-sm-block" style="top: -8px; right: -15px;">
-                            <span class="badge rounded-pill bg-danger text-white animate-pulse" style="font-size: 0.65rem;">NO CARD</span>
-                        </div>
+                
+                <!-- Stats -->
+                <div class="tech-stats animate-fade-up delay-4">
+                    <div class="tech-stat">
+                        <div class="tech-stat-number">25K+</div>
+                        <div class="tech-stat-label">Businesses</div>
                     </div>
-                    <div class="guarantee-text text-center mt-3">
-                        <small class="text-muted" id="guarantee-text"><i class="bi bi-shield-check text-success me-1"></i><?= get_country_content('hero.guarantee', '30-Day Money Back Guarantee • Setup in 5 Minutes') ?></small>
+                    <div class="tech-stat">
+                        <div class="tech-stat-number">20M+</div>
+                        <div class="tech-stat-label">Messages Sent</div>
+                    </div>
+                    <div class="tech-stat">
+                        <div class="tech-stat-number">98%</div>
+                        <div class="tech-stat-label">Uptime</div>
                     </div>
                 </div>
-                <div class="trusted-by mt-4 p-3 rounded bg-white shadow-sm" style="border-left: 4px solid #198754; transition: all 0.3s ease;" data-aos="fade-up" data-aos-delay="100">
-                    <div class="d-flex align-items-center mb-2">
-                        <div class="bg-success-soft rounded-circle p-1 me-2">
-                            <i class="bi bi-shield-check text-success"></i>
+            </div>
+            
+            <div class="col-lg-6 order-lg-2 order-1 mb-5 mb-lg-0">
+                <div class="hero-image-wrapper animate-fade-up delay-2">
+                    <!-- Glow Effect -->
+                    <div class="hero-image-glow"></div>
+                    
+                    <!-- Image Frame -->
+                    <div class="hero-image-frame">
+                        <img src="https://appnomu.com/landing/assets/images/lead-insights-img1.webp" alt="AppNomu SalesQ - Complete Business Management Platform" class="img-fluid" loading="eager">
+                        
+                        <!-- Floating Badges -->
+                        <div class="floating-badge d-none d-lg-block" style="top: 20px; right: -20px;">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-lightning-fill"></i>
+                                <div>
+                                    <div style="font-size: 0.75rem; font-weight: 700; color: white;">AI-Powered</div>
+                                    <div style="font-size: 0.65rem; color: rgba(255,255,255,0.6);">Smart Automation</div>
+                                </div>
+                            </div>
                         </div>
-                        <p class="text-dark mb-0 small fw-bold">TRUSTED BY INDUSTRY LEADERS</p>
-                    </div>
-                    <div class="d-flex flex-wrap align-items-center justify-content-start gap-4 pt-2">
-                        <!-- Client logo placeholders - replace with actual logos when available -->
-                        <div class="client-logo-placeholder" style="height: 40px; width: 120px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: #6c757d; filter: grayscale(30%); transition: all 0.3s ease;" onmouseover="this.style.filter='grayscale(0%)'; this.style.transform='scale(1.05)'" onmouseout="this.style.filter='grayscale(30%)'; this.style.transform='scale(1)'">
-                            Berean Hand
+                        
+                        <div class="floating-badge d-none d-lg-block" style="bottom: 40px; left: -30px;">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-graph-up-arrow"></i>
+                                <div>
+                                    <div style="font-size: 0.75rem; font-weight: 700; color: white;">+40% Sales</div>
+                                    <div style="font-size: 0.65rem; color: rgba(255,255,255,0.6);">Average Growth</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="client-logo-placeholder" style="height: 30px; width: 100px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: #6c757d; filter: grayscale(30%); transition: all 0.3s ease;" onmouseover="this.style.filter='grayscale(0%)'; this.style.transform='scale(1.05)'" onmouseout="this.style.filter='grayscale(30%)'; this.style.transform='scale(1)'">
-                            Coca-Cola
-                        </div>
-                        <div class="client-logo-placeholder" style="height: 35px; width: 80px; background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: #6c757d; filter: grayscale(30%); transition: all 0.3s ease;" onmouseover="this.style.filter='grayscale(0%)'; this.style.transform='scale(1.05)'" onmouseout="this.style.filter='grayscale(30%)'; this.style.transform='scale(1)'">
-                            Pepsi UG
+                        
+                        <!-- Live Users Badge -->
+                        <div class="position-absolute d-flex align-items-center gap-2 px-3 py-2 rounded-pill" style="bottom: 15px; right: 15px; background: rgba(25, 135, 84, 0.9); backdrop-filter: blur(10px);">
+                            <div style="width: 8px; height: 8px; background: #4ade80; border-radius: 50%; animation: pulse 2s infinite; box-shadow: 0 0 10px #4ade80;"></div>
+                            <small class="text-white fw-bold">25K+ Active Users</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0">
-                <div class="position-relative" data-aos="fade-left" data-aos-delay="200">
-                    <!-- Featured Product Image with Modern Frame - Mobile Optimized -->
-                    <div class="hero-image-container">
-                        <div class="hero-image-frame position-relative" style="background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%); border-radius: 15px; padding: 12px; box-shadow: 0 15px 30px rgba(0,0,0,0.1), 0 5px 15px rgba(0,0,0,0.05); overflow: hidden; max-width: 100%; margin: 0 auto;">
-                            <!-- Subtle background pattern -->
-                            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: radial-gradient(circle at 20% 20%, rgba(25, 135, 84, 0.03) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(25, 135, 84, 0.02) 0%, transparent 50%); pointer-events: none;"></div>
-                            
-                            <img src="https://appnomu.com/landing/assets/images/lead-insights-img1.webp" alt="AppNomu SalesQ - Complete Business Management Platform" class="img-fluid rounded-3 position-relative" loading="lazy" style="box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.3s ease; width: 100%; height: auto;" onmouseover="this.style.transform='scale(1.01)'" onmouseout="this.style.transform='scale(1)'">
-                            
-                            <!-- Enhanced Status Badges - Mobile Responsive -->
-                            <div class="position-absolute d-flex flex-column flex-sm-row gap-1 gap-sm-2" style="top: 10px; right: 10px;">
-                                <div class="badge bg-success text-white px-2 px-sm-3 py-1 py-sm-2 rounded-pill shadow-sm d-flex align-items-center" style="font-size: 0.65rem; backdrop-filter: blur(10px);">
-                                    <i class="bi bi-lightning-fill me-1"></i> <span class="d-none d-sm-inline">AI-Powered</span><span class="d-sm-none">AI</span>
-                                </div>
-                                <div class="badge bg-primary text-white px-2 px-sm-3 py-1 py-sm-2 rounded-pill shadow-sm d-flex align-items-center" style="font-size: 0.65rem; backdrop-filter: blur(10px);">
-                                    <i class="bi bi-shield-check me-1"></i> <span class="d-none d-sm-inline">Secure</span><span class="d-sm-none">Safe</span>
-                                </div>
-                            </div>
-                            
-                            <!-- Live Usage Indicator - Mobile Responsive -->
-                            <div class="position-absolute d-flex align-items-center gap-1 gap-sm-2 bg-white rounded-pill px-2 px-sm-3 py-1 py-sm-2 shadow-sm" style="bottom: 10px; left: 10px; border: 2px solid #198754;">
-                                <div class="bg-success rounded-circle" style="width: 6px; height: 6px; animation: pulse 2s infinite;"></div>
-                                <small class="fw-bold text-dark" style="font-size: 0.7rem;">25K+ Users</small>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Enhanced Feature Highlights for Desktop -->
-                    <div class="d-none d-lg-block">
-                        <!-- Voice Broadcasting Feature -->
-                        <div class="position-absolute bg-white rounded-4 p-3 shadow-lg" style="bottom: 30px; right: -30px; border-left: 4px solid #198754; max-width: 160px; backdrop-filter: blur(10px);">
-                            <div class="d-flex align-items-center mb-2">
-                                <i class="bi bi-telephone-fill text-success me-2"></i>
-                                <small class="fw-bold">Voice Calls</small>
-                            </div>
-                            <small class="text-muted">Automated voice broadcasting campaigns</small>
-                        </div>
-                        
-                        <!-- SMS Marketing Feature -->
-                        <div class="position-absolute bg-white rounded-4 p-3 shadow-lg" style="top: 40px; left: -30px; border-left: 4px solid #198754; max-width: 160px; backdrop-filter: blur(10px);">
-                            <div class="d-flex align-items-center mb-2">
-                                <i class="bi bi-envelope-paper text-success me-2"></i>
-                                <small class="fw-bold">Bulk SMS</small>
-                            </div>
-                            <small class="text-muted">Send thousands of messages instantly</small>
-                        </div>
-                        
-                        <!-- Analytics Feature -->
-                        <div class="position-absolute bg-white rounded-4 p-3 shadow-lg" style="top: 50%; left: -40px; transform: translateY(-50%); border-left: 4px solid #198754; max-width: 160px; backdrop-filter: blur(10px);">
-                            <div class="d-flex align-items-center mb-2">
-                                <i class="bi bi-graph-up text-success me-2"></i>
-                                <small class="fw-bold">Real-time Analytics</small>
-                            </div>
-                            <small class="text-muted">Business insights & reports</small>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    
+    <!-- Section Divider Glow -->
+    <div class="section-divider-glow position-absolute bottom-0 start-0 w-100"></div>
+</section>
+
+<!-- Trusted By Section - Tech Style -->
+<section class="trusted-tech">
+    <div class="container">
+        <div class="text-center">
+            <p class="section-label mb-4">TRUSTED BY INNOVATIVE COMPANIES</p>
+            <div class="trusted-logos">
+                <div class="glass-card d-inline-flex align-items-center gap-2 px-4 py-2">
+                    <span style="color: rgba(255,255,255,0.7); font-weight: 600;">Berean Hand</span>
+                </div>
+                <div class="glass-card d-inline-flex align-items-center gap-2 px-4 py-2">
+                    <span style="color: rgba(255,255,255,0.7); font-weight: 600;">Coca-Cola</span>
+                </div>
+                <div class="glass-card d-inline-flex align-items-center gap-2 px-4 py-2">
+                    <span style="color: rgba(255,255,255,0.7); font-weight: 600;">Pepsi UG</span>
+                </div>
+                <div class="glass-card d-inline-flex align-items-center gap-2 px-4 py-2">
+                    <span style="color: rgba(255,255,255,0.7); font-weight: 600;">25,000+ Businesses</span>
                 </div>
             </div>
         </div>
@@ -915,7 +950,7 @@ $currentCountry = get_user_country();
                         <div class="stat-icon-3d rounded-circle mx-auto mb-3" aria-hidden="true">
                             <i class="bi bi-chat-square-text-fill"></i>
                         </div>
-                        <div class="stat-number" style="font-size: 2rem; font-weight: 700; color: #198754; margin-bottom: 0.5rem;" aria-label="15 million plus messages sent">15M+</div>
+                        <div class="stat-number" style="font-size: 2rem; font-weight: 700; color: #198754; margin-bottom: 0.5rem;" aria-label="20 million plus messages sent">20M+</div>
                         <p class="stat-label" style="color: #6c757d; font-weight: 500; margin-bottom: 0;" id="stat-messages">Messages Sent</p>
                     </div>
                 </div>
@@ -928,11 +963,11 @@ $currentCountry = get_user_country();
     .stat-card-3d {
         border-radius: 15px;
         padding: 2rem 1rem;
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.1),
-            0 1px 8px rgba(0, 0, 0, 0.06),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 30px rgba(0, 0, 0, 0.3),
+            0 1px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
         transform-style: preserve-3d;
@@ -1038,13 +1073,13 @@ $currentCountry = get_user_country();
         }
     }
     
-    /* 3D Feature Cards */
+    /* 3D Feature Cards - Dark Theme */
     .feature-card-3d {
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        background: rgba(255, 255, 255, 0.03) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
         box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.1),
-            0 1px 8px rgba(0, 0, 0, 0.06),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 30px rgba(0, 0, 0, 0.3),
+            0 1px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
         transform-style: preserve-3d;
@@ -1067,10 +1102,11 @@ $currentCountry = get_user_country();
     
     .feature-card-3d:hover {
         transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-12px) scale(1.03);
+        background: rgba(255, 255, 255, 0.06) !important;
+        border-color: rgba(25, 135, 84, 0.4) !important;
         box-shadow: 
-            0 20px 40px rgba(25, 135, 84, 0.2),
-            0 10px 20px rgba(0, 0, 0, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            0 20px 40px rgba(25, 135, 84, 0.3),
+            0 10px 20px rgba(0, 0, 0, 0.3);
     }
     
     .feature-card-3d:hover::before {
@@ -1096,20 +1132,23 @@ $currentCountry = get_user_country();
     .feature-card-3d h3 {
         transform: translateZ(10px);
         transition: all 0.3s ease;
+        color: #ffffff !important;
     }
     
     .feature-card-3d:hover h3 {
         transform: translateZ(20px);
-        color: #198754;
+        color: #20c997 !important;
     }
     
     .feature-card-3d p {
         transform: translateZ(5px);
         transition: all 0.3s ease;
+        color: rgba(255, 255, 255, 0.7) !important;
     }
     
     .feature-card-3d:hover p {
         transform: translateZ(15px);
+        color: rgba(255, 255, 255, 0.85) !important;
     }
     
     .feature-card-3d a {
@@ -1121,13 +1160,13 @@ $currentCountry = get_user_country();
         transform: translateZ(18px);
     }
     
-    /* 3D Metric Cards */
+    /* 3D Metric Cards - Dark Theme */
     .metric-card-3d {
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        background: rgba(255, 255, 255, 0.03) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
         box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.1),
-            0 1px 8px rgba(0, 0, 0, 0.06),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 30px rgba(0, 0, 0, 0.3),
+            0 1px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
         transform-style: preserve-3d;
@@ -1151,10 +1190,11 @@ $currentCountry = get_user_country();
     
     .metric-card-3d:hover {
         transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-10px) scale(1.05);
+        background: rgba(255, 255, 255, 0.06) !important;
+        border-color: rgba(25, 135, 84, 0.4) !important;
         box-shadow: 
-            0 20px 40px rgba(25, 135, 84, 0.2),
-            0 10px 20px rgba(0, 0, 0, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            0 20px 40px rgba(25, 135, 84, 0.3),
+            0 10px 20px rgba(0, 0, 0, 0.3);
     }
     
     .metric-card-3d:hover::before {
@@ -1182,6 +1222,7 @@ $currentCountry = get_user_country();
     .metric-card-3d p {
         transform: translateZ(10px);
         transition: all 0.3s ease;
+        color: #ffffff !important;
     }
     
     .metric-card-3d:hover p {
@@ -1191,6 +1232,7 @@ $currentCountry = get_user_country();
     .metric-card-3d small {
         transform: translateZ(5px);
         transition: all 0.3s ease;
+        color: rgba(255, 255, 255, 0.6) !important;
     }
     
     .metric-card-3d:hover small {
@@ -1232,7 +1274,7 @@ $currentCountry = get_user_country();
     </style>
 
     <!-- What AppNomu SalesQ Does Section -->
-    <section id="what-salesq-does" class="section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0;">
+    <section id="what-salesq-does" class="section py-5" style="padding: 80px 0;">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="section-title">What <span class="text-success">AppNomu SalesQ</span> Does For Your Business</h2>
@@ -1374,12 +1416,11 @@ $currentCountry = get_user_country();
     .feature-capability-card {
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         min-height: 280px;
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
-        border: none !important;
+        background: rgba(255, 255, 255, 0.03) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
         box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.1),
-            0 1px 8px rgba(0, 0, 0, 0.06),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 30px rgba(0, 0, 0, 0.3),
+            0 1px 8px rgba(0, 0, 0, 0.2);
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
         transform-style: preserve-3d;
         position: relative;
@@ -1401,10 +1442,11 @@ $currentCountry = get_user_country();
     
     .feature-capability-card:hover {
         transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-15px) scale(1.02);
+        background: rgba(255, 255, 255, 0.06) !important;
+        border-color: rgba(25, 135, 84, 0.4) !important;
         box-shadow: 
-            0 25px 50px rgba(25, 135, 84, 0.25),
-            0 10px 20px rgba(0, 0, 0, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            0 25px 50px rgba(25, 135, 84, 0.3),
+            0 10px 20px rgba(0, 0, 0, 0.3);
     }
     
     .feature-capability-card:hover::before {
@@ -1440,10 +1482,12 @@ $currentCountry = get_user_country();
     .feature-capability-card p {
         transform: translateZ(5px);
         transition: all 0.3s ease;
+        color: rgba(255, 255, 255, 0.7) !important;
     }
     
     .feature-capability-card:hover p {
         transform: translateZ(15px);
+        color: rgba(255, 255, 255, 0.85) !important;
     }
     
     /* Add subtle shine effect */
@@ -1642,7 +1686,7 @@ $currentCountry = get_user_country();
     <script src="<?= asset('js/country-hero-switcher.js') ?>"></script>
 
     <!-- Core Features Section -->
-    <section id="features" class="section py-5" style="padding: 80px 0; background: #ffffff;">
+    <section id="features" class="section py-5" style="padding: 80px 0;">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="section-title">5 Core <span class="text-success">Features</span> That Drive Results</h2>
@@ -1731,66 +1775,6 @@ $currentCountry = get_user_country();
         </div>
     </section>
 
-    <!-- Demo Video Section -->
-    <section id="demo" class="section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0; color: #212529;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="section-header mb-4">
-                        <h2>See SalesQ in <span class="text-success">Action</span></h2>
-                        <p class="lead">Watch how our platform helps businesses automate their sales process and boost efficiency</p>
-                    </div>
-                    <div class="demo-features mb-4">
-                        <div class="demo-feature d-flex align-items-center mb-3">
-                            <div class="feature-icon me-3 bg-success-soft rounded-circle p-2">
-                                <i class="bi bi-check-circle-fill text-success"></i>
-                            </div>
-                            <p style="color: #212529; font-weight: 500;" class="mb-0">Intuitive dashboard design</p>
-                        </div>
-                        <div class="demo-feature d-flex align-items-center mb-3">
-                            <div class="feature-icon me-3 bg-success-soft rounded-circle p-2">
-                                <i class="bi bi-check-circle-fill text-success"></i>
-                            </div>
-                            <p style="color: #212529; font-weight: 500;" class="mb-0">Customer communication tools</p>
-                        </div>
-                        <div class="demo-feature d-flex align-items-center">
-                            <div class="feature-icon me-3 bg-success-soft rounded-circle p-2">
-                                <i class="bi bi-check-circle-fill text-success"></i>
-                            </div>
-                            <p style="color: #212529; font-weight: 500;" class="mb-0">Advanced analytics capabilities</p>
-                        </div>
-                    </div>
-                    <a href="https://www.appnomu.com/register.php?utm_source=landing_page&utm_medium=demo_section&utm_campaign=salesq" class="btn btn-success btn-lg rounded-pill px-4 pulse-animation" target="_blank" rel="noopener noreferrer">
-                        <i class="bi bi-lightning-charge me-2"></i> Try It For Free
-                    </a>
-                </div>
-                <div class="col-lg-7">
-                    <div class="video-wrapper mt-4 mt-lg-0">
-                        <div class="video-container position-relative rounded-4 overflow-hidden shadow-lg" style="aspect-ratio: 16/10; width: 100%; max-width: 600px; margin: 0 auto; background-color: #000; cursor: pointer; transition: all 0.3s ease;">
-                            <!-- Beautiful green gradient overlay with enhanced design -->
-                            <div class="placeholder-video d-flex flex-column justify-content-center align-items-center text-center h-100 p-4" style="background: linear-gradient(135deg, rgba(25, 135, 84, 0.9) 0%, rgba(32, 201, 151, 0.8) 50%, rgba(25, 135, 84, 0.9) 100%); position: relative;">
-                                <!-- Subtle pattern overlay -->
-                                <div class="pattern-overlay position-absolute top-0 start-0 w-100 h-100" style="background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.05) 0%, transparent 50%); opacity: 0.3;"></div>
-                                
-                                <!-- Content -->
-                                <div class="position-relative z-index-2">
-                                    <div class="play-button-wrapper mb-3" style="position: relative;">
-                                        <div class="play-button-bg position-absolute top-50 start-50 translate-middle rounded-circle" style="width: 100px; height: 100px; background: rgba(255,255,255,0.2); animation: pulse-ring 2s infinite;"></div>
-                                        <i class="bi bi-play-circle-fill text-white position-relative" style="font-size: 4.5rem; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));"></i>
-                                    </div>
-                                    <h4 class="text-white mt-3 mb-2 fw-bold" style="font-size: 1.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">AppNomu SalesQ Demo</h4>
-                                    <p class="text-white mb-0" style="font-size: 1rem; opacity: 0.95; text-shadow: 0 1px 2px rgba(0,0,0,0.3);">Click to watch how SalesQ transforms your sales process</p>
-                                    <div class="demo-badge mt-3">
-                                        <span class="badge bg-white text-success px-3 py-2 rounded-pill" style="font-weight: 600; font-size: 0.85rem;">▶ 3 min demo</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     
     <!-- ServiceFlow Feature Spotlight Section -->
     <section class="serviceflow-spotlight py-5" style="background: #ffffff; padding: 80px 0;">
@@ -1859,7 +1843,7 @@ $currentCountry = get_user_country();
                 <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800">
                     <div class="serviceflow-visual position-relative">
                         <!-- Main Card -->
-                        <div class="main-card bg-white rounded-4 shadow-lg p-4 position-relative" style="border: 2px solid #e9ecef;">
+                        <div class="main-card rounded-4 shadow-lg p-4 position-relative" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
                             <div class="d-flex align-items-center justify-content-between mb-4 pb-3 border-bottom">
                                 <div>
                                     <h5 class="mb-1 fw-bold">Service Invoice</h5>
@@ -1921,7 +1905,7 @@ $currentCountry = get_user_country();
                         
                         <!-- Floating Stats Badge -->
                         <div class="position-absolute" style="bottom: -20px; left: -20px;" data-aos="zoom-in" data-aos-delay="600">
-                            <div class="bg-white rounded-4 shadow-lg p-3 border border-success" style="min-width: 160px;">
+                            <div class="rounded-4 shadow-lg p-3 border border-success" style="min-width: 160px; background: rgba(255, 255, 255, 0.03);">
                                 <div class="text-center">
                                     <i class="bi bi-graph-up text-success fs-3 mb-2"></i>
                                     <h6 class="text-success fw-bold mb-0">+40% Revenue</h6>
@@ -2228,10 +2212,10 @@ $currentCountry = get_user_country();
     </style>
 
     <!-- Performance Metrics Section -->
-    <section class="performance-metrics py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0;">
+    <section class="performance-metrics py-5" style="padding: 80px 0;">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="text-dark mb-3">Why Small Businesses Choose Our Affordable CRM Software</h2>
+                <h2 class="mb-3">Why Small Businesses Choose Our Affordable CRM Software</h2>
                 <p class="lead text-muted">Proven results from 25,000+ businesses using our cloud-based CRM and SMS marketing platform</p>
                 <div class="section-divider mx-auto" style="width: 60px; height: 3px; background-color: #198754; border-radius: 2px;"></div>
             </div>
@@ -2242,7 +2226,7 @@ $currentCountry = get_user_country();
                             <i class="bi bi-graph-up-arrow text-success fs-1"></i>
                         </div>
                         <h3 class="text-success display-4 fw-bold mb-2 counter" data-target="40">40</h3>
-                        <p class="text-dark mb-0 fw-bold">% Sales Growth with CRM</p>
+                        <p class="mb-0 fw-bold">% Sales Growth with CRM</p>
                         <small class="text-muted">Small business average</small>
                     </div>
                 </div>
@@ -2252,7 +2236,7 @@ $currentCountry = get_user_country();
                             <i class="bi bi-clock-history text-success fs-1"></i>
                         </div>
                         <h3 class="text-success display-4 fw-bold mb-2 counter" data-target="15">15</h3>
-                        <p class="text-dark mb-0 fw-bold">Hours Saved with Automation</p>
+                        <p class="mb-0 fw-bold">Hours Saved with Automation</p>
                         <small class="text-muted">Business process automation</small>
                     </div>
                 </div>
@@ -2262,7 +2246,7 @@ $currentCountry = get_user_country();
                             <i class="bi bi-people-fill text-success fs-1"></i>
                         </div>
                         <h3 class="text-success display-4 fw-bold mb-2 counter" data-target="25">25</h3>
-                        <p class="text-dark mb-0 fw-bold">% Better Customer Retention</p>
+                        <p class="mb-0 fw-bold">% Better Customer Retention</p>
                         <small class="text-muted">CRM customer management</small>
                     </div>
                 </div>
@@ -2272,7 +2256,7 @@ $currentCountry = get_user_country();
                             <i class="bi bi-speedometer2 text-success fs-1"></i>
                         </div>
                         <h3 class="text-success display-4 fw-bold mb-2">3x</h3>
-                        <p class="text-dark mb-0 fw-bold">Faster Order Processing</p>
+                        <p class="mb-0 fw-bold">Faster Order Processing</p>
                         <small class="text-muted">Inventory management system</small>
                     </div>
                 </div>
@@ -2297,7 +2281,7 @@ $currentCountry = get_user_country();
             <div class="row g-4 justify-content-center">
                 <!-- Free Plan -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="pricing-card h-100 p-4 bg-white shadow-sm rounded-4" style="border: 2px solid #e9ecef; transition: all 0.3s ease;">
+                    <div class="pricing-card h-100 p-4 shadow-sm rounded-4" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.3s ease;">
                         <div class="text-center mb-4">
                             <h3 class="h5 fw-bold text-dark">Free Forever</h3>
                             <div class="pricing-amount my-3">
@@ -2320,7 +2304,7 @@ $currentCountry = get_user_country();
                 
                 <!-- Premium Plan -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="pricing-card h-100 p-4 bg-white shadow-sm rounded-4" style="border: 2px solid #e9ecef; transition: all 0.3s ease;">
+                    <div class="pricing-card h-100 p-4 shadow-sm rounded-4" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.3s ease;">
                         <div class="text-center mb-4">
                             <h3 class="h5 fw-bold text-primary">Premium Plan</h3>
                             <div class="pricing-amount my-3">
@@ -2343,7 +2327,7 @@ $currentCountry = get_user_country();
                 
                 <!-- Enterprise Plan - Most Popular -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="pricing-card h-100 p-4 bg-white shadow-lg rounded-4 position-relative" style="border: 3px solid #198754; transform: scale(1.05); transition: all 0.3s ease;">
+                    <div class="pricing-card h-100 p-4 shadow-lg rounded-4 position-relative" style="background: rgba(25, 135, 84, 0.1); border: 2px solid #198754; transform: scale(1.05); transition: all 0.3s ease;">
                         <div class="position-absolute top-0 start-50 translate-middle">
                             <span class="badge bg-warning text-dark px-3 py-2">⭐ MOST POPULAR</span>
                         </div>
@@ -2380,20 +2364,20 @@ $currentCountry = get_user_country();
     </section>
 
     <!-- Social Proof Section -->
-    <section id="testimonials" class="section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 60px 0;">
+    <section id="testimonials" class="section py-5" style="padding: 60px 0;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
                     <h2 class="mb-3">Trusted by <span class="text-success">25,000+ Businesses</span> Across Africa</h2>
                     <p class="lead text-muted mb-4">Join successful businesses using SalesQ to automate sales, track inventory, and grow revenue.</p>
-                    <div class="testimonial-card bg-white p-4 rounded-4 shadow-sm" style="border-left: 4px solid #198754;">
+                    <div class="testimonial-card p-4 rounded-4 shadow-sm" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-left: 4px solid #198754;">
                         <div class="rating mb-3">
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
-                            <span class="ms-2 fw-bold text-dark">5.0</span>
+                            <span class="ms-2 fw-bold" style="color: #ffffff;">5.0</span>
                         </div>
                         <p class="fst-italic mb-3">"SalesQ transformed how we track inventory and manage customer communications. The analytics features have been particularly helpful in optimizing our sales strategy and increasing conversions by 40%."</p>
                         <div class="d-flex align-items-center">
@@ -2408,27 +2392,27 @@ $currentCountry = get_user_country();
                 <div class="col-lg-6" data-aos="fade-left">
                     <div class="row g-3">
                         <div class="col-6">
-                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
+                            <div class="stat-box p-4 rounded-4 text-center" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
                                 <h3 class="display-5 fw-bold text-success mb-2">98%</h3>
-                                <p class="text-muted mb-0">Customer Satisfaction</p>
+                                <p class="mb-0" style="color: rgba(255, 255, 255, 0.7);">Customer Satisfaction</p>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
-                                <h3 class="display-5 fw-bold text-success mb-2">15M+</h3>
-                                <p class="text-muted mb-0">Messages Sent</p>
+                            <div class="stat-box p-4 rounded-4 text-center" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
+                                <h3 class="display-5 fw-bold text-success mb-2">20M+</h3>
+                                <p class="mb-0" style="color: rgba(255, 255, 255, 0.7);">Messages Sent</p>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
+                            <div class="stat-box p-4 rounded-4 text-center" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
                                 <h3 class="display-5 fw-bold text-success mb-2">5+</h3>
-                                <p class="text-muted mb-0">Years in Business</p>
+                                <p class="mb-0" style="color: rgba(255, 255, 255, 0.7);">Years in Business</p>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="stat-box bg-white p-4 rounded-4 shadow-sm text-center">
+                            <div class="stat-box p-4 rounded-4 text-center" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
                                 <h3 class="display-5 fw-bold text-success mb-2">24/7</h3>
-                                <p class="text-muted mb-0">Support Available</p>
+                                <p class="mb-0" style="color: rgba(255, 255, 255, 0.7);">Support Available</p>
                             </div>
                         </div>
                     </div>
@@ -2438,7 +2422,7 @@ $currentCountry = get_user_country();
     </section>
 
     <!-- Final CTA Section -->
-    <section id="cta" class="cta-section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-top: 3px solid #198754;">
+    <section id="cta" class="cta-section py-5" style="background: rgba(25, 135, 84, 0.05); border-top: 3px solid #198754;">
         <div class="container">
             <div class="row mt-5 py-5 text-center" data-aos="fade-up">
                 <div class="col-lg-10 mx-auto">
@@ -2447,27 +2431,27 @@ $currentCountry = get_user_country();
                             <i class="bi bi-clock-fill me-2"></i>Limited Time Offer - Only 5 Days Left!
                         </span>
                     </div>
-                    <h2 class="mb-4 text-dark display-5 fw-bold">Start Using the Best Affordable CRM Software Today</h2>
-                    <p class="lead mb-4 text-dark">Join 25,000+ small businesses using our cloud-based CRM with SMS marketing to increase sales by 40% and automate business processes. Get the competitive advantage now!</p>
+                    <h2 class="mb-4 display-5 fw-bold" style="color: #ffffff;">Start Using the Best Affordable CRM Software Today</h2>
+                    <p class="lead mb-4" style="color: rgba(255, 255, 255, 0.8);">Join 25,000+ small businesses using our cloud-based CRM with SMS marketing to increase sales by 40% and automate business processes. Get the competitive advantage now!</p>
                     
                     <div class="value-stack mb-4">
                         <div class="row justify-content-center">
                             <div class="col-md-4 mb-2">
                                 <div class="d-flex align-items-center justify-content-center">
                                     <i class="bi bi-check-circle-fill text-success me-2"></i>
-                                    <span class="fw-bold text-dark">14-Day Free Trial</span>
+                                    <span class="fw-bold" style="color: #ffffff;">14-Day Free Trial</span>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-2">
                                 <div class="d-flex align-items-center justify-content-center">
                                     <i class="bi bi-check-circle-fill text-success me-2"></i>
-                                    <span class="fw-bold text-dark">No Credit Card Required</span>
+                                    <span class="fw-bold" style="color: #ffffff;">No Credit Card Required</span>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-2">
                                 <div class="d-flex align-items-center justify-content-center">
                                     <i class="bi bi-check-circle-fill text-success me-2"></i>
-                                    <span class="fw-bold text-dark">30-Day Money Back Guarantee</span>
+                                    <span class="fw-bold" style="color: #ffffff;">30-Day Money Back Guarantee</span>
                                 </div>
                             </div>
                         </div>

@@ -110,6 +110,7 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link href="<?= asset('css/style.css') ?>?v=<?= filemtime(__DIR__ . '/../assets/css/style.css') ?>" rel="stylesheet">
     <link href="<?= asset('css/accessibility.css') ?>?v=<?= filemtime(__DIR__ . '/../assets/css/accessibility.css') ?>" rel="stylesheet">
+    <link href="<?= asset('css/tech-theme.css') ?>?v=<?= filemtime(__DIR__ . '/../assets/css/tech-theme.css') ?>" rel="stylesheet">
     <?php if (isset($additional_css)): ?>
         <?php foreach ($additional_css as $css): ?>
             <link href="<?= $css ?>" rel="stylesheet">
@@ -263,6 +264,27 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
     </script>
 </head>
 <body>
+    <!-- Global Tech Wave Background Elements -->
+    <div class="global-tech-bg" aria-hidden="true">
+        <!-- Gradient Orbs -->
+        <div class="gradient-orb gradient-orb-1"></div>
+        <div class="gradient-orb gradient-orb-2"></div>
+        <div class="gradient-orb gradient-orb-3"></div>
+        <!-- Floating Particles -->
+        <div class="particles-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+    
     <!-- Skip to content link for keyboard users -->
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
     
@@ -715,10 +737,10 @@ header("Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyrosco
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="me-3 text-white">
-                    <strong>🚀 Special Offer!</strong> Get started with our Enterprise plan at only <strong>USD25/month</strong> and receive <strong>UGX 1,000 in SMS credit</strong> to test our SMS Marketing platform!
+                    <strong>📱 Download our Mobile App from Playstore</strong> and Earn yourself <strong>UGX1000 Airtime reward</strong> plus amazing <strong>Gifts through Spin!</strong>
                 </div>
                 <div class="d-flex align-items-center">
-                    <a href="https://www.appnomu.com/register.php?utm_source=notification_banner&utm_medium=website&utm_campaign=enterprise_offer" class="btn btn-light btn-sm me-2">Upgrade Now</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.appnomu.salesq" class="btn btn-light btn-sm me-2">Download Now</a>
                     <button type="button" class="btn-close btn-close-white" aria-label="Close" id="close-subscription-notice"></button>
                 </div>
             </div>

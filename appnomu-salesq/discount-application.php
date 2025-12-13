@@ -61,33 +61,27 @@ ob_start();
 
 <style>
     /* Custom styles for the discount application page */
-    body {
-        font-family: 'Figtree', sans-serif;
-        background-color: #f8f9fa;
-    }
     
     .hero-section {
-        background: #ffffff;
-        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e9ecef' fill-opacity='0.2'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-        color: #212529;
         padding: 120px 0 80px;
         margin-top: 0;
         position: relative;
         overflow: hidden;
-        border-bottom: 1px solid rgba(0,0,0,0.05);
     }
     
     .hero-section h1 {
         font-size: 2.8rem;
         font-weight: 700;
         margin-bottom: 1.5rem;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        color: #ffffff;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
     }
     
     .hero-section p {
         font-size: 1.3rem;
         font-weight: 300;
-        text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        color: rgba(255, 255, 255, 0.85);
+        text-shadow: 0 1px 2px rgba(0,0,0,0.2);
         margin-bottom: 2rem;
         max-width: 800px;
         margin-left: auto;
@@ -95,9 +89,10 @@ ob_start();
     }
     
     .form-card {
-        background: white;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 10px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
         padding: 30px;
         margin-bottom: 50px;
         position: relative;
@@ -105,12 +100,16 @@ ob_start();
     }
     
     .form-card h2 {
-        color: #2c3e50;
+        color: #ffffff;
         font-weight: 600;
         margin-bottom: 25px;
         padding-bottom: 15px;
         position: relative;
-        text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+    }
+    
+    .form-card p,
+    .form-card li {
+        color: rgba(255, 255, 255, 0.7);
     }
     
     .form-card h2:after {
@@ -125,18 +124,22 @@ ob_start();
     }
     
     .info-card {
-        background: #f8f9fa;
+        background: rgba(25, 135, 84, 0.1);
         border-left: 4px solid #198754;
         padding: 15px 20px;
         border-radius: 10px;
     }
     
+    .info-card p {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
     .section-title {
-        color: #2c3e50;
+        color: #ffffff;
         font-weight: 600;
         margin-bottom: 20px;
         padding-bottom: 10px;
-        border-bottom: 2px solid #f0f0f0;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
         position: relative;
     }
     
@@ -153,6 +156,7 @@ ob_start();
     .form-label {
         font-weight: 500;
         margin-bottom: 8px;
+        color: rgba(255, 255, 255, 0.85);
     }
     
     .required-field::after {
@@ -162,7 +166,7 @@ ob_start();
     
     .form-text {
         font-size: 0.85rem;
-        color: #6c757d;
+        color: rgba(255, 255, 255, 0.5);
         margin-top: -8px;
         margin-bottom: 15px;
     }
@@ -201,7 +205,7 @@ ob_start();
     }
 
     .info-card {
-        background-color: rgba(25, 135, 84, 0.05);
+        background-color: rgba(25, 135, 84, 0.1);
         border-radius: 10px;
         padding: 20px;
         border-left: 4px solid #198754;
@@ -230,7 +234,7 @@ ob_start();
         top: 50%;
         transform: translateY(-50%);
         left: 15px;
-        color: #6c757d;
+        color: rgba(255, 255, 255, 0.5);
     }
     
     .input-icon .form-control, 
@@ -243,6 +247,7 @@ ob_start();
         padding-bottom: 15px;
         margin-bottom: 30px;
         font-weight: 700;
+        color: #ffffff;
     }
 
     .section-title:after {

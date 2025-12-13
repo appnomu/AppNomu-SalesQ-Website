@@ -31,20 +31,20 @@ $turnstile_site_key = '0x4AAAAAABky2ZVjyQirVHsh';
 ?>
 
 <!-- Modern Hero Section with Neutral Professional Design -->
-<header class="page-header position-relative overflow-hidden py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<header class="page-header position-relative overflow-hidden py-5">
     <!-- Subtle pattern overlay -->
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMCwwaDEwMHYxMDBoLTEwMHoiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMCwwbDEwMCwxMDAiIHN0cm9rZT0icmdiYSgwLDAsMCwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIwLjUiLz48L3N2Zz4='); opacity: 0.4;"></div>
     
     <div class="container position-relative">
         <div class="row align-items-center py-4">
             <div class="col-lg-6 mb-4 mb-lg-0">
-                <h1 class="display-4 fw-bold text-dark mb-3">Get In Touch</h1>
-                <p class="lead text-dark opacity-75 mb-4">We're here to answer your questions about AppNomu SalesQ and help you succeed with our platform.</p>
+                <h1 class="display-4 fw-bold mb-3">Get In Touch</h1>
+                <p class="lead opacity-75 mb-4">We're here to answer your questions about AppNomu SalesQ and help you succeed with our platform.</p>
                 <div class="d-flex align-items-center">
                     <div class="badge bg-success text-white p-2 me-3">
                         <i class="bi bi-clock"></i>
                     </div>
-                    <p class="mb-0 text-dark">Our support team responds within 24 hours on business days</p>
+                    <p class="mb-0">Our support team responds within 24 hours on business days</p>
                 </div>
             </div>
             <div class="col-lg-6 d-none d-lg-block text-end">
@@ -116,12 +116,12 @@ $turnstile_site_key = '0x4AAAAAABky2ZVjyQirVHsh';
 </section>
 
 <!-- Enhanced Professional Contact Form Section -->
-<section class="py-5 bg-light" id="contact-form">
+<section class="py-5" id="contact-form">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
                 <div class="card shadow-lg border-0 rounded-3">
-                    <div class="card-header bg-gradient-subtle py-3 px-3" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
+                    <div class="card-header py-3 px-3" style="background: rgba(255, 255, 255, 0.05);">
                         <h3 id="contact-form-heading" class="m-0 fw-bold d-flex align-items-center fs-4">
                             <span class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center me-2" style="width: 32px; height: 32px;">
                                 <i class="bi bi-envelope" aria-hidden="true"></i>
@@ -129,7 +129,7 @@ $turnstile_site_key = '0x4AAAAAABky2ZVjyQirVHsh';
                             Send us a message
                         </h3>
                     </div>
-                    <div class="card-body p-3 p-md-4 bg-white">
+                    <div class="card-body p-3 p-md-4">
                         <p class="text-muted mb-3">Complete the form below and our team will respond within 24 hours.</p>
                         <?php
                         // Check for contact status

@@ -206,7 +206,7 @@ ob_start();
                             </div>
                             <div>
                                 <h4 class="mb-3"><?= __('about.vision.title', [], 'Our Vision') ?></h4>
-                                <p class="mb-0"><?= __('about.vision.description', [], 'To be the leading digital solutions provider across Africa and beyond, known for innovation, excellence, and transformative impact. We envision a world where businesses of all sizes have access to cutting-edge digital tools and technologies that enable them to compete effectively in the global marketplace and achieve sustainable growth.') ?></p>
+                                <p class="mb-0"><?= __('about.vision.description', [], 'To be Africa\'s leading business technology provider—empowering companies of all sizes with tools to compete globally and grow sustainably.') ?></p>
                             </div>
                         </div>
                     </div>
@@ -218,7 +218,7 @@ ob_start();
                             </div>
                             <div>
                                 <h4 class="mb-3"><?= __('about.mission.title', [], 'Our Mission') ?></h4>
-                                <p class="mb-0"><?= __('about.mission.description', [], 'To democratize access to business technology globally by providing affordable, accessible, and easy-to-use sales and inventory management solutions. We are committed to supporting underserved markets and making our solutions accessible through flexible pricing structures and special discounts for qualifying organizations in need.') ?></p>
+                                <p class="mb-0"><?= __('about.mission.description', [], 'Making powerful business tools affordable and accessible to everyone—with flexible pricing and special discounts for startups and non-profits.') ?></p>
                             </div>
                         </div>
                     </div>
@@ -242,7 +242,7 @@ ob_start();
                             </div>
                             <div>
                                 <h4 class="mb-2"><?= __('about.value_proposition.title', [], 'Built For Africa, By Africans') ?></h4>
-                                <p class="mb-0"><?= __('about.value_proposition.description', [], 'Unlike international solutions that don\'t account for local realities, our platform addresses unique African market challenges: fluctuating internet connectivity, varied payment methods, and multilingual business environments.') ?></p>
+                                <p class="mb-0"><?= __('about.value_proposition.description', [], 'Designed for local realities: works offline, supports mobile money, and speaks your language.') ?></p>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@ ob_start();
                             </div>
                             <div>
                                 <h4 class="mb-2"><?= __('about.accessible_pricing.title', [], 'Accessible Pricing') ?></h4>
-                                <p class="mb-0"><?= __('about.accessible_pricing.description', [], 'We\'ve eliminated the prohibitive costs typical of business software with flexible, pay-as-you-grow plans starting at just 50,000 UGX monthly—making enterprise-grade tools accessible to even small market vendors.') ?></p>
+                                <p class="mb-0"><?= __('about.accessible_pricing.description', [], 'Enterprise-grade tools starting at just 50,000 UGX/month. Pay as you grow.') ?></p>
                             </div>
                         </div>
                     </div>
@@ -270,12 +270,12 @@ ob_start();
                             </div>
                             <div>
                                 <h4 class="mb-2"><?= __('about.localized_support.title', [], 'Localized Support') ?></h4>
-                                <p class="mb-0"><?= __('about.localized_support.description', [], 'Our support team speaks your language—literally. Get help in English, Swahili, Luganda and other regional languages, with local offices providing hands-on training and implementation assistance.') ?></p>
+                                <p class="mb-0"><?= __('about.localized_support.description', [], 'Support in English, Swahili, Luganda & more. Local teams ready to help.') ?></p>
                             </div>
                         </div>
                     </div>
                     
-                    <p class="mt-4"><strong>Founded in 2023</strong>, we're on a mission to democratize access to business technology globally. We believe that technology should empower, not complicate. Our goal is to create tools that are powerful enough for sophisticated business needs yet simple enough for anyone to use, regardless of their technical expertise or geographical location.</p>
+                    <p class="mt-4"><strong>Founded in 2023</strong>, we build powerful tools that are simple enough for anyone to use.</p>
                 </div>
                 
                 <!-- Stats Section Moved Here -->
@@ -303,7 +303,7 @@ ob_start();
                             <div class="icon-box bg-success-soft rounded-circle p-3 mb-3 mx-auto">
                                 <i class="bi bi-chat-right-text fs-3 text-success"></i>
                             </div>
-                            <h3 class="display-4 fw-bold text-dark mb-2">10M+</h3>
+                            <h3 class="display-4 fw-bold text-dark mb-2">20M+</h3>
                             <p class="text-muted mb-0"><?= __('about.stats.messages', [], 'Messages Sent') ?></p>
                         </div>
                     </div>
@@ -518,7 +518,7 @@ ob_start();
                         </div>
                         <div>
                             <h4 class="mb-3">Global Focus</h4>
-                            <p class="mb-0">We build solutions designed for diverse markets across Africa, USA, and Asia, addressing the unique challenges and opportunities in each region.</p>
+                            <p class="mb-0">Solutions designed for Africa, USA, and Asia—addressing each region's unique needs.</p>
                         </div>
                     </div>
                 </div>
@@ -531,7 +531,7 @@ ob_start();
                         </div>
                         <div>
                             <h4 class="mb-3">Accessibility</h4>
-                            <p class="mb-0">We design our products to be usable by everyone, regardless of technical expertise, language, or location. Our special discount programs for startups and non-profits reflect this commitment.</p>
+                            <p class="mb-0">Easy to use for everyone. Special discounts for startups and non-profits.</p>
                         </div>
                     </div>
                 </div>
@@ -544,7 +544,7 @@ ob_start();
                         </div>
                         <div>
                             <h4 class="mb-3">Innovation</h4>
-                            <p class="mb-0">We continuously improve our platform to meet evolving business needs, incorporating feedback from our diverse customer base to create solutions that truly serve their requirements.</p>
+                            <p class="mb-0">Continuously improving based on real customer feedback.</p>
                         </div>
                     </div>
                 </div>
@@ -557,7 +557,7 @@ ob_start();
                         </div>
                         <div>
                             <h4 class="mb-3">Integrity</h4>
-                            <p class="mb-0">We operate with transparency and put customer trust at the center of everything we do. Our pricing is clear, our services reliable, and our support responsive.</p>
+                            <p class="mb-0">Clear pricing. Reliable service. Responsive support.</p>
                         </div>
                     </div>
                 </div>
@@ -592,7 +592,7 @@ ob_start();
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                <?= __('about.faq.q1.answer', [], 'AppNomu SalesQ serves a wide range of industries including retail, wholesale distribution, manufacturing, consumer packaged goods, pharmaceuticals, and more. Our platform is flexible enough to adapt to the specific needs of various business types and sizes across Africa, USA, and Asia.') ?>
+                                <?= __('about.faq.q1.answer', [], 'We serve retail, wholesale, manufacturing, healthcare, and more. Our platform adapts to any business type or size.') ?>
                             </div>
                         </div>
                     </div>
@@ -606,7 +606,7 @@ ob_start();
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                <?= __('about.faq.q2.answer', [], 'Our free trial gives you full access to all features of AppNomu SalesQ for 14 days. There\'s no credit card required to start, and you can easily upgrade to a paid plan at any time. During the trial, you\'ll have access to our support team to help you get the most out of the platform.') ?>
+                                <?= __('about.faq.q2.answer', [], 'Get full access to all features for 14 days—no credit card required. Our support team is available throughout your trial.') ?>
                             </div>
                         </div>
                     </div>
@@ -620,7 +620,7 @@ ob_start();
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                <?= __('about.faq.q3.answer', [], 'We provide comprehensive support to all our customers, including 24/7 technical support, personalized onboarding assistance, regular training sessions, and an extensive knowledge base. Our dedicated customer success team ensures you get maximum value from the platform.') ?>
+                                <?= __('about.faq.q3.answer', [], '24/7 technical support, personalized onboarding, training sessions, and an extensive knowledge base.') ?>
                             </div>
                         </div>
                     </div>
@@ -634,7 +634,7 @@ ob_start();
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                <?= __('about.faq.q4.answer', [], 'Yes, AppNomu SalesQ offers robust API capabilities and pre-built integrations with popular business tools including accounting software, CRM systems, e-commerce platforms, and ERP solutions. Our team can also build custom integrations to meet your specific business needs.') ?>
+                                <?= __('about.faq.q4.answer', [], 'Yes! We offer APIs and pre-built integrations with accounting, e-commerce, and ERP systems. Custom integrations available too.') ?>
                             </div>
                         </div>
                     </div>

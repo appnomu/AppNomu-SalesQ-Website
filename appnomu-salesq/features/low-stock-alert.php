@@ -74,7 +74,6 @@ $page_keywords = 'Low Stock Alert System, WhatsApp Stock Notifications, SMS Inve
     }
     
     .hero-section {
-        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
         padding: 60px 0 40px;
         position: relative;
         overflow: hidden;
@@ -84,11 +83,12 @@ $page_keywords = 'Low Stock Alert System, WhatsApp Stock Notifications, SMS Inve
         font-size: 2.8rem;
         font-weight: 700;
         margin-bottom: 1.5rem;
-        color: #212529;
+        color: #ffffff;
     }
     
-    .hero-section p {
-        color: #212529;
+    .hero-section p,
+    .hero-section .lead {
+        color: rgba(255, 255, 255, 0.7);
     }
     
     .feature-icon {
@@ -640,7 +640,7 @@ $page_keywords = 'Low Stock Alert System, WhatsApp Stock Notifications, SMS Inve
         </div>
         
         <!-- Call to Action -->
-        <div class="row mt-5 py-5 text-center rounded-4 position-relative overflow-hidden" data-aos="fade-up" data-aos-delay="300" style="background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(233, 236, 239, 0.9) 100%); color: #212529; border: 1px solid rgba(0,0,0,0.1);">
+        <div class="row mt-5 py-5 text-center rounded-4 position-relative overflow-hidden" data-aos="fade-up" data-aos-delay="300" style="background: rgba(25, 135, 84, 0.1); border: 1px solid rgba(25, 135, 84, 0.2);">
             <!-- Fading background effect -->
             <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(135deg, rgba(25,135,84,0.05) 0%, rgba(25,135,84,0.02) 100%); z-index: 0;"></div>
             

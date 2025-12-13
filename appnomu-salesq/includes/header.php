@@ -55,10 +55,13 @@ function getTrans($key, $default = '') {
             padding-top: 70px; /* Space for fixed header */
         }
         
-        /* Header styles */
+        /* Header styles - Tech Theme */
         .header {
-            background: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             position: fixed;
             width: 100%;
             top: 0;
@@ -89,7 +92,7 @@ function getTrans($key, $default = '') {
         }
         
         .logo-text {
-            color: #0d6efd;
+            color: #20c997;
             font-family: 'Figtree', sans-serif;
             font-weight: 700;
             font-size: 1rem;
@@ -99,12 +102,12 @@ function getTrans($key, $default = '') {
         }
         
         .logo-text span {
-            color: #0d6efd;
+            color: #20c997;
         }
         
         .logo-text .divider {
             margin: 0 3px;
-            color: #0d6efd;
+            color: #20c997;
         }
         
         .nav {
@@ -124,13 +127,13 @@ function getTrans($key, $default = '') {
         .nav-link {
             display: block;
             padding: 0.9rem 0.7rem;
-            color: #333;
+            color: rgba(255, 255, 255, 0.7);
             text-decoration: none;
             transition: color 0.2s;
         }
         
         .nav-link:hover {
-            color: #0d6efd;
+            color: #20c997;
         }
         
         .dropdown {
@@ -147,14 +150,15 @@ function getTrans($key, $default = '') {
             padding: 0.5rem 0;
             margin: 0.125rem 0 0;
             font-size: 0.9rem;
-            color: #212529;
+            color: rgba(255, 255, 255, 0.7);
             text-align: left;
             list-style: none;
-            background-color: #fff;
+            background-color: rgba(13, 17, 23, 0.98);
+            backdrop-filter: blur(20px);
             background-clip: padding-box;
-            border: 1px solid rgba(0,0,0,.15);
-            border-radius: 0.25rem;
-            box-shadow: 0 0.5rem 1rem rgba(0,0,0,.175);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 0.5rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
             opacity: 0;
             transform: translateY(10px);
             transition: all 0.2s ease-in-out;
@@ -172,7 +176,7 @@ function getTrans($key, $default = '') {
             padding: 0.5rem 1.5rem;
             clear: both;
             font-weight: 400;
-            color: #212529;
+            color: rgba(255, 255, 255, 0.7);
             text-align: inherit;
             white-space: nowrap;
             background-color: transparent;
@@ -181,8 +185,8 @@ function getTrans($key, $default = '') {
         }
         
         .dropdown-item:hover, .dropdown-item:focus {
-            color: #16181b;
-            background-color: #f8f9fa;
+            color: #20c997;
+            background-color: rgba(25, 135, 84, 0.15);
             text-decoration: none !important;
         }
         
@@ -190,7 +194,7 @@ function getTrans($key, $default = '') {
             height: 0;
             margin: 0.5rem 0;
             overflow: hidden;
-            border-top: 1px solid #e9ecef;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
         
         .nav-item {
@@ -199,7 +203,7 @@ function getTrans($key, $default = '') {
         }
         
         .nav-link {
-            color: #333;
+            color: rgba(255, 255, 255, 0.7);
             text-decoration: none;
             padding: 0.45rem 0.75rem;
             display: flex;
@@ -210,7 +214,7 @@ function getTrans($key, $default = '') {
         }
         
         .nav-link:hover {
-            color: #0d6efd;
+            color: #20c997;
         }
         
         /* Dropdown styles */
@@ -237,17 +241,18 @@ function getTrans($key, $default = '') {
             position: absolute;
             top: 100%;
             left: 0;
-            background: white;
+            background: rgba(13, 17, 23, 0.98);
+            backdrop-filter: blur(20px);
             min-width: 280px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            border-radius: 4px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
             padding: 10px 0;
             opacity: 0;
             visibility: hidden;
             transform: translateY(10px);
             transition: all 0.3s ease;
             z-index: 1001;
-            border: 1px solid rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
         }
         
         .dropdown:hover .dropdown-menu {
@@ -259,13 +264,14 @@ function getTrans($key, $default = '') {
         .dropdown-item {
             display: block;
             padding: 8px 20px;
-            color: #333;
+            color: rgba(255, 255, 255, 0.7);
             text-decoration: none !important;
-            transition: background 0.2s;
+            transition: all 0.2s;
         }
         
         .dropdown-item:hover {
-            background: #f8f9fa;
+            background: rgba(25, 135, 84, 0.15);
+            color: #20c997;
             text-decoration: none !important;
         }
         
@@ -273,10 +279,11 @@ function getTrans($key, $default = '') {
         .menu-toggle {
             display: none;
             background: none;
-            border: 1px solid #0d6efd;
+            border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 5px 10px;
             border-radius: 4px;
             cursor: pointer;
+            color: rgba(255, 255, 255, 0.7);
         }
         
         /* Reduce logo text impact on medium screens so nav has more space */
@@ -313,10 +320,12 @@ function getTrans($key, $default = '') {
                 top: 100%;
                 left: 0;
                 right: 0;
-                background: white;
+                background: rgba(10, 10, 15, 0.98);
+                backdrop-filter: blur(20px);
                 flex-direction: column;
                 padding: 20px;
-                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+                border-top: 1px solid rgba(255, 255, 255, 0.05);
             }
             
             .nav.show {

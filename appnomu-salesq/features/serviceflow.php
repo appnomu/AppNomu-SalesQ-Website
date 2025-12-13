@@ -22,9 +22,8 @@ $page_keywords = "service management software, service business software, profes
 ?>
 
 <style>
-    /* Custom styles for ServiceFlow feature page */
+    /* Custom styles for ServiceFlow feature page - Dark Theme */
     .hero-section {
-        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
         padding: 120px 0 80px;
         position: relative;
         overflow: hidden;
@@ -34,12 +33,11 @@ $page_keywords = "service management software, service business software, profes
         font-size: 2.8rem;
         font-weight: 700;
         margin-bottom: 1.5rem;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        color: #212529;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
     }
     
     .hero-section p {
-        color: #212529;
+        color: rgba(255, 255, 255, 0.7);
     }
     
     .feature-card {
@@ -93,15 +91,14 @@ $page_keywords = "service management software, service business software, profes
     }
     
     .service-flow-card {
-        background: linear-gradient(145deg, #ffffff, #f8f9fa);
+        background: rgba(255, 255, 255, 0.03);
         border-radius: 20px;
         padding: 2rem;
         box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.1),
-            0 1px 8px rgba(0, 0, 0, 0.06),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 30px rgba(0, 0, 0, 0.3),
+            0 1px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        border: 1px solid rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         position: relative;
         overflow: hidden;
     }
@@ -124,11 +121,11 @@ $page_keywords = "service management software, service business software, profes
     
     .service-flow-card:hover {
         transform: translateY(-12px) scale(1.02);
+        background: rgba(255, 255, 255, 0.06);
         box-shadow: 
-            0 20px 60px rgba(25, 135, 84, 0.25),
-            0 10px 20px rgba(25, 135, 84, 0.15),
-            inset 0 1px 0 rgba(255, 255, 255, 1);
-        border-color: rgba(25, 135, 84, 0.2);
+            0 20px 60px rgba(25, 135, 84, 0.3),
+            0 10px 20px rgba(25, 135, 84, 0.2);
+        border-color: rgba(25, 135, 84, 0.4);
     }
     
     .service-flow-card .rounded-circle {
@@ -143,10 +140,15 @@ $page_keywords = "service management software, service business software, profes
     
     .service-flow-card h4 {
         transition: color 0.3s ease;
+        color: #ffffff;
     }
     
     .service-flow-card:hover h4 {
-        color: #198754;
+        color: #20c997;
+    }
+    
+    .service-flow-card p {
+        color: rgba(255, 255, 255, 0.7);
     }
     
     .payment-logo-container {
@@ -206,17 +208,16 @@ $page_keywords = "service management software, service business software, profes
         transform: scale(1.1) rotateY(5deg);
     }
     
-    /* Use Case Cards 3D Effects */
+    /* Use Case Cards 3D Effects - Dark Theme */
     .use-case-card-3d {
-        background: linear-gradient(145deg, #ffffff, #f8f9fa);
+        background: rgba(255, 255, 255, 0.03);
         border-radius: 20px;
         padding: 2rem;
         box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.08),
-            0 1px 8px rgba(0, 0, 0, 0.04),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 30px rgba(0, 0, 0, 0.3),
+            0 1px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        border: 1px solid rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         position: relative;
         overflow: hidden;
     }
@@ -239,11 +240,11 @@ $page_keywords = "service management software, service business software, profes
     
     .use-case-card-3d:hover {
         transform: translateY(-15px) scale(1.03);
+        background: rgba(255, 255, 255, 0.06);
         box-shadow: 
-            0 20px 60px rgba(25, 135, 84, 0.2),
-            0 10px 20px rgba(25, 135, 84, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 1);
-        border-color: rgba(25, 135, 84, 0.2);
+            0 20px 60px rgba(25, 135, 84, 0.3),
+            0 10px 20px rgba(25, 135, 84, 0.2);
+        border-color: rgba(25, 135, 84, 0.4);
     }
     
     .use-case-card-3d i {
@@ -257,13 +258,19 @@ $page_keywords = "service management software, service business software, profes
         color: #198754 !important;
     }
     
-    .use-case-card-3d h5,
+    .use-case-card-3d h5 {
+        position: relative;
+        z-index: 1;
+        color: #ffffff;
+    }
+    
     .use-case-card-3d p {
         position: relative;
         z-index: 1;
+        color: rgba(255, 255, 255, 0.7) !important;
     }
     
-    /* Pricing Card 3D Effects */
+    /* Pricing Card 3D Effects - Dark Theme */
     .pricing-card-3d {
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         position: relative;
@@ -275,17 +282,20 @@ $page_keywords = "service management software, service business software, profes
     
     .pricing-card-3d .card {
         box-shadow: 
-            0 10px 40px rgba(0, 0, 0, 0.1),
-            0 2px 8px rgba(0, 0, 0, 0.06),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 40px rgba(0, 0, 0, 0.3),
+            0 2px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
     
     .pricing-card-3d:hover .card {
         box-shadow: 
-            0 20px 60px rgba(25, 135, 84, 0.2),
-            0 10px 20px rgba(25, 135, 84, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 1);
+            0 20px 60px rgba(25, 135, 84, 0.3),
+            0 10px 20px rgba(25, 135, 84, 0.2);
+        border-color: rgba(25, 135, 84, 0.4) !important;
+    }
+    
+    .pricing-card-3d .card li {
+        color: rgba(255, 255, 255, 0.85);
     }
 </style>
 
@@ -667,21 +677,21 @@ $page_keywords = "service management software, service business software, profes
         </div>
         
         <!-- Pricing Tiers Section -->
-        <div class="row my-5 py-5" style="background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%); border-radius: 20px;" data-aos="fade-up">
+        <div class="row my-5 py-5" style="background: rgba(25, 135, 84, 0.1); border: 1px solid rgba(25, 135, 84, 0.2); border-radius: 20px;" data-aos="fade-up">
             <div class="col-12 text-center mb-5">
                 <h3 class="mb-4"><i class="fas fa-crown text-warning me-2"></i>Available for Premium & Enterprise Users</h3>
                 <p class="lead">Upgrade to unlock ServiceFlow and transform your service business</p>
             </div>
             
             <div class="col-lg-6 mb-4 pricing-card-3d">
-                <div class="card h-100 border-0 shadow-lg position-relative">
+                <div class="card h-100 border-0 shadow-lg position-relative" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08) !important;">
                     <div class="card-body p-4">
                         <div class="text-center mb-4">
                             <div class="rounded-circle bg-warning bg-opacity-10 p-4 d-inline-flex mb-3" style="width: 80px; height: 80px;">
                                 <i class="fas fa-star text-warning" style="font-size: 2rem; margin: auto;"></i>
                             </div>
-                            <h3 class="mb-2">Premium Plan</h3>
-                            <p class="text-muted">Perfect for growing service businesses</p>
+                            <h3 class="mb-2" style="color: #ffffff;">Premium Plan</h3>
+                            <p style="color: rgba(255, 255, 255, 0.7);">Perfect for growing service businesses</p>
                         </div>
                         <ul class="list-unstyled mb-4">
                             <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i>Full ServiceFlow access</li>
@@ -701,15 +711,15 @@ $page_keywords = "service management software, service business software, profes
             </div>
             
             <div class="col-lg-6 mb-4 pricing-card-3d">
-                <div class="card h-100 border-0 shadow-lg position-relative" style="border: 3px solid #198754 !important;">
+                <div class="card h-100 border-0 shadow-lg position-relative" style="background: rgba(255, 255, 255, 0.03); border: 3px solid #198754 !important;">
                     <span class="badge bg-success position-absolute" style="top: -15px; right: 20px; padding: 0.5rem 1.5rem; font-size: 0.9rem;">RECOMMENDED</span>
                     <div class="card-body p-4">
                         <div class="text-center mb-4">
                             <div class="rounded-circle bg-success bg-opacity-10 p-4 d-inline-flex mb-3" style="width: 80px; height: 80px;">
                                 <i class="fas fa-building text-success" style="font-size: 2rem; margin: auto;"></i>
                             </div>
-                            <h3 class="mb-2">Enterprise Plan</h3>
-                            <p class="text-muted">For established service organizations</p>
+                            <h3 class="mb-2" style="color: #ffffff;">Enterprise Plan</h3>
+                            <p style="color: rgba(255, 255, 255, 0.7);">For established service organizations</p>
                         </div>
                         <ul class="list-unstyled mb-4">
                             <li class="mb-3"><i class="fas fa-check-circle text-success me-2"></i>Everything in Premium</li>
@@ -770,9 +780,9 @@ $page_keywords = "service management software, service business software, profes
         </div>
         
         <!-- CTA Section -->
-        <div class="p-5 rounded-3 text-center mt-5" style="background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 4px 20px rgba(0,0,0,0.03);" data-aos="fade-up">
-            <h2 class="mb-3 text-dark"><i class="fas fa-rocket text-success me-2"></i>Ready to Streamline Your Service Business?</h2>
-            <p class="lead mb-4 text-muted">Join thousands of service businesses using ServiceFlow to manage their operations efficiently.</p>
+        <div class="p-5 rounded-3 text-center mt-5" style="background: rgba(25, 135, 84, 0.1); border: 1px solid rgba(25, 135, 84, 0.2); box-shadow: 0 4px 20px rgba(0,0,0,0.2);" data-aos="fade-up">
+            <h2 class="mb-3"><i class="fas fa-rocket text-success me-2"></i>Ready to Streamline Your Service Business?</h2>
+            <p class="lead mb-4">Join thousands of service businesses using ServiceFlow to manage their operations efficiently.</p>
             <div class="d-flex justify-content-center flex-wrap gap-2">
                 <a href="https://www.appnomu.com/register.php?utm_source=website&utm_medium=feature_serviceflow&utm_campaign=free_trial" class="btn btn-success btn-lg rounded-pill px-4"><i class="fas fa-rocket me-2"></i>Start Free Trial</a>
                 <a href="https://www.appnomu.com/landing/contact" class="btn btn-outline-success btn-lg rounded-pill px-4"><i class="fas fa-headset me-2"></i>Contact Sales</a>

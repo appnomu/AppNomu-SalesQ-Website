@@ -595,9 +595,9 @@ EOD;
         <!-- Call-to-Action Section -->
         <div class="row my-5" data-aos="fade-up" data-aos-delay="500">
             <div class="col-12">
-                <div class="p-5 rounded-3 text-center" style="background: rgba(248, 249, 250, 0.9); border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
-                    <h3 class="mb-3 text-dark">Ready to transform your product and sales management?</h3>
-                    <p class="lead mb-4 text-muted">Join thousands of businesses already using AppNomu SalesQ to streamline their operations</p>
+                <div class="p-5 rounded-3 text-center" style="background: rgba(25, 135, 84, 0.1); border: 1px solid rgba(25, 135, 84, 0.2); box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+                    <h3 class="mb-3">Ready to transform your product and sales management?</h3>
+                    <p class="lead mb-4">Join thousands of businesses already using AppNomu SalesQ to streamline their operations</p>
                     <div class="d-flex justify-content-center flex-wrap gap-2">
                         <a href="https://www.appnomu.com/register.php?utm_source=website&utm_medium=feature_psm&utm_campaign=free_trial" class="btn btn-success btn-lg rounded-pill px-4"><i class="fas fa-rocket me-2"></i>Start Free Trial</a>
                         <a href="https://www.appnomu.com/landing/contact" class="btn btn-outline-success btn-lg rounded-pill px-4"><i class="fas fa-headset me-2"></i>Talk to Sales</a>

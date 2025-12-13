@@ -27,15 +27,15 @@ ob_start();
 ?>
 
 <!-- Hero Section -->
-<section class="hero-section position-relative overflow-hidden" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding-top: 120px; padding-bottom: 80px;">
+<section class="hero-section position-relative overflow-hidden" style="padding-top: 120px; padding-bottom: 80px;">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMCwxMDBjMzAsMCwyMCwtMzAgNTAsLTMwczIwLDMwLDUwLDMwczIwLC0zMCw1MCwtMzBzMjAsMzAsNTAsMzBzMjAsLTMwLDUwLC0zMHMyMCwzMCw1MCwzMFYwSDBaIiBmaWxsPSJyZ2JhKDI1LDEzNSw4NCwwLjA1KSIvPjwvc3ZnPg=='); background-size: 100% 200px; background-repeat: repeat; opacity: 0.4;"></div>
     
     <div class="container position-relative">
         <div class="row align-items-center">
             <div class="col-lg-7 mx-auto text-center">
                 <span class="badge bg-success-soft text-success fw-bold px-3 py-2 rounded-pill mb-3 d-inline-block">Trust & Security</span>
-                <h1 class="display-4 fw-bold mb-3 text-dark">AppNomu SalesQ <span class="text-success">Trust Centre</span></h1>
-                <p class="lead mb-4 text-dark" style="font-size: 1.2rem; font-weight: 300;">Your data is our responsibility. Learn how we safeguard your business information while delivering powerful tools.</p>
+                <h1 class="display-4 fw-bold mb-3">AppNomu SalesQ <span class="text-success">Trust Centre</span></h1>
+                <p class="lead mb-4" style="font-size: 1.2rem; font-weight: 300;">Your data is our responsibility. Learn how we safeguard your business information while delivering powerful tools.</p>
             </div>
         </div>
     </div>
@@ -175,7 +175,7 @@ ob_start();
 </section>
 
 <!-- Tools for Compliance Section -->
-<section class="compliance-section py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+<section class="compliance-section py-5">
     <div class="container">
         <div class="section-header text-center mb-5">
             <h2>Tools for <span class="text-success">Compliance</span></h2>

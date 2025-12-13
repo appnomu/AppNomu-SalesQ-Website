@@ -429,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!-- Hero Section with Enhanced Professional Design -->
-<section class="hero-section position-relative overflow-hidden" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding-top: 120px; padding-bottom: 100px;">
+<section class="hero-section position-relative overflow-hidden" style="padding-top: 120px; padding-bottom: 100px;">
     <!-- Subtle Background Elements -->
     <div class="position-absolute top-0 start-0 w-100 h-100">
         <!-- Minimal Floating Particles -->
@@ -487,7 +487,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
 
                 <!-- Letter Body -->
-                <div class="letter-body bg-white p-5 rounded-3 shadow-lg position-relative overflow-hidden" style="border-left: 6px solid #198754; font-size: 1.1rem; line-height: 1.8;" data-aos="fade-up" data-aos-delay="200">
+                <div class="letter-body p-5 rounded-3 shadow-lg position-relative overflow-hidden" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-left: 6px solid #198754; font-size: 1.1rem; line-height: 1.8;" data-aos="fade-up" data-aos-delay="200">
                     <!-- Decorative Elements -->
                     <div class="position-absolute top-0 end-0 opacity-10">
                         <i class="bi bi-quote text-success" style="font-size: 8rem;"></i>
@@ -496,7 +496,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="letter-body mb-5">
                         <p class="mb-4">Dear Valued AppNomu SalesQ Community,</p>
                         
-                        <p class="mb-4">I hope this message finds you thriving in your business endeavors. As we approach the end of 2024, I wanted to personally reach out to share some important updates about AppNomu SalesQ and our journey forward.</p>
+                        <p class="mb-4">I hope this message finds you thriving in your business endeavors. As we approach the end of 2025, I wanted to personally reach out to share some important updates about AppNomu SalesQ and our journey forward.</p>
                         
                         <p class="mb-4">Since launching AppNomu SalesQ, we have been overwhelmed by the incredible response from businesses across Uganda and beyond. Your trust, feedback, and success stories have been the driving force behind our continuous innovation and improvement.</p>
                     </div>
@@ -791,7 +791,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <div class="letter-content bg-white p-5 rounded-3 shadow-sm position-relative">
+                <div class="letter-content p-5 rounded-3 shadow-sm position-relative" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
                     <h3 class="text-success mb-3 mt-5">Moving Forward Together</h3>
                     
                     <p class="mb-4">I want to personally thank you for being part of the AppNomu SalesQ family. Your success is our success, and we are committed to providing you with the tools and support you need to achieve your business goals.</p>

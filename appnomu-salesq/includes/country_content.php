@@ -31,18 +31,18 @@ $countryContent = [
         ],
         'impact' => [
             'clients' => 25000,
-            'messages' => 15000000,
-            'funding' => 60000,
+            'messages' => 20000000,
+            'funding' => 90000,
             'trees' => 1000,
             'team_members' => 25,
             'airtime_ugx' => 240000000,
             'women_developers' => 30,
-            'website_visitors' => 2000000,
-            'page_views' => 50000000,
-            'products_added' => 30000000,
-            'transactions' => 1000000,
+            'website_visitors' => 2500000,
+            'page_views' => 65000000,
+            'products_added' => 34000000,
+            'transactions' => 2000000,
             'receipts_printed' => 13000000,
-            'api_calls' => 100000000
+            'api_calls' => 120000000
         ]
     ],
     'KE' => [

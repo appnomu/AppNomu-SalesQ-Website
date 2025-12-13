@@ -4,8 +4,8 @@ if (!function_exists('url') || !function_exists('asset')) {
     require_once __DIR__ . '/../config.php';
 }
 ?>
-<!-- Professional Clean Footer -->
-<footer class="footer" style="background-color: #f8f9fa; color: #333; border-top: 1px solid rgba(0,0,0,0.1);">
+<!-- Professional Clean Footer - Tech Theme -->
+<footer class="footer" style="background: linear-gradient(180deg, #161b22 0%, #050508 100%); color: #ffffff; border-top: 1px solid rgba(255,255,255,0.05);">
     <!-- Main Footer Content -->
     <div class="py-5">
         <div class="container">
@@ -14,7 +14,7 @@ if (!function_exists('url') || !function_exists('asset')) {
                 <div class="col-lg-3 col-md-6">
                     <div class="mb-4">
                         <a href="<?= url('/') ?>" class="text-decoration-none">
-                            <span style="color: #0d6efd; font-family: 'Figtree', sans-serif; font-weight: 700; font-size: 1.4rem;">
+                            <span style="color: #20c997; font-family: 'Figtree', sans-serif; font-weight: 700; font-size: 1.4rem;">
                                 <span>AppNomu</span>
                                 <span style="margin: 0 3px;">•</span>
                                 <span>SalesQ<sup style="font-size: 0.4rem;">TM</sup></span>
@@ -99,7 +99,7 @@ if (!function_exists('url') || !function_exists('asset')) {
     </div>
     
     <!-- Copyright Section -->
-    <div class="border-top" style="background-color: #e9ecef;">
+    <div class="border-top" style="background-color: rgba(5, 5, 8, 0.8); border-top: 1px solid rgba(255,255,255,0.05) !important;">
         <div class="container py-4">
             <div class="row align-items-center">
                 <div class="col-md-8 text-center text-md-start">

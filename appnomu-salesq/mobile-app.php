@@ -23,7 +23,6 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
 <style>
     /* Custom styles for Mobile App page - matching site design pattern */
     .hero-section {
-        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
         padding: 120px 0 80px;
         position: relative;
         overflow: hidden;
@@ -33,22 +32,21 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
         font-size: 2.8rem;
         font-weight: 700;
         margin-bottom: 1.5rem;
-        color: #212529;
     }
     
     .hero-section p {
-        color: #212529;
+        color: rgba(255, 255, 255, 0.7);
     }
     
-    /* 3D Feature Cards */
+    /* 3D Feature Cards - Dark Theme */
     .feature-card-3d {
         border-radius: 15px;
         padding: 1.5rem;
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.1),
-            0 1px 8px rgba(0, 0, 0, 0.06),
-            inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            0 10px 30px rgba(0, 0, 0, 0.3),
+            0 1px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         transform-style: preserve-3d;
         position: relative;
@@ -72,10 +70,11 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
     
     .feature-card-3d:hover {
         transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateY(-10px) scale(1.02);
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(25, 135, 84, 0.4);
         box-shadow: 
-            0 20px 40px rgba(25, 135, 84, 0.15),
-            0 5px 15px rgba(0, 0, 0, 0.08),
-            inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            0 20px 40px rgba(25, 135, 84, 0.3),
+            0 5px 15px rgba(0, 0, 0, 0.2);
     }
     
     .feature-card-3d:hover::before {
@@ -109,18 +108,18 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
     .feature-card-3d h5 {
         font-weight: 700;
         margin-bottom: 0.75rem;
-        color: #212529;
+        color: #ffffff;
         transform: translateZ(10px);
         transition: all 0.3s ease;
     }
     
     .feature-card-3d:hover h5 {
         transform: translateZ(20px);
-        color: #198754;
+        color: #20c997;
     }
     
     .feature-card-3d p {
-        color: #6c757d;
+        color: rgba(255, 255, 255, 0.7);
         margin-bottom: 0;
         font-size: 0.95rem;
         line-height: 1.6;
@@ -130,6 +129,7 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
     
     .feature-card-3d:hover p {
         transform: translateZ(15px);
+        color: rgba(255, 255, 255, 0.85);
     }
     
     /* Shine effect */
@@ -330,17 +330,28 @@ $page_keywords = 'AppNomu SalesQ App, Business App Uganda, CRM Mobile App Africa
     }
     
     .testimonial-card {
-        background: white;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 10px;
         padding: 1.5rem;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         height: 100%;
         transition: all 0.3s ease;
     }
     
     .testimonial-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(25, 135, 84, 0.15);
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(25, 135, 84, 0.4);
+        box-shadow: 0 8px 25px rgba(25, 135, 84, 0.3);
+    }
+    
+    .testimonial-card p {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .testimonial-card h6 {
+        color: #ffffff;
     }
     
     .testimonial-card .stars {

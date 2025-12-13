@@ -187,8 +187,8 @@ ob_start();
         border: none;
         padding: 0;
         margin-bottom: 1.5rem;
-        color: #000000;
-        text-shadow: 0 2px 4px rgba(255,255,255,0.5);
+        color: #ffffff;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
         font-weight: 800;
     }
     .hero-section p.lead {
@@ -196,8 +196,8 @@ ob_start();
         border: none;
         padding: 0;
         margin-bottom: 1.5rem;
-        color: #000000;
-        text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+        color: rgba(255, 255, 255, 0.85);
+        text-shadow: 0 1px 2px rgba(0,0,0,0.3);
         font-weight: 400;
     }
     .pricing-step {
@@ -242,13 +242,24 @@ ob_start();
     /* Enhanced UI Styles */
     .pricing-card {
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        border: 2px solid transparent;
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.03);
         position: relative;
         overflow: hidden;
         backdrop-filter: blur(10px);
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         max-width: 100%;
+    }
+    
+    .pricing-card h3,
+    .pricing-card h4,
+    .pricing-card h5 {
+        color: #ffffff;
+    }
+    
+    .pricing-card p,
+    .pricing-card li {
+        color: rgba(255, 255, 255, 0.7);
     }
     
     .pricing-card::before {
@@ -274,11 +285,11 @@ ob_start();
     }
     
     .enterprise-card {
-        background: linear-gradient(145deg, #ffffff 0%, #f0fdf4 100%);
+        background: rgba(25, 135, 84, 0.1);
         border: 2px solid #198754 !important;
         transform: none;
         position: relative;
-        box-shadow: 0 12px 35px rgba(25, 135, 84, 0.2);
+        box-shadow: 0 12px 35px rgba(25, 135, 84, 0.3);
     }
     
     .enterprise-card::after {
@@ -343,16 +354,16 @@ ob_start();
     }
     
     .feature-list-enhanced {
-        background: linear-gradient(145deg, #f8f9fa 0%, #ffffff 100%);
-        border: 1px solid rgba(25, 135, 84, 0.15);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         position: relative;
         backdrop-filter: blur(5px);
         transition: all 0.3s ease;
     }
     
     .feature-list-enhanced:hover {
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
-        border-color: rgba(25, 135, 84, 0.25);
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(25, 135, 84, 0.3);
         transform: translateY(-2px);
     }
     
@@ -433,12 +444,12 @@ ob_start();
     
     /* Pricing Toggle Styles */
     .pricing-toggle {
-        background: #f8f9fa;
+        background: rgba(255, 255, 255, 0.05);
         border-radius: 50px;
         padding: 4px;
         display: inline-flex;
         position: relative;
-        border: 2px solid #e9ecef;
+        border: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     .pricing-toggle input[type="radio"] {
@@ -451,7 +462,7 @@ ob_start();
         cursor: pointer;
         transition: all 0.3s ease;
         font-weight: 600;
-        color: #6c757d;
+        color: rgba(255, 255, 255, 0.6);
         position: relative;
         z-index: 2;
     }
@@ -473,7 +484,7 @@ ob_start();
     }
     
     .value-highlight {
-        background: linear-gradient(135deg, #e3f2fd 0%, #f0f9ff 100%);
+        background: rgba(25, 135, 84, 0.1);
         border: 1px solid rgba(25, 135, 84, 0.2);
         border-radius: 12px;
         padding: 10px 16px;
@@ -498,13 +509,13 @@ ob_start();
     }
     
     .roi-calculator {
-        background: linear-gradient(135deg, #fff3cd 0%, #fef7e0 100%);
-        border: 1px solid #ffc107;
+        background: rgba(255, 193, 7, 0.1);
+        border: 1px solid rgba(255, 193, 7, 0.3);
         border-radius: 20px;
         padding: 30px;
         position: relative;
         overflow: hidden;
-        box-shadow: 0 10px 30px rgba(255, 193, 7, 0.2);
+        box-shadow: 0 10px 30px rgba(255, 193, 7, 0.15);
     }
     
     .roi-calculator::before {
@@ -574,11 +585,20 @@ ob_start();
     }
     
     .addon-card {
-        background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
-        border: 1px solid rgba(25, 135, 84, 0.1);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         position: relative;
         overflow: hidden;
+    }
+    
+    .addon-card h4,
+    .addon-card h5 {
+        color: #ffffff;
+    }
+    
+    .addon-card p {
+        color: rgba(255, 255, 255, 0.7);
     }
     
     .addon-card::before {
@@ -604,8 +624,46 @@ ob_start();
     }
     
     .payg-section {
-        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
         position: relative;
+    }
+    
+    /* FAQ Accordion Dark Theme Styles */
+    .accordion-item {
+        background: rgba(255, 255, 255, 0.03) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+    
+    .accordion-button {
+        background: rgba(255, 255, 255, 0.03) !important;
+        color: #ffffff !important;
+    }
+    
+    .accordion-button:not(.collapsed) {
+        background: rgba(25, 135, 84, 0.1) !important;
+        color: #ffffff !important;
+    }
+    
+    .accordion-button::after {
+        filter: invert(1);
+    }
+    
+    .accordion-body {
+        background: rgba(255, 255, 255, 0.02) !important;
+        color: rgba(255, 255, 255, 0.8) !important;
+    }
+    
+    .accordion-body h6 {
+        color: #ffffff !important;
+    }
+    
+    .accordion-body p,
+    .accordion-body li {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+    
+    .accordion-body .border {
+        background: rgba(255, 255, 255, 0.03) !important;
+        border-color: rgba(255, 255, 255, 0.08) !important;
     }
     
     .payg-section::before {

@@ -192,13 +192,13 @@ ob_start();
         "@type": "ListItem",
         "position": 2,
         "name": "Messages Sent",
-        "description": "<?= round(($impact_data['messages'] ?? 15000000) / 1000000) ?>M+ SMS messages delivered"
+        "description": "<?= round(($impact_data['messages'] ?? 20000000) / 1000000) ?>M+ SMS messages delivered"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Investment Received",
-        "description": "$<?= number_format($impact_data['funding'] ?? 60000) ?> funding from Infobip"
+        "description": "$<?= number_format($impact_data['funding'] ?? 90000) ?> in credits from Infobip, Cloudflare, and Google for Startups"
       },
       {
         "@type": "ListItem",
@@ -212,15 +212,15 @@ ob_start();
 </script>
 
 <!-- Hero Section -->
-<section class="hero-section position-relative overflow-hidden" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding-top: 120px; padding-bottom: 80px;">
+<section class="hero-section position-relative overflow-hidden" style="padding-top: 120px; padding-bottom: 80px;">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNMCwxMDBjMzAsMCwyMCwtMzAgNTAsLTMwczIwLDMwLDUwLDMwczIwLC0zMCw1MCwtMzBzMjAsMzAsNTAsMzBzMjAsLTMwLDUwLC0zMHMyMCwzMCw1MCwzMFYwSDBaIiBmaWxsPSJyZ2JhKDI1LDEzNSw4NCwwLjA1KSIvPjwvc3ZnPg=='); background-size: 100% 200px; background-repeat: repeat; opacity: 0.4;"></div>
     
     <div class="container position-relative">
         <div class="row align-items-center">
             <div class="col-lg-8 mx-auto text-center">
                 <span class="badge bg-success-soft text-success fw-bold px-3 py-2 rounded-pill mb-3 d-inline-block"><?= __('impact_page.hero_badge') ?></span>
-                <h1 class="display-4 fw-bold mb-3 text-dark"><?= __('impact_page.hero_title') ?> <span class="text-success">You</span></h1>
-                <p class="lead mb-4 text-dark" style="font-size: 1.2rem; font-weight: 300;"><?= __('impact_page.hero_subtitle') ?></p>
+                <h1 class="display-4 fw-bold mb-3"><?= __('impact_page.hero_title') ?> <span class="text-success">You</span></h1>
+                <p class="lead mb-4" style="font-size: 1.2rem; font-weight: 300;"><?= __('impact_page.hero_subtitle') ?></p>
             </div>
         </div>
     </div>
@@ -257,7 +257,7 @@ ob_start();
                         <div class="impact-icon bg-success-soft p-3 rounded-3 d-inline-flex align-items-center justify-content-center mb-3" role="img" aria-label="Messages icon">
                             <i class="bi bi-chat-dots-fill text-success fs-3" aria-hidden="true"></i>
                         </div>
-                        <h2 class="display-5 fw-bold mb-2"><span id="messageCount"><?= round(($impact_data['messages'] ?? 15000000) / 1000000) ?></span>M+</h2>
+                        <h2 class="display-5 fw-bold mb-2"><span id="messageCount"><?= round(($impact_data['messages'] ?? 20000000) / 1000000) ?></span>M+</h2>
                         <h4><?= __('impact_page.messages_sent') ?></h4>
                         <p class="text-secondary"><?= __('impact_page.messages_description') ?></p>
                     </div>
@@ -271,9 +271,9 @@ ob_start();
                         <div class="impact-icon bg-success-soft p-3 rounded-3 d-inline-flex align-items-center justify-content-center mb-3" role="img" aria-label="Funding icon">
                             <i class="bi bi-currency-dollar text-success fs-3" aria-hidden="true"></i>
                         </div>
-                        <h2 class="display-5 fw-bold mb-2">$<span id="fundingCount"><?= number_format($impact_data['funding'] ?? 60000) ?></span></h2>
+                        <h2 class="display-5 fw-bold mb-2">$<span id="fundingCount"><?= number_format($impact_data['funding'] ?? 90000) ?></span></h2>
                         <h4><?= __('impact_page.funding_raised') ?></h4>
-                        <p class="text-secondary"><?= __('impact_page.funding_description') ?></p>
+                        <p class="text-secondary">$60,000 from Infobip, $10,000 from Cloudflare, $20,000 from Google for Startups</p>
                     </div>
                 </div>
             </div>
@@ -293,7 +293,7 @@ ob_start();
                         <div class="impact-icon bg-success-soft p-2 rounded-3 d-inline-flex align-items-center justify-content-center mb-2" style="width: 40px; height: 40px;">
                             <i class="bi bi-globe text-success"></i>
                         </div>
-                        <h3 class="fw-bold mb-0"><span id="visitorCount"><?= round(($impact_data['website_visitors'] ?? 2000000) / 1000000) ?></span>M+</h3>
+                        <h3 class="fw-bold mb-0"><span id="visitorCount"><?= round(($impact_data['website_visitors'] ?? 2500000) / 1000000, 1) ?></span>M+</h3>
                         <p class="small text-secondary mb-0">Monthly Website Visitors</p>
                     </div>
                 </div>
@@ -306,7 +306,7 @@ ob_start();
                         <div class="impact-icon bg-success-soft p-2 rounded-3 d-inline-flex align-items-center justify-content-center mb-2" style="width: 40px; height: 40px;">
                             <i class="bi bi-eye text-success"></i>
                         </div>
-                        <h3 class="fw-bold mb-0"><span id="pageViewCount"><?= round(($impact_data['page_views'] ?? 50000000) / 1000000) ?></span>M+</h3>
+                        <h3 class="fw-bold mb-0"><span id="pageViewCount"><?= round(($impact_data['page_views'] ?? 65000000) / 1000000) ?></span>M+</h3>
                         <p class="small text-secondary mb-0">Total Page Views</p>
                     </div>
                 </div>
@@ -319,7 +319,7 @@ ob_start();
                         <div class="impact-icon bg-success-soft p-2 rounded-3 d-inline-flex align-items-center justify-content-center mb-2" style="width: 40px; height: 40px;">
                             <i class="bi bi-box-seam text-success"></i>
                         </div>
-                        <h3 class="fw-bold mb-0"><span id="productsCount"><?= round(($impact_data['products_added'] ?? 30000000) / 1000000) ?></span>M+</h3>
+                        <h3 class="fw-bold mb-0"><span id="productsCount"><?= round(($impact_data['products_added'] ?? 34000000) / 1000000) ?></span>M+</h3>
                         <p class="small text-secondary mb-0">Products Managed</p>
                     </div>
                 </div>
@@ -333,7 +333,7 @@ ob_start();
                             <i class="bi bi-credit-card text-success"></i>
                         </div>
                         <?php 
-                        $transactions = $impact_data['transactions'] ?? 1000000;
+                        $transactions = $impact_data['transactions'] ?? 2000000;
                         if ($transactions >= 1000000) {
                             $display_value = round($transactions / 1000000);
                             $unit = 'M+';
@@ -368,8 +368,70 @@ ob_start();
                         <div class="impact-icon bg-success-soft p-2 rounded-3 d-inline-flex align-items-center justify-content-center mb-2" style="width: 40px; height: 40px;">
                             <i class="bi bi-code-slash text-success"></i>
                         </div>
-                        <h3 class="fw-bold mb-0"><span id="apiCount"><?= round(($impact_data['api_calls'] ?? 100000000) / 1000000) ?></span>M+</h3>
+                        <h3 class="fw-bold mb-0"><span id="apiCount"><?= round(($impact_data['api_calls'] ?? 120000000) / 1000000) ?></span>M+</h3>
                         <p class="small text-secondary mb-0">API Requests Processed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Apps & Integrations Row -->
+        <div class="row g-4 mt-4">
+            <!-- Mobile Apps -->
+            <div class="col-md-6" data-animate="fade-up">
+                <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px; overflow: hidden; background: linear-gradient(135deg, #198754 0%, #157347 100%);">
+                    <div class="card-body p-4 text-white">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="impact-icon bg-white bg-opacity-25 p-3 rounded-3 d-inline-flex align-items-center justify-content-center me-3">
+                                <i class="bi bi-phone-fill text-white fs-3"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-0 text-white">Mobile Applications</h4>
+                                <p class="mb-0 text-white-50">Available on Android & iOS</p>
+                            </div>
+                        </div>
+                        <p class="text-white-50 mb-3">Access AppNomu SalesQ on the go with our mobile apps. Manage your business anywhere, anytime.</p>
+                        <div class="d-flex gap-2">
+                            <a href="https://play.google.com/store/apps/details?id=com.appnomu.salesq" class="btn btn-light btn-sm" target="_blank">
+                                <i class="bi bi-google-play me-1"></i> Play Store
+                            </a>
+                            <a href="#" class="btn btn-outline-light btn-sm">
+                                <i class="bi bi-apple me-1"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Integrations -->
+            <div class="col-md-6" data-animate="fade-up" data-delay="100">
+                <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px; overflow: hidden;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="impact-icon bg-success-soft p-3 rounded-3 d-inline-flex align-items-center justify-content-center me-3">
+                                <i class="bi bi-plug-fill text-success fs-3"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-0">12+ Integrations</h4>
+                                <p class="mb-0 text-muted">All your tools in one place</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-light text-dark border">PayPal</span>
+                            <span class="badge bg-light text-dark border">Stripe</span>
+                            <span class="badge bg-light text-dark border">Flutterwave</span>
+                            <span class="badge bg-light text-dark border">DPO Payments</span>
+                            <span class="badge bg-light text-dark border">HubSpot</span>
+                            <span class="badge bg-light text-dark border">Mailchimp</span>
+                            <span class="badge bg-light text-dark border">Calendly</span>
+                            <span class="badge bg-light text-dark border">Zoom</span>
+                            <span class="badge bg-light text-dark border">ConvertKit</span>
+                            <span class="badge bg-light text-dark border">Google Meet</span>
+                            <span class="badge bg-light text-dark border">Slack</span>
+                            <span class="badge bg-light text-dark border">Microsoft Teams</span>
+                            <span class="badge bg-light text-dark border">Google Analytics</span>
+                            <span class="badge bg-success text-white">+ More</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -426,14 +488,14 @@ ob_start();
                             <div class="circle-chart text-center">
                                 <div class="circle bg-success-soft position-relative" style="width: 90px; height: 90px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
                                     <div class="circle-fill bg-success position-absolute" style="width: 70%; height: 70%; border-radius: 50%; animation: pulse 2s infinite 0.5s;"></div>
-                                    <span class="position-relative text-success fw-bold"><?= round(($impact_data['messages'] ?? 15000000) / 1000000) ?>M+</span>
+                                    <span class="position-relative text-success fw-bold"><?= round(($impact_data['messages'] ?? 20000000) / 1000000) ?>M+</span>
                                 </div>
                                 <small class="text-muted mt-1 d-block">Messages</small>
                             </div>
                             <div class="circle-chart text-center">
                                 <div class="circle bg-success-soft position-relative" style="width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
                                     <div class="circle-fill bg-success position-absolute" style="width: 50%; height: 50%; border-radius: 50%; animation: pulse 2s infinite 1s;"></div>
-                                    <span class="position-relative text-success fw-bold">$<?= number_format(($impact_data['funding'] ?? 60000) / 1000) ?>K</span>
+                                    <span class="position-relative text-success fw-bold">$<?= number_format(($impact_data['funding'] ?? 90000) / 1000) ?>K</span>
                                 </div>
                                 <small class="text-muted mt-1 d-block">Funding</small>
                             </div>
